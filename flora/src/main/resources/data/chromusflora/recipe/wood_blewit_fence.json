@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:wood_blewit_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:wood_blewit_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:ironwood_planks"
+  },
+  "result": {
+    "id": "chromusflora:ironwood_slab",
+    "count": 6
+  }
+}

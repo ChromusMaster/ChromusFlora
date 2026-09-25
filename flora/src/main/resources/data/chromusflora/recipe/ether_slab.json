@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:ether_planks"
+  },
+  "result": {
+    "id": "chromusflora:ether_slab",
+    "count": 6
+  }
+}

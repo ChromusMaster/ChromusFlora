@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:purple_bulbis_planks"
+  },
+  "result": {
+    "id": "chromusflora:purple_bulbis_slab",
+    "count": 6
+  }
+}

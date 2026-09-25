@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:giant_allium_planks"
+  },
+  "result": {
+    "id": "chromusflora:giant_allium_slab",
+    "count": 6
+  }
+}

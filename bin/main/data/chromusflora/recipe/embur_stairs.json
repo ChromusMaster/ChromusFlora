@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:embur_planks"
+  },
+  "result": {
+    "id": "chromusflora:embur_stairs",
+    "count": 4
+  }
+}

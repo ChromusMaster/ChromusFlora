@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:indigo_jacaranda_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:indigo_jacaranda_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/rainbow_eucalyptus_large_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/rainbow_eucalyptus_tree1",
+        "placement": []
+      }
+    ]
+  }
+}

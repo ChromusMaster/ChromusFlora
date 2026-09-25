@@ -1,0 +1,52 @@
+{
+  "type": "chromusflora:bounded_tree",
+  "config": {
+    "base_location": "chromusflora:trees/base",
+    "canopy_location": "chromusflora:trees/huge_green_mushroom1/small",
+    "height": 2,
+    "log_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "chromusflora:green_mushroom_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "leaves_provider": [
+      {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "chromusflora:green_mushroom_leaves",
+          "Properties": {
+            "distance": "1",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        }
+      }
+    ],
+    "log_target": [
+      "minecraft:oak_log"
+    ],
+    "leaves_target": [
+      "minecraft:oak_leaves"
+    ],
+    "can_grow_on_filter": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "chromusflora:tree_soils"
+    },
+    "can_leaves_place_filter": {
+      "type": "minecraft:replaceable"
+    },
+    "can_logs_place_filter": {
+      "type": "minecraft:replaceable"
+    },
+    "tree_filter_behavior": "BLOCK",
+    "max_log_depth": 1,
+    "decorators": [],
+    "replace_from_nbt": {},
+    "random_rotation": true,
+    "orientation": "STANDARD"
+  }
+}

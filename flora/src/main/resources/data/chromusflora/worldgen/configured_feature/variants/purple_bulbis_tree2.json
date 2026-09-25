@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": {
+          "feature": "chromusflora:forms/purple_bulbis_tree2/small",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.06666666666666667,
+        "feature": {
+          "feature": "chromusflora:forms/purple_bulbis_tree2/giant",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "chromusflora:forms/purple_bulbis_tree2/normal",
+      "placement": []
+    }
+  }
+}

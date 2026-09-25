@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:spirit_planks"
+  },
+  "result": {
+    "id": "chromusflora:spirit_slab",
+    "count": 6
+  }
+}

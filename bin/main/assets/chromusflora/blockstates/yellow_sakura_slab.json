@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/yellow_sakura_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/yellow_sakura_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/yellow_sakura_planks"
+    }
+  }
+}

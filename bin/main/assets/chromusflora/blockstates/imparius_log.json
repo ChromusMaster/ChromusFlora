@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/imparius_log"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/imparius_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/imparius_log",
+      "x": 90
+    }
+  }
+}

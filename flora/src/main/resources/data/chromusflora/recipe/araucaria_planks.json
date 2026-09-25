@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:araucaria_logs"
+  ],
+  "result": {
+    "id": "chromusflora:araucaria_planks",
+    "count": 4
+  }
+}

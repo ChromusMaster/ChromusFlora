@@ -1,0 +1,3577 @@
+{
+  "archive": "Oh-The-Biomes-Weve-Gone-1.21.1.zip",
+  "sha256": "7331aee237d96749db53d50352cb88c9a9e6426eefb6bc4eca381bfab9721c6b",
+  "counts": {
+    "archive_entries": 10275,
+    "biomes": 55,
+    "tree_configurations": 354,
+    "saplings": 88,
+    "nbt": 576,
+    "files": 9729,
+    "procedural_tree_sources": 0,
+    "tree_nbt_pieces": 287,
+    "tree_registry_entries": 347,
+    "json_files": 7717,
+    "java_files": 273,
+    "findings": 212
+  },
+  "biomes": {
+    "allium_shrubland": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/allium_shrubland.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:28"
+      ]
+    },
+    "amaranth_grassland": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/amaranth_grassland.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:29"
+      ]
+    },
+    "araucaria_savanna": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/araucaria_savanna.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:30"
+      ]
+    },
+    "aspen_boreal": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/aspen_boreal.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:31"
+      ]
+    },
+    "atacama_outback": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/atacama_outback.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:32"
+      ]
+    },
+    "baobab_savanna": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/baobab_savanna.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:33"
+      ]
+    },
+    "basalt_barrera": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/basalt_barrera.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:34"
+      ]
+    },
+    "bayou": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/bayou.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:35"
+      ]
+    },
+    "black_forest": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/black_forest.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:36"
+      ]
+    },
+    "canadian_shield": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/canadian_shield.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:37"
+      ]
+    },
+    "cika_woods": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/cika_woods.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:38"
+      ]
+    },
+    "coconino_meadow": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/coconino_meadow.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:39"
+      ]
+    },
+    "coniferous_forest": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/coniferous_forest.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:40"
+      ]
+    },
+    "crag_gardens": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/crag_gardens.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:41"
+      ]
+    },
+    "crimson_tundra": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/crimson_tundra.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:42"
+      ]
+    },
+    "cypress_swamplands": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/cypress_swamplands.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:43"
+      ]
+    },
+    "cypress_wetlands": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/cypress_wetlands.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:44"
+      ]
+    },
+    "dacite_ridges": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/dacite_ridges.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:46"
+      ]
+    },
+    "dacite_shore": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/dacite_shore.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:47"
+      ]
+    },
+    "dead_sea": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/dead_sea.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:48"
+      ]
+    },
+    "ebony_woods": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/ebony_woods.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:49"
+      ]
+    },
+    "enchanted_tangle": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/enchanted_tangle.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:50"
+      ]
+    },
+    "eroded_borealis": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/eroded_borealis.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:52"
+      ]
+    },
+    "firecracker_chaparral": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/firecracker_chaparral.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:53"
+      ]
+    },
+    "forgotten_forest": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/forgotten_forest.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:54"
+      ]
+    },
+    "fragment_jungle": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/fragment_jungle.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:55"
+      ]
+    },
+    "frosted_coniferous_forest": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/frosted_coniferous_forest.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:56"
+      ]
+    },
+    "frosted_taiga": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/frosted_taiga.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:57"
+      ]
+    },
+    "howling_peaks": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/howling_peaks.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:58"
+      ]
+    },
+    "ironwood_gour": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/ironwood_gour.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:59"
+      ]
+    },
+    "jacaranda_jungle": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/jacaranda_jungle.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:60"
+      ]
+    },
+    "lush_stacks": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/lush_stacks.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:61"
+      ]
+    },
+    "maple_taiga": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/maple_taiga.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:62"
+      ]
+    },
+    "mojave_desert": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/mojave_desert.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:63"
+      ]
+    },
+    "orchard": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/orchard.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:64"
+      ]
+    },
+    "overgrowth_woodlands": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/overgrowth_woodlands.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:65"
+      ]
+    },
+    "pale_bog": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/pale_bog.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:67"
+      ]
+    },
+    "prairie": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/prairie.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:68"
+      ]
+    },
+    "pumpkin_valley": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/pumpkin_valley.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:69"
+      ]
+    },
+    "rainbow_beach": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/rainbow_beach.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:70"
+      ]
+    },
+    "red_rock_peaks": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/red_rock_peaks.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:72"
+      ]
+    },
+    "red_rock_valley": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/red_rock_valley.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:71"
+      ]
+    },
+    "redwood_thicket": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/redwood_thicket.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:74"
+      ]
+    },
+    "rose_fields": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/rose_fields.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:75"
+      ]
+    },
+    "rugged_badlands": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/rugged_badlands.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:76"
+      ]
+    },
+    "sakura_grove": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/sakura_grove.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:77"
+      ]
+    },
+    "shattered_glacier": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/shattered_glacier.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:78"
+      ]
+    },
+    "sierra_badlands": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/sierra_badlands.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:79"
+      ]
+    },
+    "skyris_vale": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/skyris_vale.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:80"
+      ]
+    },
+    "temperate_grove": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/temperate_grove.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:82"
+      ]
+    },
+    "tropical_rainforest": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/tropical_rainforest.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:81"
+      ]
+    },
+    "weeping_witch_forest": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/weeping_witch_forest.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:83"
+      ]
+    },
+    "white_mangrove_marshes": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/white_mangrove_marshes.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:84"
+      ]
+    },
+    "windswept_desert": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/windswept_desert.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:85"
+      ]
+    },
+    "zelkova_forest": {
+      "evidence": [
+        "Common/src/main/generated/resources/data/biomeswevegone/worldgen/biome/zelkova_forest.json",
+        "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/biome/BWGBiomes.java:86"
+      ]
+    }
+  },
+  "tree_configurations": {
+    "swamp_grass_block_delta": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGConfiguredFeatures.java",
+      "symbol": "SWAMP_GRASS_BLOCK_DELTA",
+      "nbt_refs": [],
+      "classification": "tree_or_fungus_candidate"
+    },
+    "araucaria_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ARAUCARIA_TREE1",
+      "nbt_refs": [
+        "features/trees/araucaria/araucaria_tree_canopy1",
+        "features/trees/araucaria/araucaria_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "araucaria_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ARAUCARIA_TREE2",
+      "nbt_refs": [
+        "features/trees/araucaria/araucaria_tree_canopy2",
+        "features/trees/araucaria/araucaria_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "ancient_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ANCIENT_TREE1",
+      "nbt_refs": [
+        "features/trees/ancient/ancient_tree_canopy1",
+        "features/trees/ancient/ancient_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "ancient_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ANCIENT_TREE2",
+      "nbt_refs": [
+        "features/trees/ancient/ancient_tree_canopy2",
+        "features/trees/ancient/ancient_tree_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "ancient_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ANCIENT_TREE3",
+      "nbt_refs": [
+        "features/trees/ancient/ancient_tree_canopy3",
+        "features/trees/ancient/ancient_tree_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "aspen_shrub1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_SHRUB1",
+      "nbt_refs": [
+        "features/trees/aspen-shrub/aspen_shrub_canopy1",
+        "features/trees/aspen-shrub/aspen_shrub_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "aspen_shrub2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_SHRUB2",
+      "nbt_refs": [
+        "features/trees/aspen-shrub/aspen_shrub_canopy2",
+        "features/trees/aspen-shrub/aspen_shrub_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "aspen_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_TREE1",
+      "nbt_refs": [
+        "features/trees/aspen/aspen_canopy1",
+        "features/trees/aspen/aspen_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "aspen_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_TREE2",
+      "nbt_refs": [
+        "features/trees/aspen/aspen_canopy2",
+        "features/trees/aspen/aspen_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "aspen_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_TREE3",
+      "nbt_refs": [
+        "features/trees/aspen/aspen_canopy3",
+        "features/trees/aspen/aspen_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "aspen_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_TREE4",
+      "nbt_refs": [
+        "features/trees/aspen/aspen_canopy4",
+        "features/trees/aspen/aspen_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "aspen_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_TREE5",
+      "nbt_refs": [
+        "features/trees/aspen/aspen_canopy5",
+        "features/trees/aspen/aspen_trunk5"
+      ],
+      "classification": "tree_registry"
+    },
+    "baobab_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BAOBAB_TREE1",
+      "nbt_refs": [
+        "features/trees/baobab/baobab_canopy1",
+        "features/trees/baobab/baobab_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "baobab_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BAOBAB_TREE2",
+      "nbt_refs": [
+        "features/trees/baobab/baobab_canopy2",
+        "features/trees/baobab/baobab_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "baobab_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BAOBAB_TREE3",
+      "nbt_refs": [
+        "features/trees/baobab/baobab_canopy3",
+        "features/trees/baobab/baobab_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "birch_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_TREE1",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy1",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "birch_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_TREE2",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy2",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "birch_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_TREE3",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy3",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "birch_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_TREE4",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy4",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_birch_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_BIRCH_TREE1",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy1",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_birch_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_BIRCH_TREE2",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy2",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_birch_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_BIRCH_TREE3",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy3",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_birch_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_BIRCH_TREE4",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy4",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "orange_birch_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_ORANGE_TREE1",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy1",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "orange_birch_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_ORANGE_TREE2",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy2",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "orange_birch_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_ORANGE_TREE3",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy3",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "orange_birch_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_ORANGE_TREE4",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy4",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_birch_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_BIRCH_TREE1",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy1",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_birch_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_BIRCH_TREE2",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy2",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_birch_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_BIRCH_TREE3",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy3",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_birch_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_BIRCH_TREE4",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy4",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_birch_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YELLOW_BIRCH_TREE1",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy1",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_birch_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YELLOW_BIRCH_TREE2",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy2",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_birch_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YELLOW_BIRCH_TREE3",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy3",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_birch_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YELLOW_BIRCH_TREE4",
+      "nbt_refs": [
+        "features/trees/birch/birch_tree_canopy4",
+        "features/trees/birch/birch_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "bluff_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUFF_TREE1",
+      "nbt_refs": [
+        "features/trees/bluff/bluff_canopy1",
+        "features/trees/bluff/bluff_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "bluff_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUFF_TREE2",
+      "nbt_refs": [
+        "features/trees/bluff/bluff_canopy2",
+        "features/trees/bluff/bluff_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "birch_boreal_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_BOREAL_TREE1",
+      "nbt_refs": [
+        "features/trees/birch/birch_yellow_boreal_canopy",
+        "features/trees/birch/birch_yellow_boreal_trunk"
+      ],
+      "classification": "tree_registry"
+    },
+    "birch_yellow_boreal_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_YELLOW_BOREAL_TREE1",
+      "nbt_refs": [
+        "features/trees/birch/birch_boreal_canopy1",
+        "features/trees/birch/birch_boreal_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "oak_bush1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_BUSH1",
+      "nbt_refs": [
+        "features/trees/bush/canopy_bush1",
+        "features/trees/bush/trunk_bush1"
+      ],
+      "classification": "tree_registry"
+    },
+    "jungle_bush1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "JUNGLE_BUSH1",
+      "nbt_refs": [
+        "features/trees/bush/canopy_bush1",
+        "features/trees/bush/trunk_bush1"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_sakura_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_WHITE_TREE1",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy1",
+        "features/trees/sakura/sakura_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_sakura_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_WHITE_TREE2",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy2",
+        "features/trees/sakura/sakura_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_sakura_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_WHITE_TREE3",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy3",
+        "features/trees/sakura/sakura_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_sakura_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_WHITE_TREE4",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy4",
+        "features/trees/sakura/sakura_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_sakura_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_WHITE_TREE5",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy5",
+        "features/trees/sakura/sakura_trunk5"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_sakura_tree6": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_WHITE_TREE6",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy6",
+        "features/trees/sakura/sakura_trunk6"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_sakura_tree7": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_WHITE_TREE7",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy7",
+        "features/trees/sakura/sakura_trunk7"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_YELLOW_TREE1",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy1",
+        "features/trees/sakura/sakura_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_YELLOW_TREE2",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy2",
+        "features/trees/sakura/sakura_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_YELLOW_TREE3",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy3",
+        "features/trees/sakura/sakura_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_YELLOW_TREE4",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy4",
+        "features/trees/sakura/sakura_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_YELLOW_TREE5",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy5",
+        "features/trees/sakura/sakura_trunk5"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_tree6": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_YELLOW_TREE6",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy6",
+        "features/trees/sakura/sakura_trunk6"
+      ],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_tree7": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SAKURA_YELLOW_TREE7",
+      "nbt_refs": [
+        "features/trees/sakura/sakura_canopy7",
+        "features/trees/sakura/sakura_trunk7"
+      ],
+      "classification": "tree_registry"
+    },
+    "cika_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CIKA_TREE1",
+      "nbt_refs": [
+        "features/trees/cika/cika_canopy1",
+        "features/trees/cika/cika_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "cika_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CIKA_TREE2",
+      "nbt_refs": [
+        "features/trees/cika/cika_canopy2",
+        "features/trees/cika/cika_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "cika_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CIKA_TREE3",
+      "nbt_refs": [
+        "features/trees/cika/cika_canopy3",
+        "features/trees/cika/cika_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE1",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy1",
+        "features/trees/conifer/conifer_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE2",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy2",
+        "features/trees/conifer/conifer_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE3",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy3",
+        "features/trees/conifer/conifer_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE4",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy4",
+        "features/trees/conifer/conifer_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE5",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy5",
+        "features/trees/conifer/conifer_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree6": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE6",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy6",
+        "features/trees/conifer/conifer_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree7": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE7",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy7",
+        "features/trees/conifer/conifer_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "conifer_tree8": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREE8",
+      "nbt_refs": [
+        "features/trees/conifer/conifer_canopy8",
+        "features/trees/conifer/conifer_trunk8"
+      ],
+      "classification": "tree_registry"
+    },
+    "cypress_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CYPRESS_TREE1",
+      "nbt_refs": [
+        "features/trees/cypress/cypress_canopy1",
+        "features/trees/cypress/cypress_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "cypress_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CYPRESS_TREE2",
+      "nbt_refs": [
+        "features/trees/cypress/cypress_canopy2",
+        "features/trees/cypress/cypress_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "cypress_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CYPRESS_TREE3",
+      "nbt_refs": [
+        "features/trees/cypress/cypress_canopy3",
+        "features/trees/cypress/cypress_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "witch_hazel1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WITCH_HAZEL1",
+      "nbt_refs": [
+        "features/trees/witch-hazel/witch-hazel_canopy_1",
+        "features/trees/witch-hazel/witch-hazel_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "witch_hazel2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WITCH_HAZEL2",
+      "nbt_refs": [
+        "features/trees/witch-hazel/witch-hazel_canopy_2",
+        "features/trees/witch-hazel/witch-hazel_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "witch_hazel3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WITCH_HAZEL3",
+      "nbt_refs": [
+        "features/trees/witch-hazel/witch-hazel_canopy_3",
+        "features/trees/witch-hazel/witch-hazel_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "witch_hazel4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WITCH_HAZEL4",
+      "nbt_refs": [
+        "features/trees/witch-hazel/witch-hazel_canopy_4",
+        "features/trees/witch-hazel/witch-hazel_trunk_4"
+      ],
+      "classification": "tree_registry"
+    },
+    "witch_hazel5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WITCH_HAZEL5",
+      "nbt_refs": [
+        "features/trees/witch-hazel/witch-hazel_canopy_5",
+        "features/trees/witch-hazel/witch-hazel_trunk_5"
+      ],
+      "classification": "tree_registry"
+    },
+    "firecracker_shrub": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FIRECRACKER_SHRUB",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/meadow/meadow_shrub_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "firecracker_shrub2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FIRECRACKER_SHRUB2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/meadow/meadow_shrub_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "firecracker_bush1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FIRECRACKER_BUSH1",
+      "nbt_refs": [
+        "features/trees/bush/canopy_bush1",
+        "features/trees/bush/trunk_bush1"
+      ],
+      "classification": "tree_registry"
+    },
+    "ebony_bush1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "EBONY_BUSH1",
+      "nbt_refs": [
+        "features/trees/ebony/ebony_bush_trunk",
+        "features/trees/ebony/ebony_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "ebony_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "EBONY_TREE1",
+      "nbt_refs": [
+        "features/trees/ebony/ebony_canopy1",
+        "features/trees/ebony/ebony_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "ebony_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "EBONY_TREE2",
+      "nbt_refs": [
+        "features/trees/ebony/ebony_canopy2",
+        "features/trees/ebony/ebony_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "holly_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "HOLLY_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/holly/holly_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "holly_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "HOLLY_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/holly/holly_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "holly_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "HOLLY_TREE3",
+      "nbt_refs": [
+        "features/trees/holly/holly_canopy3",
+        "features/trees/holly/holly_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "holly_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "HOLLY_TREE4",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/holly/holly_canopy4"
+      ],
+      "classification": "tree_registry"
+    },
+    "blue_enchanted_sapling_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_ENCHANTED_SAPLING_TREE1",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_1",
+        "features/trees/enchanted/enchanted_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "blue_enchanted_sapling_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_ENCHANTED_SAPLING_TREE2",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_2",
+        "features/trees/enchanted/enchanted_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "blue_enchanted_sapling_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_ENCHANTED_SAPLING_TREE3",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_3",
+        "features/trees/enchanted/enchanted_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "blue_enchanted_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_ENCHANTED_TREE1",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_1",
+        "features/trees/enchanted/enchanted_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "blue_enchanted_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_ENCHANTED_TREE2",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_2",
+        "features/trees/enchanted/enchanted_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "blue_enchanted_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_ENCHANTED_TREE3",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_3",
+        "features/trees/enchanted/enchanted_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "blue_enchanted_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_ENCHANTED_TREE4",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_4",
+        "features/trees/enchanted/enchanted_trunk_4"
+      ],
+      "classification": "tree_registry"
+    },
+    "green_enchanted_sapling_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GREEN_ENCHANTED_SAPLING_TREE1",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_1",
+        "features/trees/enchanted/enchanted_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "green_enchanted_sapling_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GREEN_ENCHANTED_SAPLING_TREE2",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_2",
+        "features/trees/enchanted/enchanted_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "green_enchanted_sapling_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GREEN_ENCHANTED_SAPLING_TREE3",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_3",
+        "features/trees/enchanted/enchanted_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "green_enchanted_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GREEN_ENCHANTED_TREE1",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_1",
+        "features/trees/enchanted/enchanted_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "green_enchanted_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GREEN_ENCHANTED_TREE2",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_2",
+        "features/trees/enchanted/enchanted_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "green_enchanted_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GREEN_ENCHANTED_TREE3",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_3",
+        "features/trees/enchanted/enchanted_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "green_enchanted_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GREEN_ENCHANTED_TREE4",
+      "nbt_refs": [
+        "features/trees/enchanted/enchanted_canopy_4",
+        "features/trees/enchanted/enchanted_trunk_4"
+      ],
+      "classification": "tree_registry"
+    },
+    "jacaranda_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "JACARANDA_TREE1",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_1",
+        "features/trees/jacaranda/jacaranda_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "jacaranda_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "JACARANDA_TREE2",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_2",
+        "features/trees/jacaranda/jacaranda_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "jacaranda_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "JACARANDA_TREE3",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_3",
+        "features/trees/jacaranda/jacaranda_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "jacaranda_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "JACARANDA_TREE4",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_4",
+        "features/trees/jacaranda/jacaranda_trunk_4"
+      ],
+      "classification": "tree_registry"
+    },
+    "indigo_jacaranda_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "INDIGO_JACARANDA_TREE1",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_1",
+        "features/trees/jacaranda/jacaranda_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "indigo_jacaranda_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "INDIGO_JACARANDA_TREE2",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_2",
+        "features/trees/jacaranda/jacaranda_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "indigo_jacaranda_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "INDIGO_JACARANDA_TREE3",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_3",
+        "features/trees/jacaranda/jacaranda_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "indigo_jacaranda_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "INDIGO_JACARANDA_TREE4",
+      "nbt_refs": [
+        "features/trees/jacaranda/jacaranda_canopy_4",
+        "features/trees/jacaranda/jacaranda_trunk_4"
+      ],
+      "classification": "tree_registry"
+    },
+    "yucca_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YUCCA_TREE1",
+      "nbt_refs": [
+        "features/trees/yucca/yucca_canopy1",
+        "features/trees/yucca/yucca_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "yucca_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YUCCA_TREE2",
+      "nbt_refs": [
+        "features/trees/yucca/yucca_canopy2",
+        "features/trees/yucca/yucca_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_mangrove_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WHITE_MANGROVE_TREE1",
+      "nbt_refs": [
+        "features/trees/white_mangrove/white_mangrove_base1",
+        "features/trees/white_mangrove/white_mangrove_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_mangrove_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WHITE_MANGROVE_TREE2",
+      "nbt_refs": [
+        "features/trees/white_mangrove/white_mangrove_base2",
+        "features/trees/white_mangrove/white_mangrove_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_mangrove_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WHITE_MANGROVE_TREE3",
+      "nbt_refs": [
+        "features/trees/white_mangrove/white_mangrove_base3",
+        "features/trees/white_mangrove/white_mangrove_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_mangrove_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WHITE_MANGROVE_TREE4",
+      "nbt_refs": [
+        "features/trees/white_mangrove/white_mangrove_base4",
+        "features/trees/white_mangrove/white_mangrove_canopy4"
+      ],
+      "classification": "tree_registry"
+    },
+    "white_mangrove_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WHITE_MANGROVE_TREE5",
+      "nbt_refs": [
+        "features/trees/white_mangrove/white_mangrove_base5",
+        "features/trees/white_mangrove/white_mangrove_canopy5"
+      ],
+      "classification": "tree_registry"
+    },
+    "ironwood_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "IRONWOOD_TREE1",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy1",
+        "features/trees/ironwood/ironwood_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "ironwood_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "IRONWOOD_TREE2",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy2",
+        "features/trees/ironwood/ironwood_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "ironwood_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "IRONWOOD_TREE3",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy3",
+        "features/trees/ironwood/ironwood_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "ironwood_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "IRONWOOD_TREE4",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy4",
+        "features/trees/ironwood/ironwood_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "flowering_ironwood_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLOWERING_IRONWOOD_TREE1",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy1",
+        "features/trees/ironwood/ironwood_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "flowering_ironwood_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLOWERING_IRONWOOD_TREE2",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy2",
+        "features/trees/ironwood/ironwood_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "flowering_ironwood_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLOWERING_IRONWOOD_TREE3",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy3",
+        "features/trees/ironwood/ironwood_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "flowering_ironwood_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLOWERING_IRONWOOD_TREE4",
+      "nbt_refs": [
+        "features/trees/ironwood/ironwood_canopy4",
+        "features/trees/ironwood/ironwood_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "maple_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAPLE_TREE1",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy1",
+        "features/trees/maple/maple_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "maple_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAPLE_TREE2",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy2",
+        "features/trees/maple/maple_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "maple_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAPLE_TREE3",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy3",
+        "features/trees/maple/maple_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "maple_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAPLE_TREE4",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy4",
+        "features/trees/maple/maple_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "maple_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAPLE_TREE5",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy5",
+        "features/trees/maple/maple_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_maple_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_MAPLE_TREE1",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy1",
+        "features/trees/maple/maple_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_maple_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_MAPLE_TREE2",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy2",
+        "features/trees/maple/maple_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_maple_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_MAPLE_TREE3",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy3",
+        "features/trees/maple/maple_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_maple_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_MAPLE_TREE4",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy4",
+        "features/trees/maple/maple_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_maple_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_MAPLE_TREE5",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy5",
+        "features/trees/maple/maple_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "silver_maple_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SILVER_MAPLE_TREE1",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy1",
+        "features/trees/maple/maple_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "silver_maple_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SILVER_MAPLE_TREE2",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy2",
+        "features/trees/maple/maple_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "silver_maple_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SILVER_MAPLE_TREE3",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy3",
+        "features/trees/maple/maple_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "silver_maple_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SILVER_MAPLE_TREE4",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy4",
+        "features/trees/maple/maple_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "silver_maple_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SILVER_MAPLE_TREE5",
+      "nbt_refs": [
+        "features/trees/maple/maple_canopy5",
+        "features/trees/maple/maple_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "meadow_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MEADOW_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/meadow/meadow_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "meadow_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MEADOW_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/meadow/meadow_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "meadow_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MEADOW_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/meadow/meadow_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREE1",
+      "nbt_refs": [
+        "features/trees/oak/oak_canopy1",
+        "features/trees/oak/oak_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREE2",
+      "nbt_refs": [
+        "features/trees/oak/oak_canopy2",
+        "features/trees/oak/oak_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/oak/oak_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_canopy1",
+        "features/trees/oak/large_oak_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREE_LARGE2",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_canopy2",
+        "features/trees/oak/large_oak_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREE_LARGE3",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_canopy3",
+        "features/trees/oak/large_oak_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_OAK_TREE1",
+      "nbt_refs": [
+        "features/trees/oak/oak_trunk1",
+        "features/trees/oak/red_oak_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_OAK_TREE2",
+      "nbt_refs": [
+        "features/trees/oak/oak_trunk2",
+        "features/trees/oak/red_oak_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "red_oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_OAK_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/oak/red_oak_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_red_oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_OAK_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_trunk1",
+        "features/trees/oak/large_red_oak_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_red_oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_OAK_TREE_LARGE2",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_trunk2",
+        "features/trees/oak/large_red_oak_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_red_oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_OAK_TREE_LARGE3",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_trunk3",
+        "features/trees/oak/large_red_oak_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_OAK_TREE1",
+      "nbt_refs": [
+        "features/trees/oak/brown_oak_canopy1",
+        "features/trees/oak/oak_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_OAK_TREE2",
+      "nbt_refs": [
+        "features/trees/oak/brown_oak_canopy2",
+        "features/trees/oak/oak_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_OAK_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/oak/brown_oak_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_brown_oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_OAK_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/oak/large_brown_oak_canopy1",
+        "features/trees/oak/large_oak_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_brown_oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_OAK_TREE_LARGE2",
+      "nbt_refs": [
+        "features/trees/oak/large_brown_oak_canopy2",
+        "features/trees/oak/large_oak_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_brown_oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_OAK_TREE_LARGE3",
+      "nbt_refs": [
+        "features/trees/oak/large_brown_oak_canopy3",
+        "features/trees/oak/large_oak_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "orange_oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_OAK_TREE1",
+      "nbt_refs": [
+        "features/trees/oak/oak_trunk1",
+        "features/trees/oak/orange_oak_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "orange_oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_OAK_TREE2",
+      "nbt_refs": [
+        "features/trees/oak/oak_trunk2",
+        "features/trees/oak/orange_oak_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "orange_oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_OAK_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/oak/orange_oak_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_orange_oak_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_OAK_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_trunk1",
+        "features/trees/oak/large_orange_oak_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_orange_oak_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_OAK_TREE_LARGE2",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_trunk2",
+        "features/trees/oak/large_orange_oak_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_orange_oak_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_OAK_TREE_LARGE3",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_trunk2",
+        "features/trees/oak/large_orange_oak_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "orchard_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORCHARD_TREE1",
+      "nbt_refs": [
+        "features/trees/orchard/orchard_canopy1",
+        "features/trees/orchard/orchard_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "orchard_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORCHARD_TREE2",
+      "nbt_refs": [
+        "features/trees/orchard/orchard_canopy2",
+        "features/trees/orchard/orchard_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "orchard_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORCHARD_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/orchard/orchard_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "orchard_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORCHARD_TREE4",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_canopy1",
+        "features/trees/oak/large_oak_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "orchard_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORCHARD_TREE5",
+      "nbt_refs": [
+        "features/trees/oak/large_oak_canopy2",
+        "features/trees/oak/large_oak_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "palm_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALM_TREE1",
+      "nbt_refs": [
+        "features/trees/palm/palm_canopy1",
+        "features/trees/palm/palm_trunk"
+      ],
+      "classification": "tree_registry"
+    },
+    "palm_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALM_TREE2",
+      "nbt_refs": [
+        "features/trees/palm/palm_canopy2",
+        "features/trees/palm/palm_trunk"
+      ],
+      "classification": "tree_registry"
+    },
+    "palm_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALM_TREE3",
+      "nbt_refs": [
+        "features/trees/palm/palm_canopy3",
+        "features/trees/palm/palm_trunk"
+      ],
+      "classification": "tree_registry"
+    },
+    "palm_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALM_TREE4",
+      "nbt_refs": [
+        "features/trees/palm/palm_canopy4",
+        "features/trees/palm/palm_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_pine_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PINE_LARGE_TREE1",
+      "nbt_refs": [
+        "features/trees/pine/large_pine_canopy2",
+        "features/trees/pine/large_pine_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "large_pine_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PINE_LARGE_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/pine/large_pine_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "pine_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PINE_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/pine/pine_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "pine_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PINE_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/pine/pine_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "palo_verde_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALO_VERDE_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/palo-verde/palo_verde_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "palo_verde_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALO_VERDE_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/palo-verde/palo_verde_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "rainbow_eucalyptus_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RAINBOW_EUCALYPTUS_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/rainbow-eucalyptus/rainbow_eucalyptus_tree_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "rainbow_eucalyptus_large_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RAINBOW_EUCALYPTUS_LARGE_TREE1",
+      "nbt_refs": [
+        "features/trees/rainbow-eucalyptus/rainbow_eucalyptus_tree_large_canopy1",
+        "features/trees/rainbow-eucalyptus/rainbow_eucalyptus_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "redwood_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "REDWOOD_TREE1",
+      "nbt_refs": [
+        "features/trees/redwood/redwood_tree_canopy1",
+        "features/trees/redwood/redwood_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "redwood_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "REDWOOD_TREE2",
+      "nbt_refs": [
+        "features/trees/redwood/redwood_tree_canopy2",
+        "features/trees/redwood/redwood_tree_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "redwood_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "REDWOOD_TREE3",
+      "nbt_refs": [
+        "features/trees/redwood/redwood_tree_canopy3",
+        "features/trees/redwood/redwood_tree_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "meadow_shrub1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SHRUB_MEADOW",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/meadow/meadow_shrub_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "meadow_shrub2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SHRUB_MEADOW2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/meadow/meadow_shrub_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "prairie_shrub1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SHRUB_PRAIRIE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/prairie/prairie_shrub_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "prairie_shrub2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SHRUB_PRAIRIE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/prairie/prairie_shrub_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "skyris_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SKYRIS_TREE1",
+      "nbt_refs": [
+        "features/trees/skyris/skyris_canopy_1",
+        "features/trees/skyris/skyris_trunk_1"
+      ],
+      "classification": "tree_registry"
+    },
+    "skyris_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SKYRIS_TREE2",
+      "nbt_refs": [
+        "features/trees/skyris/skyris_canopy_2",
+        "features/trees/skyris/skyris_trunk_2"
+      ],
+      "classification": "tree_registry"
+    },
+    "skyris_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SKYRIS_TREE3",
+      "nbt_refs": [
+        "features/trees/skyris/skyris_canopy_3",
+        "features/trees/skyris/skyris_trunk_3"
+      ],
+      "classification": "tree_registry"
+    },
+    "skyris_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SKYRIS_TREE4",
+      "nbt_refs": [
+        "features/trees/skyris/skyris_canopy_4",
+        "features/trees/skyris/skyris_trunk_4"
+      ],
+      "classification": "tree_registry"
+    },
+    "skyris_tree5": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SKYRIS_TREE5",
+      "nbt_refs": [
+        "features/trees/skyris/skyris_canopy_5",
+        "features/trees/skyris/skyris_trunk_5"
+      ],
+      "classification": "tree_registry"
+    },
+    "skyris_tree6": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SKYRIS_TREE6",
+      "nbt_refs": [
+        "features/trees/skyris/skyris_canopy_6",
+        "features/trees/skyris/skyris_trunk_6"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE4",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy4"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree_medium1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE_MEDIUM1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_medium_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree_medium2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE_MEDIUM2",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy2",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree_medium3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE_MEDIUM3",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy3",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree_medium4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE_MEDIUM4",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy4",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_tree_large1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_large_canopy1",
+        "features/trees/spruce/spruce_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE4",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy4"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree_medium1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE_MEDIUM1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_medium_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree_medium2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE_MEDIUM2",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy2",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree_medium3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE_MEDIUM3",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy3",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree_medium4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE_MEDIUM4",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy4",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_yellow_tree_large1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_YELLOW_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_large_canopy1",
+        "features/trees/spruce/spruce_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE4",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy4"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree_medium1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE_MEDIUM1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_medium_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree_medium2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE_MEDIUM2",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy2",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree_medium3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE_MEDIUM3",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy3",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree_medium4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE_MEDIUM4",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy4",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_orange_tree_large1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_ORANGE_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_large_canopy1",
+        "features/trees/spruce/spruce_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE4",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy4"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree_medium1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE_MEDIUM1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_medium_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree_medium2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE_MEDIUM2",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy2",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree_medium3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE_MEDIUM3",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy3",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree_medium4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE_MEDIUM4",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy4",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_red_tree_large1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_large_canopy1",
+        "features/trees/spruce/spruce_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE2",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE3",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy3"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE4",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_canopy4"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree_medium1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE_MEDIUM1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/spruce/spruce_tree_medium_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree_medium2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE_MEDIUM2",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy2",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree_medium3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE_MEDIUM3",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy3",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree_medium4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE_MEDIUM4",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_medium_canopy4",
+        "features/trees/spruce/spruce_tree_medium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spruce_blue_tree_large1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/spruce/spruce_tree_large_canopy1",
+        "features/trees/spruce/spruce_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "tropical_shrub1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "TROPICAL_SHRUB1",
+      "nbt_refs": [
+        "features/trees/generic_trunk",
+        "features/trees/mahogany/tropical_shrub_canopy1"
+      ],
+      "classification": "tree_registry"
+    },
+    "mahogany_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAHOGANY_TREE1",
+      "nbt_refs": [
+        "features/trees/mahogany/mahogany_tree_canopy1",
+        "features/trees/mahogany/mahogany_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "mahogany_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAHOGANY_TREE2",
+      "nbt_refs": [
+        "features/trees/mahogany/mahogany_tree_canopy2",
+        "features/trees/mahogany/mahogany_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "mahogany_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAHOGANY_TREE3",
+      "nbt_refs": [
+        "features/trees/mahogany/mahogany_tree_canopy3",
+        "features/trees/mahogany/mahogany_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "mahogany_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAHOGANY_TREE4",
+      "nbt_refs": [
+        "features/trees/mahogany/mahogany_tree_canopy4",
+        "features/trees/mahogany/mahogany_tree_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "forgotten_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FORGOTTEN_TREE1",
+      "nbt_refs": [
+        "features/trees/forgotten/forgotten_tree_canopy1",
+        "features/trees/forgotten/forgotten_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "woodlands_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WOODLANDS_TREE1",
+      "nbt_refs": [
+        "features/trees/woodlands/woodlands_tree_canopy1",
+        "features/trees/woodlands/woodlands_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "woodlands_tree_large1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WOODLANDS_TREE_LARGE1",
+      "nbt_refs": [
+        "features/trees/woodlands/woodlands_tree_large_canopy1",
+        "features/trees/woodlands/woodlands_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "woodlands_tree_large2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WOODLANDS_TREE_LARGE2",
+      "nbt_refs": [
+        "features/trees/woodlands/woodlands_tree_large_canopy1",
+        "features/trees/woodlands/woodlands_tree_large_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "woodlands_stump1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WOODLANDS_STUMP1",
+      "nbt_refs": [
+        "features/trees/woodlands/woodlands_stump_canopy1",
+        "features/trees/woodlands/woodlands_stump_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "dead_willow_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WILLOW_DEAD_TREE1",
+      "nbt_refs": [
+        "features/trees/willow/dead_willow_canopy",
+        "features/trees/willow/dead_willow_trunk"
+      ],
+      "classification": "tree_registry"
+    },
+    "willow_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WILLOW_TREE1",
+      "nbt_refs": [
+        "features/trees/willow/willow_canopy1",
+        "features/trees/willow/willow_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "willow_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WILLOW_TREE2",
+      "nbt_refs": [
+        "features/trees/willow/willow_canopy2",
+        "features/trees/willow/willow_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "willow_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WILLOW_TREE3",
+      "nbt_refs": [
+        "features/trees/willow/willow_canopy3",
+        "features/trees/willow/willow_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "willow_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WILLOW_TREE4",
+      "nbt_refs": [
+        "features/trees/willow/willow_canopy4",
+        "features/trees/willow/willow_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spirit_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPIRIT_TREE1",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy1",
+        "features/trees/spirit/spirit_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "spirit_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPIRIT_TREE2",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy2",
+        "features/trees/spirit/spirit_tree_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "spirit_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPIRIT_TREE3",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy3",
+        "features/trees/spirit/spirit_tree_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "spirit_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPIRIT_TREE4",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy4",
+        "features/trees/spirit/spirit_tree_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "base_spirit_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BASE_SPIRIT_TREE1",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy1",
+        "features/trees/spirit/spirit_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "base_spirit_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BASE_SPIRIT_TREE2",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy2",
+        "features/trees/spirit/spirit_tree_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "base_spirit_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BASE_SPIRIT_TREE3",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy3",
+        "features/trees/spirit/spirit_tree_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "base_spirit_tree4": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BASE_SPIRIT_TREE4",
+      "nbt_refs": [
+        "features/trees/spirit/spirit_tree_canopy4",
+        "features/trees/spirit/spirit_tree_trunk4"
+      ],
+      "classification": "tree_registry"
+    },
+    "zelkova_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ZELKOVA_TREE1",
+      "nbt_refs": [
+        "features/trees/zelkova/zelkova_tree_canopy1",
+        "features/trees/zelkova/zelkova_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "zelkova_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ZELKOVA_TREE2",
+      "nbt_refs": [
+        "features/trees/zelkova/zelkova_tree_canopy2",
+        "features/trees/zelkova/zelkova_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "zelkova_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ZELKOVA_TREE3",
+      "nbt_refs": [
+        "features/trees/zelkova/zelkova_tree_canopy3",
+        "features/trees/zelkova/zelkova_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_zelkova_tree1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ZELKOVA_BROWN_TREE1",
+      "nbt_refs": [
+        "features/trees/zelkova/zelkova_tree_canopy1",
+        "features/trees/zelkova/zelkova_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_zelkova_tree2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ZELKOVA_BROWN_TREE2",
+      "nbt_refs": [
+        "features/trees/zelkova/zelkova_tree_canopy2",
+        "features/trees/zelkova/zelkova_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "brown_zelkova_tree3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ZELKOVA_BROWN_TREE3",
+      "nbt_refs": [
+        "features/trees/zelkova/zelkova_tree_canopy3",
+        "features/trees/zelkova/zelkova_tree_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_allium_1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_ALLIUM_1",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy1",
+        "features/trees/giant_allium/giant_allium_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_allium_2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_ALLIUM_2",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy2",
+        "features/trees/giant_allium/giant_allium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_allium_3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_ALLIUM_3",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy3",
+        "features/trees/giant_allium/giant_allium_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_pink_allium_1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_PINK_ALLIUM_1",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy1",
+        "features/trees/giant_allium/giant_allium_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_pink_allium_2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_PINK_ALLIUM_2",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy2",
+        "features/trees/giant_allium/giant_allium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_pink_allium_3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_PINK_ALLIUM_3",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy3",
+        "features/trees/giant_allium/giant_allium_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_white_allium_1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_WHITE_ALLIUM_1",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy1",
+        "features/trees/giant_allium/giant_allium_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_white_allium_2": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_WHITE_ALLIUM_2",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy2",
+        "features/trees/giant_allium/giant_allium_trunk2"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_white_allium_3": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_WHITE_ALLIUM_3",
+      "nbt_refs": [
+        "features/trees/giant_allium/giant_allium_canopy3",
+        "features/trees/giant_allium/giant_allium_trunk3"
+      ],
+      "classification": "tree_registry"
+    },
+    "florus_rose_1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLORUS_ROSE_1",
+      "nbt_refs": [
+        "features/trees/florus/florus_rose_canopy1",
+        "features/trees/florus/florus_rose_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "florus_thorn_1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLORUS_THORN_1",
+      "nbt_refs": [
+        "features/trees/florus/florus_thorn_canopy1",
+        "features/trees/florus/florus_thorn_trunk1"
+      ],
+      "classification": "tree_registry"
+    },
+    "giant_alliums": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GIANT_ALLIUMS",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "firecracker_shrubs": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FIRECRACKER_SHRUBS",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "bayou_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BAYOU_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "spirit_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPIRIT_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "canadian_shield_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CANADIAN_SHIELD_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "florus_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLORUS_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "black_forest_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLACK_FOREST_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "red_rock_valley_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_ROCK_VALLEY_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "cika_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CIKA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "conifer_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CONIFER_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "cypress_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "CYPRESS_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "deciduous_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "DECIDUOUS_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "dacite_ridge_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "DACITE_RIDGE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "jacaranda_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "JACARANDA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "maple_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAPLE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "red_maple_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_MAPLE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "silver_maple_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SILVER_MAPLE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "maple_taiga_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAPLE_TAIGA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "northern_forest_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "NORTHERN_FOREST_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "redwood_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "REDWOOD_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "spruce_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SPRUCE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "orange_spruce_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_SPRUCE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "yellow_spruce_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YELLOW_SPRUCE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "red_spruce_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_SPRUCE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "autumnal_spruce_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "AUTUMNAL_SPRUCE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "blue_spruce_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BLUE_SPRUCE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "rose_field_spruce_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ROSE_FIELD_SPRUCE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "mahogany_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MAHOGANY_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "rainforest_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RAINFOREST_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "guiana_shield_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "GUIANA_SHIELD_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "rainbow_eucalyptus_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RAINBOW_EUCALYPTUS_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "skyris_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "SKYRIS_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "baobab_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BAOBAB_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "araucaria_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ARAUCARIA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "ironwood_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "IRONWOOD_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "flowering_ironwood_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FLOWERING_IRONWOOD_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "birch_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BIRCH_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "orange_birch_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_BIRCH_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "yellow_birch_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YELLOW_BIRCH_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "brown_zelkova_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_ZELKOVA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "oak_bushes": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_BUSHES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "meadow_shrubs": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MEADOW_SHRUBS",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "meadow_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MEADOW_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "temperate_grove_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "TEMPERATE_GROVE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "enchanted_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ENCHANTED_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "aspen_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "aspen_shrubs": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ASPEN_SHRUBS",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "zelkova_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ZELKOVA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "palo_verde_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALO_VERDE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "yucca_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YUCCA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "prairie_shrubs": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PRAIRIE_SHRUBS",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "palm_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "PALM_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "white_sakura_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WHITE_SAKURA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "yellow_sakura_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "YELLOW_SAKURA_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "witch_hazel_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "WITCH_HAZEL_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "ebony_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "EBONY_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "fragment_jungle_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FRAGMENT_JUNGLE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "holly_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "HOLLY_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "white_mangrove_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "MANGROVE_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "orchard_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORCHARD_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "temperate_rainforest_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "TEMPERATE_RAINFOREST_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "forgotten_forest_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "FORGOTTEN_FOREST_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "overgrowth_woodlans_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OVERGROWTH_WOODLANDS_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "oak_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "oak_trees_swamp": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "OAK_TREES_SWAMP",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "orange_oak_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "ORANGE_OAK_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "brown_oak_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "BROWN_OAK_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "red_oak_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "RED_OAK_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "autumnal_oak_trees": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldTreeConfiguredFeatures.java",
+      "symbol": "AUTUMNAL_OAK_TREES",
+      "nbt_refs": [],
+      "classification": "tree_registry"
+    },
+    "hydrangeas": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldVegetationConfiguredFeatures.java",
+      "symbol": "HYDRANGEAS",
+      "nbt_refs": [],
+      "classification": "tree_or_fungus_candidate"
+    },
+    "mushrooms": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldVegetationConfiguredFeatures.java",
+      "symbol": "MUSHROOMS",
+      "nbt_refs": [],
+      "classification": "tree_or_fungus_candidate"
+    },
+    "huge_green_mushroom1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldVegetationConfiguredFeatures.java",
+      "symbol": "HUGE_GREEN_MUSHROOM2",
+      "nbt_refs": [],
+      "classification": "tree_or_fungus_candidate"
+    },
+    "huge_weeping_milkcap1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldVegetationConfiguredFeatures.java",
+      "symbol": "HUGE_WEEPING_MILKCAP1",
+      "nbt_refs": [],
+      "classification": "tree_or_fungus_candidate"
+    },
+    "huge_wood_blewit1": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldVegetationConfiguredFeatures.java",
+      "symbol": "HUGE_WOOD_BLEWIT1",
+      "nbt_refs": [],
+      "classification": "tree_or_fungus_candidate"
+    },
+    "huge_mushrooms": {
+      "path": "Common/src/main/java/net/potionstudios/biomeswevegone/world/level/levelgen/feature/configured/BWGOverworldVegetationConfiguredFeatures.java",
+      "symbol": "HUGE_MUSHROOMS",
+      "nbt_refs": [],
+      "classification": "tree_or_fungus_candidate"
+    }
+  },
+  "saplings": {
+    "araucaria": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/araucaria_sapling.json"
+    ],
+    "aspen": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/aspen_sapling.json"
+    ],
+    "baobab": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/baobab_sapling.json"
+    ],
+    "blue_enchanted": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/blue_enchanted_sapling.json"
+    ],
+    "blue_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/blue_spruce_sapling.json"
+    ],
+    "brown_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/brown_birch_sapling.json"
+    ],
+    "brown_oak": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/brown_oak_sapling.json"
+    ],
+    "brown_zelkova": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/brown_zelkova_sapling.json"
+    ],
+    "cika": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/cika_sapling.json"
+    ],
+    "cypress": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/cypress_sapling.json"
+    ],
+    "ebony": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/ebony_sapling.json"
+    ],
+    "fir": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/fir_sapling.json"
+    ],
+    "green_enchanted": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/green_enchanted_sapling.json"
+    ],
+    "holly": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/holly_sapling.json"
+    ],
+    "indigo_jacaranda": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/indigo_jacaranda_sapling.json"
+    ],
+    "ironwood": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/ironwood_sapling.json"
+    ],
+    "jacaranda": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/jacaranda_sapling.json"
+    ],
+    "mahogany": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/mahogany_sapling.json"
+    ],
+    "maple": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/maple_sapling.json"
+    ],
+    "orange_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/orange_birch_sapling.json"
+    ],
+    "orange_oak": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/orange_oak_sapling.json"
+    ],
+    "orange_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/orange_spruce_sapling.json"
+    ],
+    "orchard": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/orchard_sapling.json"
+    ],
+    "palm": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/palm_sapling.json"
+    ],
+    "palo_verde": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/palo_verde_sapling.json"
+    ],
+    "pine": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/pine_sapling.json"
+    ],
+    "potted_araucaria": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_araucaria_sapling.json"
+    ],
+    "potted_aspen": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_aspen_sapling.json"
+    ],
+    "potted_baobab": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_baobab_sapling.json"
+    ],
+    "potted_blue_enchanted": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_blue_enchanted_sapling.json"
+    ],
+    "potted_blue_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_blue_spruce_sapling.json"
+    ],
+    "potted_brown_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_brown_birch_sapling.json"
+    ],
+    "potted_brown_oak": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_brown_oak_sapling.json"
+    ],
+    "potted_brown_zelkova": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_brown_zelkova_sapling.json"
+    ],
+    "potted_cika": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_cika_sapling.json"
+    ],
+    "potted_cypress": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_cypress_sapling.json"
+    ],
+    "potted_ebony": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_ebony_sapling.json"
+    ],
+    "potted_fir": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_fir_sapling.json"
+    ],
+    "potted_green_enchanted": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_green_enchanted_sapling.json"
+    ],
+    "potted_holly": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_holly_sapling.json"
+    ],
+    "potted_indigo_jacaranda": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_indigo_jacaranda_sapling.json"
+    ],
+    "potted_ironwood": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_ironwood_sapling.json"
+    ],
+    "potted_jacaranda": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_jacaranda_sapling.json"
+    ],
+    "potted_mahogany": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_mahogany_sapling.json"
+    ],
+    "potted_maple": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_maple_sapling.json"
+    ],
+    "potted_orange_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_orange_birch_sapling.json"
+    ],
+    "potted_orange_oak": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_orange_oak_sapling.json"
+    ],
+    "potted_orange_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_orange_spruce_sapling.json"
+    ],
+    "potted_orchard": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_orchard_sapling.json"
+    ],
+    "potted_palm": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_palm_sapling.json"
+    ],
+    "potted_palo_verde": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_palo_verde_sapling.json"
+    ],
+    "potted_pine": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_pine_sapling.json"
+    ],
+    "potted_rainbow_eucalyptus": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_rainbow_eucalyptus_sapling.json"
+    ],
+    "potted_red_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_red_birch_sapling.json"
+    ],
+    "potted_red_maple": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_red_maple_sapling.json"
+    ],
+    "potted_red_oak": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_red_oak_sapling.json"
+    ],
+    "potted_red_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_red_spruce_sapling.json"
+    ],
+    "potted_redwood": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_redwood_sapling.json"
+    ],
+    "potted_silver_maple": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_silver_maple_sapling.json"
+    ],
+    "potted_skyris": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_skyris_sapling.json"
+    ],
+    "potted_spirit": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_spirit_sapling.json"
+    ],
+    "potted_white_mangrove": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_white_mangrove_sapling.json"
+    ],
+    "potted_white_sakura": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_white_sakura_sapling.json"
+    ],
+    "potted_willow": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_willow_sapling.json"
+    ],
+    "potted_witch_hazel": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_witch_hazel_sapling.json"
+    ],
+    "potted_yellow_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_yellow_birch_sapling.json"
+    ],
+    "potted_yellow_sakura": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_yellow_sakura_sapling.json"
+    ],
+    "potted_yellow_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_yellow_spruce_sapling.json"
+    ],
+    "potted_yucca": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_yucca_sapling.json"
+    ],
+    "potted_zelkova": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/potted_zelkova_sapling.json"
+    ],
+    "rainbow_eucalyptus": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/rainbow_eucalyptus_sapling.json"
+    ],
+    "red_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/red_birch_sapling.json"
+    ],
+    "red_maple": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/red_maple_sapling.json"
+    ],
+    "red_oak": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/red_oak_sapling.json"
+    ],
+    "red_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/red_spruce_sapling.json"
+    ],
+    "redwood": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/redwood_sapling.json"
+    ],
+    "silver_maple": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/silver_maple_sapling.json"
+    ],
+    "skyris": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/skyris_sapling.json"
+    ],
+    "spirit": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/spirit_sapling.json"
+    ],
+    "white_mangrove": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/white_mangrove_sapling.json"
+    ],
+    "white_sakura": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/white_sakura_sapling.json"
+    ],
+    "willow": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/willow_sapling.json"
+    ],
+    "witch_hazel": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/witch_hazel_sapling.json"
+    ],
+    "yellow_birch": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/yellow_birch_sapling.json"
+    ],
+    "yellow_sakura": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/yellow_sakura_sapling.json"
+    ],
+    "yellow_spruce": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/yellow_spruce_sapling.json"
+    ],
+    "yucca": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/yucca_sapling.json"
+    ],
+    "zelkova": [
+      "Common/src/main/generated/resources/assets/biomeswevegone/blockstates/zelkova_sapling.json"
+    ]
+  },
+  "procedural_tree_sources": []
+}

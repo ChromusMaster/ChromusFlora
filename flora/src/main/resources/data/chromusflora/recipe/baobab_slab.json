@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:baobab_planks"
+  },
+  "result": {
+    "id": "chromusflora:baobab_slab",
+    "count": 6
+  }
+}

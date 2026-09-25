@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:woodlands_planks"
+  },
+  "result": {
+    "id": "chromusflora:woodlands_stairs",
+    "count": 4
+  }
+}

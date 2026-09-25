@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:white_sakura_planks"
+  },
+  "result": {
+    "id": "chromusflora:white_sakura_slab",
+    "count": 6
+  }
+}

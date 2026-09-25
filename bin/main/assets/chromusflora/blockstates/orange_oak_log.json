@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/orange_oak_log"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/orange_oak_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/orange_oak_log",
+      "x": 90
+    }
+  }
+}

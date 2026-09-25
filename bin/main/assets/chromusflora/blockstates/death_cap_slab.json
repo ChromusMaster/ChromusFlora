@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/death_cap_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/death_cap_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/death_cap_planks"
+    }
+  }
+}

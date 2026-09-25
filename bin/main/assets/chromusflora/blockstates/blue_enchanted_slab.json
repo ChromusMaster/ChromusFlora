@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/blue_enchanted_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/blue_enchanted_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/blue_enchanted_planks"
+    }
+  }
+}

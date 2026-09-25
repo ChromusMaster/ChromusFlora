@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/redwood_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/redwood_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/redwood_planks"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/fir",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/pine",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/maple",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/aspen",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/blue_spruce",
+        "placement": []
+      }
+    ]
+  }
+}

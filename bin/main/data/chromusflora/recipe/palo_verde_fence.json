@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:palo_verde_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:palo_verde_fence",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:ancient_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:ancient_fence",
+    "count": 3
+  }
+}

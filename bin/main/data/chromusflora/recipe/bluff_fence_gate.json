@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S#S",
+    "S#S"
+  ],
+  "key": {
+    "#": "chromusflora:bluff_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:bluff_fence_gate",
+    "count": 1
+  }
+}

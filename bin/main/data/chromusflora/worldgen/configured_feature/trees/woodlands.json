@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/woodlands_stump1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/woodlands_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/woodlands_tree_large1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/woodlands_tree_large2",
+        "placement": []
+      }
+    ]
+  }
+}

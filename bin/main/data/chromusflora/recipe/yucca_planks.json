@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:yucca_logs"
+  ],
+  "result": {
+    "id": "chromusflora:yucca_planks",
+    "count": 4
+  }
+}

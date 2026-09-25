@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:firecracker_logs"
+  ],
+  "result": {
+    "id": "chromusflora:firecracker_planks",
+    "count": 4
+  }
+}

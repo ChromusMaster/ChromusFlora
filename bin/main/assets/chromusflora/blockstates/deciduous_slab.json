@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/deciduous_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/deciduous_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/deciduous_planks"
+    }
+  }
+}

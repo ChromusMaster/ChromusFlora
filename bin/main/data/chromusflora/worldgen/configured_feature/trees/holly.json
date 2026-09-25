@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/holly_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/holly_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/holly_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/holly_tree4",
+        "placement": []
+      }
+    ]
+  }
+}

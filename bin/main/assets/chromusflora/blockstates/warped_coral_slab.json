@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/warped_coral_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/warped_coral_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/warped_coral_planks"
+    }
+  }
+}

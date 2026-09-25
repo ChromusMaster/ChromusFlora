@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/shulkren_log"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/shulkren_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/shulkren_log",
+      "x": 90
+    }
+  }
+}

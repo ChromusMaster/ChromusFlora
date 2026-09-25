@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:prairie_planks"
+  },
+  "result": {
+    "id": "chromusflora:prairie_stairs",
+    "count": 4
+  }
+}

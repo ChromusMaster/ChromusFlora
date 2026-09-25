@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:yellow_birch_logs"
+  ],
+  "result": {
+    "id": "chromusflora:yellow_birch_planks",
+    "count": 4
+  }
+}

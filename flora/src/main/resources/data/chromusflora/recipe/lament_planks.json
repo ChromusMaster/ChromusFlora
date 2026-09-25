@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:lament_logs"
+  ],
+  "result": {
+    "id": "chromusflora:lament_planks",
+    "count": 4
+  }
+}

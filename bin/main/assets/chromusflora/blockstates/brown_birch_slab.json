@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/brown_birch_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/brown_birch_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/brown_birch_planks"
+    }
+  }
+}

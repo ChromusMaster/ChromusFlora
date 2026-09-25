@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:joshua_planks"
+  },
+  "result": {
+    "id": "chromusflora:joshua_stairs",
+    "count": 4
+  }
+}

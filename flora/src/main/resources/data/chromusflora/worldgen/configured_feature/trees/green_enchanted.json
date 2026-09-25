@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/green_enchanted_sapling_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/green_enchanted_sapling_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/green_enchanted_sapling_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/green_enchanted_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/green_enchanted_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/green_enchanted_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/green_enchanted_tree4",
+        "placement": []
+      }
+    ]
+  }
+}

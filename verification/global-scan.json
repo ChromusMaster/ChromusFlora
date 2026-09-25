@@ -1,0 +1,6738 @@
+{
+  "scope": "offline static source/resource scan; no Java compilation or game execution",
+  "status": "PASS",
+  "counts": {
+    "json_resources": 6377,
+    "assertions": 105658,
+    "biomes": 92,
+    "tree_families": 83,
+    "variants": 458,
+    "blocks": 830,
+    "items": 748,
+    "nbt_structures": 1121,
+    "tree_forms": 1119,
+    "java_sources": 12
+  },
+  "errors": [],
+  "limitations": [
+    "No Java type checking or compiler warning result",
+    "No registry/datapack loading in the game",
+    "No world generation, server, multiplayer or optional-mod runtime tests"
+  ],
+  "tree_height_results": [
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ancient",
+      "form": "chromusflora:trees/ancient_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "araucaria",
+      "form": "chromusflora:trees/araucaria_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "araucaria",
+      "form": "chromusflora:trees/araucaria_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "araucaria",
+      "form": "chromusflora:trees/araucaria_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "araucaria",
+      "form": "chromusflora:trees/araucaria_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "araucaria",
+      "form": "chromusflora:trees/araucaria_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "araucaria",
+      "form": "chromusflora:trees/araucaria_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_shrub1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_shrub1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_shrub1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_shrub2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_shrub2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_shrub2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "aspen",
+      "form": "chromusflora:trees/aspen_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "baobab",
+      "form": "chromusflora:trees/baobab_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/base_spirit_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_boreal_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_boreal_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_boreal_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "birch",
+      "form": "chromusflora:trees/birch_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/birch_yellow_boreal_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/birch_yellow_boreal_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/birch_yellow_boreal_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_sapling_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "blue_enchanted",
+      "form": "chromusflora:trees/blue_enchanted_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bluff",
+      "form": "chromusflora:trees/bluff_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bluff",
+      "form": "chromusflora:trees/bluff_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bluff",
+      "form": "chromusflora:trees/bluff_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bluff",
+      "form": "chromusflora:trees/bluff_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bluff",
+      "form": "chromusflora:trees/bluff_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bluff",
+      "form": "chromusflora:trees/bluff_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_birch",
+      "form": "chromusflora:trees/brown_birch_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/brown_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_zelkova",
+      "form": "chromusflora:trees/brown_zelkova_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_bush1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_bush1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_bush1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree6/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree6/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree6/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree7/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree7/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "bulbis",
+      "form": "chromusflora:trees/bulbis_tree7/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "cika",
+      "form": "chromusflora:trees/cika_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree5/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree5/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree6/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree6/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree6/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree7/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree7/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree7/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree8/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree8/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "fir",
+      "form": "chromusflora:trees/conifer_tree8/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "crimson_fungus",
+      "form": "chromusflora:trees/crimson_fungus1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "crimson_fungus",
+      "form": "chromusflora:trees/crimson_fungus1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "crimson_fungus",
+      "form": "chromusflora:trees/crimson_fungus1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "crimson_fungus",
+      "form": "chromusflora:trees/crimson_fungus2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "crimson_fungus",
+      "form": "chromusflora:trees/crimson_fungus2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "crimson_fungus",
+      "form": "chromusflora:trees/crimson_fungus2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "cypress",
+      "form": "chromusflora:trees/cypress_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/dead_willow_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/dead_willow_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/dead_willow_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "death_cap",
+      "form": "chromusflora:trees/death_cap_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "deciduous",
+      "form": "chromusflora:trees/deciduous_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_bush1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_bush1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_bush1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ebony",
+      "form": "chromusflora:trees/ebony_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "embur",
+      "form": "chromusflora:trees/embur_mushroom4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_bush1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_bush1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_bush1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ether",
+      "form": "chromusflora:trees/ether_tree_dead3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_bush1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_bush1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_bush1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_shrub/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_shrub/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_shrub/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_shrub2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_shrub2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "firecracker",
+      "form": "chromusflora:trees/firecracker_shrub2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "florus_rose",
+      "form": "chromusflora:trees/florus_rose_1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "florus_rose",
+      "form": "chromusflora:trees/florus_rose_1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "florus_rose",
+      "form": "chromusflora:trees/florus_rose_1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "florus_thorn",
+      "form": "chromusflora:trees/florus_thorn_1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "florus_thorn",
+      "form": "chromusflora:trees/florus_thorn_1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "florus_thorn",
+      "form": "chromusflora:trees/florus_thorn_1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/flowering_ironwood_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "forgotten",
+      "form": "chromusflora:trees/forgotten_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "forgotten",
+      "form": "chromusflora:trees/forgotten_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "forgotten",
+      "form": "chromusflora:trees/forgotten_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "fungal_imparius",
+      "form": "chromusflora:trees/fungal_imparius5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_allium",
+      "form": "chromusflora:trees/giant_allium_3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_pink_allium",
+      "form": "chromusflora:trees/giant_pink_allium_3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "giant_white_allium",
+      "form": "chromusflora:trees/giant_white_allium_3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_sapling_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_enchanted",
+      "form": "chromusflora:trees/green_enchanted_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "holly",
+      "form": "chromusflora:trees/holly_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_green_mushroom/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_green_mushroom/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_green_mushroom/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_green_mushroom1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_green_mushroom1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_green_mushroom1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_mushrooms/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_mushrooms/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "green_mushroom",
+      "form": "chromusflora:trees/huge_mushrooms/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "weeping_milkcap",
+      "form": "chromusflora:trees/huge_weeping_milkcap/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "weeping_milkcap",
+      "form": "chromusflora:trees/huge_weeping_milkcap/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "weeping_milkcap",
+      "form": "chromusflora:trees/huge_weeping_milkcap/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "weeping_milkcap",
+      "form": "chromusflora:trees/huge_weeping_milkcap1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "weeping_milkcap",
+      "form": "chromusflora:trees/huge_weeping_milkcap1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "weeping_milkcap",
+      "form": "chromusflora:trees/huge_weeping_milkcap1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "wood_blewit",
+      "form": "chromusflora:trees/huge_wood_blewit/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "wood_blewit",
+      "form": "chromusflora:trees/huge_wood_blewit/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "wood_blewit",
+      "form": "chromusflora:trees/huge_wood_blewit/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "wood_blewit",
+      "form": "chromusflora:trees/huge_wood_blewit1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "wood_blewit",
+      "form": "chromusflora:trees/huge_wood_blewit1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "wood_blewit",
+      "form": "chromusflora:trees/huge_wood_blewit1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom6/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom6/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "imparius",
+      "form": "chromusflora:trees/imparius_mushroom6/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "indigo_jacaranda",
+      "form": "chromusflora:trees/indigo_jacaranda_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "ironwood",
+      "form": "chromusflora:trees/ironwood_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "jacaranda",
+      "form": "chromusflora:trees/jacaranda_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "joshua",
+      "form": "chromusflora:trees/joshua_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "joshua",
+      "form": "chromusflora:trees/joshua_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "joshua",
+      "form": "chromusflora:trees/joshua_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "joshua",
+      "form": "chromusflora:trees/joshua_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "joshua",
+      "form": "chromusflora:trees/joshua_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "joshua",
+      "form": "chromusflora:trees/joshua_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/jungle_bush1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/jungle_bush1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/jungle_bush1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_twisty_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "lament",
+      "form": "chromusflora:trees/lament_weeping_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "brown_oak",
+      "form": "chromusflora:trees/large_brown_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/large_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/large_orange_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/large_pine_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/large_pine_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/large_pine_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/large_pine_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/large_pine_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/large_pine_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/large_red_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "mahogany",
+      "form": "chromusflora:trees/mahogany_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "maple",
+      "form": "chromusflora:trees/maple_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_shrub1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_shrub1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_shrub1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_shrub2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_shrub2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_shrub2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "meadow",
+      "form": "chromusflora:trees/meadow_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_shrub1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_shrub1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_shrub1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_shrub2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_shrub2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_shrub2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "nightshade",
+      "form": "chromusflora:trees/nightshade_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_bush1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_bush1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_bush1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_trees_swamp/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_trees_swamp/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "oak",
+      "form": "chromusflora:trees/oak_trees_swamp/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_birch",
+      "form": "chromusflora:trees/orange_birch_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orange_oak",
+      "form": "chromusflora:trees/orange_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "orchard",
+      "form": "chromusflora:trees/orchard_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/palm_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "palo_verde",
+      "form": "chromusflora:trees/palo_verde_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "palo_verde",
+      "form": "chromusflora:trees/palo_verde_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "palo_verde",
+      "form": "chromusflora:trees/palo_verde_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "palo_verde",
+      "form": "chromusflora:trees/palo_verde_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "palo_verde",
+      "form": "chromusflora:trees/palo_verde_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "palo_verde",
+      "form": "chromusflora:trees/palo_verde_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/pine_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/pine_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/pine_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/pine_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/pine_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "pine",
+      "form": "chromusflora:trees/pine_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "pink_cherry",
+      "form": "chromusflora:trees/pink_cherry_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "pink_cherry",
+      "form": "chromusflora:trees/pink_cherry_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "pink_cherry",
+      "form": "chromusflora:trees/pink_cherry_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "pink_cherry",
+      "form": "chromusflora:trees/pink_cherry_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "pink_cherry",
+      "form": "chromusflora:trees/pink_cherry_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "pink_cherry",
+      "form": "chromusflora:trees/pink_cherry_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "prairie",
+      "form": "chromusflora:trees/prairie_shrub1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "prairie",
+      "form": "chromusflora:trees/prairie_shrub1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "prairie",
+      "form": "chromusflora:trees/prairie_shrub1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "prairie",
+      "form": "chromusflora:trees/prairie_shrub2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "prairie",
+      "form": "chromusflora:trees/prairie_shrub2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "prairie",
+      "form": "chromusflora:trees/prairie_shrub2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_bush1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_bush1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_bush1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree6/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree6/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree6/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree7/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree7/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "purple_bulbis",
+      "form": "chromusflora:trees/purple_bulbis_tree7/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "rainbow_eucalyptus",
+      "form": "chromusflora:trees/rainbow_eucalyptus_large_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "rainbow_eucalyptus",
+      "form": "chromusflora:trees/rainbow_eucalyptus_large_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "rainbow_eucalyptus",
+      "form": "chromusflora:trees/rainbow_eucalyptus_large_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "rainbow_eucalyptus",
+      "form": "chromusflora:trees/rainbow_eucalyptus_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "rainbow_eucalyptus",
+      "form": "chromusflora:trees/rainbow_eucalyptus_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "rainbow_eucalyptus",
+      "form": "chromusflora:trees/rainbow_eucalyptus_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_birch",
+      "form": "chromusflora:trees/red_birch_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_maple",
+      "form": "chromusflora:trees/red_maple_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "red_oak",
+      "form": "chromusflora:trees/red_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "redwood",
+      "form": "chromusflora:trees/redwood_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "shulkren",
+      "form": "chromusflora:trees/shulkren_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "shulkren",
+      "form": "chromusflora:trees/shulkren_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "shulkren",
+      "form": "chromusflora:trees/shulkren_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "shulkren",
+      "form": "chromusflora:trees/shulkren_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "shulkren",
+      "form": "chromusflora:trees/shulkren_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "shulkren",
+      "form": "chromusflora:trees/shulkren_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "silver_maple",
+      "form": "chromusflora:trees/silver_maple_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree6/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 64
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree6/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "skyris",
+      "form": "chromusflora:trees/skyris_tree6/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "soul_shroom",
+      "form": "chromusflora:trees/soul_shroom_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "spirit",
+      "form": "chromusflora:trees/spirit_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_large1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_large1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_large1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "blue_spruce",
+      "form": "chromusflora:trees/spruce_blue_tree_medium4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_large1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_large1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_large1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "orange_spruce",
+      "form": "chromusflora:trees/spruce_orange_tree_medium4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_large1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_large1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_large1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "red_spruce",
+      "form": "chromusflora:trees/spruce_red_tree_medium4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_large1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_large1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_large1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "spruce",
+      "form": "chromusflora:trees/spruce_tree_medium4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_large1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_large1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_large1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium1/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium1/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium2/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium2/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium3/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium3/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium4/giant",
+      "min_trunk_height": 30,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium4/normal",
+      "min_trunk_height": 11,
+      "max_trunk_height": 22
+    },
+    {
+      "family": "yellow_spruce",
+      "form": "chromusflora:trees/spruce_yellow_tree_medium4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_pillars/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_pillars/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_pillars/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "sythian",
+      "form": "chromusflora:trees/sythian_fungus_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/tropical_shrub1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/tropical_shrub1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "palm",
+      "form": "chromusflora:trees/tropical_shrub1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "wailing",
+      "form": "chromusflora:trees/wailing_pillar1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "wailing",
+      "form": "chromusflora:trees/wailing_pillar1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "wailing",
+      "form": "chromusflora:trees/wailing_pillar1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "warped_coral",
+      "form": "chromusflora:trees/warped_coral_original/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "warped_coral",
+      "form": "chromusflora:trees/warped_coral_original/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "warped_coral",
+      "form": "chromusflora:trees/warped_coral_original/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "warped_fungus",
+      "form": "chromusflora:trees/warped_fungus1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "warped_fungus",
+      "form": "chromusflora:trees/warped_fungus1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "warped_fungus",
+      "form": "chromusflora:trees/warped_fungus1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "warped_fungus",
+      "form": "chromusflora:trees/warped_fungus2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "warped_fungus",
+      "form": "chromusflora:trees/warped_fungus2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "warped_fungus",
+      "form": "chromusflora:trees/warped_fungus2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_cherry",
+      "form": "chromusflora:trees/white_cherry_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_cherry",
+      "form": "chromusflora:trees/white_cherry_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_cherry",
+      "form": "chromusflora:trees/white_cherry_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_cherry",
+      "form": "chromusflora:trees/white_cherry_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_cherry",
+      "form": "chromusflora:trees/white_cherry_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_cherry",
+      "form": "chromusflora:trees/white_cherry_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_mangrove",
+      "form": "chromusflora:trees/white_mangrove_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree6/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree6/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree6/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree7/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree7/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "white_sakura",
+      "form": "chromusflora:trees/white_sakura_tree7/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "willow",
+      "form": "chromusflora:trees/willow_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "witch_hazel",
+      "form": "chromusflora:trees/witch_hazel5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "withering_oak",
+      "form": "chromusflora:trees/withering_oak_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_stump1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_stump1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_stump1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree_large1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree_large1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree_large1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree_large2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree_large2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "woodlands",
+      "form": "chromusflora:trees/woodlands_tree_large2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_birch",
+      "form": "chromusflora:trees/yellow_birch_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree4/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree4/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree4/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree5/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree5/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree5/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree6/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree6/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree6/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree7/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree7/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yellow_sakura",
+      "form": "chromusflora:trees/yellow_sakura_tree7/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yucca",
+      "form": "chromusflora:trees/yucca_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yucca",
+      "form": "chromusflora:trees/yucca_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yucca",
+      "form": "chromusflora:trees/yucca_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "yucca",
+      "form": "chromusflora:trees/yucca_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "yucca",
+      "form": "chromusflora:trees/yucca_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "yucca",
+      "form": "chromusflora:trees/yucca_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree1/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree1/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree1/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree2/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree2/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree2/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree3/giant",
+      "min_trunk_height": 28,
+      "max_trunk_height": 48
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree3/normal",
+      "min_trunk_height": 9,
+      "max_trunk_height": 20
+    },
+    {
+      "family": "zelkova",
+      "form": "chromusflora:trees/zelkova_tree3/small",
+      "min_trunk_height": 3,
+      "max_trunk_height": 3
+    }
+  ]
+}

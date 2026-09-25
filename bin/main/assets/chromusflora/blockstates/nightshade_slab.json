@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/nightshade_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/nightshade_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/nightshade_planks"
+    }
+  }
+}

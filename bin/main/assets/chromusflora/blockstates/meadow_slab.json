@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/meadow_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/meadow_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/meadow_planks"
+    }
+  }
+}

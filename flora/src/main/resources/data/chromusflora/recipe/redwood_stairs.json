@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:redwood_planks"
+  },
+  "result": {
+    "id": "chromusflora:redwood_stairs",
+    "count": 4
+  }
+}

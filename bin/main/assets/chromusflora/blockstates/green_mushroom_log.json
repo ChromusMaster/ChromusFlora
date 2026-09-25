@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/green_mushroom_log"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/green_mushroom_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/green_mushroom_log",
+      "x": 90
+    }
+  }
+}

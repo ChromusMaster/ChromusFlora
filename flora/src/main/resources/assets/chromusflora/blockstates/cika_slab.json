@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/cika_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/cika_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/cika_planks"
+    }
+  }
+}

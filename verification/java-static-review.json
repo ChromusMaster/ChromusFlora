@@ -1,0 +1,159 @@
+{
+  "checked_on": "2026-09-25",
+  "syntax_parser": "tree-sitter-java",
+  "sources": [
+    {
+      "file": "flora/src/client/java/dev/chromus/flora/client/FloraJade.java",
+      "sha256": "b11f4a78c4ea18c4459a1ea286b6a997069da4be2fa7fc2143a6c0b9321e316d",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/client/java/dev/chromus/flora/client/FloraModMenu.java",
+      "sha256": "477045f007337a729e7fc20be1707322c7645fa49dab89251d6a4bb32759e4a5",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/client/java/dev/chromus/flora/client/FloraSettingsScreen.java",
+      "sha256": "26757b88409a9f4a2a5a7b923385971ae9dbcfa144c078299bc611cba2c89ee1",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/ChromusFlora.java",
+      "sha256": "d5dcfcb684ed429a320230f937439f8cc201047dc212027df87dc947e9791263",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/FloraCatalog.java",
+      "sha256": "ea0868c87c377d615aa3060e107c16f45c1ad98aebbb83c82be3ea2cf9e3091f",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/FloraConfig.java",
+      "sha256": "ef742ed178d1c590312707ca3e6f135a80f27ef7da7d9dec28d10eec554febfd",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/FloraContent.java",
+      "sha256": "581cc7bb0763ccef979854fa3fad4ce022b527c5ed66d016b1ebeaf70b54b297",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/block/FloraSapling.java",
+      "sha256": "dbb3071acc36911d3fa65760cafb894737322beebf09627438e000814f96b55c",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/block/FloraStairs.java",
+      "sha256": "53367b5b862e606975a0f36029d6d5d4f7f0df69d312668ec84ad8d7a1cbd9c1",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/compat/JaizCompatibility.java",
+      "sha256": "1cb68427e43226c81878283b715986e728c828fc0d1ead2cddb21436ff7a54ae",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/world/BoundedTreeFeature.java",
+      "sha256": "13dbc5dd0ccf2ac4a985ebb3bdc2f17eeb880ec5beb669a32a63f21f00dbac1a",
+      "syntax_errors": false
+    },
+    {
+      "file": "flora/src/main/java/dev/chromus/flora/world/FloraTerraBlender.java",
+      "sha256": "e8d405a69a2a91f9211eedba3f456b9ce51039516ba0f9e11a4befdf64afb0bc",
+      "syntax_errors": false
+    }
+  ],
+  "imports_matched_to_release_class_files": {
+    "net.minecraft.world.item.Item": "minecraft-client.jar",
+    "net.minecraft.world.level.block.state.BlockState": "minecraft-client.jar",
+    "net.minecraft.world.level.levelgen.feature.FeaturePlaceContext": "minecraft-client.jar",
+    "net.minecraft.world.level.block.FenceGateBlock": "minecraft-client.jar",
+    "net.minecraft.tags.TagKey": "minecraft-client.jar",
+    "net.minecraft.client.gui.screens.Screen": "minecraft-client.jar",
+    "net.minecraft.world.level.block.Blocks": "minecraft-client.jar",
+    "net.minecraft.world.item.ItemStack": "minecraft-client.jar",
+    "net.minecraft.core.BlockPos": "minecraft-client.jar",
+    "net.minecraft.client.gui.GuiGraphicsExtractor": "minecraft-client.jar",
+    "net.minecraft.world.food.FoodProperties": "minecraft-client.jar",
+    "net.minecraft.world.level.biome.MobSpawnSettings": "minecraft-client.jar",
+    "net.minecraft.world.level.block.grower.TreeGrower": "minecraft-client.jar",
+    "net.minecraft.core.registries.BuiltInRegistries": "minecraft-client.jar",
+    "net.minecraft.world.level.block.state.BlockBehaviour": "minecraft-client.jar",
+    "net.minecraft.world.level.levelgen.SurfaceRules": "minecraft-client.jar",
+    "net.minecraft.world.level.levelgen.GenerationStep": "minecraft-client.jar",
+    "net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate": "minecraft-client.jar",
+    "net.minecraft.world.level.levelgen.feature.Feature": "minecraft-client.jar",
+    "net.minecraft.world.entity.MobCategory": "minecraft-client.jar",
+    "net.minecraft.core.HolderGetter": "minecraft-client.jar",
+    "net.minecraft.world.level.block.state.properties.WoodType": "minecraft-client.jar",
+    "net.minecraft.core.Vec3i": "minecraft-client.jar",
+    "net.minecraft.world.level.levelgen.feature.ConfiguredFeature": "minecraft-client.jar",
+    "net.minecraft.world.item.BlockItem": "minecraft-client.jar",
+    "net.minecraft.client.gui.components.Button": "minecraft-client.jar",
+    "net.minecraft.world.level.BlockGetter": "minecraft-client.jar",
+    "net.minecraft.resources.Identifier": "minecraft-client.jar",
+    "net.minecraft.core.registries.Registries": "minecraft-client.jar",
+    "net.minecraft.world.level.WorldGenLevel": "minecraft-client.jar",
+    "net.minecraft.world.level.block.StairBlock": "minecraft-client.jar",
+    "net.minecraft.world.level.levelgen.VerticalAnchor": "minecraft-client.jar",
+    "net.minecraft.world.level.block.FenceBlock": "minecraft-client.jar",
+    "net.minecraft.world.level.block.TintedParticleLeavesBlock": "minecraft-client.jar",
+    "net.minecraft.network.chat.Component": "minecraft-client.jar",
+    "net.minecraft.core.Registry": "minecraft-client.jar",
+    "net.minecraft.world.level.block.RotatedPillarBlock": "minecraft-client.jar",
+    "net.minecraft.world.level.biome.Biome": "minecraft-client.jar",
+    "net.minecraft.client.gui.components.StringWidget": "minecraft-client.jar",
+    "net.minecraft.world.level.block.SlabBlock": "minecraft-client.jar",
+    "net.minecraft.world.level.block.FlowerPotBlock": "minecraft-client.jar",
+    "net.minecraft.world.level.biome.Climate": "minecraft-client.jar",
+    "net.minecraft.world.level.block.SaplingBlock": "minecraft-client.jar",
+    "net.minecraft.world.level.block.Block": "minecraft-client.jar",
+    "net.minecraft.resources.ResourceKey": "minecraft-client.jar",
+    "snownee.jade.api.config.IPluginConfig": "jade.jar",
+    "snownee.jade.api.IBlockComponentProvider": "jade.jar",
+    "snownee.jade.api.BlockAccessor": "jade.jar",
+    "snownee.jade.api.ITooltip": "jade.jar",
+    "snownee.jade.api.IWailaClientRegistration": "jade.jar",
+    "snownee.jade.api.IWailaPlugin": "jade.jar",
+    "com.terraformersmc.modmenu.api.ConfigScreenFactory": "modmenu.jar",
+    "com.terraformersmc.modmenu.api.ModMenuApi": "modmenu.jar",
+    "dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.configurations.TreeFromStructureNBTConfigV2": "ottyg-release.jar",
+    "dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.TYGFeatures": "ottyg-release.jar",
+    "terrablender.api.RegionType": "terrablender-release.jar",
+    "terrablender.api.Regions": "terrablender-release.jar",
+    "terrablender.api.TerraBlenderApi": "terrablender-release.jar",
+    "terrablender.api.EndBiomeRegistry": "terrablender-release.jar",
+    "terrablender.api.SurfaceRuleManager": "terrablender-release.jar",
+    "terrablender.api.Region": "terrablender-release.jar",
+    "net.fabricmc.fabric.api.registry.FlammableBlockRegistry": "fabric-content-registries-v0-11.3.2+37b1aa249e.jar",
+    "net.fabricmc.fabric.api.registry.CompostableRegistry": "fabric-content-registries-v0-11.3.2+37b1aa249e.jar",
+    "net.fabricmc.fabric.api.registry.StrippableBlockRegistry": "fabric-content-registries-v0-11.3.2+37b1aa249e.jar",
+    "net.fabricmc.fabric.api.biome.v1.BiomeModifications": "fabric-biome-api-v1-18.0.6+c7bd5b8e9e.jar",
+    "net.fabricmc.fabric.api.biome.v1.ModificationPhase": "fabric-biome-api-v1-18.0.6+c7bd5b8e9e.jar",
+    "net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab": "fabric-creative-tab-api-v1-5.0.15+6468574f9e.jar"
+  },
+  "missing_checked_imports": [],
+  "selected_member_signatures_reviewed": [
+    "TreeFromStructureNBTConfigV2.CODEC / canopyLocation / height",
+    "TYGFeatures.TREE_FROM_NBT_V2",
+    "IntProvider.maxInclusive",
+    "TerraBlenderApi.onTerraBlenderInitialized",
+    "SurfaceRuleManager.addSurfaceRules",
+    "EndBiomeRegistry.registerHighlandsBiome / registerMidlandsBiome / registerIslandBiome",
+    "Region.addBiomeSimilar / addBiome",
+    "BiomeModificationContext spawn/generation methods",
+    "MobSpawnSettings.SpawnerData",
+    "Item.Properties.food / setId / useBlockDescriptionPrefix",
+    "FabricCreativeModeTab.builder",
+    "CompostableRegistry.INSTANCE",
+    "Screen.extractRenderState / extractBackground",
+    "IWailaPlugin.registerClient",
+    "IBlockComponentProvider.appendTooltip / getUid",
+    "ModMenuApi.getModConfigScreenFactory",
+    "FloraSapling superclass constructor/protected fields and codec",
+    "StairBlock protected constructor",
+    "SurfaceRules.isBiome with HolderGetter"
+  ],
+  "compiler_or_game_executed": false,
+  "limitations": "Import existence and selected signatures are not Java type checking or runtime validation."
+}

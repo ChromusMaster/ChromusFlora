@@ -1,0 +1,34 @@
+{
+  "artifacts": [
+    {
+      "component": "Minecraft",
+      "inspected_artifact_sha256": "40896ee9f1e2bec3c934daac7e93d41e9e3d9c2f8ae0ca366d52ffbfd1afa290"
+    },
+    {
+      "component": "Fabric API",
+      "inspected_artifact_sha256": "e5b858ceb13290c274e31cb888ff5a1a40cb91067e7ffab0b5b775aec51e216a"
+    },
+    {
+      "component": "TerraBlender",
+      "inspected_artifact_sha256": "e4c54e7490cf6716ccc287f5ef674562666a13c6a4afabdc344d5cb62e9cb584"
+    },
+    {
+      "component": "Oh The Trees Youll Grow",
+      "inspected_artifact_sha256": "f72de9d7f5dca31854c51e21a6e13d0c9ac8618575c570e1e97a0002a40666d4"
+    },
+    {
+      "component": "Jade",
+      "inspected_artifact_sha256": "ffe5d2e83a531c3fbe75ad54095e6a9eafc73a38d5827b4c90bedb4b03618b87"
+    },
+    {
+      "component": "ModMenu",
+      "inspected_artifact_sha256": "00865605007fbf26d4712b40ccdd55b1cdebad79a9ccfcc1ff635ed522f5bb27"
+    },
+    {
+      "component": "AppleSkin",
+      "inspected_artifact_sha256": "e92f4d28973aec7ba9dbbfa74d163a1fadab0288fb3482247eb443cf03aa2178"
+    }
+  ],
+  "jars_bundled": false,
+  "gradle_9_5_1_distribution_sha256": "bafc141b619ad6350fd975fc903156dd5c151998cc8b058e8c1044ab5f7b031f"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:yellow_spruce_planks"
+  },
+  "result": {
+    "id": "chromusflora:yellow_spruce_stairs",
+    "count": 4
+  }
+}

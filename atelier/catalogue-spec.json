@@ -1,0 +1,5106 @@
+{
+  "format": 1,
+  "trees": [
+    {
+      "id": "ancient",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 64
+    },
+    {
+      "id": "araucaria",
+      "shape": "conifer",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "aspen",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "baobab",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 64
+    },
+    {
+      "id": "birch",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "blue_enchanted",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "blue_spruce",
+      "shape": "conifer",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "bluff",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "brown_birch",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "brown_oak",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "brown_zelkova",
+      "shape": "spreading",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "bulbis",
+      "shape": "fungus",
+      "palette": 1,
+      "dimension": "end",
+      "maxHeight": 48
+    },
+    {
+      "id": "cika",
+      "shape": "conifer",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "crimson_fungus",
+      "shape": "fungus",
+      "palette": 1,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "cypress",
+      "shape": "weeping",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "death_cap",
+      "shape": "fungus",
+      "palette": 1,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "deciduous",
+      "shape": "spreading",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "ebony",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "embur",
+      "shape": "fungus",
+      "palette": 0,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "ether",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "end",
+      "maxHeight": 48
+    },
+    {
+      "id": "fir",
+      "shape": "conifer",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "firecracker",
+      "shape": "conifer",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "florus_rose",
+      "shape": "orb",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "florus_thorn",
+      "shape": "orb",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "forgotten",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "fungal_imparius",
+      "shape": "fungus",
+      "palette": 3,
+      "dimension": "end",
+      "maxHeight": 48
+    },
+    {
+      "id": "giant_allium",
+      "shape": "orb",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "giant_pink_allium",
+      "shape": "orb",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "giant_white_allium",
+      "shape": "orb",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "green_enchanted",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "green_mushroom",
+      "shape": "fungus",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "holly",
+      "shape": "spreading",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "imparius",
+      "shape": "fungus",
+      "palette": 2,
+      "dimension": "end",
+      "maxHeight": 48
+    },
+    {
+      "id": "indigo_jacaranda",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "ironwood",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "jacaranda",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "joshua",
+      "shape": "candelabra",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "lament",
+      "shape": "weeping",
+      "palette": 3,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "mahogany",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 64
+    },
+    {
+      "id": "maple",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "meadow",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "nightshade",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "end",
+      "maxHeight": 48
+    },
+    {
+      "id": "oak",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "orange_birch",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "orange_oak",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "orange_spruce",
+      "shape": "conifer",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "orchard",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "palm",
+      "shape": "palm",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "palo_verde",
+      "shape": "candelabra",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "pine",
+      "shape": "conifer",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "pink_cherry",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "prairie",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "purple_bulbis",
+      "shape": "fungus",
+      "palette": 1,
+      "dimension": "end",
+      "maxHeight": 48
+    },
+    {
+      "id": "rainbow_eucalyptus",
+      "shape": "spreading",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "red_birch",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "red_maple",
+      "shape": "spreading",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "red_oak",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "red_spruce",
+      "shape": "conifer",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "redwood",
+      "shape": "conifer",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 64
+    },
+    {
+      "id": "shulkren",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "end",
+      "maxHeight": 48
+    },
+    {
+      "id": "silver_maple",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "skyris",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 64
+    },
+    {
+      "id": "soul_shroom",
+      "shape": "fungus",
+      "palette": 0,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "spirit",
+      "shape": "spreading",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "spruce",
+      "shape": "conifer",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "sythian",
+      "shape": "fungus",
+      "palette": 0,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "wailing",
+      "shape": "weeping",
+      "palette": 1,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "warped_coral",
+      "shape": "candelabra",
+      "palette": 1,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "warped_fungus",
+      "shape": "fungus",
+      "palette": 2,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "weeping_milkcap",
+      "shape": "fungus",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "white_cherry",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "white_mangrove",
+      "shape": "weeping",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "white_sakura",
+      "shape": "spreading",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "willow",
+      "shape": "weeping",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "witch_hazel",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "withering_oak",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "nether",
+      "maxHeight": 48
+    },
+    {
+      "id": "wood_blewit",
+      "shape": "fungus",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "woodlands",
+      "shape": "spreading",
+      "palette": 3,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "yellow_birch",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "yellow_sakura",
+      "shape": "spreading",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "yellow_spruce",
+      "shape": "conifer",
+      "palette": 2,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "yucca",
+      "shape": "palm",
+      "palette": 1,
+      "dimension": "overworld",
+      "maxHeight": 48
+    },
+    {
+      "id": "zelkova",
+      "shape": "spreading",
+      "palette": 0,
+      "dimension": "overworld",
+      "maxHeight": 48
+    }
+  ],
+  "biomes": [
+    {
+      "id": "allium_fields",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "allium_shrubland",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "amaranth_fields",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "amaranth_grassland",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "araucaria_savanna",
+      "dimension": "overworld",
+      "vanilla": "minecraft:savanna",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "araucaria",
+        "baobab",
+        "palm"
+      ],
+      "density": 2
+    },
+    {
+      "id": "arisian_undergrowth",
+      "dimension": "nether",
+      "vanilla": "minecraft:warped_forest",
+      "surface": "minecraft:warped_nylium",
+      "trees": [
+        "withering_oak",
+        "lament",
+        "warped_fungus"
+      ],
+      "density": 4
+    },
+    {
+      "id": "aspen_boreal",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "aspen_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:birch_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "aspen",
+        "birch",
+        "yellow_birch"
+      ],
+      "density": 5
+    },
+    {
+      "id": "atacama_desert",
+      "dimension": "overworld",
+      "vanilla": "minecraft:desert",
+      "surface": "minecraft:sand",
+      "trees": [
+        "joshua",
+        "yucca",
+        "palo_verde",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "atacama_outback",
+      "dimension": "overworld",
+      "vanilla": "minecraft:desert",
+      "surface": "minecraft:sand",
+      "trees": [
+        "joshua",
+        "yucca",
+        "palo_verde",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "autumnal_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "red_oak",
+        "orange_oak",
+        "brown_birch",
+        "red_maple"
+      ],
+      "density": 4
+    },
+    {
+      "id": "autumnal_taiga",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "autumnal_valley",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "baobab_savanna",
+      "dimension": "overworld",
+      "vanilla": "minecraft:savanna",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "araucaria",
+        "baobab",
+        "palm"
+      ],
+      "density": 2
+    },
+    {
+      "id": "basalt_barrera",
+      "dimension": "overworld",
+      "vanilla": "minecraft:stony_shore",
+      "surface": "minecraft:basalt",
+      "trees": [
+        "bluff",
+        "pine"
+      ],
+      "density": 1
+    },
+    {
+      "id": "bayou",
+      "dimension": "overworld",
+      "vanilla": "minecraft:swamp",
+      "surface": "minecraft:mud",
+      "trees": [
+        "cypress",
+        "white_mangrove",
+        "willow"
+      ],
+      "density": 5
+    },
+    {
+      "id": "black_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "borealis_grove",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "brimstone_caverns",
+      "dimension": "nether",
+      "vanilla": "minecraft:basalt_deltas",
+      "surface": "minecraft:basalt",
+      "trees": [
+        "warped_coral",
+        "embur"
+      ],
+      "density": 2
+    },
+    {
+      "id": "bulbis_gardens",
+      "dimension": "end",
+      "vanilla": "minecraft:end_highlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "bulbis",
+        "purple_bulbis",
+        "imparius",
+        "shulkren",
+        "nightshade"
+      ],
+      "density": 4
+    },
+    {
+      "id": "canadian_shield",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "cardinal_tundra",
+      "dimension": "overworld",
+      "vanilla": "minecraft:snowy_taiga",
+      "surface": "minecraft:snow_block",
+      "trees": [
+        "blue_spruce",
+        "silver_maple",
+        "fir"
+      ],
+      "density": 3
+    },
+    {
+      "id": "cherry_blossom_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:cherry_grove",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "pink_cherry",
+        "white_cherry",
+        "white_sakura",
+        "yellow_sakura"
+      ],
+      "density": 5
+    },
+    {
+      "id": "cika_woods",
+      "dimension": "overworld",
+      "vanilla": "minecraft:taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "cika",
+        "spruce",
+        "green_mushroom"
+      ],
+      "density": 5
+    },
+    {
+      "id": "coconino_meadow",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "coniferous_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "crag_gardens",
+      "dimension": "overworld",
+      "vanilla": "minecraft:jungle",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "mahogany",
+        "jacaranda",
+        "rainbow_eucalyptus",
+        "blue_enchanted",
+        "green_enchanted"
+      ],
+      "density": 6
+    },
+    {
+      "id": "crimson_gardens",
+      "dimension": "nether",
+      "vanilla": "minecraft:crimson_forest",
+      "surface": "minecraft:crimson_nylium",
+      "trees": [
+        "embur",
+        "sythian",
+        "crimson_fungus",
+        "death_cap"
+      ],
+      "density": 5
+    },
+    {
+      "id": "crimson_tundra",
+      "dimension": "overworld",
+      "vanilla": "minecraft:snowy_taiga",
+      "surface": "minecraft:snow_block",
+      "trees": [
+        "red_spruce",
+        "red_maple",
+        "florus_rose"
+      ],
+      "density": 3
+    },
+    {
+      "id": "cryptic_wastes",
+      "dimension": "end",
+      "vanilla": "minecraft:end_midlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "ether",
+        "nightshade",
+        "fungal_imparius"
+      ],
+      "density": 2
+    },
+    {
+      "id": "cypress_swamplands",
+      "dimension": "overworld",
+      "vanilla": "minecraft:swamp",
+      "surface": "minecraft:mud",
+      "trees": [
+        "cypress",
+        "white_mangrove",
+        "willow",
+        "yellow_spruce"
+      ],
+      "density": 5
+    },
+    {
+      "id": "cypress_wetlands",
+      "dimension": "overworld",
+      "vanilla": "minecraft:swamp",
+      "surface": "minecraft:mud",
+      "trees": [
+        "cypress",
+        "white_mangrove",
+        "willow"
+      ],
+      "density": 5
+    },
+    {
+      "id": "dacite_ridges",
+      "dimension": "overworld",
+      "vanilla": "minecraft:stony_peaks",
+      "surface": "minecraft:calcite",
+      "trees": [
+        "bluff",
+        "pine",
+        "florus_thorn"
+      ],
+      "density": 2
+    },
+    {
+      "id": "dacite_shore",
+      "dimension": "overworld",
+      "vanilla": "minecraft:stony_shore",
+      "surface": "minecraft:basalt",
+      "trees": [
+        "bluff",
+        "pine"
+      ],
+      "density": 1
+    },
+    {
+      "id": "dead_sea",
+      "dimension": "overworld",
+      "vanilla": "minecraft:warm_ocean",
+      "surface": "minecraft:sand",
+      "trees": [
+        "palm",
+        "white_mangrove"
+      ],
+      "density": 0
+    },
+    {
+      "id": "ebony_woods",
+      "dimension": "overworld",
+      "vanilla": "minecraft:dark_forest",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "ebony",
+        "ancient",
+        "witch_hazel",
+        "forgotten"
+      ],
+      "density": 6
+    },
+    {
+      "id": "embur_bog",
+      "dimension": "nether",
+      "vanilla": "minecraft:crimson_forest",
+      "surface": "minecraft:crimson_nylium",
+      "trees": [
+        "embur",
+        "sythian",
+        "crimson_fungus",
+        "death_cap"
+      ],
+      "density": 5
+    },
+    {
+      "id": "enchanted_tangle",
+      "dimension": "overworld",
+      "vanilla": "minecraft:jungle",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "mahogany",
+        "jacaranda",
+        "rainbow_eucalyptus",
+        "blue_enchanted",
+        "green_enchanted"
+      ],
+      "density": 6
+    },
+    {
+      "id": "eroded_borealis",
+      "dimension": "overworld",
+      "vanilla": "minecraft:windswept_forest",
+      "surface": "minecraft:coarse_dirt",
+      "trees": [
+        "blue_spruce",
+        "spruce",
+        "spirit"
+      ],
+      "density": 3
+    },
+    {
+      "id": "ethereal_islands",
+      "dimension": "end",
+      "vanilla": "minecraft:end_midlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "ether",
+        "nightshade",
+        "fungal_imparius"
+      ],
+      "density": 2
+    },
+    {
+      "id": "firecracker_chaparral",
+      "dimension": "overworld",
+      "vanilla": "minecraft:desert",
+      "surface": "minecraft:sand",
+      "trees": [
+        "joshua",
+        "yucca",
+        "palo_verde",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "firecracker_shrubland",
+      "dimension": "overworld",
+      "vanilla": "minecraft:desert",
+      "surface": "minecraft:sand",
+      "trees": [
+        "joshua",
+        "yucca",
+        "palo_verde",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "forgotten_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:dark_forest",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "ebony",
+        "ancient",
+        "witch_hazel",
+        "forgotten"
+      ],
+      "density": 6
+    },
+    {
+      "id": "fragment_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "red_oak",
+        "orange_oak",
+        "brown_birch",
+        "red_maple"
+      ],
+      "density": 4
+    },
+    {
+      "id": "fragment_jungle",
+      "dimension": "overworld",
+      "vanilla": "minecraft:jungle",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "mahogany",
+        "jacaranda",
+        "rainbow_eucalyptus",
+        "blue_enchanted",
+        "green_enchanted"
+      ],
+      "density": 6
+    },
+    {
+      "id": "frosted_coniferous_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:snowy_taiga",
+      "surface": "minecraft:snow_block",
+      "trees": [
+        "blue_spruce",
+        "silver_maple",
+        "fir"
+      ],
+      "density": 3
+    },
+    {
+      "id": "frosted_taiga",
+      "dimension": "overworld",
+      "vanilla": "minecraft:snowy_taiga",
+      "surface": "minecraft:snow_block",
+      "trees": [
+        "blue_spruce",
+        "silver_maple",
+        "fir",
+        "woodlands"
+      ],
+      "density": 3
+    },
+    {
+      "id": "glowstone_gardens",
+      "dimension": "nether",
+      "vanilla": "minecraft:basalt_deltas",
+      "surface": "minecraft:basalt",
+      "trees": [
+        "warped_coral",
+        "embur"
+      ],
+      "density": 2
+    },
+    {
+      "id": "guiana_shield",
+      "dimension": "overworld",
+      "vanilla": "minecraft:jungle",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "mahogany",
+        "jacaranda",
+        "rainbow_eucalyptus",
+        "blue_enchanted",
+        "green_enchanted"
+      ],
+      "density": 6
+    },
+    {
+      "id": "howling_peaks",
+      "dimension": "overworld",
+      "vanilla": "minecraft:snowy_taiga",
+      "surface": "minecraft:snow_block",
+      "trees": [
+        "blue_spruce",
+        "silver_maple",
+        "fir",
+        "wood_blewit"
+      ],
+      "density": 3
+    },
+    {
+      "id": "imparius_grove",
+      "dimension": "end",
+      "vanilla": "minecraft:end_highlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "bulbis",
+        "purple_bulbis",
+        "imparius",
+        "shulkren",
+        "nightshade"
+      ],
+      "density": 4
+    },
+    {
+      "id": "ironwood_gour",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "ironwood",
+        "holly",
+        "giant_white_allium"
+      ],
+      "density": 5
+    },
+    {
+      "id": "ivis_fields",
+      "dimension": "end",
+      "vanilla": "minecraft:end_highlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "bulbis",
+        "purple_bulbis",
+        "imparius",
+        "shulkren",
+        "nightshade"
+      ],
+      "density": 4
+    },
+    {
+      "id": "jacaranda_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "jacaranda",
+        "indigo_jacaranda",
+        "deciduous"
+      ],
+      "density": 5
+    },
+    {
+      "id": "jacaranda_jungle",
+      "dimension": "overworld",
+      "vanilla": "minecraft:jungle",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "mahogany",
+        "jacaranda",
+        "rainbow_eucalyptus",
+        "blue_enchanted",
+        "green_enchanted"
+      ],
+      "density": 6
+    },
+    {
+      "id": "lush_stacks",
+      "dimension": "overworld",
+      "vanilla": "minecraft:warm_ocean",
+      "surface": "minecraft:sand",
+      "trees": [
+        "palm",
+        "white_mangrove"
+      ],
+      "density": 0
+    },
+    {
+      "id": "magma_wastes",
+      "dimension": "nether",
+      "vanilla": "minecraft:basalt_deltas",
+      "surface": "minecraft:basalt",
+      "trees": [
+        "warped_coral",
+        "embur"
+      ],
+      "density": 2
+    },
+    {
+      "id": "maple_taiga",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "mojave_desert",
+      "dimension": "overworld",
+      "vanilla": "minecraft:desert",
+      "surface": "minecraft:sand",
+      "trees": [
+        "joshua",
+        "yucca",
+        "palo_verde",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "nightshade_forest",
+      "dimension": "end",
+      "vanilla": "minecraft:end_highlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "bulbis",
+        "purple_bulbis",
+        "imparius",
+        "shulkren",
+        "nightshade"
+      ],
+      "density": 4
+    },
+    {
+      "id": "orchard",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "orchard",
+        "oak",
+        "brown_oak"
+      ],
+      "density": 4
+    },
+    {
+      "id": "overgrowth_woodlands",
+      "dimension": "overworld",
+      "vanilla": "minecraft:jungle",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "mahogany",
+        "jacaranda",
+        "rainbow_eucalyptus",
+        "blue_enchanted",
+        "green_enchanted"
+      ],
+      "density": 6
+    },
+    {
+      "id": "pale_bog",
+      "dimension": "overworld",
+      "vanilla": "minecraft:swamp",
+      "surface": "minecraft:mud",
+      "trees": [
+        "cypress",
+        "white_mangrove",
+        "willow"
+      ],
+      "density": 5
+    },
+    {
+      "id": "prairie",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "pumpkin_valley",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "quartz_desert",
+      "dimension": "nether",
+      "vanilla": "minecraft:basalt_deltas",
+      "surface": "minecraft:basalt",
+      "trees": [
+        "warped_coral",
+        "embur"
+      ],
+      "density": 2
+    },
+    {
+      "id": "rainbow_beach",
+      "dimension": "overworld",
+      "vanilla": "minecraft:beach",
+      "surface": "minecraft:sand",
+      "trees": [
+        "palm",
+        "rainbow_eucalyptus"
+      ],
+      "density": 1
+    },
+    {
+      "id": "red_oak_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "red_oak",
+        "orange_oak",
+        "brown_birch",
+        "red_maple"
+      ],
+      "density": 4
+    },
+    {
+      "id": "red_rock_peaks",
+      "dimension": "overworld",
+      "vanilla": "minecraft:badlands",
+      "surface": "minecraft:red_sand",
+      "trees": [
+        "palo_verde",
+        "red_oak",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "red_rock_valley",
+      "dimension": "overworld",
+      "vanilla": "minecraft:badlands",
+      "surface": "minecraft:red_sand",
+      "trees": [
+        "palo_verde",
+        "red_oak",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "redwood_thicket",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_spruce_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "redwood",
+        "fir",
+        "giant_pink_allium"
+      ],
+      "density": 5
+    },
+    {
+      "id": "rose_fields",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "rugged_badlands",
+      "dimension": "overworld",
+      "vanilla": "minecraft:badlands",
+      "surface": "minecraft:red_sand",
+      "trees": [
+        "palo_verde",
+        "red_oak",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "sakura_grove",
+      "dimension": "overworld",
+      "vanilla": "minecraft:cherry_grove",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "pink_cherry",
+        "white_cherry",
+        "white_sakura",
+        "yellow_sakura"
+      ],
+      "density": 5
+    },
+    {
+      "id": "shattered_glacier",
+      "dimension": "overworld",
+      "vanilla": "minecraft:snowy_taiga",
+      "surface": "minecraft:snow_block",
+      "trees": [
+        "blue_spruce",
+        "silver_maple",
+        "fir",
+        "red_birch"
+      ],
+      "density": 3
+    },
+    {
+      "id": "shulkren_forest",
+      "dimension": "end",
+      "vanilla": "minecraft:end_highlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "bulbis",
+        "purple_bulbis",
+        "imparius",
+        "shulkren",
+        "nightshade"
+      ],
+      "density": 4
+    },
+    {
+      "id": "sierra_badlands",
+      "dimension": "overworld",
+      "vanilla": "minecraft:badlands",
+      "surface": "minecraft:red_sand",
+      "trees": [
+        "palo_verde",
+        "red_oak",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "skyris_vale",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "skyris",
+        "holly",
+        "orange_birch"
+      ],
+      "density": 5
+    },
+    {
+      "id": "subzero_hypogeal",
+      "dimension": "nether",
+      "vanilla": "minecraft:warped_forest",
+      "surface": "minecraft:warped_nylium",
+      "trees": [
+        "warped_fungus",
+        "warped_coral"
+      ],
+      "density": 3
+    },
+    {
+      "id": "sythian_torrids",
+      "dimension": "nether",
+      "vanilla": "minecraft:crimson_forest",
+      "surface": "minecraft:crimson_nylium",
+      "trees": [
+        "embur",
+        "sythian",
+        "crimson_fungus",
+        "death_cap"
+      ],
+      "density": 5
+    },
+    {
+      "id": "temperate_grove",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "red_oak",
+        "orange_oak",
+        "brown_birch",
+        "red_maple"
+      ],
+      "density": 4
+    },
+    {
+      "id": "temperate_rainforest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:old_growth_pine_taiga",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "fir",
+        "pine",
+        "maple",
+        "aspen",
+        "blue_spruce"
+      ],
+      "density": 6
+    },
+    {
+      "id": "tropical_rainforest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:jungle",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "mahogany",
+        "jacaranda",
+        "rainbow_eucalyptus",
+        "blue_enchanted",
+        "green_enchanted"
+      ],
+      "density": 6
+    },
+    {
+      "id": "twilight_meadow",
+      "dimension": "overworld",
+      "vanilla": "minecraft:flower_forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "giant_allium",
+        "meadow",
+        "prairie",
+        "oak"
+      ],
+      "density": 2
+    },
+    {
+      "id": "viscal_isles",
+      "dimension": "end",
+      "vanilla": "minecraft:end_midlands",
+      "surface": "minecraft:end_stone",
+      "trees": [
+        "ether",
+        "nightshade",
+        "fungal_imparius"
+      ],
+      "density": 2
+    },
+    {
+      "id": "wailing_garth",
+      "dimension": "nether",
+      "vanilla": "minecraft:soul_sand_valley",
+      "surface": "minecraft:soul_soil",
+      "trees": [
+        "wailing",
+        "lament",
+        "withering_oak",
+        "soul_shroom"
+      ],
+      "density": 3
+    },
+    {
+      "id": "warped_desert",
+      "dimension": "nether",
+      "vanilla": "minecraft:warped_forest",
+      "surface": "minecraft:warped_nylium",
+      "trees": [
+        "warped_fungus",
+        "warped_coral"
+      ],
+      "density": 3
+    },
+    {
+      "id": "weeping_mire",
+      "dimension": "nether",
+      "vanilla": "minecraft:soul_sand_valley",
+      "surface": "minecraft:soul_soil",
+      "trees": [
+        "wailing",
+        "lament",
+        "withering_oak",
+        "soul_shroom"
+      ],
+      "density": 3
+    },
+    {
+      "id": "weeping_witch_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:dark_forest",
+      "surface": "minecraft:podzol",
+      "trees": [
+        "ebony",
+        "ancient",
+        "witch_hazel",
+        "forgotten"
+      ],
+      "density": 6
+    },
+    {
+      "id": "white_mangrove_marshes",
+      "dimension": "overworld",
+      "vanilla": "minecraft:swamp",
+      "surface": "minecraft:mud",
+      "trees": [
+        "cypress",
+        "white_mangrove",
+        "willow"
+      ],
+      "density": 5
+    },
+    {
+      "id": "windswept_desert",
+      "dimension": "overworld",
+      "vanilla": "minecraft:desert",
+      "surface": "minecraft:sand",
+      "trees": [
+        "joshua",
+        "yucca",
+        "palo_verde",
+        "firecracker"
+      ],
+      "density": 1
+    },
+    {
+      "id": "zelkova_forest",
+      "dimension": "overworld",
+      "vanilla": "minecraft:forest",
+      "surface": "minecraft:grass_block",
+      "trees": [
+        "zelkova",
+        "brown_zelkova",
+        "orange_spruce",
+        "weeping_milkcap"
+      ],
+      "density": 5
+    }
+  ],
+  "variants": [
+    {
+      "id": "ancient_tree1",
+      "tree": "ancient",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ancient_tree2",
+      "tree": "ancient",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ancient_tree3",
+      "tree": "ancient",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "araucaria_tree1",
+      "tree": "araucaria",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "araucaria_tree2",
+      "tree": "araucaria",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "araucaria_trees",
+      "tree": "araucaria",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "aspen_shrub1",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "aspen_shrub2",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "aspen_shrubs",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "aspen_tree1",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "aspen_tree2",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "aspen_tree3",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "aspen_tree4",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "aspen_tree5",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "aspen_trees",
+      "tree": "aspen",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "autumnal_oak_trees",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "autumnal_spruce_trees",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "baobab_tree1",
+      "tree": "baobab",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "baobab_tree2",
+      "tree": "baobab",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "baobab_tree3",
+      "tree": "baobab",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "baobab_trees",
+      "tree": "baobab",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "base_spirit_tree1",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "base_spirit_tree2",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "base_spirit_tree3",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "base_spirit_tree4",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bayou_trees",
+      "tree": "cypress",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "birch_boreal_tree1",
+      "tree": "birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "birch_tree1",
+      "tree": "birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "birch_tree2",
+      "tree": "birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "birch_tree3",
+      "tree": "birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "birch_tree4",
+      "tree": "birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "birch_trees",
+      "tree": "birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "birch_yellow_boreal_tree1",
+      "tree": "yellow_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "black_forest_trees",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "blue_enchanted_sapling_tree1",
+      "tree": "blue_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "blue_enchanted_sapling_tree2",
+      "tree": "blue_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "blue_enchanted_sapling_tree3",
+      "tree": "blue_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "blue_enchanted_tree1",
+      "tree": "blue_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "blue_enchanted_tree2",
+      "tree": "blue_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "blue_enchanted_tree3",
+      "tree": "blue_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "blue_enchanted_tree4",
+      "tree": "blue_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "blue_spruce_trees",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "bluff_tree1",
+      "tree": "bluff",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bluff_tree2",
+      "tree": "bluff",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "boreal_trees",
+      "tree": "blue_spruce",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "brown_birch_tree1",
+      "tree": "brown_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_birch_tree2",
+      "tree": "brown_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_birch_tree3",
+      "tree": "brown_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_birch_tree4",
+      "tree": "brown_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_oak_tree1",
+      "tree": "brown_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_oak_tree2",
+      "tree": "brown_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_oak_tree3",
+      "tree": "brown_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_oak_trees",
+      "tree": "brown_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "brown_zelkova_tree1",
+      "tree": "brown_zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_zelkova_tree2",
+      "tree": "brown_zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_zelkova_tree3",
+      "tree": "brown_zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "brown_zelkova_trees",
+      "tree": "brown_zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "bulbis_bush1",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_tree1",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_tree2",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_tree3",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_tree4",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_tree5",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_tree6",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_tree7",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "bulbis_trees",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "canadian_shield_trees",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "cherry_trees",
+      "tree": "pink_cherry",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "cika_tree1",
+      "tree": "cika",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "cika_tree2",
+      "tree": "cika",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "cika_tree3",
+      "tree": "cika",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "cika_trees",
+      "tree": "cika",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "conifer_tree1",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_tree2",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_tree3",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_tree4",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_tree5",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_tree6",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_tree7",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_tree8",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "conifer_trees",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "crimson_fungus1",
+      "tree": "crimson_fungus",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "crimson_fungus2",
+      "tree": "crimson_fungus",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "cypress_tree1",
+      "tree": "cypress",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "cypress_tree2",
+      "tree": "cypress",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "cypress_tree3",
+      "tree": "cypress",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "cypress_trees",
+      "tree": "cypress",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "dacite_ridge_trees",
+      "tree": "pine",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "dead_ether_trees",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "dead_willow_tree1",
+      "tree": "willow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "death_cap_tree1",
+      "tree": "death_cap",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "death_cap_tree2",
+      "tree": "death_cap",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "death_cap_tree3",
+      "tree": "death_cap",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "death_cap_trees",
+      "tree": "death_cap",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "deciduous_tree1",
+      "tree": "deciduous",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "deciduous_tree2",
+      "tree": "deciduous",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "deciduous_tree3",
+      "tree": "deciduous",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "deciduous_tree4",
+      "tree": "deciduous",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "deciduous_trees",
+      "tree": "deciduous",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "ebony_bush1",
+      "tree": "ebony",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ebony_tree1",
+      "tree": "ebony",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ebony_tree2",
+      "tree": "ebony",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ebony_trees",
+      "tree": "ebony",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "embur_mushroom1",
+      "tree": "embur",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "embur_mushroom2",
+      "tree": "embur",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "embur_mushroom3",
+      "tree": "embur",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "embur_mushroom4",
+      "tree": "embur",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "enchanted_trees",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "ether_bush1",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree1",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree2",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree3",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree4",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree5",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree_dead1",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree_dead2",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_tree_dead3",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ether_trees",
+      "tree": "ether",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "firecracker_bush1",
+      "tree": "firecracker",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "firecracker_shrub",
+      "tree": "firecracker",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "firecracker_shrub2",
+      "tree": "firecracker",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "firecracker_shrubs",
+      "tree": "firecracker",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "florus_rose_1",
+      "tree": "florus_rose",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "florus_thorn_1",
+      "tree": "florus_thorn",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "florus_trees",
+      "tree": "florus_rose",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "flowering_ironwood_tree1",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "flowering_ironwood_tree2",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "flowering_ironwood_tree3",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "flowering_ironwood_tree4",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "flowering_ironwood_trees",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "forgotten_forest_trees",
+      "tree": "forgotten",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "forgotten_tree1",
+      "tree": "forgotten",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "fragment_jungle_trees",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "fungal_imparius1",
+      "tree": "fungal_imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "fungal_imparius2",
+      "tree": "fungal_imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "fungal_imparius3",
+      "tree": "fungal_imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "fungal_imparius4",
+      "tree": "fungal_imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "fungal_imparius5",
+      "tree": "fungal_imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_allium_1",
+      "tree": "giant_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_allium_2",
+      "tree": "giant_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_allium_3",
+      "tree": "giant_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_alliums",
+      "tree": "giant_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "giant_pink_allium_1",
+      "tree": "giant_pink_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_pink_allium_2",
+      "tree": "giant_pink_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_pink_allium_3",
+      "tree": "giant_pink_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_white_allium_1",
+      "tree": "giant_white_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_white_allium_2",
+      "tree": "giant_white_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "giant_white_allium_3",
+      "tree": "giant_white_allium",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "green_enchanted_sapling_tree1",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "green_enchanted_sapling_tree2",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "green_enchanted_sapling_tree3",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "green_enchanted_tree1",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "green_enchanted_tree2",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "green_enchanted_tree3",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "green_enchanted_tree4",
+      "tree": "green_enchanted",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "guiana_shield_trees",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "holly_tree1",
+      "tree": "holly",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "holly_tree2",
+      "tree": "holly",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "holly_tree3",
+      "tree": "holly",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "holly_tree4",
+      "tree": "holly",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "holly_trees",
+      "tree": "holly",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "huge_green_mushroom",
+      "tree": "green_mushroom",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "huge_green_mushroom1",
+      "tree": "green_mushroom",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "huge_mushrooms",
+      "tree": "green_mushroom",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "huge_weeping_milkcap",
+      "tree": "weeping_milkcap",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "huge_weeping_milkcap1",
+      "tree": "weeping_milkcap",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "huge_wood_blewit",
+      "tree": "wood_blewit",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "huge_wood_blewit1",
+      "tree": "wood_blewit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "imparius_mushroom1",
+      "tree": "imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "imparius_mushroom2",
+      "tree": "imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "imparius_mushroom3",
+      "tree": "imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "imparius_mushroom4",
+      "tree": "imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "imparius_mushroom5",
+      "tree": "imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "imparius_mushroom6",
+      "tree": "imparius",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "indigo_jacaranda_tree1",
+      "tree": "indigo_jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "indigo_jacaranda_tree2",
+      "tree": "indigo_jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "indigo_jacaranda_tree3",
+      "tree": "indigo_jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "indigo_jacaranda_tree4",
+      "tree": "indigo_jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ironwood_tree",
+      "tree": "ironwood",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ironwood_tree1",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ironwood_tree2",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ironwood_tree3",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ironwood_tree4",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "ironwood_trees",
+      "tree": "ironwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "jacaranda_tree1",
+      "tree": "jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "jacaranda_tree2",
+      "tree": "jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "jacaranda_tree3",
+      "tree": "jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "jacaranda_tree4",
+      "tree": "jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "jacaranda_trees",
+      "tree": "jacaranda",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "joshua_tree1",
+      "tree": "joshua",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "joshua_tree2",
+      "tree": "joshua",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "joshua_trees",
+      "tree": "joshua",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "jungle_bush1",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "lament_twisty_tree1",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "lament_twisty_tree2",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "lament_twisty_tree3",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "lament_weeping_tree1",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "lament_weeping_tree2",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "lament_weeping_tree3",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_brown_oak_tree1",
+      "tree": "brown_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_brown_oak_tree2",
+      "tree": "brown_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_brown_oak_tree3",
+      "tree": "brown_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_oak_tree1",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_oak_tree2",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_oak_tree3",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_orange_oak_tree1",
+      "tree": "orange_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_orange_oak_tree2",
+      "tree": "orange_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_orange_oak_tree3",
+      "tree": "orange_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_pine_tree1",
+      "tree": "pine",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_pine_tree2",
+      "tree": "pine",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_red_oak_tree1",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_red_oak_tree2",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "large_red_oak_tree3",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "mahogany_tree1",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "mahogany_tree2",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "mahogany_tree3",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "mahogany_tree4",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "mahogany_trees",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "maple_taiga_trees",
+      "tree": "maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "maple_tree1",
+      "tree": "maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "maple_tree2",
+      "tree": "maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "maple_tree3",
+      "tree": "maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "maple_tree4",
+      "tree": "maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "maple_tree5",
+      "tree": "maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "maple_trees",
+      "tree": "maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "meadow_shrub1",
+      "tree": "meadow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "meadow_shrub2",
+      "tree": "meadow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "meadow_shrubs",
+      "tree": "meadow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "meadow_tree1",
+      "tree": "meadow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "meadow_tree2",
+      "tree": "meadow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "meadow_tree3",
+      "tree": "meadow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "meadow_trees",
+      "tree": "meadow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "mixed_color_bulbis_trees",
+      "tree": "bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "nightshade_shrub1",
+      "tree": "nightshade",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "nightshade_shrub2",
+      "tree": "nightshade",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "nightshade_tree1",
+      "tree": "nightshade",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "nightshade_tree2",
+      "tree": "nightshade",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "nightshade_tree3",
+      "tree": "nightshade",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "nightshade_tree4",
+      "tree": "nightshade",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "nightshade_trees",
+      "tree": "nightshade",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "northern_forest_trees",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "oak_bush1",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "oak_bushes",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "oak_tree1",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "oak_tree2",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "oak_tree3",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "oak_trees",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "oak_trees_swamp",
+      "tree": "oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_birch_tree1",
+      "tree": "orange_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_birch_tree2",
+      "tree": "orange_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_birch_tree3",
+      "tree": "orange_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_birch_tree4",
+      "tree": "orange_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_birch_trees",
+      "tree": "orange_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "orange_oak_tree1",
+      "tree": "orange_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_oak_tree2",
+      "tree": "orange_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_oak_tree3",
+      "tree": "orange_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orange_oak_trees",
+      "tree": "orange_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "orange_spruce_trees",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "orchard_tree1",
+      "tree": "orchard",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orchard_tree2",
+      "tree": "orchard",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orchard_tree3",
+      "tree": "orchard",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orchard_tree4",
+      "tree": "orchard",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orchard_tree5",
+      "tree": "orchard",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "orchard_trees",
+      "tree": "orchard",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "overgrowth_woodlans_trees",
+      "tree": "woodlands",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "palm_tree1",
+      "tree": "palm",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "palm_tree2",
+      "tree": "palm",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "palm_tree3",
+      "tree": "palm",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "palm_tree4",
+      "tree": "palm",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "palm_trees",
+      "tree": "palm",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "palo_verde_tree1",
+      "tree": "palo_verde",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "palo_verde_tree2",
+      "tree": "palo_verde",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "palo_verde_trees",
+      "tree": "palo_verde",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "pine_tree1",
+      "tree": "pine",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "pine_tree2",
+      "tree": "pine",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "pink_cherry_tree1",
+      "tree": "pink_cherry",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "pink_cherry_tree2",
+      "tree": "pink_cherry",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "prairie_shrub1",
+      "tree": "prairie",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "prairie_shrub2",
+      "tree": "prairie",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "prairie_shrubs",
+      "tree": "prairie",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "purple_bulbis_bush1",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_tree1",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_tree2",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_tree3",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_tree4",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_tree5",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_tree6",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_tree7",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "purple_bulbis_trees",
+      "tree": "purple_bulbis",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "rainbow_eucalyptus_large_tree1",
+      "tree": "rainbow_eucalyptus",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "rainbow_eucalyptus_tree1",
+      "tree": "rainbow_eucalyptus",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "rainbow_eucalyptus_trees",
+      "tree": "rainbow_eucalyptus",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "rainforest_trees",
+      "tree": "mahogany",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "red_birch_tree1",
+      "tree": "red_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_birch_tree2",
+      "tree": "red_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_birch_tree3",
+      "tree": "red_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_birch_tree4",
+      "tree": "red_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_maple_tree1",
+      "tree": "red_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_maple_tree2",
+      "tree": "red_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_maple_tree3",
+      "tree": "red_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_maple_tree4",
+      "tree": "red_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_maple_tree5",
+      "tree": "red_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_maple_trees",
+      "tree": "red_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "red_oak_tree1",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_oak_tree2",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_oak_tree3",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "red_oak_trees",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "red_rock_valley_trees",
+      "tree": "palo_verde",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "red_spruce_trees",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "redwood_tree1",
+      "tree": "redwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "redwood_tree2",
+      "tree": "redwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "redwood_tree3",
+      "tree": "redwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "redwood_trees",
+      "tree": "redwood",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "rose_field_spruce_trees",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "shulkren_tree1",
+      "tree": "shulkren",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "shulkren_tree2",
+      "tree": "shulkren",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "shulkren_trees",
+      "tree": "shulkren",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "silver_maple_tree1",
+      "tree": "silver_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "silver_maple_tree2",
+      "tree": "silver_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "silver_maple_tree3",
+      "tree": "silver_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "silver_maple_tree4",
+      "tree": "silver_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "silver_maple_tree5",
+      "tree": "silver_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "silver_maple_trees",
+      "tree": "silver_maple",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "skyris_tree1",
+      "tree": "skyris",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "skyris_tree2",
+      "tree": "skyris",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "skyris_tree3",
+      "tree": "skyris",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "skyris_tree4",
+      "tree": "skyris",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "skyris_tree5",
+      "tree": "skyris",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "skyris_tree6",
+      "tree": "skyris",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "skyris_trees",
+      "tree": "skyris",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "soul_shroom_tree1",
+      "tree": "soul_shroom",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "soul_shroom_tree2",
+      "tree": "soul_shroom",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "soul_shroom_tree3",
+      "tree": "soul_shroom",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "soul_shroom_trees",
+      "tree": "soul_shroom",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "spirit_tree1",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spirit_tree2",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spirit_tree3",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spirit_tree4",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spirit_trees",
+      "tree": "spirit",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "spruce_blue_tree1",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree2",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree3",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree4",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree_large1",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree_medium1",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree_medium2",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree_medium3",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_blue_tree_medium4",
+      "tree": "blue_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree1",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree2",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree3",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree4",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree_large1",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree_medium1",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree_medium2",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree_medium3",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_orange_tree_medium4",
+      "tree": "orange_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree1",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree2",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree3",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree4",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree_large1",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree_medium1",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree_medium2",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree_medium3",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_red_tree_medium4",
+      "tree": "red_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree1",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree2",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree3",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree4",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree_large1",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree_medium1",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree_medium2",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree_medium3",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_tree_medium4",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_trees",
+      "tree": "spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "spruce_yellow_tree1",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree2",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree3",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree4",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree_large1",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree_medium1",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree_medium2",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree_medium3",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "spruce_yellow_tree_medium4",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "stone_forest_trees",
+      "tree": "ironwood",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "sythian_fungi_trees",
+      "tree": "sythian",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "sythian_fungus_pillars",
+      "tree": "sythian",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "sythian_fungus_tree1",
+      "tree": "sythian",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "sythian_fungus_tree2",
+      "tree": "sythian",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "sythian_fungus_tree3",
+      "tree": "sythian",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "sythian_fungus_tree4",
+      "tree": "sythian",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "temperate_grove_trees",
+      "tree": "red_oak",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "temperate_rainforest_trees",
+      "tree": "fir",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "tropical_shrub1",
+      "tree": "palm",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "twisty_lament_trees",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "wailing_pillar1",
+      "tree": "wailing",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "warped_fungus1",
+      "tree": "warped_fungus",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "warped_fungus2",
+      "tree": "warped_fungus",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "weeping_lament_trees",
+      "tree": "lament",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "white_cherry_tree1",
+      "tree": "white_cherry",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_cherry_tree2",
+      "tree": "white_cherry",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_mangrove_tree1",
+      "tree": "white_mangrove",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_mangrove_tree2",
+      "tree": "white_mangrove",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_mangrove_tree3",
+      "tree": "white_mangrove",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_mangrove_tree4",
+      "tree": "white_mangrove",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_mangrove_tree5",
+      "tree": "white_mangrove",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_mangrove_trees",
+      "tree": "white_mangrove",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "white_sakura_tree1",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_sakura_tree2",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_sakura_tree3",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_sakura_tree4",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_sakura_tree5",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_sakura_tree6",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_sakura_tree7",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "white_sakura_trees",
+      "tree": "white_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "willow_tree1",
+      "tree": "willow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "willow_tree2",
+      "tree": "willow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "willow_tree3",
+      "tree": "willow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "willow_tree4",
+      "tree": "willow",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "witch_hazel1",
+      "tree": "witch_hazel",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "witch_hazel2",
+      "tree": "witch_hazel",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "witch_hazel3",
+      "tree": "witch_hazel",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "witch_hazel4",
+      "tree": "witch_hazel",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "witch_hazel5",
+      "tree": "witch_hazel",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "witch_hazel_trees",
+      "tree": "witch_hazel",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "withering_oak_tree1",
+      "tree": "withering_oak",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "withering_oak_tree2",
+      "tree": "withering_oak",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "withering_oak_tree3",
+      "tree": "withering_oak",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "withering_oak_tree4",
+      "tree": "withering_oak",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "withering_oak_tree5",
+      "tree": "withering_oak",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "withering_oak_trees",
+      "tree": "withering_oak",
+      "source_catalogue": "ChromusFlora",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "woodlands_stump1",
+      "tree": "woodlands",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "woodlands_tree1",
+      "tree": "woodlands",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "woodlands_tree_large1",
+      "tree": "woodlands",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "woodlands_tree_large2",
+      "tree": "woodlands",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_birch_tree1",
+      "tree": "yellow_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_birch_tree2",
+      "tree": "yellow_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_birch_tree3",
+      "tree": "yellow_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_birch_tree4",
+      "tree": "yellow_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_birch_trees",
+      "tree": "yellow_birch",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "yellow_sakura_tree1",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_sakura_tree2",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_sakura_tree3",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_sakura_tree4",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_sakura_tree5",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_sakura_tree6",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_sakura_tree7",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yellow_sakura_trees",
+      "tree": "yellow_sakura",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "yellow_spruce_trees",
+      "tree": "yellow_spruce",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "yucca_tree1",
+      "tree": "yucca",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yucca_tree2",
+      "tree": "yucca",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "yucca_trees",
+      "tree": "yucca",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "zelkova_tree1",
+      "tree": "zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "zelkova_tree2",
+      "tree": "zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "zelkova_tree3",
+      "tree": "zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": false
+    },
+    {
+      "id": "zelkova_trees",
+      "tree": "zelkova",
+      "source_catalogue": "BWG",
+      "status": "original_recreation",
+      "aggregate": true
+    },
+    {
+      "id": "warped_coral_original",
+      "tree": "warped_coral",
+      "source_catalogue": "original",
+      "status": "original_recreation",
+      "aggregate": false
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "id": "bulbis_anomalies",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "bulbis_anomaly",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "bulbis_oddities",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "bulbis_oddity",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "bulbis_sprouts",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "embur_mushrooms",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "fungal_imparius",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "fungal_imparius_patch",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "fungi",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "green_mushroom",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "hanging_sythian_roots",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "hydrangeas",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "imparius_bush",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "imparius_grove_delta",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "imparius_mushroom",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "imparius_plants",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "large_imparius_mushrooms",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "large_windswept_lake",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "mini_brown_mushroom",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "mini_green_mushroom",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "mini_mushrooms",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "mini_red_mushroom",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "mini_weeping_milkcap",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "mini_wood_blewit",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "mushrooms",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "purple_bulbis_anomaly",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "purple_bulbis_oddity",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "shulkren_fungus",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "shulkren_plants",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "swamp_grass_block_delta",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "sythian_fungus",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "sythian_roots",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "sythian_sprout",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "sythian_stalk",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    },
+    {
+      "id": "sythian_vegetation",
+      "reason": "Non-tree vegetation, terrain decoration or small plant patch; excluded from the tree merge."
+    }
+  ]
+}

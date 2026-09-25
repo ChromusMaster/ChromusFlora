@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/imparius_mushroom1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/imparius_mushroom2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/imparius_mushroom3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/imparius_mushroom4",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/imparius_mushroom5",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/imparius_mushroom6",
+        "placement": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/indigo_jacaranda_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/indigo_jacaranda_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/indigo_jacaranda_planks"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/withering_oak",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/lament",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/warped_fungus",
+        "placement": []
+      }
+    ]
+  }
+}

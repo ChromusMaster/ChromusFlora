@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:wood_blewit_planks"
+  },
+  "result": {
+    "id": "chromusflora:wood_blewit_slab",
+    "count": 6
+  }
+}

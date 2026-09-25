@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/ether_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/ether_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/ether_planks"
+    }
+  }
+}

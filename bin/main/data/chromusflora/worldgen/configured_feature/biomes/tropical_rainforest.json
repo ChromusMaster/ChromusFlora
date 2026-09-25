@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/mahogany",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/jacaranda",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/rainbow_eucalyptus",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/blue_enchanted",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/green_enchanted",
+        "placement": []
+      }
+    ]
+  }
+}

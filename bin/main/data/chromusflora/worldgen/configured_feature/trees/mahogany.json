@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/jungle_bush1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/mahogany_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/mahogany_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/mahogany_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/mahogany_tree4",
+        "placement": []
+      }
+    ]
+  }
+}

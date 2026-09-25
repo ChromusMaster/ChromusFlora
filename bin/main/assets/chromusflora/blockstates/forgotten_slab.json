@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/forgotten_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/forgotten_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/forgotten_planks"
+    }
+  }
+}

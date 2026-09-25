@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/purple_bulbis_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/purple_bulbis_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/purple_bulbis_planks"
+    }
+  }
+}

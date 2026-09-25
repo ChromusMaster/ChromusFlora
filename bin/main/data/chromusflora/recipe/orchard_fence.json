@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:orchard_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:orchard_fence",
+    "count": 3
+  }
+}

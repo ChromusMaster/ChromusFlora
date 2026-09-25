@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:soul_shroom_planks"
+  },
+  "result": {
+    "id": "chromusflora:soul_shroom_stairs",
+    "count": 4
+  }
+}

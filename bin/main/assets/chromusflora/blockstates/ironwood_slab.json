@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/ironwood_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/ironwood_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/ironwood_planks"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:ironwood_logs"
+  ],
+  "result": {
+    "id": "chromusflora:ironwood_planks",
+    "count": 4
+  }
+}

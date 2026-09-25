@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:death_cap_planks"
+  },
+  "result": {
+    "id": "chromusflora:death_cap_slab",
+    "count": 6
+  }
+}

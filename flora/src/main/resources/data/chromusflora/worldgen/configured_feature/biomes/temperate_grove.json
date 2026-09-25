@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/red_oak",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/orange_oak",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/brown_birch",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/red_maple",
+        "placement": []
+      }
+    ]
+  }
+}

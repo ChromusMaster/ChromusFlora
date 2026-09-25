@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:firecracker_planks"
+  },
+  "result": {
+    "id": "chromusflora:firecracker_stairs",
+    "count": 4
+  }
+}

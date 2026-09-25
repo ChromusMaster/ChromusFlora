@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/weeping_milkcap_log"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/weeping_milkcap_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/weeping_milkcap_log",
+      "x": 90
+    }
+  }
+}

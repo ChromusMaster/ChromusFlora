@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/giant_pink_allium_1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/giant_pink_allium_2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/giant_pink_allium_3",
+        "placement": []
+      }
+    ]
+  }
+}

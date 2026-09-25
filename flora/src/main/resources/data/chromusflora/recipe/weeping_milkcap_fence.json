@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:weeping_milkcap_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:weeping_milkcap_fence",
+    "count": 3
+  }
+}

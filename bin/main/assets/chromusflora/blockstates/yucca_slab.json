@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/yucca_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/yucca_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/yucca_planks"
+    }
+  }
+}

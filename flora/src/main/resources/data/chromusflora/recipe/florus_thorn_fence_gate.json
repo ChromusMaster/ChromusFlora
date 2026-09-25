@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S#S",
+    "S#S"
+  ],
+  "key": {
+    "#": "chromusflora:florus_thorn_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:florus_thorn_fence_gate",
+    "count": 1
+  }
+}

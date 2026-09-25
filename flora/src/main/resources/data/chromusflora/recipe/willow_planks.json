@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:willow_logs"
+  ],
+  "result": {
+    "id": "chromusflora:willow_planks",
+    "count": 4
+  }
+}

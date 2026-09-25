@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/deciduous_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/deciduous_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/deciduous_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/deciduous_tree4",
+        "placement": []
+      }
+    ]
+  }
+}

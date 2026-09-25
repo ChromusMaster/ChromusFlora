@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/florus_rose_log"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/florus_rose_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/florus_rose_log",
+      "x": 90
+    }
+  }
+}

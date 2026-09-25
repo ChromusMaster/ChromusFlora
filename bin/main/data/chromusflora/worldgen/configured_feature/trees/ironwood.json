@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/flowering_ironwood_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/flowering_ironwood_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/flowering_ironwood_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/flowering_ironwood_tree4",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/ironwood_tree",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/ironwood_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/ironwood_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/ironwood_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/ironwood_tree4",
+        "placement": []
+      }
+    ]
+  }
+}

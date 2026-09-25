@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/jacaranda",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/indigo_jacaranda",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/deciduous",
+        "placement": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:green_mushroom_logs"
+  ],
+  "result": {
+    "id": "chromusflora:green_mushroom_planks",
+    "count": 4
+  }
+}

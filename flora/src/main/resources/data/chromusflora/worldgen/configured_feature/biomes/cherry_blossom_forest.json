@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/pink_cherry",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/white_cherry",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/white_sakura",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/yellow_sakura",
+        "placement": []
+      }
+    ]
+  }
+}

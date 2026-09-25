@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/large_oak_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/large_oak_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/large_oak_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/oak_bush1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/oak_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/oak_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/oak_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/oak_trees_swamp",
+        "placement": []
+      }
+    ]
+  }
+}

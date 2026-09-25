@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:crimson_fungus_planks"
+  },
+  "result": {
+    "id": "chromusflora:crimson_fungus_stairs",
+    "count": 4
+  }
+}

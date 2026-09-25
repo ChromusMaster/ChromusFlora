@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/prairie_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/prairie_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/prairie_planks"
+    }
+  }
+}

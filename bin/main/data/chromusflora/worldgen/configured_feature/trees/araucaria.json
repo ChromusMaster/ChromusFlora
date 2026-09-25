@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/araucaria_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/araucaria_tree2",
+        "placement": []
+      }
+    ]
+  }
+}

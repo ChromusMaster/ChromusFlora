@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:ebony_logs"
+  ],
+  "result": {
+    "id": "chromusflora:ebony_planks",
+    "count": 4
+  }
+}

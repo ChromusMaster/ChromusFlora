@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:imparius_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:imparius_fence",
+    "count": 3
+  }
+}

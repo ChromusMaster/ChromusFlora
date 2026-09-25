@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:cypress_planks"
+  },
+  "result": {
+    "id": "chromusflora:cypress_slab",
+    "count": 6
+  }
+}

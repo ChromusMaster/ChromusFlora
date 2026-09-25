@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:deciduous_planks"
+  },
+  "result": {
+    "id": "chromusflora:deciduous_stairs",
+    "count": 4
+  }
+}

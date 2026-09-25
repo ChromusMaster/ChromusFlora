@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/white_sakura_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/white_sakura_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/white_sakura_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/white_sakura_tree4",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/white_sakura_tree5",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/white_sakura_tree6",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/white_sakura_tree7",
+        "placement": []
+      }
+    ]
+  }
+}

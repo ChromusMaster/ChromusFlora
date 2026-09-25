@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-25",
+  "gson_version": "2.14.0",
+  "error_prone_annotations_version": "2.50.0",
+  "artifact_url": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.50.0/error_prone_annotations-2.50.0.jar",
+  "sha256": "4667724877f1d37a689202da191e23efa7657c62eef93ccdac406eccfe5cdd0a",
+  "InlineMe_class_present": true,
+  "members_checked": [
+    "replacement",
+    "imports",
+    "staticImports"
+  ],
+  "usage": "compileOnly and clientCompileOnly; no annotation processor, no runtime embedding",
+  "mod_compiled": false
+}

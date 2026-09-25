@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/base_spirit_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/base_spirit_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/base_spirit_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/base_spirit_tree4",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/spirit_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/spirit_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/spirit_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/spirit_tree4",
+        "placement": []
+      }
+    ]
+  }
+}

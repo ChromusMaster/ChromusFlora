@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:witch_hazel_planks"
+  },
+  "result": {
+    "id": "chromusflora:witch_hazel_slab",
+    "count": 6
+  }
+}

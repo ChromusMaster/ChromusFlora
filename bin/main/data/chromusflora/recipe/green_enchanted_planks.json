@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#chromusflora:green_enchanted_logs"
+  ],
+  "result": {
+    "id": "chromusflora:green_enchanted_planks",
+    "count": 4
+  }
+}

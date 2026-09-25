@@ -1,71 +1,113 @@
 plugins {
-    id 'java'
-    id 'idea'
-    id 'com.matyrobbrt.mc.registrationutils' version '1.19.3-2.0.2'
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
 }
 
-registrationUtils {
-    group 'potionstudios.byg.reg'
-    projects {
-        Common { type 'common'; project ':Common' }
-        Fabric { type 'fabric'; project ':Fabric' }
-        Forge { type 'forge'; project ':Forge' }
+version = project.mod_version
+group = project.maven_group
+base { archivesName = project.archives_base_name }
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.minecraftforge.net/' }
+    maven {
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
     }
 }
 
-subprojects {
-    apply plugin: 'java'
-    apply plugin: 'idea'
-
-    java.toolchain.languageVersion = JavaLanguageVersion.of(17)
-    java.withSourcesJar()
-    java.withJavadocJar()
-
-    dependencies {
-        compileOnly group: 'com.google.auto.service', name: 'auto-service', version: '1.1.1'
-        annotationProcessor group: 'com.google.auto.service', name: 'auto-service', version: '1.1.1'
-    }
-
-    jar {
-        manifest {
-            attributes([
-                    'Specification-Title'     : mod_name,
-                    'Specification-Vendor'    : mod_author,
-                    'Specification-Version'   : project.jar.archiveVersion,
-                    'Implementation-Title'    : project.name,
-                    'Implementation-Version'  : project.jar.archiveVersion,
-                    'Implementation-Vendor'   : mod_author,
-                    'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                    'Timestamp'               : System.currentTimeMillis(),
-                    'Built-On-Java'           : "${System.getProperty('java.vm.version')} (${System.getProperty('java.vm.vendor')})",
-                    'Build-On-Minecraft'      : minecraft_version
-            ])
+loom {
+    splitEnvironmentSourceSets()
+    mods {
+        chromusflora {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
         }
     }
+}
 
-    repositories {
-        mavenCentral()
+sourceSets {
+    main {
+        java.setSrcDirs(['flora/src/main/java'])
+        resources.setSrcDirs(['flora/src/main/resources'])
+    }
+    client {
+        java.setSrcDirs(['flora/src/client/java'])
+        resources.setSrcDirs([])
+    }
+    test {
+        java.setSrcDirs([])
+        resources.setSrcDirs([])
+    }
+}
 
-        maven {
-            name = 'Sponge / Mixin'
-            url = 'https://repo.spongepowered.org/repository/maven-public/'
-        }
-        maven { url = 'https://maven.minecraftforge.net' }
-        maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    implementation "com.github.glitchfiend:TerraBlender-fabric:${project.terrablender_version}"
+    implementation "maven.modrinth:g8NOG5OR:${project.ottyg_version_id}"
+    compileOnly "com.google.errorprone:error_prone_annotations:${project.error_prone_annotations_version}"
+    clientCompileOnly "com.google.errorprone:error_prone_annotations:${project.error_prone_annotations_version}"
+    clientCompileOnly "maven.modrinth:modmenu:${project.modmenu_version_id}"
+    clientCompileOnly "maven.modrinth:jade:${project.jade_version_id}"
+    if (providers.gradleProperty('withOptionalMods').getOrElse('false').toBoolean()) {
+        clientRuntimeOnly "maven.modrinth:modmenu:${project.modmenu_version_id}"
+        clientRuntimeOnly "maven.modrinth:jade:${project.jade_version_id}"
+        clientRuntimeOnly "maven.modrinth:appleskin:${project.appleskin_version_id}"
+    }
+}
 
-        maven {
-            name = "Modrinth"
-            url = "https://api.modrinth.com/maven"
-            content {
-                includeGroup "maven.modrinth"
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+    options.compilerArgs.addAll(['-Xlint:all', '-Werror'])
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand version: project.version }
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+tasks.register('verifySourceResources') {
+    inputs.dir('flora/src/main/resources')
+    inputs.file('tools/scan.py')
+    doLast {
+        def root = file('flora/src/main/resources')
+        def parser = new groovy.json.JsonSlurper()
+        fileTree(root).matching { include '**/*.json' }.each { parser.parse(it) }
+        def catalog = parser.parse(new File(root, 'chromusflora/catalog.json'))
+        catalog.biomes.each {
+            if (!new File(root, "data/chromusflora/worldgen/biome/${it.id}.json").isFile()) {
+                throw new GradleException("Missing biome: ${it.id}")
             }
         }
-        maven { url = 'https://maven.parchmentmc.org' }
+        catalog.trees.each {
+            ['log', 'leaves', 'sapling', 'planks'].each { suffix ->
+                if (!new File(root, "assets/chromusflora/blockstates/${it.id}_${suffix}.json").isFile()) {
+                    throw new GradleException("Missing blockstate: ${it.id}_${suffix}")
+                }
+            }
+        }
+        def forbidden = fileTree(root).matching {
+            include 'data/byg/**', 'assets/byg/**', 'data/biomeswevegone/**', 'assets/biomeswevegone/**'
+        }
+        if (!forbidden.isEmpty()) { throw new GradleException('Legacy resources entered the new source set') }
     }
+}
 
+tasks.named('check') { dependsOn tasks.named('verifySourceResources') }
 
-    tasks.withType(JavaCompile).configureEach {
-        it.options.encoding = 'UTF-8'
-        it.options.release.set(17)
-    }
+tasks.named('jar') {
+    from('LICENSE.txt')
+    from('ASSET_PROVENANCE.md')
 }

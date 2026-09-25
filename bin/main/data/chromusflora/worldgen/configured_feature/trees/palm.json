@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/palm_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/palm_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/palm_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/palm_tree4",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/tropical_shrub1",
+        "placement": []
+      }
+    ]
+  }
+}

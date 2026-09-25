@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": "chromusflora:pink_cherry_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:pink_cherry_fence",
+    "count": 3
+  }
+}

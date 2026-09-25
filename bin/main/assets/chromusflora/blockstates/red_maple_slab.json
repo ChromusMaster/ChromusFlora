@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chromusflora:block/red_maple_slab"
+    },
+    "type=top": {
+      "model": "chromusflora:block/red_maple_slab_top"
+    },
+    "type=double": {
+      "model": "chromusflora:block/red_maple_planks"
+    }
+  }
+}

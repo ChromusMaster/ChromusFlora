@@ -1,0 +1,124 @@
+[
+  {
+    "component": "fabric-loader",
+    "url": "https://meta.fabricmc.net/v2/versions/loader",
+    "retrieved_on": "2026-09-25",
+    "selection": [
+      {
+        "separator": ".",
+        "build": 5,
+        "maven": "net.fabricmc:fabric-loader:0.19.5",
+        "version": "0.19.5",
+        "stable": true
+      },
+      {
+        "separator": ".",
+        "build": 4,
+        "maven": "net.fabricmc:fabric-loader:0.19.4",
+        "version": "0.19.4",
+        "stable": false
+      },
+      {
+        "separator": ".",
+        "build": 3,
+        "maven": "net.fabricmc:fabric-loader:0.19.3",
+        "version": "0.19.3",
+        "stable": false
+      }
+    ]
+  },
+  {
+    "component": "fabric-api",
+    "url": "https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/maven-metadata.xml",
+    "retrieved_on": "2026-09-25",
+    "selection": [
+      "0.159.0+26.2",
+      "0.160.0+26.2",
+      "0.161.0+26.2"
+    ]
+  },
+  {
+    "component": "fabric-loom",
+    "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loom/maven-metadata.xml",
+    "retrieved_on": "2026-09-25",
+    "selection": [
+      "1.17.19",
+      "1.17.20",
+      "1.17.21"
+    ]
+  },
+  {
+    "component": "terrablender",
+    "url": "https://api.modrinth.com/v2/project/terrablender/version?game_versions=%5B%2226.2%22%5D&loaders=%5B%22fabric%22%5D",
+    "retrieved_on": "2026-09-25",
+    "selection": [
+      {
+        "version_number": "26.2.0.0.2",
+        "version_type": "beta",
+        "date_published": "2026-07-07T01:35:09.381243Z"
+      },
+      {
+        "version_number": "26.2.0.0.1",
+        "version_type": "beta",
+        "date_published": "2026-07-01T07:25:11.635874Z"
+      },
+      {
+        "version_number": "26.2.0.0.0",
+        "version_type": "beta",
+        "date_published": "2026-06-27T09:59:47.195670Z"
+      },
+      {
+        "version_number": "26.1.2.0.3",
+        "version_type": "beta",
+        "date_published": "2026-06-27T09:59:40.866371Z"
+      }
+    ]
+  },
+  {
+    "component": "api-releases",
+    "url": "https://api.modrinth.com/v2/project/fabric-api/version?game_versions=%5B%2226.2%22%5D&loaders=%5B%22fabric%22%5D",
+    "retrieved_on": "2026-09-25",
+    "selection": [
+      {
+        "version_number": "0.161.0+26.2",
+        "version_type": "release",
+        "date_published": "2026-09-18T17:31:39.163063Z"
+      },
+      {
+        "version_number": "0.160.0+26.2",
+        "version_type": "release",
+        "date_published": "2026-09-07T17:48:36.708374Z"
+      },
+      {
+        "version_number": "0.159.0+26.2",
+        "version_type": "release",
+        "date_published": "2026-09-01T10:56:26.366968Z"
+      },
+      {
+        "version_number": "0.158.0+26.2",
+        "version_type": "release",
+        "date_published": "2026-08-18T13:18:16.055261Z"
+      },
+      {
+        "version_number": "0.157.0+26.2",
+        "version_type": "release",
+        "date_published": "2026-08-10T12:56:05.057944Z"
+      },
+      {
+        "version_number": "0.156.0+26.2",
+        "version_type": "release",
+        "date_published": "2026-07-28T09:57:10.795527Z"
+      },
+      {
+        "version_number": "0.155.2+26.2",
+        "version_type": "release",
+        "date_published": "2026-07-17T08:49:22.848130Z"
+      },
+      {
+        "version_number": "0.155.0+26.2",
+        "version_type": "release",
+        "date_published": "2026-07-16T10:54:41.973094Z"
+      }
+    ]
+  }
+]

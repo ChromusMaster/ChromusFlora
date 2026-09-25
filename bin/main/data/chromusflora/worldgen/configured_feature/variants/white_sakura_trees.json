@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/white_sakura",
+        "placement": []
+      }
+    ]
+  }
+}

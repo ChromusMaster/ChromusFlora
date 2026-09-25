@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/zelkova",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/brown_zelkova",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/orange_spruce",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/weeping_milkcap",
+        "placement": []
+      }
+    ]
+  }
+}

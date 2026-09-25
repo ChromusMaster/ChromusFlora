@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:trees/blue_spruce",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/spruce",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:trees/spirit",
+        "placement": []
+      }
+    ]
+  }
+}

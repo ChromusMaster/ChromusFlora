@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/jacaranda_tree1",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/jacaranda_tree2",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/jacaranda_tree3",
+        "placement": []
+      },
+      {
+        "feature": "chromusflora:variants/jacaranda_tree4",
+        "placement": []
+      }
+    ]
+  }
+}

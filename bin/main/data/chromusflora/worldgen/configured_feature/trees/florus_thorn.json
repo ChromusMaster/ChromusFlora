@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "chromusflora:variants/florus_thorn_1",
+        "placement": []
+      }
+    ]
+  }
+}
