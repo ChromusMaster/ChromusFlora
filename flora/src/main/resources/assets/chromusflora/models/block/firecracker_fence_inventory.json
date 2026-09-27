@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_inventory",
   "textures": {
-    "texture": "chromusflora:block/planks_2"
+    "texture": "chromusflora:block/wood/firecracker/planks"
   }
 }

@@ -1,0 +1,854 @@
+{
+  "source": "jaizmobs-continued.zip supplied by user; mod_version=2.3.11+26.2",
+  "archive_sha256": "26816377d277fbfbca9940210f574d9396d77c28fa054fb650b56278d9192dbb",
+  "biomes": {
+    "fruit_bat_caves": [
+      [],
+      [
+        "minecraft:lake_lava_underground",
+        "minecraft:lake_lava_surface"
+      ],
+      [
+        "minecraft:amethyst_geode"
+      ],
+      [
+        "minecraft:monster_room",
+        "minecraft:monster_room_deep"
+      ],
+      [],
+      [],
+      [
+        "minecraft:ore_dirt",
+        "minecraft:ore_gravel",
+        "minecraft:ore_granite_upper",
+        "minecraft:ore_granite_lower",
+        "minecraft:ore_diorite_upper",
+        "minecraft:ore_diorite_lower",
+        "minecraft:ore_andesite_upper",
+        "minecraft:ore_andesite_lower",
+        "minecraft:ore_tuff",
+        "minecraft:ore_coal_upper",
+        "minecraft:ore_coal_lower",
+        "minecraft:ore_iron_upper",
+        "minecraft:ore_iron_middle",
+        "minecraft:ore_iron_small",
+        "minecraft:ore_gold",
+        "minecraft:ore_gold_lower",
+        "minecraft:ore_redstone",
+        "minecraft:ore_redstone_lower",
+        "minecraft:ore_diamond",
+        "minecraft:ore_diamond_medium",
+        "minecraft:ore_diamond_large",
+        "minecraft:ore_diamond_buried",
+        "minecraft:ore_lapis",
+        "minecraft:ore_lapis_buried",
+        "minecraft:ore_copper_large",
+        "minecraft:underwater_magma",
+        "minecraft:disk_sand",
+        "minecraft:disk_clay",
+        "minecraft:disk_gravel"
+      ],
+      [],
+      [
+        "minecraft:spring_water",
+        "minecraft:spring_lava"
+      ],
+      [
+        "minecraft:glow_lichen",
+        "minecraft:patch_grass_jungle",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:red_mushroom_normal",
+        "minecraft:patch_pumpkin",
+        "minecraft:patch_sugar_cane",
+        "minecraft:vines",
+        "minecraft:patch_melon",
+        "minecraft:classic_vines_cave_feature"
+      ],
+      [
+        "minecraft:freeze_top_layer"
+      ]
+    ],
+    "mahogany_forest": [
+      [],
+      [
+        "minecraft:lake_lava_underground",
+        "minecraft:lake_lava_surface"
+      ],
+      [
+        "minecraft:amethyst_geode"
+      ],
+      [
+        "minecraft:monster_room",
+        "minecraft:monster_room_deep"
+      ],
+      [],
+      [],
+      [
+        "minecraft:ore_dirt",
+        "minecraft:ore_gravel",
+        "minecraft:ore_granite_upper",
+        "minecraft:ore_granite_lower",
+        "minecraft:ore_diorite_upper",
+        "minecraft:ore_diorite_lower",
+        "minecraft:ore_andesite_upper",
+        "minecraft:ore_andesite_lower",
+        "minecraft:ore_tuff",
+        "minecraft:ore_coal_upper",
+        "minecraft:ore_coal_lower",
+        "minecraft:ore_iron_upper",
+        "minecraft:ore_iron_middle",
+        "minecraft:ore_iron_small",
+        "minecraft:ore_gold",
+        "minecraft:ore_gold_lower",
+        "minecraft:ore_redstone",
+        "minecraft:ore_redstone_lower",
+        "minecraft:ore_diamond",
+        "minecraft:ore_diamond_medium",
+        "minecraft:ore_diamond_large",
+        "minecraft:ore_diamond_buried",
+        "minecraft:ore_lapis",
+        "minecraft:ore_lapis_buried",
+        "minecraft:ore_copper_large",
+        "minecraft:underwater_magma",
+        "minecraft:disk_sand",
+        "minecraft:disk_clay",
+        "minecraft:disk_gravel"
+      ],
+      [],
+      [
+        "minecraft:spring_water",
+        "minecraft:spring_lava"
+      ],
+      [
+        "minecraft:glow_lichen",
+        "jaizmod:jungle_bush",
+        "jaizmod:mahogany_forest_tree_placed",
+        "jaizmod:mahogany_forest_tree_vines_placed",
+        "minecraft:bamboo_light",
+        "minecraft:flower_warm",
+        "minecraft:patch_grass_jungle",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:red_mushroom_normal",
+        "minecraft:patch_pumpkin",
+        "minecraft:patch_sugar_cane",
+        "minecraft:vines",
+        "minecraft:patch_melon"
+      ],
+      [
+        "minecraft:freeze_top_layer"
+      ]
+    ]
+  },
+  "additions": [
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:cumaru_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:sparse_jungle",
+      "feature": "jaizmod:cumaru_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:cumaru_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:ebony_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:ebony_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:ebony_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:savanna",
+      "feature": "jaizmod:flamboyant_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:savanna_plateau",
+      "feature": "jaizmod:flamboyant_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:windswept_savanna",
+      "feature": "jaizmod:flamboyant_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:windswept_hills",
+      "feature": "jaizmod:atlas_cedar_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:windswept_forest",
+      "feature": "jaizmod:atlas_cedar_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:meadow",
+      "feature": "jaizmod:atlas_cedar_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:grove",
+      "feature": "jaizmod:atlas_cedar_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:beach",
+      "feature": "jaizmod:bismarck_palm_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:bismarck_palm_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:sparse_jungle",
+      "feature": "jaizmod:bismarck_palm_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:cannonball_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:bamboo_jungle",
+      "feature": "jaizmod:cannonball_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:cannonball_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_pine_taiga",
+      "feature": "jaizmod:sequoia_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_spruce_taiga",
+      "feature": "jaizmod:sequoia_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:guarana_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:sparse_jungle",
+      "feature": "jaizmod:guarana_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:bamboo_jungle",
+      "feature": "jaizmod:guarana_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:guarana_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:desert",
+      "feature": "jaizmod:desert_oak_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:badlands",
+      "feature": "jaizmod:desert_oak_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:eroded_badlands",
+      "feature": "jaizmod:desert_oak_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:wooded_badlands",
+      "feature": "jaizmod:desert_oak_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:small_mahogany_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:small_mahogany_tree_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:poo_patch_placed",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:deepslate_poo_patch_placed",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:fruitbat_caves_moss_block_patch",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:fruitbat_caves_moss_block_patch_deepslate",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:leaves_block_patch_deepslate",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:leaves_block_patch",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:leaves_leaves_block_patch",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:fruitbat_caves_moss_carpet_placed",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "jaizmod:fruit_bat_caves",
+      "feature": "jaizmod:fruitbat_caves_moss_carpet_placed_deepslate",
+      "step": "UNDERGROUND_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:podzol_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:podzol_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:mud_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:mud_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:bamboo_jungle",
+      "feature": "jaizmod:mud_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:taiga",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_pine_taiga",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_spruce_taiga",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:swamp",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:wooded_badlands",
+      "feature": "jaizmod:red_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:taiga",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_pine_taiga",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_spruce_taiga",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:swamp",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:wooded_badlands",
+      "feature": "jaizmod:brown_mushroom_rot_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:taiga",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_pine_taiga",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_spruce_taiga",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:swamp",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:wooded_badlands",
+      "feature": "jaizmod:rot_roots_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:taiga",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_pine_taiga",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_spruce_taiga",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:swamp",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:wooded_badlands",
+      "feature": "jaizmod:rotten_trees",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:birch_forest_rock",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:birch_forest_rock",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:birch_forest_rock",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:callalily_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:river",
+      "feature": "jaizmod:callalily_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:callalily_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:disk_rooted_dirt",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:disk_rooted_dirt",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:disk_rooted_dirt",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:disk_rooted_dirt",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:white_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:white_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:white_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:white_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:pink_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:yellow_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:yellow_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:yellow_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:yellow_floral_veil",
+      "step": "TOP_LAYER_MODIFICATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:autumn_birch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:autumn_birch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:autumn_birch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:autumn_oak_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:autumn_oak_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:birch_log_moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:birch_log_moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:fallen_birch_log_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:fallen_birch_log_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:disk_rot_dirt",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:disk_rot_dirt",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:moss_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:moss_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:moss_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:moss_block_patch",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:moss_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:flower_columbine",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:flower_columbine",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:taiga",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:undergrowth_patch_placed",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:old_growth_birch_forest",
+      "feature": "jaizmod:large_ferns_jaizmod",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:birch_forest",
+      "feature": "jaizmod:large_ferns_jaizmod",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:forest",
+      "feature": "jaizmod:large_ferns_jaizmod",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:flower_forest",
+      "feature": "jaizmod:large_ferns_jaizmod",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:jungle",
+      "feature": "jaizmod:large_ferns_jaizmod",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "minecraft:bamboo_jungle",
+      "feature": "jaizmod:large_ferns_jaizmod",
+      "step": "VEGETAL_DECORATION"
+    },
+    {
+      "biome": "jaizmod:mahogany_forest",
+      "feature": "jaizmod:large_ferns_jaizmod",
+      "step": "VEGETAL_DECORATION"
+    }
+  ]
+}

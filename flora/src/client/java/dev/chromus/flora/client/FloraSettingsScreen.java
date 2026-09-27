@@ -2,7 +2,6 @@ package dev.chromus.flora.client;
 
 import dev.chromus.flora.FloraConfig;
 import dev.chromus.flora.ChromusFlora;
-import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.StringWidget;
 import net.minecraft.client.gui.screens.Screen;
@@ -56,13 +55,7 @@ public final class FloraSettingsScreen extends Screen {
     }
 
     @Override
-    public void extractRenderState(GuiGraphicsExtractor graphics, int mouseX, int mouseY, float partialTick) {
-        extractBackground(graphics, mouseX, mouseY, partialTick);
-        super.extractRenderState(graphics, mouseX, mouseY, partialTick);
-    }
-
-    @Override
     public void onClose() {
-        minecraft.setScreen(parent);
+        minecraft.gui.setScreen(parent);
     }
 }

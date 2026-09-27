@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "side": "chromusflora:block/planks_1",
-    "end": "chromusflora:block/end_1"
+    "side": "chromusflora:block/wood/indigo_jacaranda/stripped",
+    "end": "chromusflora:block/wood/indigo_jacaranda/end"
   }
 }

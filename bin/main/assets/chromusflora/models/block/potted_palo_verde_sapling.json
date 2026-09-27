@@ -1,9 +1,9 @@
 {
   "textures": {
-    "pot": "chromusflora:block/planks_3",
-    "bark": "chromusflora:block/bark_3",
+    "pot": "chromusflora:block/wood/palo_verde/planks",
+    "bark": "chromusflora:block/wood/palo_verde/bark",
     "leaf": "chromusflora:block/leaves_3",
-    "particle": "chromusflora:block/planks_3"
+    "particle": "chromusflora:block/wood/palo_verde/planks"
   },
   "elements": [
     {

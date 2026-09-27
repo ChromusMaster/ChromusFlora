@@ -5,8 +5,8 @@
     "canopy_location": "chromusflora:trees/birch_tree3/normal",
     "height": {
       "type": "minecraft:uniform",
-      "min_inclusive": 5,
-      "max_inclusive": 16
+      "min_inclusive": 4,
+      "max_inclusive": 10
     },
     "log_provider": {
       "type": "minecraft:simple_state_provider",

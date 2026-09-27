@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate",
   "textures": {
-    "texture": "chromusflora:block/planks_1"
+    "texture": "chromusflora:block/wood/redwood/planks"
   }
 }

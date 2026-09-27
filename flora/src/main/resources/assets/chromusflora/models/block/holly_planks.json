@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "chromusflora:block/planks_2"
+    "all": "chromusflora:block/wood/holly/planks"
   }
 }

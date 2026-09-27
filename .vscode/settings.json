@@ -1,10 +1,22 @@
 {
-  "java.configuration.updateBuildConfiguration": "automatic",
   "java.import.gradle.enabled": true,
   "java.import.gradle.wrapper.enabled": false,
   "java.import.gradle.version": "9.5.1",
-  "java.import.exclusions": ["**/Common/**", "**/Fabric/**", "**/Forge/**", "**/NeoForge/**"],
-  "files.exclude": {"**/.idea": true, "**/*.iml": true},
-  "search.exclude": {"**/Common/**": true, "**/Fabric/**": true, "**/Forge/**": true, "**/NeoForge/**": true},
-  "files.encoding": "utf8"
+  "java.import.gradle.offline.enabled": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.exclusions": [
+    "**/node_modules/**",
+    "**/.metadata/**",
+    "**/archetype-resources/**",
+    "**/META-INF/maven/**",
+    "**/Common/**",
+    "**/Fabric/**",
+    "**/Forge/**",
+    "**/NeoForge/**",
+    "**/build/**",
+    "**/bin/**",
+    "**/.gradle/**",
+    "**/.gradle-bootstrap/**"
+  ],
+  "cSpell.language": "en,pt,pt_BR"
 }

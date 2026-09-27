@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#byg:is_ocean",
-    "#byg:is_deep_ocean",
-    "#byg:is_swamp",
-    "#byg:is_water"
-  ]
-}

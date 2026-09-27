@@ -1,3 +1,31 @@
+# Fix 10 — 2026-09-27
+
+- Periodic wood texture borders; original palettes retained.
+- Oriented, connected branches and asymmetric crowns for normal and giant forms.
+- Small forms retain previous geometry; no registry or Java API changes.
+- Static voxel connectivity, leaf-support and tile-edge checks added.
+- Source-only delivery; no compilation or in-game test performed here.
+
+# Chromus Flora — Fix 6 (2026-09-26)
+
+- Retain Fix 5: close the settings screen through Minecraft.gui.setScreen.
+- Remove duplicate background extraction; inherit Screen rendering.
+- Review all 12 active Java sources against pinned Minecraft/Fabric/mod APIs.
+- Include call-site, field, override and bytecode evidence with explicit limits.
+- Cumulative source patch includes Fix 4/5; no compilation or runtime tests.
+
+# Chromus Flora — Fix 4 (2026-09-26)
+
+- Align wrapper/IDE with the existing Gradle 9.5.1 Windows bootstrap.
+- Restore VS Code import settings and exclude inactive legacy projects.
+- Neutralize the inherited Kotlin settings for source overlay installations.
+- Capture resource version and file inputs before Gradle task execution.
+- Add English/pt-BR spelling configuration and Windows reimport instructions.
+- Keep strict warnings, dependency pins and all Java/resource content unchanged.
+- Offline resource scan PASS; no compilation or runtime validation performed.
+
+The entries below are preserved historical notes from the supplied repository.
+
 # For 1.20.1 and above Check out the Sequel, Oh The Biomes We've Gone: 
 * CurseForge: https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone
 * Modrinth: https://modrinth.com/mod/oh-the-biomes-weve-gone
@@ -594,3 +622,6 @@
 
 # 1.4-RC-17
 * Add curseforge/modrinth upload tasks to build.gradle, no gameplay changes.
+## Fix 8 — Jaiz feature ordering
+
+Register each Jaiz feature through Fabric BiomeModifications.addFeature so shared features use the same modifier identifiers and ordering as Jaiz. Preserve biome selection, feature membership and spawn settings. Add a static graph regression reproducing the zelkova/mahogany cycle and checking the 160 vanilla/Chromus/Jaiz biomes from the supplied references. No Java build or game execution performed for this patch.

@@ -1,6 +1,6 @@
 {
   "textures": {
-    "bark": "chromusflora:block/bark_1",
+    "bark": "chromusflora:block/wood/cypress/bark",
     "leaf": "chromusflora:block/leaves_1",
     "particle": "chromusflora:block/leaves_1"
   },

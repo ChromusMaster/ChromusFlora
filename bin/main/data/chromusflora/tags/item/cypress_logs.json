@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "chromusflora:cypress_log",
-    "chromusflora:stripped_cypress_log"
-  ]
-}

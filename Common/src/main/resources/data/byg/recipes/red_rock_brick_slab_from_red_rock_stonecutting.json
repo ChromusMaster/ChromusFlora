@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "byg:red_rock"
-  },
-  "result": "byg:red_rock_brick_slab",
-  "count": 2
-}

@@ -5,6 +5,7 @@ import hashlib
 import io
 import json
 import re
+import runpy
 import struct
 import sys
 import tokenize
@@ -219,6 +220,8 @@ def main():
                 stage_graph[(stage,before)].add((stage,after))
     acyclic(graph, 'Configured features')
     acyclic(stage_graph, 'Vanilla/custom decoration order')
+    feature_order = runpy.run_path(str(ROOT / 'tools/check-feature-order.py'))['verify']()
+    check(feature_order['status'] == 'PASS', 'Jaiz feature order regression: ' + json.dumps(feature_order))
     used = {t for b in spec['biomes'] if b['density'] > 0 for t in b['trees']}
     check(used == families, 'A tree family has no natural biome placement')
     nbt_data = {}
@@ -303,6 +306,9 @@ def main():
     for row in rules['features']:
         check(row['feature'] in index['jaiz_placed_feature_ids'], 'Unknown Jaiz feature '+row['feature'])
     check('English' in (ROOT/'README.md').read_text() and (ROOT/'README.md').read_text().index('English') < (ROOT/'README.md').read_text().index('Português'), 'README language order')
+    visual = runpy.run_path(str(ROOT / 'tools/check-visual-resources.py'))['verify']()
+    check(visual['status'] == 'PASS', 'Visual resources: ' + str(visual['errors']))
+    (ROOT/'verification/visual-resources.json').write_text(json.dumps(visual,indent=2)+'\n',encoding='utf-8')
     report = {'scope':'offline static source/resource scan; no Java compilation or game execution',
               'status':'PASS' if not ERRORS else 'FAIL','counts':dict(COUNTS),'errors':ERRORS,
               'limitations':['No Java type checking or compiler warning result','No registry/datapack loading in the game','No world generation, server, multiplayer or optional-mod runtime tests'],

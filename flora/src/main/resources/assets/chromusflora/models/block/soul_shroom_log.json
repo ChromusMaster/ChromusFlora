@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "side": "chromusflora:block/bark_0",
-    "end": "chromusflora:block/end_0"
+    "side": "chromusflora:block/wood/soul_shroom/bark",
+    "end": "chromusflora:block/wood/soul_shroom/end"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_inventory",
   "textures": {
-    "texture": "chromusflora:block/planks_3"
+    "texture": "chromusflora:block/wood/green_enchanted/planks"
   }
 }

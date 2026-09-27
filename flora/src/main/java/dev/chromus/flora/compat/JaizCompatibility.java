@@ -28,6 +28,19 @@ public final class JaizCompatibility {
         }
         Rules rules = FloraCatalog.read("/chromusflora/jaiz-compatibility.json", Rules.class);
         FloraConfig.Settings settings = FloraConfig.get();
+        if (settings.jaizFeatures()) {
+            for (Feature feature : rules.features()) {
+                BiomeModifications.addFeature(selection -> {
+                    Identifier id = selection.getBiomeKey().identifier();
+                    if (!id.getNamespace().equals(ChromusFlora.ID)) {
+                        return false;
+                    }
+                    FloraCatalog.Biome biome = FloraCatalog.biome(id.getPath());
+                    return biome != null && feature.biome().equals(biome.vanilla());
+                }, GenerationStep.Decoration.valueOf(feature.step()),
+                        ResourceKey.create(Registries.PLACED_FEATURE, Identifier.parse(feature.feature())));
+            }
+        }
         BiomeModifications.create(ChromusFlora.id("jaiz_compatibility")).add(ModificationPhase.ADDITIONS,
                 selection -> selection.getBiomeKey().identifier().getNamespace().equals(ChromusFlora.ID),
                 (selection, context) -> {
@@ -41,14 +54,6 @@ public final class JaizCompatibility {
                                 BuiltInRegistries.ENTITY_TYPE.getOptional(Identifier.parse(spawn.entity())).ifPresent(entity ->
                                         context.getMobSpawnSettings().addSpawn(MobCategory.valueOf(spawn.category()),
                                                 new MobSpawnSettings.SpawnerData(entity, spawn.min(), spawn.max()), spawn.weight()));
-                            }
-                        }
-                    }
-                    if (settings.jaizFeatures()) {
-                        for (Feature feature : rules.features()) {
-                            if (feature.biome().equals(biome.vanilla())) {
-                                context.getGenerationSettings().addFeature(GenerationStep.Decoration.valueOf(feature.step()),
-                                        ResourceKey.create(Registries.PLACED_FEATURE, Identifier.parse(feature.feature())));
                             }
                         }
                     }

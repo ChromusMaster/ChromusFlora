@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0-alpha.1.fix10+26.2",
+  "status": "PASS",
+  "checks": {
+    "all_12_java_sources_unchanged": true,
+    "build_gradle_unchanged": true,
+    "biomes_unchanged": true,
+    "models_unchanged": true,
+    "leaf_textures_unchanged": true,
+    "resource_paths_preserved": true,
+    "jaiz_configuration_unchanged": true,
+    "all_373_small_forms_geometry_unchanged": true,
+    "visual_resource_validation": true,
+    "global_static_validation": true,
+    "feature_order_validation": true,
+    "no_binaries": true,
+    "cleanup_preserves_delivery": true
+  },
+  "small_forms_unchanged": 373,
+  "branched_normal_and_giant_forms": 746,
+  "wood_textures_with_matching_edges": 332,
+  "dependency_evidence": {
+    "artifact": "Oh The Trees Youll Grow pinned local dependency",
+    "sha256": "f72de9d7f5dca31854c51e21a6e13d0c9ac8618575c570e1e97a0002a40666d4",
+    "inspection": "Read class bytecode without executing it: canopy anchor uses negative marker x/z and configured height; transformed states preserve applicable source properties; no Java or API changes."
+  },
+  "scope": "Static resource and bytecode inspection, geometric and pixel checks. No compilation or game execution.",
+  "limitations": [
+    "Windows cleanup not executed here; overlay simulated by paths and hashes.",
+    "New shapes require newly generated or grown trees. Existing trees are not rebuilt.",
+    "In-game density, generation cost, placement success and shaders remain to be checked."
+  ]
+}

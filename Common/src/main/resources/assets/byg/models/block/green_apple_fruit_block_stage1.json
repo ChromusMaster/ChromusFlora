@@ -1,6 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "byg:block/green_apple_fruit_block_stage1"
-  }
-}

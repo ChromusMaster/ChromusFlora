@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/inner_stairs",
   "textures": {
-    "top": "chromusflora:block/planks_1",
-    "bottom": "chromusflora:block/planks_1",
-    "side": "chromusflora:block/planks_1"
+    "top": "chromusflora:block/wood/palm/planks",
+    "bottom": "chromusflora:block/wood/palm/planks",
+    "side": "chromusflora:block/wood/palm/planks"
   }
 }

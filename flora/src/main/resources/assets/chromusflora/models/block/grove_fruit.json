@@ -1,7 +1,7 @@
 {
   "textures": {
     "fruit": "chromusflora:block/leaves_2",
-    "stem": "chromusflora:block/bark_0",
+    "stem": "chromusflora:block/wood/orchard/bark",
     "particle": "chromusflora:block/leaves_2"
   },
   "elements": [

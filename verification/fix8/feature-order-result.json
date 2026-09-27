@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "scope": "Static graph model of vanilla, Chromus Flora and supplied Jaiz source; no Java or game execution",
+  "checks": {
+    "reproduces_reported_pair_before_fix": true,
+    "all_scenarios_acyclic": true,
+    "feature_membership_preserved": true,
+    "no_duplicate_compatibility_rules": true
+  },
+  "old_pair_cycle": [
+    [
+      9,
+      "jaizmod:moss_patch_placed"
+    ],
+    [
+      9,
+      "jaizmod:undergrowth_patch_placed"
+    ],
+    [
+      9,
+      "jaizmod:large_ferns_jaizmod"
+    ],
+    [
+      9,
+      "jaizmod:moss_patch_placed"
+    ]
+  ],
+  "scenarios": {
+    "jaiz_without_flora": {
+      "biomes": 68,
+      "cycle": []
+    },
+    "flora_without_jaiz": {
+      "biomes": 158,
+      "cycle": []
+    },
+    "both_jaiz_features_disabled": {
+      "biomes": 160,
+      "cycle": []
+    },
+    "both_jaiz_features_enabled": {
+      "biomes": 160,
+      "cycle": []
+    }
+  },
+  "limitations": [
+    "Does not load the installed Jaiz JAR or the other mods in the instance",
+    "Does not validate Java types, runtime registries or actual world generation"
+  ]
+}

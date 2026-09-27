@@ -8,6 +8,8 @@ import random
 import shutil
 import struct
 from pathlib import Path
+import tree_shapes
+from texture_tiles import periodic_tile
 
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / 'flora/src/main/resources'
@@ -44,7 +46,9 @@ def nbt(path, cells):
         {'Name': 'minecraft:white_wool'},
         {'Name': 'minecraft:red_wool'},
         {'Name': 'minecraft:oak_log', 'Properties': {'axis': 'y'}},
-        {'Name': 'minecraft:oak_leaves', 'Properties': {'distance': '1', 'persistent': 'false', 'waterlogged': 'false'}}]
+        {'Name': 'minecraft:oak_leaves', 'Properties': {'distance': '1', 'persistent': 'false', 'waterlogged': 'false'}},
+        {'Name': 'minecraft:oak_log', 'Properties': {'axis': 'x'}},
+        {'Name': 'minecraft:oak_log', 'Properties': {'axis': 'z'}}]
     encoded = []
     for palette in palettes:
         fields = [('Name', 8, string(palette['Name']))]
@@ -63,6 +67,8 @@ def nbt(path, cells):
 
 
 def canopy(tree, variant, tier):
+    if tier != 'small':
+        return tree_shapes.canopy(tree, variant, tier)
     seed = int(hashlib.sha256((variant + tier).encode()).hexdigest()[:16], 16)
     rng = random.Random(seed)
     radius = 2 if tier == 'small' else 3 if tier == 'normal' else 5
@@ -152,9 +158,9 @@ def tree_resources():
             cells = canopy(tree,id,tier)
             path = 'trees/'+id+'/'+tier
             size = nbt(DATA/('structure/'+path+'.nbt'),cells)
-            crown_log_height = max(p[1] for p,s in cells.items() if s in (1,2)) + 1
-            stem = 2 if tier=='small' else {'type':'minecraft:uniform','min_inclusive':5 if tier=='normal' else 24,
-                    'max_inclusive':16 if tier=='normal' else tree['maxHeight']-crown_log_height}
+            crown_log_height = max(p[1] for p,s in cells.items() if s in tree_shapes.LOGS) + 1
+            stem = 2 if tier=='small' else {'type':'minecraft:uniform','min_inclusive':4 if tier=='normal' else 12,
+                    'max_inclusive':10 if tier=='normal' else tree['maxHeight']-crown_log_height}
             config = {'base_location':'chromusflora:trees/base_giant' if tier=='giant' else 'chromusflora:trees/base',
                       'canopy_location':'chromusflora:'+path, 'height':stem,
                       'log_provider':provider('chromusflora:'+tree['id']+'_log',{'axis':'y'}),
@@ -167,7 +173,7 @@ def tree_resources():
                       'replace_from_nbt':{},'random_rotation':True,'orientation':'STANDARD'}
             write(DATA/('worldgen/configured_feature/forms/'+id+'/'+tier+'.json'),{'type':'chromusflora:bounded_tree','config':config})
             measurements.append({'variant':id,'family':tree['id'],'tier':tier,'canopy_size':size,
-                                 'leaf_blocks':sum(s==3 for s in cells.values()),'canopy_logs':sum(s==2 for s in cells.values()),
+                                 'leaf_blocks':sum(s==3 for s in cells.values()),'canopy_logs':sum(s in (2,4,5) for s in cells.values()),
                                  'base_trunk_columns':9 if tier=='giant' else 1,'height_provider':stem})
         write(DATA/('worldgen/configured_feature/variants/'+id+'.json'),
               {'type':'minecraft:random_selector','config':{
@@ -212,11 +218,12 @@ def block_resources():
     tags = collections.defaultdict(list)
     for tree in SPEC['trees']:
         id,palette=tree['id'],tree['palette']
-        bark='chromusflora:block/bark_'+str(palette)
-        end='chromusflora:block/end_'+str(palette)
-        plank='chromusflora:block/planks_'+str(palette)
+        bark='chromusflora:block/wood/'+id+'/bark'
+        end='chromusflora:block/wood/'+id+'/end'
+        plank='chromusflora:block/wood/'+id+'/planks'
+        stripped='chromusflora:block/wood/'+id+'/stripped'
         leaf='chromusflora:block/leaves_'+str(palette)
-        for name,texture in [(id+'_log',bark),('stripped_'+id+'_log',plank)]:
+        for name,texture in [(id+'_log',bark),('stripped_'+id+'_log',stripped)]:
             model(name,{'parent':'minecraft:block/cube_column','textures':{'side':texture,'end':end}})
             blockstate(name,{'axis=y':{'model':'chromusflora:block/'+name},
                              'axis=x':{'model':'chromusflora:block/'+name,'x':90,'y':90},
@@ -312,7 +319,7 @@ def block_resources():
         write(RES/('data/minecraft/tags/block/'+tag+'.json'),{'replace':False,'values':['chromusflora:'+x for x in sorted(set(values))]})
         if tag not in ['flower_pots','mineable/axe','mineable/hoe']:
             write(RES/('data/minecraft/tags/item/'+tag+'.json'),{'replace':False,'values':['chromusflora:'+x for x in sorted(set(values))]})
-    model('grove_fruit',{'textures':{'fruit':'chromusflora:block/leaves_2','stem':'chromusflora:block/bark_0','particle':'chromusflora:block/leaves_2'},
+    model('grove_fruit',{'textures':{'fruit':'chromusflora:block/leaves_2','stem':'chromusflora:block/wood/orchard/bark','particle':'chromusflora:block/leaves_2'},
                         'elements':[cuboid([4,3,4],[12,11,12],'#fruit'),cuboid([7,11,7],[9,14,9],'#stem')]})
     item_model('grove_fruit')
     write(DATA/'tags/block/tree_soils.json',{'replace':False,'values':['#minecraft:dirt','minecraft:grass_block','minecraft:mycelium','minecraft:podzol','minecraft:mud','minecraft:moss_block','minecraft:sand','minecraft:red_sand','minecraft:snow_block','minecraft:stone','minecraft:calcite','minecraft:basalt','minecraft:netherrack','minecraft:soul_soil','minecraft:crimson_nylium','minecraft:warped_nylium','minecraft:end_stone']})
@@ -388,10 +395,23 @@ def textures():
     atlas=Image.open(ROOT/'atelier/original-texture-atlas.png').convert('RGBA')
     xs=[0,313,627,940,1254];ys=[0,314,627,907,1254]
     folder=ASSETS/'textures/block';folder.mkdir(parents=True,exist_ok=True)
-    for row,kind in enumerate(['bark','end','planks','leaves']):
-        for column in range(4):
-            tile=atlas.crop((xs[column]+2,ys[row]+2,xs[column+1]-2,ys[row+1]-2))
-            tile.resize((64,64),Image.Resampling.NEAREST).save(folder/(kind+'_'+str(column)+'.png'))
+    for column in range(4):
+        tile=atlas.crop((xs[column]+2,ys[3]+2,xs[column+1]-2,ys[4]-2))
+        tile.resize((64,64),Image.Resampling.NEAREST).save(folder/('leaves_'+str(column)+'.png'))
+    wood=json.loads((ROOT/'atelier/wood/species.json').read_text(encoding='utf-8'))
+    sheets={number:Image.open(ROOT/('atelier/wood/sheet_'+str(number)+'.png')).convert('RGBA')
+            for number in sorted({entry['sheet'] for entry in wood['species']})}
+    for entry in wood['species']:
+        sheet=sheets[entry['sheet']]
+        target=folder/'wood'/entry['id'];target.mkdir(parents=True,exist_ok=True)
+        for offset,kind in enumerate(wood['kinds']):
+            column=entry['column'];row=entry['first_row']+offset
+            grid=wood['sheets'][str(entry['sheet'])]
+            inset=grid['inset']
+            box=(grid['x'][column]+inset,grid['y'][row]+inset,
+                 grid['x'][column+1]-inset,grid['y'][row+1]-inset)
+            tile=sheet.crop(box).resize((wood['tile_size'],wood['tile_size']),Image.Resampling.NEAREST)
+            periodic_tile(tile,wood['edge_blend_pixels']).save(target/(kind+'.png'))
     icon=Image.open(ROOT/'branding/chromus-flora-official.png')
     icon.resize((256,256),Image.Resampling.LANCZOS).save(ASSETS/'icon.png')
 

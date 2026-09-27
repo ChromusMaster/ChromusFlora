@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_side",
   "textures": {
-    "texture": "chromusflora:block/planks_3"
+    "texture": "chromusflora:block/wood/fungal_imparius/planks"
   }
 }

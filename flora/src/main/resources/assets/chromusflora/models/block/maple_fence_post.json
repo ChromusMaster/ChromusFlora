@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "chromusflora:block/planks_1"
+    "texture": "chromusflora:block/wood/maple/planks"
   }
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_side",
-  "textures": {
-    "pane": "byg:block/therium_glass",
-    "edge": "byg:block/therium_glass_pane_top"
-  }
-}

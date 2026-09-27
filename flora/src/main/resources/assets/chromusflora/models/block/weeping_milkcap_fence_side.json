@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_side",
   "textures": {
-    "texture": "chromusflora:block/planks_1"
+    "texture": "chromusflora:block/wood/weeping_milkcap/planks"
   }
 }

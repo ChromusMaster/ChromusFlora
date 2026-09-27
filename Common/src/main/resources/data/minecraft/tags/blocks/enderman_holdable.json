@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "byg:lush_dirt",
-    "byg:lush_grass_block",
-    "byg:peat",
-    "#byg:sand"
-  ]
-}

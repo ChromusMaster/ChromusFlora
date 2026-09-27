@@ -1,0 +1,741 @@
+{
+  "tile_size": 64,
+  "columns": 7,
+  "rows": 8,
+  "kinds": [
+    "bark",
+    "end",
+    "stripped",
+    "planks"
+  ],
+  "species": [
+    {
+      "id": "ancient",
+      "art": "weathered deep umber bark with silver fissures; smoky amber heartwood",
+      "sheet": 1,
+      "column": 0,
+      "first_row": 0
+    },
+    {
+      "id": "araucaria",
+      "art": "cool gray brown angular armor scales; golden cream wood",
+      "sheet": 1,
+      "column": 1,
+      "first_row": 0
+    },
+    {
+      "id": "aspen",
+      "art": "chalk ivory smooth bark with charcoal eyes; pale ivory wood",
+      "sheet": 1,
+      "column": 2,
+      "first_row": 0
+    },
+    {
+      "id": "baobab",
+      "art": "warm dusty taupe broad smooth creases; soft ochre wood",
+      "sheet": 1,
+      "column": 3,
+      "first_row": 0
+    },
+    {
+      "id": "birch",
+      "art": "clean white papery bark with black horizontal dashes; pale golden wood",
+      "sheet": 1,
+      "column": 4,
+      "first_row": 0
+    },
+    {
+      "id": "blue_enchanted",
+      "art": "deep cobalt blue bark, pale cyan narrow fissures; sapphire turquoise wood",
+      "sheet": 1,
+      "column": 5,
+      "first_row": 0
+    },
+    {
+      "id": "blue_spruce",
+      "art": "slate blue gray scales; cool honey wood",
+      "sheet": 1,
+      "column": 6,
+      "first_row": 0
+    },
+    {
+      "id": "bluff",
+      "art": "ochre sandstone brown flaking plates; sand colored wood",
+      "sheet": 1,
+      "column": 0,
+      "first_row": 4
+    },
+    {
+      "id": "brown_birch",
+      "art": "cinnamon brown papery bark with dark horizontal marks; chestnut wood",
+      "sheet": 1,
+      "column": 1,
+      "first_row": 4
+    },
+    {
+      "id": "brown_oak",
+      "art": "dark chocolate rugged bark; cocoa tan wood",
+      "sheet": 1,
+      "column": 2,
+      "first_row": 4
+    },
+    {
+      "id": "brown_zelkova",
+      "art": "copper brown mottled peeling bark; bronze honey wood",
+      "sheet": 1,
+      "column": 3,
+      "first_row": 4
+    },
+    {
+      "id": "bulbis",
+      "art": "amethyst bulbous organic skin, cream pores; pale violet interior",
+      "sheet": 1,
+      "column": 4,
+      "first_row": 4
+    },
+    {
+      "id": "cika",
+      "art": "warm russet flaky bark; toasted orange wood",
+      "sheet": 1,
+      "column": 5,
+      "first_row": 4
+    },
+    {
+      "id": "crimson_fungus",
+      "art": "burgundy fibrous stem, scarlet streaks; crimson coral interior",
+      "sheet": 1,
+      "column": 6,
+      "first_row": 4
+    },
+    {
+      "id": "cypress",
+      "art": "gray olive fibrous stringy bark; pale wheat wood",
+      "sheet": 2,
+      "column": 0,
+      "first_row": 0
+    },
+    {
+      "id": "death_cap",
+      "art": "bone white mushroom stalk with pale olive fibers; ivory green interior",
+      "sheet": 2,
+      "column": 1,
+      "first_row": 0
+    },
+    {
+      "id": "deciduous",
+      "art": "neutral brown vertically ridged bark; warm beige wood",
+      "sheet": 2,
+      "column": 2,
+      "first_row": 0
+    },
+    {
+      "id": "ebony",
+      "art": "near black violet brown bark, visible graphite highlights; dark espresso wood",
+      "sheet": 2,
+      "column": 3,
+      "first_row": 0
+    },
+    {
+      "id": "embur",
+      "art": "ember burnt orange stem with soot seams; glowing warm copper colored interior, no actual glow",
+      "sheet": 2,
+      "column": 4,
+      "first_row": 0
+    },
+    {
+      "id": "ether",
+      "art": "very pale icy lavender bark with silver channels; sky blue white wood",
+      "sheet": 2,
+      "column": 5,
+      "first_row": 0
+    },
+    {
+      "id": "fir",
+      "art": "cool pewter gray bark with narrow resin grooves; buttercream wood",
+      "sheet": 2,
+      "column": 6,
+      "first_row": 0
+    },
+    {
+      "id": "firecracker",
+      "art": "charcoal brown bark with rust red fissures; fiery orange red wood",
+      "sheet": 2,
+      "column": 0,
+      "first_row": 4
+    },
+    {
+      "id": "florus_rose",
+      "art": "dusty rose mauve bark with fine branching grooves; rose pink wood",
+      "sheet": 2,
+      "column": 1,
+      "first_row": 4
+    },
+    {
+      "id": "florus_thorn",
+      "art": "dark green olive thorny ridges; muted yellow green wood",
+      "sheet": 2,
+      "column": 2,
+      "first_row": 4
+    },
+    {
+      "id": "forgotten",
+      "art": "weathered ash gray bark with desaturated moss streaks; dusty sepia wood",
+      "sheet": 2,
+      "column": 3,
+      "first_row": 4
+    },
+    {
+      "id": "fungal_imparius",
+      "art": "teal and violet fibrous mushroom skin; muted turquoise interior",
+      "sheet": 2,
+      "column": 4,
+      "first_row": 4
+    },
+    {
+      "id": "giant_allium",
+      "art": "deep violet green striped botanical stalk; lavender interior",
+      "sheet": 2,
+      "column": 5,
+      "first_row": 4
+    },
+    {
+      "id": "giant_pink_allium",
+      "art": "pink magenta botanical stalk; blush pink interior",
+      "sheet": 2,
+      "column": 6,
+      "first_row": 4
+    },
+    {
+      "id": "giant_white_allium",
+      "art": "pale mint green botanical stalk; warm white interior",
+      "sheet": 3,
+      "column": 0,
+      "first_row": 0
+    },
+    {
+      "id": "green_enchanted",
+      "art": "emerald green ridged bark with jade seams; vivid jade wood",
+      "sheet": 3,
+      "column": 1,
+      "first_row": 0
+    },
+    {
+      "id": "green_mushroom",
+      "art": "moss green and cream speckled stem; pistachio interior",
+      "sheet": 3,
+      "column": 2,
+      "first_row": 0
+    },
+    {
+      "id": "holly",
+      "art": "smooth silver gray bark with olive undertone; nearly white wood",
+      "sheet": 3,
+      "column": 3,
+      "first_row": 0
+    },
+    {
+      "id": "imparius",
+      "art": "indigo slate bark with amber tiny pores; deep blue gray wood",
+      "sheet": 3,
+      "column": 4,
+      "first_row": 0
+    },
+    {
+      "id": "indigo_jacaranda",
+      "art": "indigo purple fissured bark; rich violet heartwood",
+      "sheet": 3,
+      "column": 5,
+      "first_row": 0
+    },
+    {
+      "id": "ironwood",
+      "art": "dense steel charcoal gray fine ridges; dark brown olive wood",
+      "sheet": 3,
+      "column": 6,
+      "first_row": 0
+    },
+    {
+      "id": "jacaranda",
+      "art": "mauve gray mottled bark; muted lilac brown wood",
+      "sheet": 3,
+      "column": 0,
+      "first_row": 4
+    },
+    {
+      "id": "joshua",
+      "art": "straw tan coarse shaggy fibrous bark; sand beige fibrous interior",
+      "sheet": 3,
+      "column": 1,
+      "first_row": 4
+    },
+    {
+      "id": "lament",
+      "art": "desaturated blue gray drooping fibrous stem; cold desaturated blue interior",
+      "sheet": 3,
+      "column": 2,
+      "first_row": 4
+    },
+    {
+      "id": "mahogany",
+      "art": "reddish dark chestnut bark with deep grooves; rich red mahogany wood",
+      "sheet": 3,
+      "column": 3,
+      "first_row": 4
+    },
+    {
+      "id": "maple",
+      "art": "warm stone gray fine flaking bark; light honey maple wood",
+      "sheet": 3,
+      "column": 4,
+      "first_row": 4
+    },
+    {
+      "id": "meadow",
+      "art": "soft sage brown bark with pale mottling; pale straw wood",
+      "sheet": 3,
+      "column": 5,
+      "first_row": 4
+    },
+    {
+      "id": "nightshade",
+      "art": "midnight purple bark with dusky violet edges; deep plum wood",
+      "sheet": 3,
+      "column": 6,
+      "first_row": 4
+    },
+    {
+      "id": "oak",
+      "art": "medium gray brown coarse broken ridges; classic warm oak tan wood",
+      "sheet": 4,
+      "column": 0,
+      "first_row": 0
+    },
+    {
+      "id": "orange_birch",
+      "art": "cream bark with warm orange peeling patches; apricot amber wood",
+      "sheet": 4,
+      "column": 1,
+      "first_row": 0
+    },
+    {
+      "id": "orange_oak",
+      "art": "rusty orange brown deeply furrowed bark; orange caramel wood",
+      "sheet": 4,
+      "column": 2,
+      "first_row": 0
+    },
+    {
+      "id": "orange_spruce",
+      "art": "burnt sienna narrow scale bark; amber orange wood",
+      "sheet": 4,
+      "column": 3,
+      "first_row": 0
+    },
+    {
+      "id": "orchard",
+      "art": "rose brown scaly bark with tiny moss marks; soft peach honey wood",
+      "sheet": 4,
+      "column": 4,
+      "first_row": 0
+    },
+    {
+      "id": "palm",
+      "art": "warm gray tan trunk with broad horizontal ring scars; golden fibrous wood",
+      "sheet": 4,
+      "column": 5,
+      "first_row": 0
+    },
+    {
+      "id": "palo_verde",
+      "art": "smooth green bark with cream irregular scars; pale chartreuse wood",
+      "sheet": 4,
+      "column": 6,
+      "first_row": 0
+    },
+    {
+      "id": "pine",
+      "art": "orange brown interlocking broad plates; golden yellow pine wood",
+      "sheet": 4,
+      "column": 0,
+      "first_row": 4
+    },
+    {
+      "id": "pink_cherry",
+      "art": "dark burgundy bark with pale pink horizontal lenticels; rosy pink wood",
+      "sheet": 4,
+      "column": 1,
+      "first_row": 4
+    },
+    {
+      "id": "prairie",
+      "art": "dry ochre gray fissured bark; pale straw golden wood",
+      "sheet": 4,
+      "column": 2,
+      "first_row": 4
+    },
+    {
+      "id": "purple_bulbis",
+      "art": "saturated royal purple organic bulb skin; orchid purple interior",
+      "sheet": 4,
+      "column": 3,
+      "first_row": 4
+    },
+    {
+      "id": "rainbow_eucalyptus",
+      "art": "natural irregular peeling vertical ribbons of mint, turquoise, rose, ochre, violet; pale mint peach wood",
+      "sheet": 4,
+      "column": 4,
+      "first_row": 4
+    },
+    {
+      "id": "red_birch",
+      "art": "warm ivory bark with red copper peeling patches; salmon reddish wood",
+      "sheet": 4,
+      "column": 5,
+      "first_row": 4
+    },
+    {
+      "id": "red_maple",
+      "art": "cool brown bark with muted crimson fissures; reddish honey maple wood",
+      "sheet": 4,
+      "column": 6,
+      "first_row": 4
+    },
+    {
+      "id": "red_oak",
+      "art": "deep red brown coarse ridges; brick red oak wood",
+      "sheet": 5,
+      "column": 0,
+      "first_row": 0
+    },
+    {
+      "id": "red_spruce",
+      "art": "wine russet fine scaly bark; warm rust red wood",
+      "sheet": 5,
+      "column": 1,
+      "first_row": 0
+    },
+    {
+      "id": "redwood",
+      "art": "rich orange red thick fibrous bark; deep reddish orange wood",
+      "sheet": 5,
+      "column": 2,
+      "first_row": 0
+    },
+    {
+      "id": "shulkren",
+      "art": "dusty purple segmented organic bark, creamy seams; dusky violet wood",
+      "sheet": 5,
+      "column": 3,
+      "first_row": 0
+    },
+    {
+      "id": "silver_maple",
+      "art": "silver gray flaky bark with darker long strips; pale silver beige wood",
+      "sheet": 5,
+      "column": 4,
+      "first_row": 0
+    },
+    {
+      "id": "skyris",
+      "art": "deep cyan teal bark with sky blue fissures; light azure wood",
+      "sheet": 5,
+      "column": 5,
+      "first_row": 0
+    },
+    {
+      "id": "soul_shroom",
+      "art": "deep blue teal fibrous mushroom stem with cyan pores; pale soul blue interior",
+      "sheet": 5,
+      "column": 6,
+      "first_row": 0
+    },
+    {
+      "id": "spirit",
+      "art": "pearly ivory bark with subtle aquamarine seams; pale mint white wood",
+      "sheet": 5,
+      "column": 0,
+      "first_row": 4
+    },
+    {
+      "id": "spruce",
+      "art": "dark gray brown small scaly plates; muted tan brown spruce wood",
+      "sheet": 5,
+      "column": 1,
+      "first_row": 4
+    },
+    {
+      "id": "sythian",
+      "art": "dark blood red ribbed stem with purple shadows; oxblood red interior",
+      "sheet": 5,
+      "column": 2,
+      "first_row": 4
+    },
+    {
+      "id": "wailing",
+      "art": "ashen blue lavender stretched fibrous bark; muted icy lilac wood",
+      "sheet": 5,
+      "column": 3,
+      "first_row": 4
+    },
+    {
+      "id": "warped_coral",
+      "art": "deep marine teal porous coral stem with turquoise pits; coral turquoise interior",
+      "sheet": 5,
+      "column": 4,
+      "first_row": 4
+    },
+    {
+      "id": "warped_fungus",
+      "art": "petrol green fibrous stem with cyan channels; turquoise green interior",
+      "sheet": 5,
+      "column": 5,
+      "first_row": 4
+    },
+    {
+      "id": "weeping_milkcap",
+      "art": "warm creamy mushroom stalk with caramel streaks; milky beige interior",
+      "sheet": 5,
+      "column": 6,
+      "first_row": 4
+    },
+    {
+      "id": "white_cherry",
+      "art": "pale pink gray smooth bark with dark horizontal lenticels; creamy blush wood",
+      "sheet": 6,
+      "column": 0,
+      "first_row": 0
+    },
+    {
+      "id": "white_mangrove",
+      "art": "silver white and gray gnarled bark with olive flecks; light gray cream wood",
+      "sheet": 6,
+      "column": 1,
+      "first_row": 0
+    },
+    {
+      "id": "white_sakura",
+      "art": "pearl white bark with dusky rose horizontal marks; pink white wood",
+      "sheet": 6,
+      "column": 2,
+      "first_row": 0
+    },
+    {
+      "id": "willow",
+      "art": "dark olive gray braided grooves; pale sage tan wood",
+      "sheet": 6,
+      "column": 3,
+      "first_row": 0
+    },
+    {
+      "id": "witch_hazel",
+      "art": "violet brown branching ridges with bronze flecks; muted plum gold wood",
+      "sheet": 6,
+      "column": 4,
+      "first_row": 0
+    },
+    {
+      "id": "withering_oak",
+      "art": "dead charcoal gray deeply cracked bark; desaturated ashen gray wood",
+      "sheet": 6,
+      "column": 5,
+      "first_row": 0
+    },
+    {
+      "id": "wood_blewit",
+      "art": "soft lilac mushroom stalk with cream fibers; pale lavender interior",
+      "sheet": 6,
+      "column": 6,
+      "first_row": 0
+    },
+    {
+      "id": "woodlands",
+      "art": "earthy deep brown bark with greenish fine weathering; warm medium walnut wood",
+      "sheet": 6,
+      "column": 0,
+      "first_row": 4
+    },
+    {
+      "id": "yellow_birch",
+      "art": "gold bronze papery bark with dark horizontal dashes; golden yellow wood",
+      "sheet": 6,
+      "column": 1,
+      "first_row": 4
+    },
+    {
+      "id": "yellow_sakura",
+      "art": "pale golden bark with brown horizontal lenticels; buttery golden wood",
+      "sheet": 6,
+      "column": 2,
+      "first_row": 4
+    },
+    {
+      "id": "yellow_spruce",
+      "art": "ochre brown narrow scaly bark; warm yellow amber wood",
+      "sheet": 6,
+      "column": 3,
+      "first_row": 4
+    },
+    {
+      "id": "yucca",
+      "art": "dry beige tan shaggy fibers with olive undertone; pale straw fibrous wood",
+      "sheet": 6,
+      "column": 4,
+      "first_row": 4
+    },
+    {
+      "id": "zelkova",
+      "art": "mottled gray copper bark with irregular peeling patches; amber orange wood",
+      "sheet": 6,
+      "column": 5,
+      "first_row": 4
+    }
+  ],
+  "sheets": {
+    "1": {
+      "x": [
+        0,
+        168,
+        332,
+        496,
+        659,
+        824,
+        997,
+        1174
+      ],
+      "y": [
+        0,
+        165,
+        320,
+        480,
+        630,
+        804,
+        963,
+        1137,
+        1340
+      ],
+      "inset": 8
+    },
+    "2": {
+      "x": [
+        0,
+        163,
+        325,
+        486,
+        650,
+        816,
+        989,
+        1174
+      ],
+      "y": [
+        0,
+        162,
+        320,
+        473,
+        629,
+        805,
+        968,
+        1125,
+        1340
+      ],
+      "inset": 8
+    },
+    "3": {
+      "x": [
+        0,
+        165,
+        332,
+        498,
+        664,
+        834,
+        1004,
+        1174
+      ],
+      "y": [
+        0,
+        169,
+        331,
+        484,
+        646,
+        816,
+        978,
+        1133,
+        1339
+      ],
+      "inset": 8
+    },
+    "4": {
+      "x": [
+        0,
+        164,
+        329,
+        495,
+        661,
+        827,
+        995,
+        1174
+      ],
+      "y": [
+        0,
+        163,
+        318,
+        474,
+        630,
+        805,
+        964,
+        1121,
+        1340
+      ],
+      "inset": 8
+    },
+    "5": {
+      "x": [
+        0,
+        167,
+        333,
+        501,
+        668,
+        838,
+        1004,
+        1173
+      ],
+      "y": [
+        0,
+        166,
+        326,
+        485,
+        640,
+        818,
+        975,
+        1132,
+        1341
+      ],
+      "inset": 8
+    },
+    "6": {
+      "x": [
+        0,
+        159,
+        318,
+        471,
+        642,
+        809,
+        1006,
+        1173
+      ],
+      "y": [
+        0,
+        188,
+        347,
+        509,
+        669,
+        856,
+        1014,
+        1169,
+        1341
+      ],
+      "inset": 8
+    }
+  },
+  "edge_blend_pixels": 8
+}

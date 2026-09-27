@@ -68,9 +68,11 @@ tasks.withType(JavaCompile).configureEach {
     options.compilerArgs.addAll(['-Xlint:all', '-Werror'])
 }
 
-processResources {
-    inputs.property 'version', project.version
-    filesMatching('fabric.mod.json') { expand version: project.version }
+def resourceVersion = project.version.toString()
+
+tasks.named('processResources', ProcessResources) {
+    inputs.property 'version', resourceVersion
+    filesMatching('fabric.mod.json') { expand(version: resourceVersion) }
 }
 
 tasks.withType(AbstractArchiveTask).configureEach {
@@ -78,30 +80,31 @@ tasks.withType(AbstractArchiveTask).configureEach {
     reproducibleFileOrder = true
 }
 
+def resourceRoot = layout.projectDirectory.dir('flora/src/main/resources').asFile
+def resourceJsonFiles = fileTree(resourceRoot) { include '**/*.json' }
+def forbiddenResourceFiles = fileTree(resourceRoot) {
+    include 'data/byg/**', 'assets/byg/**', 'data/biomeswevegone/**', 'assets/biomeswevegone/**'
+}
+
 tasks.register('verifySourceResources') {
-    inputs.dir('flora/src/main/resources')
-    inputs.file('tools/scan.py')
+    inputs.dir(resourceRoot)
     doLast {
-        def root = file('flora/src/main/resources')
         def parser = new groovy.json.JsonSlurper()
-        fileTree(root).matching { include '**/*.json' }.each { parser.parse(it) }
-        def catalog = parser.parse(new File(root, 'chromusflora/catalog.json'))
+        resourceJsonFiles.each { parser.parse(it) }
+        def catalog = parser.parse(new File(resourceRoot, 'chromusflora/catalog.json'))
         catalog.biomes.each {
-            if (!new File(root, "data/chromusflora/worldgen/biome/${it.id}.json").isFile()) {
+            if (!new File(resourceRoot, "data/chromusflora/worldgen/biome/${it.id}.json").isFile()) {
                 throw new GradleException("Missing biome: ${it.id}")
             }
         }
         catalog.trees.each {
             ['log', 'leaves', 'sapling', 'planks'].each { suffix ->
-                if (!new File(root, "assets/chromusflora/blockstates/${it.id}_${suffix}.json").isFile()) {
+                if (!new File(resourceRoot, "assets/chromusflora/blockstates/${it.id}_${suffix}.json").isFile()) {
                     throw new GradleException("Missing blockstate: ${it.id}_${suffix}")
                 }
             }
         }
-        def forbidden = fileTree(root).matching {
-            include 'data/byg/**', 'assets/byg/**', 'data/biomeswevegone/**', 'assets/biomeswevegone/**'
-        }
-        if (!forbidden.isEmpty()) { throw new GradleException('Legacy resources entered the new source set') }
+        if (!forbiddenResourceFiles.isEmpty()) { throw new GradleException('Legacy resources entered the new source set') }
     }
 }
 

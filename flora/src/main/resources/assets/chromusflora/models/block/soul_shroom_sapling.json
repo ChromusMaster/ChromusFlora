@@ -1,6 +1,6 @@
 {
   "textures": {
-    "bark": "chromusflora:block/bark_0",
+    "bark": "chromusflora:block/wood/soul_shroom/bark",
     "leaf": "chromusflora:block/leaves_0",
     "particle": "chromusflora:block/leaves_0"
   },
