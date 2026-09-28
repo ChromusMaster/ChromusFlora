@@ -1,0 +1,48 @@
+{
+  "type": "chromusflora:bounded_tree",
+  "base_location": "chromusflora:trees/base_giant",
+  "canopy_location": "chromusflora:trees/warped_fungus1/giant",
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 12,
+    "max_inclusive": 25
+  },
+  "log_provider": {
+    "id": "chromusflora:warped_fungus_log",
+    "properties": {
+      "axis": "y"
+    }
+  },
+  "leaves_provider": [
+    {
+      "id": "chromusflora:warped_fungus_leaves",
+      "properties": {
+        "distance": "1",
+        "persistent": "false",
+        "waterlogged": "false"
+      }
+    }
+  ],
+  "log_target": [
+    "minecraft:oak_log"
+  ],
+  "leaves_target": [
+    "minecraft:oak_leaves"
+  ],
+  "can_grow_on_filter": {
+    "type": "minecraft:matching_block_tag",
+    "tag": "chromusflora:tree_soils"
+  },
+  "can_leaves_place_filter": {
+    "type": "minecraft:replaceable"
+  },
+  "can_logs_place_filter": {
+    "type": "minecraft:replaceable"
+  },
+  "tree_filter_behavior": "BLOCK",
+  "max_log_depth": 1,
+  "decorators": [],
+  "replace_from_nbt": {},
+  "random_rotation": true,
+  "orientation": "STANDARD"
+}

@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:skyris_log",
-    "chromusflora:stripped_skyris_log"
+    "chromusflora:skyris_wood",
+    "chromusflora:stripped_skyris_log",
+    "chromusflora:stripped_skyris_wood"
   ]
 }

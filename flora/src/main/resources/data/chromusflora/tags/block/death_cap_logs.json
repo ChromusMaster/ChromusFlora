@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:death_cap_log",
+    "chromusflora:death_cap_wood",
+    "chromusflora:stripped_death_cap_log",
+    "chromusflora:stripped_death_cap_wood"
+  ]
+}

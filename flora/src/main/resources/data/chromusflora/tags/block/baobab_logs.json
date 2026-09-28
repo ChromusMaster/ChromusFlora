@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:baobab_log",
+    "chromusflora:baobab_wood",
+    "chromusflora:stripped_baobab_log",
+    "chromusflora:stripped_baobab_wood"
+  ]
+}

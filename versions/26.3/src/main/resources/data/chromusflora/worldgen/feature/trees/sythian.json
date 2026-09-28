@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/sythian_fungus_pillars",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/sythian_fungus_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/sythian_fungus_tree2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/sythian_fungus_tree3",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/sythian_fungus_tree4",
+      "placement": []
+    }
+  ]
+}

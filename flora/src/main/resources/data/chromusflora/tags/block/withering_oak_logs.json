@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:stripped_withering_oak_log",
+    "chromusflora:stripped_withering_oak_wood",
+    "chromusflora:withering_oak_log",
+    "chromusflora:withering_oak_wood"
+  ]
+}

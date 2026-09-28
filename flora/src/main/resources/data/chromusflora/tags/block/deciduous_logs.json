@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:deciduous_log",
+    "chromusflora:deciduous_wood",
+    "chromusflora:stripped_deciduous_log",
+    "chromusflora:stripped_deciduous_wood"
+  ]
+}

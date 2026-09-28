@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:indigo_jacaranda_planks"
+  },
+  "result": {
+    "id": "chromusflora:indigo_jacaranda_trapdoor",
+    "count": 2
+  }
+}

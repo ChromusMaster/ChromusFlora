@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:purple_bulbis_log",
+    "chromusflora:purple_bulbis_wood",
+    "chromusflora:stripped_purple_bulbis_log",
+    "chromusflora:stripped_purple_bulbis_wood"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:florus_thorn_planks"
+  },
+  "result": {
+    "id": "chromusflora:florus_thorn_trapdoor",
+    "count": 2
+  }
+}

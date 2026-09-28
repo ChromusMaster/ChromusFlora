@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:green_mushroom_log",
-    "chromusflora:stripped_green_mushroom_log"
+    "chromusflora:green_mushroom_wood",
+    "chromusflora:stripped_green_mushroom_log",
+    "chromusflora:stripped_green_mushroom_wood"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:purple_bulbis_log"
+  },
+  "result": {
+    "id": "chromusflora:purple_bulbis_wood",
+    "count": 3
+  }
+}

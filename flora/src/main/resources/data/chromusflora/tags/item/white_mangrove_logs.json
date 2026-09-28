@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_white_mangrove_log",
+    "chromusflora:stripped_white_mangrove_wood",
     "chromusflora:white_mangrove_log",
-    "chromusflora:stripped_white_mangrove_log"
+    "chromusflora:white_mangrove_wood"
   ]
 }

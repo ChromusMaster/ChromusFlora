@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:palm_log",
+    "chromusflora:palm_wood",
+    "chromusflora:stripped_palm_log",
+    "chromusflora:stripped_palm_wood"
+  ]
+}

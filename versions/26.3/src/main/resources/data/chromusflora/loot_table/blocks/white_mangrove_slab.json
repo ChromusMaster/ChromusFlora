@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chromusflora:white_mangrove_slab",
+          "modifier": [
+            {
+              "count": 2,
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "chromusflora:white_mangrove_slab",
+                "state": {
+                  "type": "double"
+                }
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    }
+  ]
+}

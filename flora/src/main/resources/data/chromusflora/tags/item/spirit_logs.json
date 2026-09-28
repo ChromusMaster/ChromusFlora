@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:spirit_log",
-    "chromusflora:stripped_spirit_log"
+    "chromusflora:spirit_wood",
+    "chromusflora:stripped_spirit_log",
+    "chromusflora:stripped_spirit_wood"
   ]
 }

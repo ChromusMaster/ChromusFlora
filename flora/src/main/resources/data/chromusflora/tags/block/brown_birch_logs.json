@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:brown_birch_log",
+    "chromusflora:brown_birch_wood",
+    "chromusflora:stripped_brown_birch_log",
+    "chromusflora:stripped_brown_birch_wood"
+  ]
+}

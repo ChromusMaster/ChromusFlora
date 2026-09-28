@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:forgotten_log"
+  },
+  "result": {
+    "id": "chromusflora:forgotten_wood",
+    "count": 3
+  }
+}

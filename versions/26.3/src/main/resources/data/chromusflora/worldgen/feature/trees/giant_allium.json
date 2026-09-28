@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/giant_allium_1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/giant_allium_2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/giant_allium_3",
+      "placement": []
+    }
+  ]
+}

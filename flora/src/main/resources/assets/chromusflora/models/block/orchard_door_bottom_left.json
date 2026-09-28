@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "chromusflora:block/wood/orchard/planks",
+    "top": "chromusflora:block/wood/orchard/planks"
+  }
+}

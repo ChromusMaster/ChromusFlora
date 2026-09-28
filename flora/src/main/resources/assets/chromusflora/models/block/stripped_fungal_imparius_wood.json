@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "chromusflora:block/wood/fungal_imparius/stripped",
+    "end": "chromusflora:block/wood/fungal_imparius/stripped"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/ebony",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/ancient",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/witch_hazel",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/forgotten",
+      "placement": []
+    }
+  ]
+}

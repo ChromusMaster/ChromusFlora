@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/zelkova_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/zelkova_tree2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/zelkova_tree3",
+      "placement": []
+    }
+  ]
+}

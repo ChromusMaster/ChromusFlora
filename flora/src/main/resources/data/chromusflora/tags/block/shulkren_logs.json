@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:shulkren_log",
+    "chromusflora:shulkren_wood",
+    "chromusflora:stripped_shulkren_log",
+    "chromusflora:stripped_shulkren_wood"
+  ]
+}

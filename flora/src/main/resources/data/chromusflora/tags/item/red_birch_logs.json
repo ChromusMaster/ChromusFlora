@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:red_birch_log",
-    "chromusflora:stripped_red_birch_log"
+    "chromusflora:red_birch_wood",
+    "chromusflora:stripped_red_birch_log",
+    "chromusflora:stripped_red_birch_wood"
   ]
 }

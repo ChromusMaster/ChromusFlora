@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:stripped_sythian_log",
+    "chromusflora:stripped_sythian_wood",
+    "chromusflora:sythian_log",
+    "chromusflora:sythian_wood"
+  ]
+}

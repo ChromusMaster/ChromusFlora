@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_selector",
+  "features": [
+    {
+      "chance": 0.25,
+      "feature": {
+        "feature": "chromusflora:forms/large_red_oak_tree3/small",
+        "placement": []
+      }
+    },
+    {
+      "chance": 0.06666666666666667,
+      "feature": {
+        "feature": "chromusflora:forms/large_red_oak_tree3/giant",
+        "placement": []
+      }
+    }
+  ],
+  "default": {
+    "feature": "chromusflora:forms/large_red_oak_tree3/normal",
+    "placement": []
+  }
+}

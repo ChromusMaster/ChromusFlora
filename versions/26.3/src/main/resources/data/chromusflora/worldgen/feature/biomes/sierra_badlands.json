@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/palo_verde",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/red_oak",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/firecracker",
+      "placement": []
+    }
+  ]
+}

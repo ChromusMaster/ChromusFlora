@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "side": "chromusflora:block/wood/orange_oak/stripped",
-    "end": "chromusflora:block/wood/orange_oak/end"
-  }
-}

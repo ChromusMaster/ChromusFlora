@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:ebony_log",
+    "chromusflora:ebony_wood",
+    "chromusflora:stripped_ebony_log",
+    "chromusflora:stripped_ebony_wood"
+  ]
+}

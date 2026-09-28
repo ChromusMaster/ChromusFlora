@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:blue_enchanted_log",
+    "chromusflora:blue_enchanted_wood",
+    "chromusflora:stripped_blue_enchanted_log",
+    "chromusflora:stripped_blue_enchanted_wood"
+  ]
+}

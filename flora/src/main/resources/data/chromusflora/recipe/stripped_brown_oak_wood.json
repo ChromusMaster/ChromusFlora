@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:stripped_brown_oak_log"
+  },
+  "result": {
+    "id": "chromusflora:stripped_brown_oak_wood",
+    "count": 3
+  }
+}

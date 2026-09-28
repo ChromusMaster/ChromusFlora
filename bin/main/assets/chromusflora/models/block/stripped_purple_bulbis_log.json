@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "side": "chromusflora:block/wood/purple_bulbis/stripped",
-    "end": "chromusflora:block/wood/purple_bulbis/end"
-  }
-}

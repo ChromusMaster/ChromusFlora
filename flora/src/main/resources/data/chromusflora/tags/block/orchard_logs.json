@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:orchard_log",
+    "chromusflora:orchard_wood",
+    "chromusflora:stripped_orchard_log",
+    "chromusflora:stripped_orchard_wood"
+  ]
+}

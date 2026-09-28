@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/embur_mushroom1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/embur_mushroom2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/embur_mushroom3",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/embur_mushroom4",
+      "placement": []
+    }
+  ]
+}

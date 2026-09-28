@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_woodlands_log",
+    "chromusflora:stripped_woodlands_wood",
     "chromusflora:woodlands_log",
-    "chromusflora:stripped_woodlands_log"
+    "chromusflora:woodlands_wood"
   ]
 }

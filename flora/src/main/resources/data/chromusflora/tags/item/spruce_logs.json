@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:spruce_log",
-    "chromusflora:stripped_spruce_log"
+    "chromusflora:spruce_wood",
+    "chromusflora:stripped_spruce_log",
+    "chromusflora:stripped_spruce_wood"
   ]
 }

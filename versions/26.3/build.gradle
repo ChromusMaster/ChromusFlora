@@ -1,0 +1,10 @@
+ext.targetMinecraft = '26.3'
+ext.targetFabric = '0.161.0+26.3'
+ext.targetTerraBlender = 'wOaMFDM8'
+ext.targetTrees = 'jGTmzNol'
+ext.targetModMenu = 'kyy7dbrZ'
+ext.targetJade = 'lt43vWtF'
+ext.runtimeTerraBlender = '>=26.3.0.0.7 <26.4'
+ext.runtimeTrees = '>=12.0.0 <13'
+
+apply from: rootProject.file('gradle/mod.gradle')

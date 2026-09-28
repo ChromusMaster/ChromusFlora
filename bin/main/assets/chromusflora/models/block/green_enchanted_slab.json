@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "top": "chromusflora:block/wood/green_enchanted/planks",
-    "bottom": "chromusflora:block/wood/green_enchanted/planks",
-    "side": "chromusflora:block/wood/green_enchanted/planks"
-  }
-}

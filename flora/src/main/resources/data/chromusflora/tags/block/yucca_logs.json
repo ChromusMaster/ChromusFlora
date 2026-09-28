@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:stripped_yucca_log",
+    "chromusflora:stripped_yucca_wood",
+    "chromusflora:yucca_log",
+    "chromusflora:yucca_wood"
+  ]
+}

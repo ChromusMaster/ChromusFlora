@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/huge_weeping_milkcap",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/huge_weeping_milkcap1",
+      "placement": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/forgotten_wood"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/forgotten_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/forgotten_wood",
+      "x": 90
+    }
+  }
+}

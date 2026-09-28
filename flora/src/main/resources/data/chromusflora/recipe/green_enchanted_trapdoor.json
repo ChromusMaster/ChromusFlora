@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:green_enchanted_planks"
+  },
+  "result": {
+    "id": "chromusflora:green_enchanted_trapdoor",
+    "count": 2
+  }
+}

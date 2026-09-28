@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:nightshade_log",
+    "chromusflora:nightshade_wood",
+    "chromusflora:stripped_nightshade_log",
+    "chromusflora:stripped_nightshade_wood"
+  ]
+}

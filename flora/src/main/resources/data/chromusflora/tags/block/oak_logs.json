@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:oak_log",
+    "chromusflora:oak_wood",
+    "chromusflora:stripped_oak_log",
+    "chromusflora:stripped_oak_wood"
+  ]
+}

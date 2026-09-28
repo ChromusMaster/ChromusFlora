@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/white_cherry_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/white_cherry_tree2",
+      "placement": []
+    }
+  ]
+}

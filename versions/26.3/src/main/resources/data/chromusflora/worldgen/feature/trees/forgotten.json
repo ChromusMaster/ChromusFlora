@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/forgotten_tree1",
+      "placement": []
+    }
+  ]
+}

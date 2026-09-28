@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:holly_log"
+  },
+  "result": {
+    "id": "chromusflora:holly_wood",
+    "count": 3
+  }
+}

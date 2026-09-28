@@ -1,0 +1,61 @@
+{
+  "scope": "Official published artifact SHA512 verified, used only for static inspection",
+  "artifacts": [
+    {
+      "project": "fabric-api",
+      "version": "0.161.0+26.3",
+      "id": "bNnaTiuM",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/bNnaTiuM/fabric-api-0.161.0%2B26.3.jar",
+      "sha512": "ed6b2586d6fde11fde8472f5a527c51e99b67026e46f94d4bfd85e7e28ce5ee299173ee16ad576ceb51f39f98d30a811086a6deb1a86a524859cc16e12da109d"
+    },
+    {
+      "project": "oh-the-trees-youll-grow",
+      "version": "12.0.0-fabric",
+      "id": "jGTmzNol",
+      "url": "https://cdn.modrinth.com/data/g8NOG5OR/versions/jGTmzNol/ohthetreesyoullgrow-fabric-26.3-12.0.0.jar",
+      "sha512": "64689154dcff50e0e7fdc1f39f2269fb0cd43918b612ce50c3c83ef3ec1b783a1402db98ed628fb7ea4bd9231366c2abc38e8c4c02f2f3199aa84f6a21aa677a"
+    },
+    {
+      "project": "modmenu",
+      "version": "21.0.0",
+      "id": "kyy7dbrZ",
+      "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar",
+      "sha512": "588c0c557963f4778572ee81bfafc190b332c26d5926c5fe7e3e1614dcf8e14f58e3bc80a97694521dd05907e9753a7c8575048ea769e4dbf40a3db74a4e2606"
+    },
+    {
+      "project": "jade",
+      "version": "26.3.1+fabric",
+      "id": "lt43vWtF",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/lt43vWtF/Jade-mc26.3-Fabric-26.3.1.jar",
+      "sha512": "1359d6576214fffadcb7bd4202bfd1606c827ab6c75143cbc7747269ed7d4131f5db226a914b9a924cac92e596c7994e6fe3303671ff8d5a2dcd41caf613e7ae"
+    },
+    {
+      "project": "terrablender",
+      "version": "26.3.0.0.7",
+      "id": "wOaMFDM8",
+      "url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/wOaMFDM8/TerraBlender-fabric-26.3-26.3.0.0.7.jar",
+      "sha512": "761b9d45f40ad326044076c1aa0ba74c10f9549681978eeaab0fd45d0be8206d0f605130096abd15c1fbec7a7846fd24d33b09bfc5ed68910c3d90dfb0b8403a"
+    },
+    {
+      "project": "terrestria",
+      "version": "8.1.0-beta.2",
+      "id": "u43c9EQl",
+      "url": "https://cdn.modrinth.com/data/lsUDPMOT/versions/u43c9EQl/terrestria-8.1.0-beta.2.jar",
+      "sha512": "02054d00958f3cf26d70ee0bd827411b8f85f6963a312258d40c8ca619b292627fd09c665cefac9432724c69b464cbdb49b3abbe318394d8ade314a3dc608353"
+    },
+    {
+      "project": "terralith",
+      "version": "2.6.4",
+      "id": "OxfI2n80",
+      "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/OxfI2n80/Terralith_26.2_v2.6.4.jar",
+      "sha512": "0830f4601674c4ea58d247a71bfdc820e4676900e173c7d6df4e58e348a09da43b279cea060df7b67e6f74c84e2a05b401b2df79836c37cffc8dc994844ab250"
+    },
+    {
+      "project": "biolith",
+      "version": "3.7.0-beta.1",
+      "id": "qSLRk6dS",
+      "url": "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar",
+      "sha512": "53e2e3d45dd2566c5d4a4d02da85c096929f8da27ddc7d85eba0918f77b1fcda92eceb974418b4306aee6a6db37b39ab6d021dee5d873de04ee072e17a894c1f"
+    }
+  ]
+}

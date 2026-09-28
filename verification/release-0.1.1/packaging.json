@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "source_only": true,
+  "old_base": "Fix10",
+  "overlay_and_cleanup": "PASS",
+  "protected_sentinels_preserved": [
+    ".git/config",
+    ".github/workflows/gradle.yml",
+    "saves/world/level.dat",
+    "config/chromusflora.json",
+    "mods/other-mod.jar"
+  ],
+  "java_sources_including_package_info": 34,
+  "active_files_removed_by_cleanup": [],
+  "not_executed": [
+    "PowerShell cleanup",
+    "Gradle",
+    "Java project",
+    "Minecraft"
+  ],
+  "source_revision": "build-fix1",
+  "patch_base": "Complete original 0.1.1",
+  "patch_overlay": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:firecracker_planks"
+  },
+  "result": {
+    "id": "chromusflora:firecracker_trapdoor",
+    "count": 2
+  }
+}

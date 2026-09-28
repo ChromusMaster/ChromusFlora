@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_weeping_milkcap_log",
+    "chromusflora:stripped_weeping_milkcap_wood",
     "chromusflora:weeping_milkcap_log",
-    "chromusflora:stripped_weeping_milkcap_log"
+    "chromusflora:weeping_milkcap_wood"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/joshua_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/joshua_tree2",
+      "placement": []
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "chromusflora:block/wood/warped_fungus/planks"
-  }
-}

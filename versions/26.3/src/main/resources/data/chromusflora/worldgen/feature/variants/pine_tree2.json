@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_selector",
+  "features": [
+    {
+      "chance": 0.25,
+      "feature": {
+        "feature": "chromusflora:forms/pine_tree2/small",
+        "placement": []
+      }
+    },
+    {
+      "chance": 0.06666666666666667,
+      "feature": {
+        "feature": "chromusflora:forms/pine_tree2/giant",
+        "placement": []
+      }
+    }
+  ],
+  "default": {
+    "feature": "chromusflora:forms/pine_tree2/normal",
+    "placement": []
+  }
+}

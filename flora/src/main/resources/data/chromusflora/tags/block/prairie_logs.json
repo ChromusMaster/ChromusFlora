@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:prairie_log",
+    "chromusflora:prairie_wood",
+    "chromusflora:stripped_prairie_log",
+    "chromusflora:stripped_prairie_wood"
+  ]
+}

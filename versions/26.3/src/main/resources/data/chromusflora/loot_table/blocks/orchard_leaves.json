@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "chromusflora:orchard_leaves",
+              "condition": {
+                "terms": [
+                  "minecraft:tool/can_silk_touch",
+                  "minecraft:tool/can_shear"
+                ],
+                "type": "minecraft:any_of"
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "chromusflora:orchard_sapling",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:survives_explosion"
+                  },
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "chances": [
+                      0.06,
+                      0.08,
+                      0.1,
+                      0.13
+                    ],
+                    "type": "minecraft:table_bonus"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chromusflora:grove_fruit",
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "chance": 0.08,
+                "type": "minecraft:random_chance"
+              },
+              {
+                "type": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        }
+      ],
+      "condition": {
+        "term": {
+          "terms": [
+            "minecraft:tool/can_silk_touch",
+            "minecraft:tool/can_shear"
+          ],
+          "type": "minecraft:any_of"
+        },
+        "type": "minecraft:inverted"
+      }
+    }
+  ]
+}

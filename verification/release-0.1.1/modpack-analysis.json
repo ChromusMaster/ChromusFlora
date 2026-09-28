@@ -1,0 +1,119 @@
+{
+  "status": "EXTERNAL_CYCLE_REPRODUCED_WITHOUT_FLORA",
+  "versions": {
+    "terralith": "2.6.4",
+    "terrestria": "8.1.0-beta.2",
+    "biolith": "3.7.0-beta.1",
+    "minecraft": "26.2"
+  },
+  "without_flora": [
+    [
+      9,
+      "minecraft:patch_grass_jungle"
+    ],
+    [
+      9,
+      "minecraft:patch_bush"
+    ],
+    [
+      9,
+      "minecraft:flower_default"
+    ],
+    [
+      9,
+      "minecraft:patch_grass_jungle"
+    ]
+  ],
+  "with_flora": [
+    [
+      9,
+      "minecraft:patch_grass_jungle"
+    ],
+    [
+      9,
+      "minecraft:patch_bush"
+    ],
+    [
+      9,
+      "minecraft:flower_default"
+    ],
+    [
+      9,
+      "minecraft:patch_grass_jungle"
+    ]
+  ],
+  "edges": [
+    {
+      "before": [
+        9,
+        "minecraft:patch_grass_jungle"
+      ],
+      "after": [
+        9,
+        "minecraft:patch_bush"
+      ],
+      "biomes": [
+        "terralith:sakura_grove",
+        "terralith:sakura_valley"
+      ]
+    },
+    {
+      "before": [
+        9,
+        "minecraft:patch_bush"
+      ],
+      "after": [
+        9,
+        "minecraft:flower_default"
+      ],
+      "biomes": [
+        "minecraft:forest",
+        "minecraft:frozen_river",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:river",
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:windswept_hills",
+        "terralith:birch_taiga",
+        "terralith:warm_river",
+        "chromusflora:eroded_borealis",
+        "chromusflora:orchard",
+        "chromusflora:ironwood_gour",
+        "chromusflora:aspen_forest",
+        "chromusflora:skyris_vale",
+        "chromusflora:zelkova_forest",
+        "chromusflora:temperate_grove",
+        "chromusflora:red_oak_forest",
+        "chromusflora:autumnal_forest",
+        "chromusflora:fragment_forest"
+      ]
+    },
+    {
+      "before": [
+        9,
+        "minecraft:flower_default"
+      ],
+      "after": [
+        9,
+        "minecraft:patch_grass_jungle"
+      ],
+      "biomes": [
+        "terrestria:rainbow_rainforest"
+      ]
+    }
+  ],
+  "runtime_log": "Biolith detected cycle and removed flower_default -> patch_grass_jungle in terrestria:rainbow_rainforest",
+  "unsafe_reads": {
+    "count": 19992,
+    "stage": "minecraft:spawn",
+    "chunk": [
+      -30,
+      18
+    ],
+    "attribution": "Not established; no evidence of a Flora stack trace in supplied diagnostic"
+  },
+  "not_fixed_by_this_release": [
+    "Terralith/Terrestria shared feature order",
+    "Unsafe spawn-stage reads without attributable stack trace"
+  ],
+  "scope_limit": "153 biome JSON files plus vanilla; not the complete graph of the 277-mod instance or runtime injections"
+}

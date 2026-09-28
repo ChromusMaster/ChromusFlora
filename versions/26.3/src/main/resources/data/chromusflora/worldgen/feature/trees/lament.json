@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/lament_twisty_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/lament_twisty_tree2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/lament_twisty_tree3",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/lament_weeping_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/lament_weeping_tree2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/lament_weeping_tree3",
+      "placement": []
+    }
+  ]
+}

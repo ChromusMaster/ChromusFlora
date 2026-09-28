@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "chromusflora:block/wood/yellow_sakura/stripped",
+    "end": "chromusflora:block/wood/yellow_sakura/stripped"
+  }
+}

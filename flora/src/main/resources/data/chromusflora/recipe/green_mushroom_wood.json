@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:green_mushroom_log"
+  },
+  "result": {
+    "id": "chromusflora:green_mushroom_wood",
+    "count": 3
+  }
+}

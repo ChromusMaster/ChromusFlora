@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "chromusflora:woodlands_leaves",
+              "condition": {
+                "terms": [
+                  "minecraft:tool/can_silk_touch",
+                  "minecraft:tool/can_shear"
+                ],
+                "type": "minecraft:any_of"
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "chromusflora:woodlands_sapling",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:survives_explosion"
+                  },
+                  {
+                    "enchantment": "minecraft:fortune",
+                    "chances": [
+                      0.06,
+                      0.08,
+                      0.1,
+                      0.13
+                    ],
+                    "type": "minecraft:table_bonus"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

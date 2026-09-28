@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "chromusflora:block/wood/sythian/stripped",
+    "end": "chromusflora:block/wood/sythian/stripped"
+  }
+}

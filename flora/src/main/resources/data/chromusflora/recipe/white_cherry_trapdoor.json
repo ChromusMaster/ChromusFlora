@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:white_cherry_planks"
+  },
+  "result": {
+    "id": "chromusflora:white_cherry_trapdoor",
+    "count": 2
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "side": "chromusflora:block/wood/orange_birch/bark",
-    "end": "chromusflora:block/wood/orange_birch/end"
-  }
-}

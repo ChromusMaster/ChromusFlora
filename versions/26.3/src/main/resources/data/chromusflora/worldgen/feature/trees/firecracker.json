@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/firecracker_bush1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/firecracker_shrub",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/firecracker_shrub2",
+      "placement": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/skyris_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/skyris_tree2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/skyris_tree3",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/skyris_tree4",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/skyris_tree5",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/skyris_tree6",
+      "placement": []
+    }
+  ]
+}

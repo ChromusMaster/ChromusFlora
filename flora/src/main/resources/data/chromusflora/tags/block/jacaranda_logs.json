@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:jacaranda_log",
+    "chromusflora:jacaranda_wood",
+    "chromusflora:stripped_jacaranda_log",
+    "chromusflora:stripped_jacaranda_wood"
+  ]
+}

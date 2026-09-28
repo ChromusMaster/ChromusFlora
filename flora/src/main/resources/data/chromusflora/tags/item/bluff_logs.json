@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:bluff_log",
-    "chromusflora:stripped_bluff_log"
+    "chromusflora:bluff_wood",
+    "chromusflora:stripped_bluff_log",
+    "chromusflora:stripped_bluff_wood"
   ]
 }

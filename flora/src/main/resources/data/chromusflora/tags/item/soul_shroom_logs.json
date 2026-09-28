@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:soul_shroom_log",
-    "chromusflora:stripped_soul_shroom_log"
+    "chromusflora:soul_shroom_wood",
+    "chromusflora:stripped_soul_shroom_log",
+    "chromusflora:stripped_soul_shroom_wood"
   ]
 }

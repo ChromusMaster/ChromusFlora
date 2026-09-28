@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/palo_verde_wood"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/palo_verde_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/palo_verde_wood",
+      "x": 90
+    }
+  }
+}

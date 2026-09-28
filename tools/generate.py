@@ -423,13 +423,16 @@ def main():
     write(RES/'chromusflora/catalog.json',{'trees':SPEC['trees'],'biomes':SPEC['biomes']})
     write(RES/'chromusflora/jaiz-compatibility.json',json.loads((ROOT/'atelier/jaiz-compatibility.json').read_text()))
     tree_resources();block_resources();biome_resources();localization();textures()
+    from wood_recipes import generate as wood_recipes
+    from resources_263 import generate as resources_263
+    wood_recipes();resources_263()
     write(RES/'fabric.mod.json',{'schemaVersion':1,'id':'chromusflora','version':'${version}',
         'name':'Chromus Flora','description':'Original forests and biomes across the Overworld, Nether and End.',
         'authors':['Chromus Master'],'license':'MIT','icon':'assets/chromusflora/icon.png','environment':'*',
         'entrypoints':{'main':['dev.chromus.flora.ChromusFlora'],'terrablender':['dev.chromus.flora.world.FloraTerraBlender'],
                       'modmenu':['dev.chromus.flora.client.FloraModMenu'],'jade':['dev.chromus.flora.client.FloraJade']},
-        'depends':{'fabricloader':'>=0.19.5','minecraft':'26.2','java':'>=25','fabric-api':'>=0.161.0',
-                   'terrablender':'>=26.2.0.0.2 <26.3','ohthetreesyoullgrow':'>=11.0.1 <12'},
+        'depends':{'fabricloader':'>=0.19.5','minecraft':'${minecraft}','java':'>=25','fabric-api':'>=0.161.0',
+                   'terrablender':'${terrablender}','ohthetreesyoullgrow':'${trees}'},
         'suggests':{'jaizmod':'>=2.3.11','appleskin':'*','jade':'*','modmenu':'*'},
         'breaks':{'jaizmod':'<2.3.11'},'custom':{'modmenu':{'badges':[]}}})
     write(ROOT/'docs/content-coverage.json',{'biomes':SPEC['biomes'],'trees':SPEC['trees'],'variants':SPEC['variants'],

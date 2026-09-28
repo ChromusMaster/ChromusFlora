@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:nightshade_planks"
+  },
+  "result": {
+    "id": "chromusflora:nightshade_trapdoor",
+    "count": 2
+  }
+}

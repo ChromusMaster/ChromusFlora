@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:sythian_planks"
+  },
+  "result": {
+    "id": "chromusflora:sythian_door",
+    "count": 3
+  }
+}

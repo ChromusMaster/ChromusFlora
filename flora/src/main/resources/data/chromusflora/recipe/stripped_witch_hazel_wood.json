@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:stripped_witch_hazel_log"
+  },
+  "result": {
+    "id": "chromusflora:stripped_witch_hazel_wood",
+    "count": 3
+  }
+}

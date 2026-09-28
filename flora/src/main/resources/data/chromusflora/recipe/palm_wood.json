@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:palm_log"
+  },
+  "result": {
+    "id": "chromusflora:palm_wood",
+    "count": 3
+  }
+}

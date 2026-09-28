@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/woodlands_wood"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/woodlands_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/woodlands_wood",
+      "x": 90
+    }
+  }
+}

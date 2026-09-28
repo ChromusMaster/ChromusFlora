@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:brown_oak_planks"
+  },
+  "result": {
+    "id": "chromusflora:brown_oak_door",
+    "count": 3
+  }
+}

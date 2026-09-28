@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:weeping_milkcap_planks"
+  },
+  "result": {
+    "id": "chromusflora:weeping_milkcap_trapdoor",
+    "count": 2
+  }
+}

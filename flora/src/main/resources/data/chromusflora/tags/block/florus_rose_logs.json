@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:florus_rose_log",
+    "chromusflora:florus_rose_wood",
+    "chromusflora:stripped_florus_rose_log",
+    "chromusflora:stripped_florus_rose_wood"
+  ]
+}

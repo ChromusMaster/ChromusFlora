@@ -4,7 +4,9 @@ build/
 run/
 __pycache__/
 *.pyc
+*.py
 .idea/
 *.iml
+*.log
 bin/
 .source-backups/

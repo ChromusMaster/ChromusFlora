@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/orchard",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/oak",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/brown_oak",
+      "placement": []
+    }
+  ]
+}

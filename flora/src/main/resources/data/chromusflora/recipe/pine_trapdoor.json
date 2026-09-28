@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:pine_planks"
+  },
+  "result": {
+    "id": "chromusflora:pine_trapdoor",
+    "count": 2
+  }
+}

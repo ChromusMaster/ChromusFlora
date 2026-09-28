@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:warped_coral_planks"
+  },
+  "result": {
+    "id": "chromusflora:warped_coral_door",
+    "count": 3
+  }
+}

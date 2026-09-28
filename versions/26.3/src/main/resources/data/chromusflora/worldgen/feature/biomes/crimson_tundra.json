@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/red_spruce",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/red_maple",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/florus_rose",
+      "placement": []
+    }
+  ]
+}

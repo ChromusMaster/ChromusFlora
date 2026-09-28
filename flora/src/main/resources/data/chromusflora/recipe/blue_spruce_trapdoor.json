@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:blue_spruce_planks"
+  },
+  "result": {
+    "id": "chromusflora:blue_spruce_trapdoor",
+    "count": 2
+  }
+}

@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_zelkova_log",
+    "chromusflora:stripped_zelkova_wood",
     "chromusflora:zelkova_log",
-    "chromusflora:stripped_zelkova_log"
+    "chromusflora:zelkova_wood"
   ]
 }

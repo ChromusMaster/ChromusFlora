@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/huge_wood_blewit",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/huge_wood_blewit1",
+      "placement": []
+    }
+  ]
+}

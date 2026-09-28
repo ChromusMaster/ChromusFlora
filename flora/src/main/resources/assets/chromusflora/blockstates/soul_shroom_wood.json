@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/soul_shroom_wood"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/soul_shroom_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/soul_shroom_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:giant_white_allium_log",
+    "chromusflora:giant_white_allium_wood",
+    "chromusflora:stripped_giant_white_allium_log",
+    "chromusflora:stripped_giant_white_allium_wood"
+  ]
+}

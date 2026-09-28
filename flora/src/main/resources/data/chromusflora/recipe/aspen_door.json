@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:aspen_planks"
+  },
+  "result": {
+    "id": "chromusflora:aspen_door",
+    "count": 3
+  }
+}

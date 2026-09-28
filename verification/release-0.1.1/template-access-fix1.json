@@ -1,0 +1,35 @@
+{
+  "status": "PASS_STATIC_ONLY",
+  "cause": "26.3 renamed ServerLevel.getStructureManager to getStructureTemplateManager; shared code still called the 26.2 member. Previous member inspection omitted this call.",
+  "fix": "Shared TreeFootprint delegates template lookup to the version-specific FloraPlatform.",
+  "targets": {
+    "26.2": {
+      "owner": "net/minecraft/server/level/ServerLevel",
+      "verified_member": {
+        "name": "getStructureManager",
+        "descriptor": "()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;",
+        "flags": 1,
+        "deprecated": false
+      },
+      "artifact_sha256": "40896ee9f1e2bec3c934daac7e93d41e9e3d9c2f8ae0ca366d52ffbfd1afa290"
+    },
+    "26.3": {
+      "owner": "net/minecraft/server/level/ServerLevel",
+      "verified_member": {
+        "name": "getStructureTemplateManager",
+        "descriptor": "()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;",
+        "flags": 1,
+        "deprecated": false
+      },
+      "artifact_sha256": "4508d006323f24fa02876310c192d739af56516eb259000ac50f0909a68c9a2d"
+    }
+  },
+  "java_syntax_errors": [],
+  "resource_files_byte_identical_to_original_0.1.1": 14931,
+  "no_mod_version_change": true,
+  "not_executed": [
+    "Gradle",
+    "Java compiler",
+    "Minecraft"
+  ]
+}

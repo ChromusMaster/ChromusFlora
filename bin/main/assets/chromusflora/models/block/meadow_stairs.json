@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "top": "chromusflora:block/wood/meadow/planks",
-    "bottom": "chromusflora:block/wood/meadow/planks",
-    "side": "chromusflora:block/wood/meadow/planks"
-  }
-}

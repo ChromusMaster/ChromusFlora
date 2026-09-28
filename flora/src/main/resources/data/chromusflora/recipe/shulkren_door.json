@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:shulkren_planks"
+  },
+  "result": {
+    "id": "chromusflora:shulkren_door",
+    "count": 3
+  }
+}

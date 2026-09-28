@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:giant_white_allium_planks"
+  },
+  "result": {
+    "id": "chromusflora:giant_white_allium_trapdoor",
+    "count": 2
+  }
+}

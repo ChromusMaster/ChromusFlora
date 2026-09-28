@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:orange_birch_planks"
+  },
+  "result": {
+    "id": "chromusflora:orange_birch_door",
+    "count": 3
+  }
+}

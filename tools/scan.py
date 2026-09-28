@@ -136,8 +136,8 @@ def main():
     COUNTS.update(biomes=len(spec['biomes']), tree_families=len(families), variants=len(spec['variants']))
     block_ids = {n.removeprefix('assets/chromusflora/blockstates/').removesuffix('.json') for n in data if n.startswith('assets/chromusflora/blockstates/')}
     item_ids = {n.removeprefix('assets/chromusflora/items/').removesuffix('.json') for n in data if n.startswith('assets/chromusflora/items/')}
-    expected_blocks = {t+'_'+suffix for t in families for suffix in ['log','leaves','planks','slab','stairs','fence','fence_gate','sapling']}
-    expected_blocks |= {'stripped_'+t+'_log' for t in families} | {'potted_'+t+'_sapling' for t in families}
+    expected_blocks = {t+'_'+suffix for t in families for suffix in ['log','leaves','planks','slab','stairs','fence','fence_gate','sapling','wood','door','trapdoor']}
+    expected_blocks |= {'stripped_'+t+'_log' for t in families} | {'stripped_'+t+'_wood' for t in families} | {'potted_'+t+'_sapling' for t in families}
     check(block_ids == expected_blocks, 'Block registry/model mismatch')
     check(item_ids == {n for n in block_ids if not n.startswith('potted_')} | {'grove_fruit'}, 'Item registry/model mismatch')
     COUNTS.update(blocks=len(block_ids), items=len(item_ids))
@@ -188,7 +188,7 @@ def main():
                 if node.get('type') == 'minecraft:item' and node['name'].startswith('chromusflora:'):
                     check(node['name'].split(':')[1] in item_ids, 'Unknown loot item '+node['name'])
         if '/recipe/' in path:
-            check(obj['result']['id'].split(':')[1] in item_ids, 'Unknown recipe result '+path)
+            check(obj['result']['id'].split(':')[1] in item_ids if obj['result']['id'].startswith('chromusflora:') else obj['result']['id'] in {'minecraft:oak_boat','minecraft:chest','minecraft:crafting_table'}, 'Unknown recipe result '+path)
             for ref in strings(obj.get('key', obj.get('ingredients', []))):
                 if ref.startswith('chromusflora:'):
                     check(ref.split(':')[1] in item_ids, 'Unknown recipe ingredient '+ref)
@@ -276,7 +276,7 @@ def main():
             check(low == high == 2 and log_y == 0 and len(logs) == 1 and base_red == 1, 'Small form does not have exactly three log blocks '+path)
         height_rows.append({'family':family,'form':config['canopy_location'],'min_trunk_height':low+log_y+1,'max_trunk_height':high+log_y+1})
     COUNTS['tree_forms'] = len(height_rows)
-    java_files = list((ROOT/'flora/src').rglob('*.java'))
+    java_files = list((ROOT/'flora/src').rglob('*.java')) + list((ROOT/'versions').rglob('*.java'))
     for path in java_files:
         source = path.read_text(encoding='utf-8')
         without_strings = re.sub(r'"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\'', '""', source)
@@ -297,7 +297,7 @@ def main():
         check(raw[:8] == b'\x89PNG\r\n\x1a\n', 'Invalid PNG '+str(path))
         w,h = struct.unpack('>II',raw[16:24])
         check((w,h) == ((256,256) if path.name=='icon.png' else (64,64)), 'Wrong texture dimensions '+str(path))
-    build = (ROOT/'build.gradle').read_text()
+    build = (ROOT/'gradle/mod.gradle').read_text()
     check("'-Xlint:all', '-Werror'" in build, 'Compiler warnings not fatal')
     check('org.gradle.warning.mode=fail' in (ROOT/'gradle.properties').read_text(), 'Gradle warnings not fatal')
     rules = data['chromusflora/jaiz-compatibility.json']
@@ -309,6 +309,10 @@ def main():
     visual = runpy.run_path(str(ROOT / 'tools/check-visual-resources.py'))['verify']()
     check(visual['status'] == 'PASS', 'Visual resources: ' + str(visual['errors']))
     (ROOT/'verification/visual-resources.json').write_text(json.dumps(visual,indent=2)+'\n',encoding='utf-8')
+    worldgen = runpy.run_path(str(ROOT / 'tools/check-worldgen.py'))['verify']()
+    check(worldgen['status'] == 'PASS', 'Worldgen contracts: ' + str(worldgen['errors']))
+    (ROOT/'verification/release-0.1.1').mkdir(parents=True, exist_ok=True)
+    (ROOT/'verification/release-0.1.1/worldgen-checks.json').write_text(json.dumps(worldgen,indent=2)+'\n',encoding='utf-8')
     report = {'scope':'offline static source/resource scan; no Java compilation or game execution',
               'status':'PASS' if not ERRORS else 'FAIL','counts':dict(COUNTS),'errors':ERRORS,
               'limitations':['No Java type checking or compiler warning result','No registry/datapack loading in the game','No world generation, server, multiplayer or optional-mod runtime tests'],

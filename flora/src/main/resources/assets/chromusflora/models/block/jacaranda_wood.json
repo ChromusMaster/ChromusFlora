@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "chromusflora:block/wood/jacaranda/bark",
+    "end": "chromusflora:block/wood/jacaranda/bark"
+  }
+}

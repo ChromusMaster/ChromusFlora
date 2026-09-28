@@ -1,5 +1,6 @@
 package dev.chromus.flora;
 
+import org.jspecify.annotations.Nullable;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParseException;
@@ -23,7 +24,7 @@ public final class FloraConfig {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static final Path PATH = FabricLoader.getInstance().getConfigDir().resolve("chromusflora.json");
     private static Settings current = new Settings(1, true, true);
-    private static Settings nextLaunch;
+    private static @Nullable Settings nextLaunch;
     private static boolean loaded;
 
     private FloraConfig() {}
@@ -35,7 +36,8 @@ public final class FloraConfig {
 
     public static synchronized Settings draftForNextLaunch() {
         load();
-        return nextLaunch == null ? current : nextLaunch;
+        @Nullable Settings draft = nextLaunch;
+        return draft == null ? current : draft;
     }
 
     public static synchronized void load() {
@@ -44,7 +46,7 @@ public final class FloraConfig {
         }
         if (Files.exists(PATH)) {
             try {
-                Settings parsed = GSON.fromJson(Files.readString(PATH, StandardCharsets.UTF_8), Settings.class);
+                @Nullable Settings parsed = GSON.fromJson(Files.readString(PATH, StandardCharsets.UTF_8), Settings.class);
                 if (parsed == null) {
                     throw new IllegalArgumentException("Empty configuration");
                 }
@@ -59,7 +61,7 @@ public final class FloraConfig {
     }
 
     public static synchronized void writeForNextLaunch(Settings settings) {
-        Path temporary = null;
+        @Nullable Path temporary = null;
         try {
             Files.createDirectories(PATH.getParent());
             temporary = Files.createTempFile(PATH.getParent(), "chromusflora-", ".json.tmp");

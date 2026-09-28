@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:bulbis_log",
+    "chromusflora:bulbis_wood",
+    "chromusflora:stripped_bulbis_log",
+    "chromusflora:stripped_bulbis_wood"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:fungal_imparius_planks"
+  },
+  "result": {
+    "id": "chromusflora:fungal_imparius_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:stripped_ironwood_log"
+  },
+  "result": {
+    "id": "chromusflora:stripped_ironwood_wood",
+    "count": 3
+  }
+}

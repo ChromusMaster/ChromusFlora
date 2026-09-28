@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/giant_allium",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/meadow",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/prairie",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/oak",
+      "placement": []
+    }
+  ]
+}

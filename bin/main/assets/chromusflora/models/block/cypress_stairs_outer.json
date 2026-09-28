@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "top": "chromusflora:block/wood/cypress/planks",
-    "bottom": "chromusflora:block/wood/cypress/planks",
-    "side": "chromusflora:block/wood/cypress/planks"
-  }
-}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:ironwood_log",
+    "chromusflora:ironwood_wood",
+    "chromusflora:stripped_ironwood_log",
+    "chromusflora:stripped_ironwood_wood"
+  ]
+}

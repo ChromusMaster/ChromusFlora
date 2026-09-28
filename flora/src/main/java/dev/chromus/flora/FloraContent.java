@@ -1,6 +1,8 @@
 package dev.chromus.flora;
 
 import dev.chromus.flora.block.FloraSapling;
+import dev.chromus.flora.block.FloraDoor;
+import dev.chromus.flora.block.FloraTrapDoor;
 import dev.chromus.flora.block.FloraStairs;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,9 +12,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
-import net.fabricmc.fabric.api.registry.CompostableRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
-import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -20,6 +20,9 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DoubleHighBlockItem;
+import net.minecraft.world.level.block.DoorBlock;
+import java.util.Objects;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
@@ -33,7 +36,6 @@ import net.minecraft.world.level.block.TintedParticleLeavesBlock;
 import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.WoodType;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 
 public final class FloraContent {
     private static final Map<String, Block> BLOCKS = new LinkedHashMap<>();
@@ -45,34 +47,36 @@ public final class FloraContent {
         return Collections.unmodifiableMap(BLOCKS);
     }
 
-    public static ResourceKey<ConfiguredFeature<?, ?>> treeKey(String id) {
-        return ResourceKey.create(Registries.CONFIGURED_FEATURE, ChromusFlora.id("trees/" + id));
-    }
-
     public static void register() {
         for (FloraCatalog.Tree tree : FloraCatalog.get().trees()) {
             String id = tree.id();
             Block log = block(id + "_log", RotatedPillarBlock::new, Blocks.OAK_LOG, true);
             Block stripped = block("stripped_" + id + "_log", RotatedPillarBlock::new, Blocks.STRIPPED_OAK_LOG, true);
+            Block wood = block(id + "_wood", RotatedPillarBlock::new, Blocks.OAK_WOOD, true);
+            Block strippedWood = block("stripped_" + id + "_wood", RotatedPillarBlock::new, Blocks.STRIPPED_OAK_WOOD, true);
+            block(id + "_door", FloraDoor::new, Blocks.OAK_DOOR, true);
+            block(id + "_trapdoor", FloraTrapDoor::new, Blocks.OAK_TRAPDOOR, true);
             Block leaves = block(id + "_leaves", properties -> new TintedParticleLeavesBlock(0.01F, properties), Blocks.OAK_LEAVES, true);
             Block planks = block(id + "_planks", Block::new, Blocks.OAK_PLANKS, true);
             block(id + "_slab", SlabBlock::new, Blocks.OAK_SLAB, true);
             block(id + "_stairs", properties -> new FloraStairs(planks.defaultBlockState(), properties), Blocks.OAK_STAIRS, true);
             block(id + "_fence", FenceBlock::new, Blocks.OAK_FENCE, true);
             block(id + "_fence_gate", properties -> new FenceGateBlock(WoodType.OAK, properties), Blocks.OAK_FENCE_GATE, true);
-            TreeGrower grower = new TreeGrower(ChromusFlora.ID + ":" + id,
-                    Optional.empty(), Optional.of(treeKey(id)), Optional.empty());
+            TreeGrower grower = FloraPlatform.grower(id);
             Block sapling = block(id + "_sapling", properties -> new FloraSapling(grower, properties), Blocks.OAK_SAPLING, true);
             block("potted_" + id + "_sapling", properties -> new FlowerPotBlock(sapling, properties), Blocks.POTTED_OAK_SAPLING, false);
-            CompostableRegistry.INSTANCE.add(sapling, 0.3F);
-            CompostableRegistry.INSTANCE.add(leaves, 0.3F);
-            StrippableBlockRegistry.register(log, stripped);
+            FloraPlatform.compost(sapling, 0.3F);
+            FloraPlatform.compost(leaves, 0.3F);
+            FloraPlatform.strip(log, stripped);
+            FloraPlatform.strip(wood, strippedWood);
             if (!tree.dimension().equals("nether")) {
                 FlammableBlockRegistry.getDefaultInstance().add(log, 5, 5);
                 FlammableBlockRegistry.getDefaultInstance().add(stripped, 5, 5);
+                FlammableBlockRegistry.getDefaultInstance().add(wood, 5, 5);
+                FlammableBlockRegistry.getDefaultInstance().add(strippedWood, 5, 5);
                 FlammableBlockRegistry.getDefaultInstance().add(leaves, 30, 60);
-                for (String suffix : List.of("planks", "slab", "stairs", "fence", "fence_gate")) {
-                    FlammableBlockRegistry.getDefaultInstance().add(BLOCKS.get(id + "_" + suffix), 5, 20);
+                for (String suffix : List.of("planks", "slab", "stairs", "fence", "fence_gate", "door", "trapdoor")) {
+                    FlammableBlockRegistry.getDefaultInstance().add(Objects.requireNonNull(BLOCKS.get(id + "_" + suffix)), 5, 20);
                 }
             }
         }
@@ -80,7 +84,7 @@ public final class FloraContent {
         Item fruit = Registry.register(BuiltInRegistries.ITEM, fruitKey, new Item(new Item.Properties()
                 .setId(fruitKey).food(new FoodProperties.Builder().nutrition(4).saturationModifier(0.3F).build())));
         ITEMS.add(fruit);
-        CompostableRegistry.INSTANCE.add(fruit, 0.65F);
+        FloraPlatform.compost(fruit, 0.65F);
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ChromusFlora.id("flora"),
                 FabricCreativeModeTab.builder().title(Component.translatable("itemGroup.chromusflora"))
                         .icon(() -> new ItemStack(ITEMS.getFirst()))
@@ -95,8 +99,9 @@ public final class FloraContent {
         BLOCKS.put(name, block);
         if (withItem) {
             ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, ChromusFlora.id(name));
+            Item.Properties properties = new Item.Properties().setId(itemKey).useBlockDescriptionPrefix();
             Item item = Registry.register(BuiltInRegistries.ITEM, itemKey,
-                    new BlockItem(block, new Item.Properties().setId(itemKey).useBlockDescriptionPrefix()));
+                    block instanceof DoorBlock ? new DoubleHighBlockItem(block, properties) : new BlockItem(block, properties));
             ITEMS.add(item);
         }
         return block;

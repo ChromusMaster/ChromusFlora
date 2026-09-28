@@ -21,7 +21,7 @@ foreach ($relative in $rules.paths) {
     }
     $normalized = $relative.Replace('\', '/').TrimEnd('/')
     $first = ($normalized -split '/')[0]
-    if ($first -in @('.git', 'run', 'saves', 'mods', 'config', '.gradle', '.gradle-bootstrap', '.source-backups')) {
+    if ($first -in @('.git', '.github', 'run', 'saves', 'mods', 'config', '.gradle', '.gradle-bootstrap', '.source-backups')) {
         throw ('Protected cleanup path: ' + $relative)
     }
     foreach ($name in $active) {
@@ -56,7 +56,7 @@ if (-not $WhatIfPreference) {
         if ($LASTEXITCODE -ne 0) { throw 'Could not stop Gradle. Close the IDE and running builds.' }
     } finally { Pop-Location }
 }
-$backupName = (Split-Path -Leaf $projectRoot) + '-backup-fix10-' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + [Guid]::NewGuid().ToString('N').Substring(0, 8)
+$backupName = (Split-Path -Leaf $projectRoot) + '-backup-0.1.1-' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + [Guid]::NewGuid().ToString('N').Substring(0, 8)
 $backupRoot = Join-Path (Split-Path -Parent $projectRoot) $backupName
 foreach ($entry in $candidates) {
     $destination = Join-Path $backupRoot $entry.Relative

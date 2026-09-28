@@ -1,0 +1,25 @@
+{
+  "version": "0.1.1",
+  "targets": [
+    "26.2",
+    "26.3"
+  ],
+  "status": "STATIC_CHECKS_PASS_BUILD_AND_RUNTIME_PENDING",
+  "deliverable": "Complete sources only",
+  "old_resource_definitions_unchanged": 4223,
+  "recipes_per_target": 750,
+  "blocks": 1162,
+  "items": 1080,
+  "known_external_issue": "Terralith/Terrestria feature cycle reproduced without Flora; Biolith recovered in supplied runtime log",
+  "unattributed_issue": "19992 unsafe reads at minecraft:spawn stage",
+  "runtime_pending": [
+    "Both Gradle builds",
+    "JDT diagnostics",
+    "Existing save load/save/reopen",
+    "Complete 277-mod runtime",
+    "26.3 dependency integration"
+  ],
+  "source_revision": "build-fix1",
+  "user_build_before_fix": "mc26_3:compileJava failed: ServerLevel.getStructureManager missing",
+  "fix1": "Version-specific structure template manager accessor; see template-access-fix1.json"
+}

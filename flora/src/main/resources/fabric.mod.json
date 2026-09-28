@@ -26,11 +26,11 @@
   },
   "depends": {
     "fabricloader": ">=0.19.5",
-    "minecraft": "26.2",
+    "minecraft": "${minecraft}",
     "java": ">=25",
     "fabric-api": ">=0.161.0",
-    "terrablender": ">=26.2.0.0.2 <26.3",
-    "ohthetreesyoullgrow": ">=11.0.1 <12"
+    "terrablender": "${terrablender}",
+    "ohthetreesyoullgrow": "${trees}"
   },
   "suggests": {
     "jaizmod": ">=2.3.11",

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:maple_planks"
+  },
+  "result": {
+    "id": "chromusflora:maple_door",
+    "count": 3
+  }
+}

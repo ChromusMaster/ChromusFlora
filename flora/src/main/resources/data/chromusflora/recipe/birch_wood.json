@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:birch_log"
+  },
+  "result": {
+    "id": "chromusflora:birch_wood",
+    "count": 3
+  }
+}

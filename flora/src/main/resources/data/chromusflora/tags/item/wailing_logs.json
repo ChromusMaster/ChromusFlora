@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_wailing_log",
+    "chromusflora:stripped_wailing_wood",
     "chromusflora:wailing_log",
-    "chromusflora:stripped_wailing_log"
+    "chromusflora:wailing_wood"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:crimson_fungus_log"
+  },
+  "result": {
+    "id": "chromusflora:crimson_fungus_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:aspen_log",
+    "chromusflora:aspen_wood",
+    "chromusflora:stripped_aspen_log",
+    "chromusflora:stripped_aspen_wood"
+  ]
+}

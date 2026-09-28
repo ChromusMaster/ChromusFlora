@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/blue_spruce",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/silver_maple",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/fir",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/woodlands",
+      "placement": []
+    }
+  ]
+}

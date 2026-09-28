@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:ancient_log",
-    "chromusflora:stripped_ancient_log"
+    "chromusflora:ancient_wood",
+    "chromusflora:stripped_ancient_log",
+    "chromusflora:stripped_ancient_wood"
   ]
 }

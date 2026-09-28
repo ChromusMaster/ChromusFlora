@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_warped_coral_log",
+    "chromusflora:stripped_warped_coral_wood",
     "chromusflora:warped_coral_log",
-    "chromusflora:stripped_warped_coral_log"
+    "chromusflora:warped_coral_wood"
   ]
 }

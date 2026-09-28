@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:deciduous_log"
+  },
+  "result": {
+    "id": "chromusflora:deciduous_wood",
+    "count": 3
+  }
+}

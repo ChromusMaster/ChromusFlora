@@ -1,5 +1,6 @@
 package dev.chromus.flora.client;
 
+import org.jspecify.annotations.Nullable;
 import dev.chromus.flora.FloraConfig;
 import dev.chromus.flora.ChromusFlora;
 import net.minecraft.client.gui.components.Button;
@@ -8,11 +9,11 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
 public final class FloraSettingsScreen extends Screen {
-    private final Screen parent;
+    private final @Nullable Screen parent;
     private FloraConfig.Settings draft;
     private Component status = Component.translatable("screen.chromusflora.restart");
 
-    public FloraSettingsScreen(Screen parent) {
+    public FloraSettingsScreen(@Nullable Screen parent) {
         super(Component.translatable("screen.chromusflora.title"));
         this.parent = parent;
         this.draft = FloraConfig.draftForNextLaunch();

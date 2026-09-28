@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/warped_coral",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/embur",
+      "placement": []
+    }
+  ]
+}

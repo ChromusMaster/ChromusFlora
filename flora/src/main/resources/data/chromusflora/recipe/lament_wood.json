@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:lament_log"
+  },
+  "result": {
+    "id": "chromusflora:lament_wood",
+    "count": 3
+  }
+}

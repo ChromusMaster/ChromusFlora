@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/ether",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/nightshade",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/fungal_imparius",
+      "placement": []
+    }
+  ]
+}

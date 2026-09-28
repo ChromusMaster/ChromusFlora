@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:white_mangrove_planks"
+  },
+  "result": {
+    "id": "chromusflora:white_mangrove_door",
+    "count": 3
+  }
+}

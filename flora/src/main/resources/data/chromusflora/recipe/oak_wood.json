@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:oak_log"
+  },
+  "result": {
+    "id": "chromusflora:oak_wood",
+    "count": 3
+  }
+}

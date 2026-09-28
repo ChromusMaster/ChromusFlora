@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/redwood",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/fir",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/giant_pink_allium",
+      "placement": []
+    }
+  ]
+}

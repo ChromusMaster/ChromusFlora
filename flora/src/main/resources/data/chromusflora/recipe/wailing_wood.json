@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:wailing_log"
+  },
+  "result": {
+    "id": "chromusflora:wailing_wood",
+    "count": 3
+  }
+}

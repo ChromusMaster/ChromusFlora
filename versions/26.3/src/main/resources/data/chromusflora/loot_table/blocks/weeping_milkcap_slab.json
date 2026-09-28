@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chromusflora:weeping_milkcap_slab",
+          "modifier": [
+            {
+              "count": 2,
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "chromusflora:weeping_milkcap_slab",
+                "state": {
+                  "type": "double"
+                }
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:firecracker_log",
+    "chromusflora:firecracker_wood",
+    "chromusflora:stripped_firecracker_log",
+    "chromusflora:stripped_firecracker_wood"
+  ]
+}

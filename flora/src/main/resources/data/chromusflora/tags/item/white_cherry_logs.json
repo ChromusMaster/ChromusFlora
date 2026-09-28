@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_white_cherry_log",
+    "chromusflora:stripped_white_cherry_wood",
     "chromusflora:white_cherry_log",
-    "chromusflora:stripped_white_cherry_log"
+    "chromusflora:white_cherry_wood"
   ]
 }

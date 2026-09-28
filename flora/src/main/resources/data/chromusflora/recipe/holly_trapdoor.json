@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:holly_planks"
+  },
+  "result": {
+    "id": "chromusflora:holly_trapdoor",
+    "count": 2
+  }
+}

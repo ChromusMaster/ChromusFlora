@@ -46,6 +46,15 @@
     "APLICAR_FIX9.md",
     "verification/FIX9.json",
     "tools/__pycache__",
-    "docs/WOOD_PREVIEW.png"
+    "docs/WOOD_PREVIEW.png",
+    "APLICAR_FIX10.md",
+    "APLICAR_FIX11.md",
+    "docs/ESTABILIDADE_FIX11.md",
+    "verification/FIX11.json",
+    "verification/fix11",
+    "flora/src/main/java/dev/chromus/flora/world/BoundedTreeFeature.java",
+    "flora/src/main/java/dev/chromus/flora/world/FloraTerraBlender.java",
+    "flora/src/main/java/dev/chromus/flora/block/FloraSapling.java",
+    "flora/src/main/java/dev/chromus/flora/compat/JaizCompatibility.java"
   ]
 }

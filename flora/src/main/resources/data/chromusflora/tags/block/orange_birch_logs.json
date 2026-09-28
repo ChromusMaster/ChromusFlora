@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:orange_birch_log",
+    "chromusflora:orange_birch_wood",
+    "chromusflora:stripped_orange_birch_log",
+    "chromusflora:stripped_orange_birch_wood"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:silver_maple_log",
+    "chromusflora:silver_maple_wood",
+    "chromusflora:stripped_silver_maple_log",
+    "chromusflora:stripped_silver_maple_wood"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:pink_cherry_log"
+  },
+  "result": {
+    "id": "chromusflora:pink_cherry_wood",
+    "count": 3
+  }
+}

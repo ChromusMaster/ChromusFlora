@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/cypress",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/white_mangrove",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/willow",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/yellow_spruce",
+      "placement": []
+    }
+  ]
+}

@@ -20,7 +20,7 @@ public final class ChromusFlora implements ModInitializer {
     @Override
     public void onInitialize() {
         FloraConfig.load();
-        Registry.register(BuiltInRegistries.FEATURE, id("bounded_tree"), new BoundedTreeFeature());
+        FloraPlatform.registerFeature();
         FloraContent.register();
         JaizCompatibility.register();
         LOGGER.info("Chromus Flora: {} biomes and {} tree families registered",

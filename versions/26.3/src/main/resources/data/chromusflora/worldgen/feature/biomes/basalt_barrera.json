@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/bluff",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/pine",
+      "placement": []
+    }
+  ]
+}

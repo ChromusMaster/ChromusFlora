@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:cypress_log"
+  },
+  "result": {
+    "id": "chromusflora:cypress_wood",
+    "count": 3
+  }
+}

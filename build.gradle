@@ -1,84 +1,9 @@
 plugins {
-    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+    id 'base'
+    id 'net.fabricmc.fabric-loom' version "${loom_version}" apply false
 }
 
 version = project.mod_version
-group = project.maven_group
-base { archivesName = project.archives_base_name }
-
-repositories {
-    mavenCentral()
-    maven { url = 'https://maven.minecraftforge.net/' }
-    maven {
-        url = 'https://api.modrinth.com/maven'
-        content { includeGroup 'maven.modrinth' }
-    }
-}
-
-loom {
-    splitEnvironmentSourceSets()
-    mods {
-        chromusflora {
-            sourceSet sourceSets.main
-            sourceSet sourceSets.client
-        }
-    }
-}
-
-sourceSets {
-    main {
-        java.setSrcDirs(['flora/src/main/java'])
-        resources.setSrcDirs(['flora/src/main/resources'])
-    }
-    client {
-        java.setSrcDirs(['flora/src/client/java'])
-        resources.setSrcDirs([])
-    }
-    test {
-        java.setSrcDirs([])
-        resources.setSrcDirs([])
-    }
-}
-
-dependencies {
-    minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    implementation "com.github.glitchfiend:TerraBlender-fabric:${project.terrablender_version}"
-    implementation "maven.modrinth:g8NOG5OR:${project.ottyg_version_id}"
-    compileOnly "com.google.errorprone:error_prone_annotations:${project.error_prone_annotations_version}"
-    clientCompileOnly "com.google.errorprone:error_prone_annotations:${project.error_prone_annotations_version}"
-    clientCompileOnly "maven.modrinth:modmenu:${project.modmenu_version_id}"
-    clientCompileOnly "maven.modrinth:jade:${project.jade_version_id}"
-    if (providers.gradleProperty('withOptionalMods').getOrElse('false').toBoolean()) {
-        clientRuntimeOnly "maven.modrinth:modmenu:${project.modmenu_version_id}"
-        clientRuntimeOnly "maven.modrinth:jade:${project.jade_version_id}"
-        clientRuntimeOnly "maven.modrinth:appleskin:${project.appleskin_version_id}"
-    }
-}
-
-java {
-    toolchain.languageVersion = JavaLanguageVersion.of(25)
-    withSourcesJar()
-}
-
-tasks.withType(JavaCompile).configureEach {
-    options.release = 25
-    options.encoding = 'UTF-8'
-    options.compilerArgs.addAll(['-Xlint:all', '-Werror'])
-}
-
-def resourceVersion = project.version.toString()
-
-tasks.named('processResources', ProcessResources) {
-    inputs.property 'version', resourceVersion
-    filesMatching('fabric.mod.json') { expand(version: resourceVersion) }
-}
-
-tasks.withType(AbstractArchiveTask).configureEach {
-    preserveFileTimestamps = false
-    reproducibleFileOrder = true
-}
 
 def resourceRoot = layout.projectDirectory.dir('flora/src/main/resources').asFile
 def resourceJsonFiles = fileTree(resourceRoot) { include '**/*.json' }
@@ -92,13 +17,47 @@ tasks.register('verifySourceResources') {
         def parser = new groovy.json.JsonSlurper()
         resourceJsonFiles.each { parser.parse(it) }
         def catalog = parser.parse(new File(resourceRoot, 'chromusflora/catalog.json'))
+        if (catalog.trees*.id.toSet().size() != catalog.trees.size()
+                || catalog.biomes*.id.toSet().size() != catalog.biomes.size()) {
+            throw new GradleException('Duplicate tree or biome ID in Chromus Flora catalog')
+        }
+        def treeIds = catalog.trees*.id.toSet()
         catalog.biomes.each {
+            if (!(it.dimension in ['overworld', 'nether', 'end']) || !treeIds.containsAll(it.trees)) {
+                throw new GradleException("Invalid dimension or unknown tree in biome: ${it.id}")
+            }
             if (!new File(resourceRoot, "data/chromusflora/worldgen/biome/${it.id}.json").isFile()) {
                 throw new GradleException("Missing biome: ${it.id}")
             }
+            def biome = parser.parse(new File(resourceRoot, "data/chromusflora/worldgen/biome/${it.id}.json"))
+            def features = biome.features.flatten()
+            if (biome.features.size() != 11 || features.toSet().size() != features.size()) {
+                throw new GradleException("Duplicate feature or invalid generation steps in biome: ${it.id}")
+            }
+        }
+        def compatibility = parser.parse(new File(resourceRoot, 'chromusflora/jaiz-compatibility.json'))
+        if (compatibility.features.toSet().size() != compatibility.features.size()
+                || compatibility.spawns.toSet().size() != compatibility.spawns.size()) {
+            throw new GradleException('Duplicate Jaiz compatibility rule')
+        }
+        resourceJsonFiles.each { resource ->
+            if (resource.path.replace('\\', '/').contains('/worldgen/configured_feature/forms/')) {
+                def form = parser.parse(resource)
+                if (form.type != 'chromusflora:bounded_tree' || form.config.orientation != 'STANDARD'
+                        || !form.config.decorators.isEmpty()) {
+                    throw new GradleException("Unreviewed tree placement footprint: ${resource.name}")
+                }
+            }
         }
         catalog.trees.each {
-            ['log', 'leaves', 'sapling', 'planks'].each { suffix ->
+            ['planks', 'slab', 'stairs', 'fence', 'fence_gate', 'wood', 'door', 'trapdoor'].each { suffix ->
+                def name = it.id + '_' + suffix
+                if (!new File(resourceRoot, "data/chromusflora/recipe/${name}.json").isFile()
+                        || !new File(resourceRoot, "data/chromusflora/advancement/recipes/${name}.json").isFile()) {
+                    throw new GradleException("Missing recipe or unlock: ${name}")
+                }
+            }
+            ['log', 'leaves', 'sapling', 'planks', 'wood', 'door', 'trapdoor'].each { suffix ->
                 if (!new File(resourceRoot, "assets/chromusflora/blockstates/${it.id}_${suffix}.json").isFile()) {
                     throw new GradleException("Missing blockstate: ${it.id}_${suffix}")
                 }
@@ -108,9 +67,6 @@ tasks.register('verifySourceResources') {
     }
 }
 
-tasks.named('check') { dependsOn tasks.named('verifySourceResources') }
-
-tasks.named('jar') {
-    from('LICENSE.txt')
-    from('ASSET_PROVENANCE.md')
-}
+tasks.named('build') { dependsOn ':mc26_2:build', ':mc26_3:build' }
+tasks.named('check') { dependsOn 'verifySourceResources', ':mc26_2:check', ':mc26_3:check' }
+tasks.named('clean') { dependsOn ':mc26_2:clean', ':mc26_3:clean' }

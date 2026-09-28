@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "top": "chromusflora:block/wood/woodlands/planks",
-    "bottom": "chromusflora:block/wood/woodlands/planks",
-    "side": "chromusflora:block/wood/woodlands/planks"
-  }
-}

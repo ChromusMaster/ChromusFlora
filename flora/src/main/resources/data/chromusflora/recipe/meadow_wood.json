@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:meadow_log"
+  },
+  "result": {
+    "id": "chromusflora:meadow_wood",
+    "count": 3
+  }
+}

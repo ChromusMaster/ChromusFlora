@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/firecracker_wood"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/firecracker_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/firecracker_wood",
+      "x": 90
+    }
+  }
+}

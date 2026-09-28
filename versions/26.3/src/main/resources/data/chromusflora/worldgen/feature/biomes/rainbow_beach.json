@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/palm",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/rainbow_eucalyptus",
+      "placement": []
+    }
+  ]
+}

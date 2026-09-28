@@ -1,0 +1,116 @@
+apply plugin: 'net.fabricmc.fabric-loom'
+
+version = "${rootProject.mod_version}-${targetMinecraft}"
+group = rootProject.maven_group
+base { archivesName = rootProject.archives_base_name }
+layout.buildDirectory = rootProject.layout.buildDirectory.dir(targetMinecraft)
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+}
+
+loom {
+    splitEnvironmentSourceSets()
+    mods {
+        chromusflora {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+def sharedResources = rootProject.layout.projectDirectory.dir('flora/src/main/resources')
+def overlayResources = layout.projectDirectory.dir('src/main/resources')
+def overlayNames = fileTree(overlayResources).files.collect {
+    overlayResources.asFile.toPath().relativize(it.toPath()).toString().replace('\\', '/')
+}.toSet()
+def modern = targetMinecraft == '26.3'
+def sharedJava = rootProject.file('flora/src/main/java').toPath()
+def versionJava = file('src/main/java').toPath()
+def stagedResources = layout.buildDirectory.dir('generated/resources')
+
+tasks.register('prepareResources', Sync) {
+    into(stagedResources)
+    from(sharedResources) {
+        exclude { details -> overlayNames.contains(details.relativePath.pathString)
+                || (modern && details.relativePath.pathString.contains('/worldgen/configured_feature/')) }
+    }
+    from(overlayResources)
+}
+
+sourceSets {
+    main {
+        java.setSrcDirs([rootProject.file('flora/src/main/java'), file('src/main/java')])
+        java.exclude { details -> details.file.toPath().startsWith(sharedJava)
+                && versionJava.resolve(sharedJava.relativize(details.file.toPath())).toFile().isFile() }
+        resources.setSrcDirs([stagedResources])
+    }
+    client {
+        java.setSrcDirs([rootProject.file('flora/src/client/java')])
+        resources.setSrcDirs([])
+    }
+    test {
+        java.setSrcDirs([])
+        resources.setSrcDirs([])
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${targetMinecraft}"
+    implementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${targetFabric}"
+    implementation "maven.modrinth:kkmrDlKT:${targetTerraBlender}"
+    implementation "maven.modrinth:g8NOG5OR:${targetTrees}"
+    compileOnly "com.google.errorprone:error_prone_annotations:${rootProject.error_prone_annotations_version}"
+    clientCompileOnly "com.google.errorprone:error_prone_annotations:${rootProject.error_prone_annotations_version}"
+    compileOnly 'org.jspecify:jspecify:1.0.0'
+    clientCompileOnly 'org.jspecify:jspecify:1.0.0'
+    clientCompileOnly "maven.modrinth:modmenu:${targetModMenu}"
+    clientCompileOnly "maven.modrinth:jade:${targetJade}"
+    if (providers.gradleProperty('withOptionalMods').getOrElse('false').toBoolean()) {
+        clientRuntimeOnly "maven.modrinth:modmenu:${targetModMenu}"
+        clientRuntimeOnly "maven.modrinth:jade:${targetJade}"
+    }
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+    options.compilerArgs.addAll(['-Xlint:all', '-Werror'])
+}
+
+def metadata = [version: project.version.toString(), minecraft: targetMinecraft,
+                terrablender: runtimeTerraBlender, trees: runtimeTrees]
+
+tasks.named('processResources', ProcessResources) {
+    dependsOn tasks.named('prepareResources')
+    inputs.properties(metadata)
+    filesMatching('fabric.mod.json') { expand(metadata) }
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+tasks.named('sourcesJar') {
+    dependsOn tasks.named('prepareResources')
+    destinationDirectory = layout.buildDirectory.dir('sources')
+}
+
+tasks.named('check') { dependsOn rootProject.tasks.named('verifySourceResources') }
+
+tasks.named('jar') {
+    destinationDirectory = layout.buildDirectory
+    from(rootProject.file('LICENSE.txt'))
+    from(rootProject.file('ASSET_PROVENANCE.md'))
+}

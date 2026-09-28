@@ -1,3 +1,11 @@
+# Fix 11 — 2026-09-27
+
+- Distinguish tree write zones from chunk read availability; include base/canopy anchors and leaf-neighbor reads.
+- Copy catalog collections defensively; preserve all resource files and IDs.
+- Add resource-contract build checks and static worldgen/geometry checks.
+- Document all eight stability priorities and pending runtime/modpack checks.
+- No compilation or game execution performed for this delivery.
+
 # Fix 10 — 2026-09-27
 
 - Periodic wood texture borders; original palettes retained.

@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_willow_log",
+    "chromusflora:stripped_willow_wood",
     "chromusflora:willow_log",
-    "chromusflora:stripped_willow_log"
+    "chromusflora:willow_wood"
   ]
 }

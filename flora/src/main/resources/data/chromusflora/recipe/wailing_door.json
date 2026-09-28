@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:wailing_planks"
+  },
+  "result": {
+    "id": "chromusflora:wailing_door",
+    "count": 3
+  }
+}

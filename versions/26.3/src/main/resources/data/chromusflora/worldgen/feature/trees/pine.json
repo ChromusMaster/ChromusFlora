@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/large_pine_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/large_pine_tree2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/pine_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/pine_tree2",
+      "placement": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "chromusflora:block/wood/nightshade/bark",
+    "end": "chromusflora:block/wood/nightshade/bark"
+  }
+}

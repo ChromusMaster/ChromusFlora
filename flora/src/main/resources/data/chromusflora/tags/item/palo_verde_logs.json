@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:palo_verde_log",
-    "chromusflora:stripped_palo_verde_log"
+    "chromusflora:palo_verde_wood",
+    "chromusflora:stripped_palo_verde_log",
+    "chromusflora:stripped_palo_verde_wood"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:imparius_log",
+    "chromusflora:imparius_wood",
+    "chromusflora:stripped_imparius_log",
+    "chromusflora:stripped_imparius_wood"
+  ]
+}

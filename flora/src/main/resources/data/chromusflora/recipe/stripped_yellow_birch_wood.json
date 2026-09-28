@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:stripped_yellow_birch_log"
+  },
+  "result": {
+    "id": "chromusflora:stripped_yellow_birch_wood",
+    "count": 3
+  }
+}

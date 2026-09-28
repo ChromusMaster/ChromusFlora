@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/aspen",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/birch",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/yellow_birch",
+      "placement": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:warped_fungus_log"
+  },
+  "result": {
+    "id": "chromusflora:warped_fungus_wood",
+    "count": 3
+  }
+}

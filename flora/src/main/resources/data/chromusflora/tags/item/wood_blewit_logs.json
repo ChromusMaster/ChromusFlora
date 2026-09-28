@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "chromusflora:stripped_wood_blewit_log",
+    "chromusflora:stripped_wood_blewit_wood",
     "chromusflora:wood_blewit_log",
-    "chromusflora:stripped_wood_blewit_log"
+    "chromusflora:wood_blewit_wood"
   ]
 }

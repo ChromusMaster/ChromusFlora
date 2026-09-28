@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:trees/ironwood",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/holly",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:trees/giant_white_allium",
+      "placement": []
+    }
+  ]
+}

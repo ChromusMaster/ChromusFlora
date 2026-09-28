@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/huge_green_mushroom",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/huge_green_mushroom1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/huge_mushrooms",
+      "placement": []
+    }
+  ]
+}

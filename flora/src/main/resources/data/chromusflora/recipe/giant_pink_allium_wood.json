@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:giant_pink_allium_log"
+  },
+  "result": {
+    "id": "chromusflora:giant_pink_allium_wood",
+    "count": 3
+  }
+}

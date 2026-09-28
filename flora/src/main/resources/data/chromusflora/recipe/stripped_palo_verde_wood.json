@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:stripped_palo_verde_log"
+  },
+  "result": {
+    "id": "chromusflora:stripped_palo_verde_wood",
+    "count": 3
+  }
+}

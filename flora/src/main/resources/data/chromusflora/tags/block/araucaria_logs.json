@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:araucaria_log",
+    "chromusflora:araucaria_wood",
+    "chromusflora:stripped_araucaria_log",
+    "chromusflora:stripped_araucaria_wood"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "chromusflora:stripped_yellow_sakura_log",
+    "chromusflora:stripped_yellow_sakura_wood",
+    "chromusflora:yellow_sakura_log",
+    "chromusflora:yellow_sakura_wood"
+  ]
+}

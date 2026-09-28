@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "chromusflora:variants/spruce_red_tree1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree3",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree4",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree_large1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree_medium1",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree_medium2",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree_medium3",
+      "placement": []
+    },
+    {
+      "feature": "chromusflora:variants/spruce_red_tree_medium4",
+      "placement": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "chromusflora:block/wood/green_enchanted/stripped",
+    "end": "chromusflora:block/wood/green_enchanted/stripped"
+  }
+}

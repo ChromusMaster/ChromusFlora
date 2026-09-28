@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:holly_log",
-    "chromusflora:stripped_holly_log"
+    "chromusflora:holly_wood",
+    "chromusflora:stripped_holly_log",
+    "chromusflora:stripped_holly_wood"
   ]
 }

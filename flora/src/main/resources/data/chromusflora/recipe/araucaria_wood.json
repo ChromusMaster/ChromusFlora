@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:araucaria_log"
+  },
+  "result": {
+    "id": "chromusflora:araucaria_wood",
+    "count": 3
+  }
+}

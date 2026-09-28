@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:lament_log",
-    "chromusflora:stripped_lament_log"
+    "chromusflora:lament_wood",
+    "chromusflora:stripped_lament_log",
+    "chromusflora:stripped_lament_wood"
   ]
 }

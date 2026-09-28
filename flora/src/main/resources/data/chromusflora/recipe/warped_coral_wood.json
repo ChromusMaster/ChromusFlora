@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:warped_coral_log"
+  },
+  "result": {
+    "id": "chromusflora:warped_coral_wood",
+    "count": 3
+  }
+}

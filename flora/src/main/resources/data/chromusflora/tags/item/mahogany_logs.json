@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "chromusflora:mahogany_log",
-    "chromusflora:stripped_mahogany_log"
+    "chromusflora:mahogany_wood",
+    "chromusflora:stripped_mahogany_log",
+    "chromusflora:stripped_mahogany_wood"
   ]
 }

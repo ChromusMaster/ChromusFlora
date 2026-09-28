@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "chromusflora:rainbow_eucalyptus_planks"
+  },
+  "result": {
+    "id": "chromusflora:rainbow_eucalyptus_door",
+    "count": 3
+  }
+}

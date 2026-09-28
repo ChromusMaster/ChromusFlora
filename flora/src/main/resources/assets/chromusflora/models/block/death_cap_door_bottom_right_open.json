@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "chromusflora:block/wood/death_cap/planks",
+    "top": "chromusflora:block/wood/death_cap/planks"
+  }
+}

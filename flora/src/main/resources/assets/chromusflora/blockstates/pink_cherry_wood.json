@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "chromusflora:block/pink_cherry_wood"
+    },
+    "axis=x": {
+      "model": "chromusflora:block/pink_cherry_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "chromusflora:block/pink_cherry_wood",
+      "x": 90
+    }
+  }
+}
