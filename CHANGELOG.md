@@ -1,3 +1,9 @@
+## 0.1.4 — source hotfix 1
+
+- Replace deprecated Fabric renderer registries with native registrations exposed by Fabric transitive access wideners for both targets; retain -Werror.
+- Treat only .vscode/settings.json as editable local configuration during source verification.
+- Source-only patch; no compilation or runtime execution.
+
 ## 0.1.4
 
 - Restore native chest lid animation and use native single/double chest geometry with each wood texture. Preserve existing chest storage and block IDs.

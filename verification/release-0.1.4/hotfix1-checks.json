@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "scope": "Read-only JVM classfile and transitive access inspection, Java syntax and Python simulation of file checks; no Java, Gradle, PowerShell or Minecraft execution",
+  "versions": {
+    "26.2": {
+      "fabric_api_sha256": "e5b858ceb13290c274e31cb888ff5a1a40cb91067e7ffab0b5b775aec51e216a",
+      "minecraft_sha256": "40896ee9f1e2bec3c934daac7e93d41e9e3d9c2f8ae0ca366d52ffbfd1afa290",
+      "registration": {
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderers": {
+          "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider;)V",
+          "generic_signature": "<T:Lnet/minecraft/world/level/block/entity/BlockEntity;S:Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;>(Lnet/minecraft/world/level/block/entity/BlockEntityType<+TT;>;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider<TT;TS;>;)V",
+          "class_deprecated": false,
+          "method_deprecated": false,
+          "base_method_access_flags": 10,
+          "transitive_access": [
+            {
+              "source": "fabric-api.jar!META-INF/jars/fabric-transitive-access-wideners-v1-8.1.4+67c847259e.jar!fabric-transitive-access-wideners-v1.classtweaker",
+              "rule": "transitive-accessible\tmethod\tnet/minecraft/client/renderer/blockentity/BlockEntityRenderers\tregister\t(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider;)V"
+            }
+          ]
+        },
+        "net/minecraft/client/renderer/entity/EntityRenderers": {
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/client/renderer/entity/EntityRendererProvider;)V",
+          "generic_signature": "<T:Lnet/minecraft/world/entity/Entity;>(Lnet/minecraft/world/entity/EntityType<+TT;>;Lnet/minecraft/client/renderer/entity/EntityRendererProvider<TT;>;)V",
+          "class_deprecated": false,
+          "method_deprecated": false,
+          "base_method_access_flags": 10,
+          "transitive_access": [
+            {
+              "source": "fabric-api.jar!META-INF/jars/fabric-transitive-access-wideners-v1-8.1.4+67c847259e.jar!fabric-transitive-access-wideners-v1.classtweaker",
+              "rule": "transitive-accessible\tmethod\tnet/minecraft/client/renderer/entity/EntityRenderers\tregister\t(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/client/renderer/entity/EntityRendererProvider;)V"
+            }
+          ]
+        }
+      }
+    },
+    "26.3": {
+      "fabric_api_sha256": "86f16178a3cecc887a85a4cfe9a79d92fa7341d8f39b5951a4d6ad800ab657a6",
+      "minecraft_sha256": "4508d006323f24fa02876310c192d739af56516eb259000ac50f0909a68c9a2d",
+      "registration": {
+        "net/minecraft/client/renderer/blockentity/BlockEntityRenderers": {
+          "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider;)V",
+          "generic_signature": "<T:Lnet/minecraft/world/level/block/entity/BlockEntity;S:Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;>(Lnet/minecraft/world/level/block/entity/BlockEntityType<+TT;>;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider<TT;TS;>;)V",
+          "class_deprecated": false,
+          "method_deprecated": false,
+          "base_method_access_flags": 10,
+          "transitive_access": [
+            {
+              "source": "fabric-api.jar!META-INF/jars/fabric-transitive-access-wideners-v1-8.1.16+52268a0e5d.jar!fabric-transitive-access-wideners-v1.classtweaker",
+              "rule": "transitive-accessible\tmethod\tnet/minecraft/client/renderer/blockentity/BlockEntityRenderers\tregister\t(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider;)V"
+            }
+          ]
+        },
+        "net/minecraft/client/renderer/entity/EntityRenderers": {
+          "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/client/renderer/entity/EntityRendererProvider;)V",
+          "generic_signature": "<T:Lnet/minecraft/world/entity/Entity;>(Lnet/minecraft/world/entity/EntityType<+TT;>;Lnet/minecraft/client/renderer/entity/EntityRendererProvider<TT;>;)V",
+          "class_deprecated": false,
+          "method_deprecated": false,
+          "base_method_access_flags": 10,
+          "transitive_access": [
+            {
+              "source": "fabric-api.jar!META-INF/jars/fabric-transitive-access-wideners-v1-8.1.16+52268a0e5d.jar!fabric-transitive-access-wideners-v1.classtweaker",
+              "rule": "transitive-accessible\tmethod\tnet/minecraft/client/renderer/entity/EntityRenderers\tregister\t(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/client/renderer/entity/EntityRendererProvider;)V"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "local_configuration_exception": [
+    ".vscode/settings.json"
+  ],
+  "strict_mode_preserved": true,
+  "storage_and_chunk_repair_unchanged": true,
+  "obsolete_python_cache_manifest_entries_removed": [
+    "tools/__pycache__/joinery.cpython-312.pyc",
+    "tools/__pycache__/scan.cpython-312.pyc"
+  ],
+  "syntax": "PASS",
+  "simulations": [
+    "Patch overlay matches complete corrected source manifest",
+    "Edited local editor settings accepted",
+    "Modified FloraClient.java rejected",
+    "Missing FloraClient.java rejected",
+    "Cleanup rules do not remove active files"
+  ]
+}

@@ -36,7 +36,8 @@
     "preservation-checks.json",
     "regeneration-checks.json",
     "syntax-checks.json",
-    "api-inspection.json"
+    "api-inspection.json",
+    "hotfix1-checks.json"
   ],
   "not_executed": [
     "Java compiler",
@@ -51,5 +52,6 @@
     "No chest boats",
     "Existing vanilla oak boats remain vanilla",
     "Downgrade after placing new boats requires restoring a pre-update save backup"
-  ]
+  ],
+  "source_hotfix": 1
 }
