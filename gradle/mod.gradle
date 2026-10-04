@@ -50,7 +50,7 @@ sourceSets {
         resources.setSrcDirs([stagedResources])
     }
     client {
-        java.setSrcDirs([rootProject.file('flora/src/client/java')])
+        java.setSrcDirs([rootProject.file('flora/src/client/java'), file('src/client/java')])
         resources.setSrcDirs([])
     }
     test {
@@ -85,7 +85,8 @@ java {
 tasks.withType(JavaCompile).configureEach {
     options.release = 25
     options.encoding = 'UTF-8'
-    options.compilerArgs.addAll(['-Xlint:all', '-Werror'])
+    def lint = modern && name == 'compileClientJava' ? '-Xlint:all,-classfile' : '-Xlint:all'
+    options.compilerArgs.addAll([lint, '-Werror'])
 }
 
 def metadata = [version: project.version.toString(), minecraft: targetMinecraft,

@@ -38,7 +38,7 @@ for target in ['26.2', '26.3']:
                 text = jar.read(name).decode('utf-8')
                 json.loads(text)
                 if '${version}' in text or '${minecraft}' in text:raise SystemExit('Unexpanded resource: ' + name)
-        for class_name in ['FloraBoats', 'client/FloraClient', 'client/FloraBoatRenderer', 'client/FloraChestRenderer', 'FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
+        for class_name in ['client/FloraRenderSubmission', 'FloraBoats', 'client/FloraClient', 'client/FloraBoatRenderer', 'client/FloraChestRenderer', 'FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
             if 'dev/chromus/flora/' + class_name + '.class' not in names:raise SystemExit('Missing furniture class: ' + class_name)
         catalog = json.loads(jar.read('chromusflora/catalog.json'))
         expected_boats = {'chromusflora:' + tree['id'] + '_boat' for tree in catalog['trees']}

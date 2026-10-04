@@ -19,7 +19,6 @@ import net.minecraft.client.renderer.blockentity.ChestRenderer;
 import net.minecraft.client.renderer.blockentity.state.ChestRenderState;
 import net.minecraft.client.renderer.feature.ModelFeatureRenderer;
 import net.minecraft.client.renderer.state.level.CameraRenderState;
-import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.resources.model.sprite.SpriteGetter;
 import net.minecraft.client.resources.model.sprite.SpriteId;
 import net.minecraft.resources.Identifier;
@@ -80,12 +79,9 @@ public final class FloraChestRenderer extends ChestRenderer<FloraChestEntity> {
         float opening = 1.0F - closed * closed * closed;
         poses.pushPose();
         poses.mulPose(modelTransformation(state.facing));
-        collector.submitModel(bodies.select(state.type), opening, poses, state.lightCoords,
-                OverlayTexture.NO_OVERLAY, -1, selected.wood(), sprites, 0, state.breakProgress);
-        collector.submitModel(lids.select(state.type), opening, poses, state.lightCoords,
-                OverlayTexture.NO_OVERLAY, -1, selected.lid(), sprites, 0, state.breakProgress);
-        collector.submitModel(locks.select(state.type), opening, poses, state.lightCoords,
-                OverlayTexture.NO_OVERLAY, -1, HARDWARE, sprites, 0, state.breakProgress);
+        FloraRenderSubmission.chestPart(bodies.select(state.type), opening, poses, collector, state, selected.wood(), sprites);
+        FloraRenderSubmission.chestPart(lids.select(state.type), opening, poses, collector, state, selected.lid(), sprites);
+        FloraRenderSubmission.chestPart(locks.select(state.type), opening, poses, collector, state, HARDWARE, sprites);
         poses.popPose();
     }
 }

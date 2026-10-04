@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "scope": "Exact per-version classfile signatures, Java AST call arity/syntax, source-set and patch-overlay simulation; no Java/Gradle/PowerShell/Minecraft execution",
+  "rendering_api": {
+    "26.2": {
+      "minecraft_sha256": "40896ee9f1e2bec3c934daac7e93d41e9e3d9c2f8ae0ca366d52ffbfd1afa290",
+      "exact_method_descriptors": [
+        {
+          "method": "submitModel",
+          "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/resources/Identifier;IIILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V"
+        },
+        {
+          "method": "submitModel",
+          "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;IIILnet/minecraft/client/resources/model/sprite/SpriteId;Lnet/minecraft/client/resources/model/sprite/SpriteGetter;ILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V"
+        }
+      ],
+      "opposite_version_signature_rejected": true,
+      "adapter_call_arities": [
+        [
+          "submitModel",
+          8
+        ],
+        [
+          "submitModel",
+          10
+        ]
+      ],
+      "effective_client_java_files": 8,
+      "one_adapter_selected": true
+    },
+    "26.3": {
+      "minecraft_sha256": "4508d006323f24fa02876310c192d739af56516eb259000ac50f0909a68c9a2d",
+      "exact_method_descriptors": [
+        {
+          "method": "submitModel",
+          "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/resources/Identifier;III)V"
+        },
+        {
+          "method": "submitModel",
+          "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;IIILnet/minecraft/client/resources/model/sprite/SpriteId;Lnet/minecraft/client/resources/model/sprite/SpriteGetter;I)V"
+        },
+        {
+          "method": "submitCrumblingOverlay",
+          "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V"
+        }
+      ],
+      "opposite_version_signature_rejected": true,
+      "adapter_call_arities": [
+        [
+          "submitModel",
+          7
+        ],
+        [
+          "submitModel",
+          9
+        ],
+        [
+          "submitCrumblingOverlay",
+          8
+        ]
+      ],
+      "effective_client_java_files": 8,
+      "one_adapter_selected": true
+    }
+  },
+  "joml": {
+    "sha1": "438e036486bad66b189bff385dd07dea4f74a146",
+    "class": "org/joml/Matrix4fc",
+    "class_version": [
+      46,
+      0
+    ],
+    "class_attributes": [
+      "SourceFile"
+    ],
+    "methods_with_type_annotations": [
+      "projectedGridRange"
+    ]
+  },
+  "compiler_policy": {
+    "26.2": "-Xlint:all -Werror",
+    "26.3_compileJava": "-Xlint:all -Werror",
+    "26.3_compileClientJava": "-Xlint:all,-classfile -Werror",
+    "runtime_dependencies_changed": false
+  },
+  "readme_matches_user_upload_byte_for_byte": true,
+  "readme_sha256": "a91a19a8ba2bdb3b2f82c10d772ce279c531b5ca65fa9934b7e651f4284141d7",
+  "protected_files_unchanged": 17402,
+  "limitations": [
+    "No Java type checking or compiler execution",
+    "No runtime rendering confirmation",
+    "classfile warning category disabled for the entire 26.3 client compile task, not only JOML"
+  ]
+}

@@ -1,3 +1,10 @@
+## 0.1.4 — source hotfix 2
+
+- Isolate rendering submission APIs by game version; keep the native 26.3 separate chest breaking overlay.
+- Disable only classfile lint for the 26.3 client compiler task to accommodate JOML 1.10.9 metadata; retain all other lint categories and -Werror. Runtime dependencies unchanged.
+- Preserve the exact user-supplied README and banner.
+- Includes hotfix 1. Static checks only; no build/runtime execution.
+
 ## 0.1.4 — source hotfix 1
 
 - Replace deprecated Fabric renderer registries with native registrations exposed by Fabric transitive access wideners for both targets; retain -Werror.

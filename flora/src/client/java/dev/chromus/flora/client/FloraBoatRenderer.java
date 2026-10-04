@@ -11,8 +11,6 @@ import net.minecraft.client.renderer.entity.AbstractBoatRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.state.BoatRenderState;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
-import net.minecraft.client.renderer.texture.OverlayTexture;
-import net.minecraft.util.Unit;
 
 public final class FloraBoatRenderer extends AbstractBoatRenderer {
     private final BoatModel boat;
@@ -30,8 +28,7 @@ public final class FloraBoatRenderer extends AbstractBoatRenderer {
     @Override
     protected void submitTypeAdditions(BoatRenderState state, PoseStack poses, SubmitNodeCollector collector, int light) {
         if (!state.isUnderWater) {
-            collector.submitModel(waterPatch, Unit.INSTANCE, poses, texture,
-                    light, OverlayTexture.NO_OVERLAY, state.outlineColor, null);
+            FloraRenderSubmission.waterPatch(waterPatch, poses, collector, texture, light, state.outlineColor);
         }
     }
 }

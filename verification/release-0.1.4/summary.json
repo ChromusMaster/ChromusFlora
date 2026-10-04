@@ -37,7 +37,8 @@
     "regeneration-checks.json",
     "syntax-checks.json",
     "api-inspection.json",
-    "hotfix1-checks.json"
+    "hotfix1-checks.json",
+    "hotfix2-checks.json"
   ],
   "not_executed": [
     "Java compiler",
@@ -51,7 +52,8 @@
     "Boat and chest rendering awaits in-game visual verification",
     "No chest boats",
     "Existing vanilla oak boats remain vanilla",
-    "Downgrade after placing new boats requires restoring a pre-update save backup"
+    "Downgrade after placing new boats requires restoring a pre-update save backup",
+    "26.3 client compilation excludes the classfile lint category due to JOML 1.10.9 metadata; other lint categories and -Werror remain active"
   ],
-  "source_hotfix": 1
+  "source_hotfix": 2
 }
