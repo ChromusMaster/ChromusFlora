@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "assertions": 2595,
+  "errors": [],
+  "wood_families": 83,
+  "unique_door_faces": 83,
+  "scope": "Pixel identity, resource contracts and recipe partition; no recipe manager or Minecraft execution."
+}

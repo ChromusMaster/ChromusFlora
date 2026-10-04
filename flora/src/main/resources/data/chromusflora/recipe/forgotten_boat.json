@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:forgotten_planks"
+  },
+  "result": {
+    "id": "chromusflora:forgotten_boat",
+    "count": 1
+  }
+}

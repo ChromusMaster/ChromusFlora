@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/araucaria_chest_single"
+    "model": "chromusflora:item/araucaria_chest"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/green_mushroom_chest_single"
+    "model": "chromusflora:item/green_mushroom_chest"
   }
 }

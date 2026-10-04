@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / 'flora/src/main/resources'
-REPORT = ROOT / 'verification/release-0.1.3'
+REPORT = ROOT / 'verification/release-0.1.4'
 BASELINE = ROOT / 'verification/release-0.1.1'
 REPORT.mkdir(parents=True, exist_ok=True)
 
@@ -29,7 +29,7 @@ def verify():
     for version, files in targets.items():
         for tree in catalog['trees']:
             species = tree['id']
-            for suffix in ['planks', 'slab', 'stairs', 'fence', 'fence_gate', 'door', 'trapdoor', 'wood', 'crafting_table', 'chest']:
+            for suffix in ['planks', 'slab', 'stairs', 'fence', 'fence_gate', 'door', 'trapdoor', 'wood', 'crafting_table', 'chest', 'boat']:
                 name = species + '_' + suffix
                 recipe = read(files['data/chromusflora/recipe/' + name + '.json'])
                 advancement = read(files['data/chromusflora/advancement/recipes/' + name + '.json'])
@@ -46,7 +46,7 @@ def verify():
             check(len(door['variants']) == 32, version + ' door state coverage ' + species)
             trapdoor = read(files[f'assets/chromusflora/blockstates/{species}_trapdoor.json'])
             check(len(trapdoor['variants']) == 16, version + ' trapdoor state coverage ' + species)
-        for name, item in [('boat', 'oak_boat'), ('vanilla_chest', 'chest'), ('vanilla_crafting_table', 'crafting_table')]:
+        for name, item in [('vanilla_chest', 'chest'), ('vanilla_crafting_table', 'crafting_table')]:
             check(read(files[f'data/chromusflora/recipe/{name}.json'])['result']['id'] == 'minecraft:' + item, version + ' fallback ' + name)
         features = {name for name in files if '/worldgen/' + ('configured_feature' if version == '26.2' else 'feature') + '/' in name}
         check(len(features) == 1752, version + ' feature resource count')
@@ -71,7 +71,7 @@ def verify():
     new_graph.update({'chromusflora:' + p.stem: read(p)['features'] for p in (modern / 'data/chromusflora/worldgen/biome').glob('*.json')})
     check(not graph['cycle'](new_graph), '26.3 Flora/vanilla feature cycle')
     return {'status': 'PASS' if not errors else 'FAIL', 'assertions': checks, 'errors': errors,
-            'old_definitions_preserved': len(fingerprint['files']), 'recipes_per_target': 918,
+            'old_definitions_preserved': len(fingerprint['files']), 'recipes_per_target': 1000,
             'scope': 'Static file and graph checks only; no Java, Gradle or Minecraft execution'}
 
 

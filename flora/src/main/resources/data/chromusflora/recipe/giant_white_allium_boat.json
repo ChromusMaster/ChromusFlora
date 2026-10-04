@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:giant_white_allium_planks"
+  },
+  "result": {
+    "id": "chromusflora:giant_white_allium_boat",
+    "count": 1
+  }
+}

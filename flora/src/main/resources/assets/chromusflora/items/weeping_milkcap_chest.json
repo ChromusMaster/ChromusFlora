@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/weeping_milkcap_chest_single"
+    "model": "chromusflora:item/weeping_milkcap_chest"
   }
 }

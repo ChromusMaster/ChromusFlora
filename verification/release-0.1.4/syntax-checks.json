@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "java_files": 44,
+  "python_files": 20,
+  "scope": "Tree-sitter Java and Python AST syntax only; no Java type checking or compilation"
+}

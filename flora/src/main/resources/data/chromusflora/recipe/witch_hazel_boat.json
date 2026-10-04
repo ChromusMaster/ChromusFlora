@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:witch_hazel_planks"
+  },
+  "result": {
+    "id": "chromusflora:witch_hazel_boat",
+    "count": 1
+  }
+}

@@ -38,18 +38,29 @@ for target in ['26.2', '26.3']:
                 text = jar.read(name).decode('utf-8')
                 json.loads(text)
                 if '${version}' in text or '${minecraft}' in text:raise SystemExit('Unexpanded resource: ' + name)
-        for class_name in ['FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
+        for class_name in ['FloraBoats', 'client/FloraClient', 'client/FloraBoatRenderer', 'client/FloraChestRenderer', 'FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
             if 'dev/chromus/flora/' + class_name + '.class' not in names:raise SystemExit('Missing furniture class: ' + class_name)
         catalog = json.loads(jar.read('chromusflora/catalog.json'))
+        expected_boats = {'chromusflora:' + tree['id'] + '_boat' for tree in catalog['trees']}
+        for kind, tag in [('item', 'boats'), ('entity_type', 'boat')]:
+            data = json.loads(jar.read(f'data/minecraft/tags/{kind}/{tag}.json'))
+            if data.get('replace') is not False or set(data['values']) != expected_boats:raise SystemExit('Incomplete boat tag: ' + kind)
+        if metadata['entrypoints'].get('client') != ['dev.chromus.flora.client.FloraClient']:raise SystemExit('Missing furniture/boat client entrypoint')
+        if 'data/chromusflora/recipe/boat.json' in names:raise SystemExit('Stale generic boat recipe')
         for tree in catalog['trees']:
             species = tree['id']
-            for suffix in ['crafting_table', 'chest']:
+            for suffix in ['crafting_table', 'chest', 'boat']:
                 if f'data/chromusflora/recipe/{species}_{suffix}.json' not in names:raise SystemExit('Missing furniture recipe: ' + species)
+            for suffix in ['chest', 'boat']:
+                if f'assets/chromusflora/models/item/{species}_{suffix}.json' not in names:raise SystemExit('Missing item model: ' + species + '_' + suffix)
+            for kind in ['single', 'left', 'right']:
+                model = json.loads(jar.read(f'assets/chromusflora/models/block/{species}_chest_{kind}.json'))
+                if model.get('elements') != []:raise SystemExit('Static/animated chest overlap: ' + species)
             sprite = jar.read(f'assets/chromusflora/textures/item/door/{species}.png')
             if struct.unpack('>II', sprite[16:24]) != (64,128):raise SystemExit('Invalid door sprite: ' + species)
         for kind in ['chest', 'crafting_table']:
             if f'data/chromusflora/recipe/{kind}.json' in names:raise SystemExit('Stale duplicate recipe: ' + kind)
             recipe = json.loads(jar.read(f'data/minecraft/recipe/{kind}.json'))
             if recipe.get('group') != kind or recipe['key']['#'].get('fabric:type') != 'fabric:difference':raise SystemExit('Missing recipe partition: ' + kind)
-        if len([n for n in names if n.startswith('data/chromusflora/recipe/') and n.endswith('.json')]) != 916:raise SystemExit('Missing recipes')
+        if len([n for n in names if n.startswith('data/chromusflora/recipe/') and n.endswith('.json')]) != 998:raise SystemExit('Missing recipes')
     print('PASS:', path.relative_to(ROOT))

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/rainbow_eucalyptus_chest_single"
+    "model": "chromusflora:item/rainbow_eucalyptus_chest"
   }
 }

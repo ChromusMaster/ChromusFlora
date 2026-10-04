@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:fungal_imparius_planks"
+  },
+  "result": {
+    "id": "chromusflora:fungal_imparius_boat",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:white_sakura_planks"
+  },
+  "result": {
+    "id": "chromusflora:white_sakura_boat",
+    "count": 1
+  }
+}

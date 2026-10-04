@@ -29,7 +29,7 @@ def main():
     check(CLEAR.exists(),'missing gallery cleanup function')
     check(INDEX.exists(),'missing gallery index documentation')
     report={'status':'PASS' if not errors else 'FAIL','assertions':checks,'species':len(SPECIES),'families':len(STYLE['families']),'errors':errors}
-    out=ROOT/'verification/release-0.1.3'
+    out=ROOT/'verification/release-0.1.4'
     out.mkdir(parents=True,exist_ok=True)
     (out/'door-gallery-checks.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))

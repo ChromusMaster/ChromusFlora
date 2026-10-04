@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:firecracker_planks"
+  },
+  "result": {
+    "id": "chromusflora:firecracker_boat",
+    "count": 1
+  }
+}

@@ -22,6 +22,9 @@
     ],
     "jade": [
       "dev.chromus.flora.client.FloraJade"
+    ],
+    "client": [
+      "dev.chromus.flora.client.FloraClient"
     ]
   },
   "depends": {

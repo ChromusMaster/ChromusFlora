@@ -35,6 +35,7 @@ jobs:
           python tools/scan.py
           python tools/check-release.py
           python tools/check-joinery.py
+          python tools/check-boats.py
           python tools/check-door-gallery.py
       - name: Build both targets
         run: gradle build --no-daemon --warning-mode=fail

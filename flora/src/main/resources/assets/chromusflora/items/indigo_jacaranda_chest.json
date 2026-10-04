@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/indigo_jacaranda_chest_single"
+    "model": "chromusflora:item/indigo_jacaranda_chest"
   }
 }

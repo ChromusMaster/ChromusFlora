@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:holly_planks"
+  },
+  "result": {
+    "id": "chromusflora:holly_boat",
+    "count": 1
+  }
+}

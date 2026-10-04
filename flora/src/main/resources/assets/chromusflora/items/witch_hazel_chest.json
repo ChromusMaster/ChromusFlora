@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/witch_hazel_chest_single"
+    "model": "chromusflora:item/witch_hazel_chest"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:ebony_planks"
+  },
+  "result": {
+    "id": "chromusflora:ebony_boat",
+    "count": 1
+  }
+}

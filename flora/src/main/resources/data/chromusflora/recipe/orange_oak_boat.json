@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:orange_oak_planks"
+  },
+  "result": {
+    "id": "chromusflora:orange_oak_boat",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:pine_planks"
+  },
+  "result": {
+    "id": "chromusflora:pine_boat",
+    "count": 1
+  }
+}

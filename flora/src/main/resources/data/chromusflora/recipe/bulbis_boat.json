@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:bulbis_planks"
+  },
+  "result": {
+    "id": "chromusflora:bulbis_boat",
+    "count": 1
+  }
+}

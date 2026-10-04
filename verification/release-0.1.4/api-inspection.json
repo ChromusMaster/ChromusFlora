@@ -1,0 +1,562 @@
+{
+  "status": "PASS",
+  "scope": "Read-only JVM classfile signatures and targeted instruction review from Minecraft and Fabric artifacts; no Java execution or compiler guarantee",
+  "versions": {
+    "26.2": {
+      "resolved_imports": [
+        "com.mojang.blaze3d.vertex.PoseStack",
+        "net.fabricmc.api.ClientModInitializer",
+        "net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry",
+        "net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry",
+        "net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab",
+        "net.fabricmc.fabric.api.registry.FlammableBlockRegistry",
+        "net.minecraft.client.model.EntityModel",
+        "net.minecraft.client.model.Model",
+        "net.minecraft.client.model.geom.ModelLayerLocation",
+        "net.minecraft.client.model.geom.ModelLayers",
+        "net.minecraft.client.model.geom.ModelPart",
+        "net.minecraft.client.model.object.boat.BoatModel",
+        "net.minecraft.client.model.object.chest.ChestModel",
+        "net.minecraft.client.renderer.MultiblockChestResources",
+        "net.minecraft.client.renderer.Sheets",
+        "net.minecraft.client.renderer.SubmitNodeCollector",
+        "net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider",
+        "net.minecraft.client.renderer.blockentity.ChestRenderer",
+        "net.minecraft.client.renderer.blockentity.state.ChestRenderState",
+        "net.minecraft.client.renderer.entity.AbstractBoatRenderer",
+        "net.minecraft.client.renderer.entity.EntityRendererProvider",
+        "net.minecraft.client.renderer.entity.state.BoatRenderState",
+        "net.minecraft.client.renderer.feature.ModelFeatureRenderer",
+        "net.minecraft.client.renderer.rendertype.RenderTypes",
+        "net.minecraft.client.renderer.state.level.CameraRenderState",
+        "net.minecraft.client.renderer.texture.OverlayTexture",
+        "net.minecraft.client.resources.model.sprite.SpriteGetter",
+        "net.minecraft.client.resources.model.sprite.SpriteId",
+        "net.minecraft.core.BlockPos",
+        "net.minecraft.core.Registry",
+        "net.minecraft.core.dispenser.BoatDispenseItemBehavior",
+        "net.minecraft.core.registries.BuiltInRegistries",
+        "net.minecraft.core.registries.Registries",
+        "net.minecraft.network.chat.Component",
+        "net.minecraft.resources.Identifier",
+        "net.minecraft.resources.ResourceKey",
+        "net.minecraft.sounds.SoundEvents",
+        "net.minecraft.util.Unit",
+        "net.minecraft.world.entity.EntityType",
+        "net.minecraft.world.entity.MobCategory",
+        "net.minecraft.world.entity.vehicle.boat.Boat",
+        "net.minecraft.world.food.FoodProperties",
+        "net.minecraft.world.item.BlockItem",
+        "net.minecraft.world.item.BoatItem",
+        "net.minecraft.world.item.DoubleHighBlockItem",
+        "net.minecraft.world.item.Item",
+        "net.minecraft.world.item.ItemStack",
+        "net.minecraft.world.level.block.Block",
+        "net.minecraft.world.level.block.Blocks",
+        "net.minecraft.world.level.block.ChestBlock",
+        "net.minecraft.world.level.block.DispenserBlock",
+        "net.minecraft.world.level.block.DoorBlock",
+        "net.minecraft.world.level.block.FenceBlock",
+        "net.minecraft.world.level.block.FenceGateBlock",
+        "net.minecraft.world.level.block.FlowerPotBlock",
+        "net.minecraft.world.level.block.RotatedPillarBlock",
+        "net.minecraft.world.level.block.SlabBlock",
+        "net.minecraft.world.level.block.TintedParticleLeavesBlock",
+        "net.minecraft.world.level.block.entity.BlockEntity",
+        "net.minecraft.world.level.block.grower.TreeGrower",
+        "net.minecraft.world.level.block.state.BlockBehaviour",
+        "net.minecraft.world.level.block.state.BlockState",
+        "net.minecraft.world.level.block.state.properties.WoodType",
+        "net.minecraft.world.phys.Vec3"
+      ],
+      "method_contracts": {
+        "net.minecraft.client.renderer.blockentity.ChestRenderer": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider$Context;)V",
+              "flags": 1
+            }
+          ],
+          "createRenderState": [
+            {
+              "descriptor": "()Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;",
+              "flags": 1
+            },
+            {
+              "descriptor": "()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;",
+              "flags": 4161
+            }
+          ],
+          "extractRenderState": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 4161
+            }
+          ],
+          "submit": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V",
+              "flags": 4161
+            }
+          ],
+          "modelTransformation": [
+            {
+              "descriptor": "(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;",
+              "flags": 9
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.OrderedSubmitNodeCollector": {
+          "submitModel": [
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/texture/TextureAtlasSprite;ILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 1025
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/resources/Identifier;IIILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;IIILnet/minecraft/client/resources/model/sprite/SpriteId;Lnet/minecraft/client/resources/model/sprite/SpriteGetter;ILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.entity.AbstractBoatRenderer": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/resources/Identifier;)V",
+              "flags": 1
+            }
+          ],
+          "model": [
+            {
+              "descriptor": "()Lnet/minecraft/client/model/EntityModel;",
+              "flags": 1028
+            }
+          ],
+          "submitTypeAdditions": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/entity/state/BoatRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;I)V",
+              "flags": 4
+            }
+          ]
+        },
+        "net.minecraft.client.model.object.chest.ChestModel": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/model/geom/ModelPart;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.model.object.boat.BoatModel": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/model/geom/ModelPart;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.world.entity.vehicle.boat.Boat": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Ljava/util/function/Supplier;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.world.item.BoatItem": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/item/Item$Properties;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.core.dispenser.BoatDispenseItemBehavior": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.world.entity.EntityType$Builder": {
+          "of": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType$EntityFactory;Lnet/minecraft/world/entity/MobCategory;)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 9
+            }
+          ],
+          "noLootTable": [
+            {
+              "descriptor": "()Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "sized": [
+            {
+              "descriptor": "(FF)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "eyeHeight": [
+            {
+              "descriptor": "(F)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "clientTrackingRange": [
+            {
+              "descriptor": "(I)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "build": [
+            {
+              "descriptor": "(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/entity/EntityType;",
+              "flags": 1
+            }
+          ]
+        },
+        "net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry": {
+          "register": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider;)V",
+              "flags": 9
+            }
+          ]
+        },
+        "net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry": {
+          "register": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/client/renderer/entity/EntityRendererProvider;)V",
+              "flags": 9
+            }
+          ]
+        },
+        "net.minecraft.world.level.block.ChestBlock": {
+          "getTicker": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.SpriteMapper": {
+          "apply": [
+            {
+              "descriptor": "(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/resources/model/sprite/SpriteId;",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.MultiblockChestResources": {
+          "map": [
+            {
+              "descriptor": "(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/MultiblockChestResources;",
+              "flags": 1
+            }
+          ],
+          "select": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/state/properties/ChestType;)Ljava/lang/Object;",
+              "flags": 1
+            }
+          ]
+        }
+      }
+    },
+    "26.3": {
+      "resolved_imports": [
+        "com.mojang.blaze3d.vertex.PoseStack",
+        "net.fabricmc.api.ClientModInitializer",
+        "net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry",
+        "net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry",
+        "net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab",
+        "net.fabricmc.fabric.api.registry.FlammableBlockRegistry",
+        "net.minecraft.client.model.EntityModel",
+        "net.minecraft.client.model.Model",
+        "net.minecraft.client.model.geom.ModelLayerLocation",
+        "net.minecraft.client.model.geom.ModelLayers",
+        "net.minecraft.client.model.geom.ModelPart",
+        "net.minecraft.client.model.object.boat.BoatModel",
+        "net.minecraft.client.model.object.chest.ChestModel",
+        "net.minecraft.client.renderer.MultiblockChestResources",
+        "net.minecraft.client.renderer.Sheets",
+        "net.minecraft.client.renderer.SubmitNodeCollector",
+        "net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider",
+        "net.minecraft.client.renderer.blockentity.ChestRenderer",
+        "net.minecraft.client.renderer.blockentity.state.ChestRenderState",
+        "net.minecraft.client.renderer.entity.AbstractBoatRenderer",
+        "net.minecraft.client.renderer.entity.EntityRendererProvider",
+        "net.minecraft.client.renderer.entity.state.BoatRenderState",
+        "net.minecraft.client.renderer.feature.ModelFeatureRenderer",
+        "net.minecraft.client.renderer.rendertype.RenderTypes",
+        "net.minecraft.client.renderer.state.level.CameraRenderState",
+        "net.minecraft.client.renderer.texture.OverlayTexture",
+        "net.minecraft.client.resources.model.sprite.SpriteGetter",
+        "net.minecraft.client.resources.model.sprite.SpriteId",
+        "net.minecraft.core.BlockPos",
+        "net.minecraft.core.Registry",
+        "net.minecraft.core.dispenser.BoatDispenseItemBehavior",
+        "net.minecraft.core.registries.BuiltInRegistries",
+        "net.minecraft.core.registries.Registries",
+        "net.minecraft.network.chat.Component",
+        "net.minecraft.resources.Identifier",
+        "net.minecraft.resources.ResourceKey",
+        "net.minecraft.sounds.SoundEvents",
+        "net.minecraft.util.Unit",
+        "net.minecraft.world.entity.EntityType",
+        "net.minecraft.world.entity.MobCategory",
+        "net.minecraft.world.entity.vehicle.boat.Boat",
+        "net.minecraft.world.food.FoodProperties",
+        "net.minecraft.world.item.BlockItem",
+        "net.minecraft.world.item.BoatItem",
+        "net.minecraft.world.item.DoubleHighBlockItem",
+        "net.minecraft.world.item.Item",
+        "net.minecraft.world.item.ItemStack",
+        "net.minecraft.world.level.block.Block",
+        "net.minecraft.world.level.block.Blocks",
+        "net.minecraft.world.level.block.ChestBlock",
+        "net.minecraft.world.level.block.DispenserBlock",
+        "net.minecraft.world.level.block.DoorBlock",
+        "net.minecraft.world.level.block.FenceBlock",
+        "net.minecraft.world.level.block.FenceGateBlock",
+        "net.minecraft.world.level.block.FlowerPotBlock",
+        "net.minecraft.world.level.block.RotatedPillarBlock",
+        "net.minecraft.world.level.block.SlabBlock",
+        "net.minecraft.world.level.block.TintedParticleLeavesBlock",
+        "net.minecraft.world.level.block.entity.BlockEntity",
+        "net.minecraft.world.level.block.grower.TreeGrower",
+        "net.minecraft.world.level.block.state.BlockBehaviour",
+        "net.minecraft.world.level.block.state.BlockState",
+        "net.minecraft.world.level.block.state.properties.WoodType",
+        "net.minecraft.world.phys.Vec3"
+      ],
+      "method_contracts": {
+        "net.minecraft.client.renderer.blockentity.ChestRenderer": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider$Context;)V",
+              "flags": 1
+            }
+          ],
+          "createRenderState": [
+            {
+              "descriptor": "()Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;",
+              "flags": 1
+            },
+            {
+              "descriptor": "()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;",
+              "flags": 4161
+            }
+          ],
+          "extractRenderState": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V",
+              "flags": 4161
+            }
+          ],
+          "submit": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V",
+              "flags": 4161
+            }
+          ],
+          "modelTransformation": [
+            {
+              "descriptor": "(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;",
+              "flags": 9
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.OrderedSubmitNodeCollector": {
+          "submitModel": [
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/texture/UvMapping;I)V",
+              "flags": 1025
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;III)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/resources/Identifier;III)V",
+              "flags": 1
+            },
+            {
+              "descriptor": "(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;IIILnet/minecraft/client/resources/model/sprite/SpriteId;Lnet/minecraft/client/resources/model/sprite/SpriteGetter;I)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.entity.AbstractBoatRenderer": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/resources/Identifier;)V",
+              "flags": 1
+            }
+          ],
+          "model": [
+            {
+              "descriptor": "()Lnet/minecraft/client/model/EntityModel;",
+              "flags": 1028
+            }
+          ],
+          "submitTypeAdditions": [
+            {
+              "descriptor": "(Lnet/minecraft/client/renderer/entity/state/BoatRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;I)V",
+              "flags": 4
+            }
+          ]
+        },
+        "net.minecraft.client.model.object.chest.ChestModel": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/model/geom/ModelPart;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.model.object.boat.BoatModel": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/client/model/geom/ModelPart;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.world.entity.vehicle.boat.Boat": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Ljava/util/function/Supplier;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.world.item.BoatItem": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/item/Item$Properties;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.core.dispenser.BoatDispenseItemBehavior": {
+          "<init>": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;)V",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.world.entity.EntityType$Builder": {
+          "of": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType$EntityFactory;Lnet/minecraft/world/entity/MobCategory;)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 9
+            }
+          ],
+          "noLootTable": [
+            {
+              "descriptor": "()Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "sized": [
+            {
+              "descriptor": "(FF)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "eyeHeight": [
+            {
+              "descriptor": "(F)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "clientTrackingRange": [
+            {
+              "descriptor": "(I)Lnet/minecraft/world/entity/EntityType$Builder;",
+              "flags": 1
+            }
+          ],
+          "build": [
+            {
+              "descriptor": "(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/entity/EntityType;",
+              "flags": 1
+            }
+          ]
+        },
+        "net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry": {
+          "register": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/client/renderer/blockentity/BlockEntityRendererProvider;)V",
+              "flags": 9
+            }
+          ]
+        },
+        "net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry": {
+          "register": [
+            {
+              "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/client/renderer/entity/EntityRendererProvider;)V",
+              "flags": 9
+            }
+          ]
+        },
+        "net.minecraft.world.level.block.ChestBlock": {
+          "getTicker": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.SpriteMapper": {
+          "apply": [
+            {
+              "descriptor": "(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/resources/model/sprite/SpriteId;",
+              "flags": 1
+            }
+          ]
+        },
+        "net.minecraft.client.renderer.MultiblockChestResources": {
+          "map": [
+            {
+              "descriptor": "(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/MultiblockChestResources;",
+              "flags": 1
+            }
+          ],
+          "select": [
+            {
+              "descriptor": "(Lnet/minecraft/world/level/block/state/properties/ChestType;)Ljava/lang/Object;",
+              "flags": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/blue_enchanted_chest_single"
+    "model": "chromusflora:item/blue_enchanted_chest"
   }
 }

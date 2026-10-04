@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/prairie_chest_single"
+    "model": "chromusflora:item/prairie_chest"
   }
 }

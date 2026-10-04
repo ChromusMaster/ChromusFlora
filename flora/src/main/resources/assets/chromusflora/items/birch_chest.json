@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/birch_chest_single"
+    "model": "chromusflora:item/birch_chest"
   }
 }

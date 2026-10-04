@@ -40,19 +40,16 @@ def furniture_models(species):
     write(ASSETS/f'blockstates/{species}_crafting_table.json',{'variants':{'':{'model':'chromusflora:block/'+species+'_crafting_table'}}})
     states={}
     for kind in ['single','left','right']:
-        left,right=(1,15) if kind=='single' else ((1,16) if kind=='left' else (0,15))
-        elements=[box((left+.125,0,1.125),(right-.125,9.25,14.875)),box((left+.125,10.25,1.125),(right-.125,14,14.875),'light'),
-                  box((left,9.25,1),(right,10.25,15),'trim')]
-        for x in [left,right-1]:elements.append(box((x,0,1),(x+1,14,15),'trim'))
-        latch=(7,9) if kind=='single' else ((14,16) if kind=='left' else (0,2))
-        elements.append(box((latch[0],8,.5),(latch[1],12,1.15),'hardware'))
         model=f'{species}_chest_{kind}'
-        write(ASSETS/f'models/block/{model}.json',{'parent':'minecraft:block/block','textures':tex,'elements':elements})
+        write(ASSETS/f'models/block/{model}.json',{'parent':'minecraft:block/block','textures':tex,'elements':[]})
+        if kind=='single':
+            item_elements=[box((1,0,1),(15,10,15)),box((1,10,1),(15,14,15),'light'),box((7,8,0),(9,12,1),'hardware')]
+            write(ASSETS/f'models/item/{species}_chest.json',{'parent':'minecraft:block/block','textures':tex,'elements':item_elements})
         for facing,angle in [('north',0),('east',90),('south',180),('west',270)]:
             states[f'facing={facing},type={kind}']={'model':'chromusflora:block/'+model,'y':angle}
     write(ASSETS/f'blockstates/{species}_chest.json',{'variants':states})
     write(ASSETS/f'items/{species}_crafting_table.json',{'model':{'type':'minecraft:model','model':'chromusflora:block/'+species+'_crafting_table'}})
-    write(ASSETS/f'items/{species}_chest.json',{'model':{'type':'minecraft:model','model':'chromusflora:block/'+species+'_chest_single'}})
+    write(ASSETS/f'items/{species}_chest.json',{'model':{'type':'minecraft:model','model':'chromusflora:item/'+species+'_chest'}})
 
 
 def generate():

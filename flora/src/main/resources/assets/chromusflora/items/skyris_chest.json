@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/skyris_chest_single"
+    "model": "chromusflora:item/skyris_chest"
   }
 }

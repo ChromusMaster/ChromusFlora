@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:spirit_planks"
+  },
+  "result": {
+    "id": "chromusflora:spirit_boat",
+    "count": 1
+  }
+}

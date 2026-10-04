@@ -99,3 +99,7 @@ incorporadas às texturas. As estruturas são originais do gerador do projeto.
 The six user-supplied door concept sheets were adapted with the built-in OpenAI image tool on 2026-10-03. Six paired door/trapdoor atlases plus one cyan fungal variant are retained in `atelier/joinery/`, along with prompts and reviewed crop coordinates. The importer only crops, resizes and splits the reviewed artwork into Minecraft resources. It does not copy artwork from Macaw's or any other mod. Existing tree and wood textures remain unchanged.
 
 As portas e alçapões usam os conceitos enviados pelo usuário, adaptados por geração de imagens. A origem não é o mod original. O usuário forneceu as referências; este documento não afirma exclusividade autoral sobre imagens geradas por IA. Os móveis usam geometria criada para o projeto e as próprias texturas existentes; referências a modelos e material de ferragem vanilla são resolvidas pelo Minecraft instalado.
+
+## 0.1.4 — chest and boat rendering
+
+Animated chest and boat geometry is obtained from the installed Minecraft model layers at runtime; no Minecraft model class or texture file is redistributed. Existing Chromus Flora wood textures are reused unchanged. Inventory chest and boat geometry is authored as JSON cuboids. No assets from the original third-party mod were copied for this revision.

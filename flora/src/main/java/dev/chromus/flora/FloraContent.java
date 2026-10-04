@@ -85,6 +85,7 @@ public final class FloraContent {
                 }
             }
         }
+        ITEMS.addAll(FloraBoats.register());
         ResourceKey<Item> fruitKey = ResourceKey.create(Registries.ITEM, ChromusFlora.id("grove_fruit"));
         Item fruit = Registry.register(BuiltInRegistries.ITEM, fruitKey, new Item(new Item.Properties()
                 .setId(fruitKey).food(new FoodProperties.Builder().nutrition(4).saturationModifier(0.3F).build())));

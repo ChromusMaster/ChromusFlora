@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:shulkren_planks"
+  },
+  "result": {
+    "id": "chromusflora:shulkren_boat",
+    "count": 1
+  }
+}

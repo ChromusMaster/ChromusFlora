@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "scope": "Targeted regeneration: chest models, boats, 26.3 overlays. Existing artwork not regenerated.",
+  "checked_resource_files": 17344,
+  "changed_after_regeneration": 0
+}

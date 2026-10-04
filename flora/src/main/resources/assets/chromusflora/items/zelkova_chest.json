@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/zelkova_chest_single"
+    "model": "chromusflora:item/zelkova_chest"
   }
 }

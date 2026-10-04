@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "assertions": 3495,
+  "errors": [],
+  "wood_boats": 83,
+  "scope": "Static resources only; no Java compilation or Minecraft execution."
+}

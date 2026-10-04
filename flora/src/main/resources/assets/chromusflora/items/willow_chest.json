@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/willow_chest_single"
+    "model": "chromusflora:item/willow_chest"
   }
 }

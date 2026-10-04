@@ -50,7 +50,7 @@ tasks.register('verifySourceResources') {
             }
         }
         catalog.trees.each {
-            ['planks', 'slab', 'stairs', 'fence', 'fence_gate', 'wood', 'door', 'trapdoor', 'crafting_table', 'chest'].each { suffix ->
+            ['planks', 'slab', 'stairs', 'fence', 'fence_gate', 'wood', 'door', 'trapdoor', 'crafting_table', 'chest', 'boat'].each { suffix ->
                 def name = it.id + '_' + suffix
                 if (!new File(resourceRoot, "data/chromusflora/recipe/${name}.json").isFile()
                         || !new File(resourceRoot, "data/chromusflora/advancement/recipes/${name}.json").isFile()) {

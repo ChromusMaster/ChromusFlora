@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Python simulation of 0.1.3 source overlay and cleanup rules; PowerShell not executed",
+  "active_cleanup_collisions": [],
+  "protected_markers_preserved": [
+    ".git/config",
+    ".github/workflows/gradle.yml",
+    "saves/world/level.dat",
+    "config/chromusflora.json",
+    "mods/other-mod.jar"
+  ],
+  "source_only": true,
+  "stale_source_or_resource_files": 0
+}

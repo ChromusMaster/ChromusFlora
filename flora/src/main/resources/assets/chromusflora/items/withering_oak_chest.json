@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/withering_oak_chest_single"
+    "model": "chromusflora:item/withering_oak_chest"
   }
 }

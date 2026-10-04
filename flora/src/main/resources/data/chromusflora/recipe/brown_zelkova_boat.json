@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:brown_zelkova_planks"
+  },
+  "result": {
+    "id": "chromusflora:brown_zelkova_boat",
+    "count": 1
+  }
+}

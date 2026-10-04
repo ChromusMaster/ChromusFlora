@@ -1,3 +1,11 @@
+## 0.1.4
+
+- Restore native chest lid animation and use native single/double chest geometry with each wood texture. Preserve existing chest storage and block IDs.
+- Add 83 wood boats, species-specific recipes, entity/item registrations, dispenser behavior and client rendering.
+- Preserve the verified 0.1.3 chunk-read repair unchanged.
+- Rewrite the README in English followed by Brazilian Portuguese.
+- Source-only revision with static validation; no Java/Gradle build or runtime test performed here.
+
 # 0.1.3 — 2026-10-03
 
 - Corrige o receptor da leitura de scheduled_random_ticks no OTTYG 11.0.1 e 12.0.0.

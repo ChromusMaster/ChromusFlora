@@ -1,4 +1,4 @@
-"""Static resource contracts for the 0.1.2 furniture and artwork update."""
+"""Static resource contracts for furniture and door artwork."""
 from pathlib import Path
 import hashlib,json
 from PIL import Image
@@ -40,7 +40,9 @@ def verify():
         check(set(states)=={f'facing={face},type={kind}' for face in ['north','east','south','west'] for kind in ['single','left','right']},'Chest states incomplete: '+name)
         for kind in ['single','left','right']:
             model=read(A/f'models/block/{name}_chest_{kind}.json')
-            check(len(model['elements'])<=6,'Chest mesh budget: '+name)
+            check(model['elements']==[],'Static chest would overlap animated renderer: '+name)
+        item=read(A/f'models/item/{name}_chest.json')
+        check(len(item['elements'])==3,'Closed chest item geometry: '+name)
     check(len(unique)==83,'All full door artworks must be distinct')
     shared={p.relative_to(RES).as_posix():p for p in RES.rglob('*') if p.is_file()}
     modern=ROOT/'versions/26.3/src/main/resources'
@@ -62,6 +64,6 @@ def verify():
     return {'status':'PASS' if not errors else 'FAIL','assertions':checks,'errors':errors,'wood_families':len(species),'unique_door_faces':len(unique),'scope':'Pixel identity, resource contracts and recipe partition; no recipe manager or Minecraft execution.'}
 
 if __name__=='__main__':
-    report=verify();out=ROOT/'verification/release-0.1.3/joinery-checks.json'
+    report=verify();out=ROOT/'verification/release-0.1.4/joinery-checks.json'
     out.parent.mkdir(exist_ok=True);out.write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2));raise SystemExit(0 if report['status']=='PASS' else 1)

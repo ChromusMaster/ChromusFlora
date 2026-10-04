@@ -56,7 +56,7 @@ if (-not $WhatIfPreference) {
         if ($LASTEXITCODE -ne 0) { throw 'Could not stop Gradle. Close the IDE and running builds.' }
     } finally { Pop-Location }
 }
-$backupName = (Split-Path -Leaf $projectRoot) + '-backup-0.1.3-' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + [Guid]::NewGuid().ToString('N').Substring(0, 8)
+$backupName = (Split-Path -Leaf $projectRoot) + '-backup-0.1.4-' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + [Guid]::NewGuid().ToString('N').Substring(0, 8)
 $backupRoot = Join-Path (Split-Path -Parent $projectRoot) $backupName
 foreach ($entry in $candidates) {
     $destination = Join-Path $backupRoot $entry.Relative

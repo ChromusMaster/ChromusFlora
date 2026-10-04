@@ -83,7 +83,10 @@ def generate():
             for suffix in ['door', 'trapdoor']:tag(kind, 'wooden_' + suffix + 's', ['chromusflora:' + species + '_' + suffix])
         tag('block', 'mineable/axe', ['chromusflora:' + n for n in names + [door, trapdoor] + furniture])
     tag('item', 'planks', ['chromusflora:' + t['id'] + '_planks' for t in trees], 'chromusflora')
-    shaped('boat', ['# #', '###'], {'#': '#chromusflora:planks'}, 'minecraft:oak_boat')
+    for folder in ['recipe', 'advancement/recipes']:
+        (DATA / f'{folder}/boat.json').unlink(missing_ok=True)
+    import boats
+    boats.generate()
     for kind, pattern in [('crafting_table', ['##', '##']), ('chest', ['###', '# #', '###'])]:
         for folder in ['recipe', 'advancement/recipes']:
             (DATA / f'{folder}/{kind}.json').unlink(missing_ok=True)
