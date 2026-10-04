@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_right",
   "textures": {
-    "bottom": "chromusflora:block/wood/imparius/planks",
-    "top": "chromusflora:block/wood/imparius/planks"
+    "bottom": "chromusflora:block/door/imparius/bottom",
+    "top": "chromusflora:block/door/imparius/top"
   }
 }

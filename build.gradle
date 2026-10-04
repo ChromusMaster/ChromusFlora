@@ -50,14 +50,14 @@ tasks.register('verifySourceResources') {
             }
         }
         catalog.trees.each {
-            ['planks', 'slab', 'stairs', 'fence', 'fence_gate', 'wood', 'door', 'trapdoor'].each { suffix ->
+            ['planks', 'slab', 'stairs', 'fence', 'fence_gate', 'wood', 'door', 'trapdoor', 'crafting_table', 'chest'].each { suffix ->
                 def name = it.id + '_' + suffix
                 if (!new File(resourceRoot, "data/chromusflora/recipe/${name}.json").isFile()
                         || !new File(resourceRoot, "data/chromusflora/advancement/recipes/${name}.json").isFile()) {
                     throw new GradleException("Missing recipe or unlock: ${name}")
                 }
             }
-            ['log', 'leaves', 'sapling', 'planks', 'wood', 'door', 'trapdoor'].each { suffix ->
+            ['log', 'leaves', 'sapling', 'planks', 'wood', 'door', 'trapdoor', 'crafting_table', 'chest'].each { suffix ->
                 if (!new File(resourceRoot, "assets/chromusflora/blockstates/${it.id}_${suffix}.json").isFile()) {
                     throw new GradleException("Missing blockstate: ${it.id}_${suffix}")
                 }

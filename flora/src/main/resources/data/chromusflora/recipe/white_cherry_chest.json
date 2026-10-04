@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:white_cherry_planks"
+  },
+  "result": {
+    "id": "chromusflora:white_cherry_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_orientable_trapdoor_bottom",
   "textures": {
-    "texture": "chromusflora:block/wood/blue_enchanted/planks"
+    "texture": "chromusflora:block/trapdoor/blue_enchanted/main"
   }
 }

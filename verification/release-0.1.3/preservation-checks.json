@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "baseline": "0.1.2",
+  "existing_runtime_source_and_resource_files": 16886,
+  "unchanged_runtime_files": 16885,
+  "changed_runtime_files": [
+    "flora/src/main/resources/fabric.mod.json"
+  ],
+  "new_runtime_files": [
+    "flora/src/main/java/dev/chromus/flora/compat/ChunkReadMixinPlugin.java",
+    "flora/src/main/java/dev/chromus/flora/mixin/ChunkReadCompatibility.java",
+    "flora/src/main/resources/chromusflora.chunk-read.mixins.json"
+  ],
+  "world_files_read_or_modified": 0
+}

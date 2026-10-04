@@ -31,11 +31,9 @@ public final class FloraJade implements IWailaPlugin {
         public void appendTooltip(ITooltip tooltip, BlockAccessor accessor, IPluginConfig config) {
             String path = BuiltInRegistries.BLOCK.getKey(accessor.getBlock()).getPath();
             String id = path.substring(0, path.length() - "_sapling".length());
-            for (FloraCatalog.Tree tree : FloraCatalog.get().trees()) {
-                if (tree.id().equals(id)) {
-                    tooltip.add(Component.translatable("tooltip.chromusflora.height", 3, tree.maxHeight()));
-                    return;
-                }
+            FloraCatalog.Tree tree = FloraCatalog.tree(id);
+            if (tree != null) {
+                tooltip.add(Component.translatable("tooltip.chromusflora.height", 3, tree.maxHeight()));
             }
         }
     }

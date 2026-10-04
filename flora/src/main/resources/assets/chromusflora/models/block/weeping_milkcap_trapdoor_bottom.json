@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_orientable_trapdoor_bottom",
   "textures": {
-    "texture": "chromusflora:block/wood/weeping_milkcap/planks"
+    "texture": "chromusflora:block/trapdoor/weeping_milkcap/main"
   }
 }

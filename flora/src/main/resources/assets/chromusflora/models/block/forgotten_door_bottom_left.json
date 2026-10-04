@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left",
   "textures": {
-    "bottom": "chromusflora:block/wood/forgotten/planks",
-    "top": "chromusflora:block/wood/forgotten/planks"
+    "bottom": "chromusflora:block/door/forgotten/bottom",
+    "top": "chromusflora:block/door/forgotten/top"
   }
 }

@@ -55,6 +55,24 @@
     "flora/src/main/java/dev/chromus/flora/world/BoundedTreeFeature.java",
     "flora/src/main/java/dev/chromus/flora/world/FloraTerraBlender.java",
     "flora/src/main/java/dev/chromus/flora/block/FloraSapling.java",
-    "flora/src/main/java/dev/chromus/flora/compat/JaizCompatibility.java"
+    "flora/src/main/java/dev/chromus/flora/compat/JaizCompatibility.java",
+    "APLICAR_0.1.1_FIX1.md",
+    "flora/src/main/resources/data/chromusflora/recipe/chest.json",
+    "flora/src/main/resources/data/chromusflora/recipe/crafting_table.json",
+    "flora/src/main/resources/data/chromusflora/advancement/recipes/chest.json",
+    "flora/src/main/resources/data/chromusflora/advancement/recipes/crafting_table.json",
+    "versions/26.3/src/main/resources/data/chromusflora/recipe/chest.json",
+    "versions/26.3/src/main/resources/data/chromusflora/recipe/crafting_table.json",
+    "versions/26.3/src/main/resources/data/chromusflora/advancement/recipes/chest.json",
+    "versions/26.3/src/main/resources/data/chromusflora/advancement/recipes/crafting_table.json",
+    "APLICAR_0.1.1.md",
+    "APLICAR_0.1.1_FIX2.md",
+    "APLICAR_0.1.1_FIX3.md",
+    "APLICAR_0.1.1_FIX3_2.md",
+    "ChromusFlora_0.1.1_Fix2_Revisao.md",
+    "ChromusFlora_0.1.1_Fix3_Revisao.md",
+    "ChromusFlora_0.1.1_Fix3.2_Revisao.md",
+    "docs/DOOR_TRAPDOOR_GALLERY.png",
+    "APLICAR_0.1.2.md"
   ]
 }

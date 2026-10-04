@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:meadow_planks"
+  },
+  "result": {
+    "id": "chromusflora:meadow_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

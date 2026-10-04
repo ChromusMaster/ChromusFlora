@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left",
   "textures": {
-    "bottom": "chromusflora:block/wood/rainbow_eucalyptus/planks",
-    "top": "chromusflora:block/wood/rainbow_eucalyptus/planks"
+    "bottom": "chromusflora:block/door/rainbow_eucalyptus/bottom",
+    "top": "chromusflora:block/door/rainbow_eucalyptus/top"
   }
 }

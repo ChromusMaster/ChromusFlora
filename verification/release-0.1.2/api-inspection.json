@@ -1,0 +1,1305 @@
+{
+  "scope": "Class-file member inspection and Tree-sitter syntax; NOT Java type checking, JDT or a Gradle build",
+  "targets": {
+    "26.2": {
+      "status": "INSPECTED",
+      "syntax_errors": [],
+      "missing_imports": [],
+      "java_files_including_package_info": 29,
+      "transitive_palette_access_widener": true,
+      "members": {
+        "net.minecraft.world.level.block.DoorBlock#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.TrapDoorBlock#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.item.DoubleHighBlockItem#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item$Properties;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.grower.TreeGrower#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Ljava/lang/String;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(Ljava/lang/String;FLjava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate$Palette#blocks": [
+          {
+            "name": "blocks",
+            "descriptor": "()Ljava/util/List;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "blocks",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;)Ljava/util/List;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.server.level.WorldGenRegion#isWithinWriteZone": [
+          {
+            "name": "isWithinWriteZone",
+            "descriptor": "(Lnet/minecraft/core/BlockPos;)Z",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "isWithinWriteZone",
+            "descriptor": "(II)Z",
+            "flags": 2,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.WorldGenLevel#ensureCanWrite": [
+          {
+            "name": "ensureCanWrite",
+            "descriptor": "(Lnet/minecraft/core/BlockPos;)Z",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.WorldGenLevel#hasChunk": [
+          {
+            "name": "hasChunk",
+            "descriptor": "(II)Z",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "hasChunk",
+            "descriptor": "(II)Z",
+            "flags": 1025,
+            "deprecated": true
+          }
+        ],
+        "net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager#get": [
+          {
+            "name": "get",
+            "descriptor": "(Lnet/minecraft/resources/Identifier;)Ljava/util/Optional;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.ChestBlock#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Ljava/util/function/Supplier;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.entity.ChestBlockEntity#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 4,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.entity.BlockEntityType#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType$BlockEntitySupplier;Ljava/util/Set;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.entity.ChestBlockEntity#getDefaultName": [
+          {
+            "name": "getDefaultName",
+            "descriptor": "()Lnet/minecraft/network/chat/Component;",
+            "flags": 4,
+            "deprecated": false
+          },
+          {
+            "name": "getDefaultName",
+            "descriptor": "()Lnet/minecraft/network/chat/Component;",
+            "flags": 1028,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.ChestBlock#getRenderShape": [
+          {
+            "name": "getRenderShape",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.ChestBlock#getTicker": [
+          {
+            "name": "getTicker",
+            "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "getTicker",
+            "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.Block#getMenuProvider": [
+          {
+            "name": "getMenuProvider",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.Block#useWithoutItem": [
+          {
+            "name": "useWithoutItem",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.inventory.CraftingMenu#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(ILnet/minecraft/world/entity/player/Inventory;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.inventory.AbstractContainerMenu#stillValid": [
+          {
+            "name": "stillValid",
+            "descriptor": "(Lnet/minecraft/world/inventory/ContainerLevelAccess;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/block/Block;)Z",
+            "flags": 12,
+            "deprecated": false
+          },
+          {
+            "name": "stillValid",
+            "descriptor": "(Lnet/minecraft/world/entity/player/Player;)Z",
+            "flags": 1025,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.SimpleMenuProvider#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/inventory/MenuConstructor;Lnet/minecraft/network/chat/Component;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.entity.player.Player#awardStat": [
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/resources/Identifier;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/resources/Identifier;I)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/stats/Stat;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/stats/Stat;I)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.core.BlockPos$MutableBlockPos#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "()V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(III)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(DDD)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.core.BlockPos$MutableBlockPos#set": [
+          {
+            "name": "set",
+            "descriptor": "(III)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(DDD)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(J)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(Lnet/minecraft/core/AxisCycle;III)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.fabricmc.fabric.api.registry.CompostableRegistry#add": [
+          {
+            "name": "add",
+            "descriptor": "(Lnet/minecraft/world/level/ItemLike;Ljava/lang/Object;)V",
+            "flags": 1025,
+            "deprecated": false
+          },
+          {
+            "name": "add",
+            "descriptor": "(Lnet/minecraft/tags/TagKey;Ljava/lang/Object;)V",
+            "flags": 1025,
+            "deprecated": false
+          }
+        ],
+        "net.fabricmc.fabric.api.registry.StrippableBlockRegistry#register": [
+          {
+            "name": "register",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "register",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/fabricmc/fabric/api/registry/StrippableBlockRegistry$StrippingTransformer;)V",
+            "flags": 9,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.SaplingBlock#codec": [
+          {
+            "name": "codec",
+            "descriptor": "()Lcom/mojang/serialization/MapCodec;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "codec",
+            "descriptor": "()Lcom/mojang/serialization/MapCodec;",
+            "flags": 1028,
+            "deprecated": false
+          },
+          {
+            "name": "codec",
+            "descriptor": "()Lcom/mojang/serialization/MapCodec;",
+            "flags": 4,
+            "deprecated": false
+          },
+          {
+            "name": "codec",
+            "descriptor": "()Lcom/mojang/serialization/MapCodec;",
+            "flags": 1028,
+            "deprecated": false
+          }
+        ],
+        "terrablender.api.SurfaceRuleManager#addSurfaceRules": [
+          {
+            "name": "addSurfaceRules",
+            "descriptor": "(Lterrablender/api/SurfaceRuleManager$RuleCategory;Ljava/lang/String;Lterrablender/api/SurfaceRuleManager$RuleBuilder;)V",
+            "flags": 9,
+            "deprecated": false
+          }
+        ],
+        "dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.configurations.TreeFromStructureNBTConfigV2": {
+          "name": "dev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2",
+          "source": "ottyg.jar",
+          "super": "java/lang/Record",
+          "interfaces": [
+            "net/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration"
+          ],
+          "fields": [
+            {
+              "name": "baseLocation",
+              "descriptor": "Lnet/minecraft/resources/Identifier;",
+              "flags": 18
+            },
+            {
+              "name": "canopyLocation",
+              "descriptor": "Lnet/minecraft/resources/Identifier;",
+              "flags": 18
+            },
+            {
+              "name": "height",
+              "descriptor": "Lnet/minecraft/util/valueproviders/IntProvider;",
+              "flags": 18
+            },
+            {
+              "name": "logProvider",
+              "descriptor": "Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;",
+              "flags": 18
+            },
+            {
+              "name": "leavesProvider",
+              "descriptor": "Ljava/util/List;",
+              "flags": 18
+            },
+            {
+              "name": "logTarget",
+              "descriptor": "Ljava/util/Set;",
+              "flags": 18
+            },
+            {
+              "name": "leavesTarget",
+              "descriptor": "Ljava/util/List;",
+              "flags": 18
+            },
+            {
+              "name": "growableOn",
+              "descriptor": "Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 18
+            },
+            {
+              "name": "leavesPlacementFilter",
+              "descriptor": "Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 18
+            },
+            {
+              "name": "logsPlacementFilter",
+              "descriptor": "Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 18
+            },
+            {
+              "name": "treeLogFilterBehavior",
+              "descriptor": "Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeLogFilterBehavior;",
+              "flags": 18
+            },
+            {
+              "name": "maxLogDepth",
+              "descriptor": "I",
+              "flags": 18
+            },
+            {
+              "name": "treeDecorators",
+              "descriptor": "Ljava/util/List;",
+              "flags": 18
+            },
+            {
+              "name": "replaceFromNBT",
+              "descriptor": "Ljava/util/Map;",
+              "flags": 18
+            },
+            {
+              "name": "randomRotation",
+              "descriptor": "Z",
+              "flags": 18
+            },
+            {
+              "name": "orientation",
+              "descriptor": "Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2$Orientation;",
+              "flags": 18
+            },
+            {
+              "name": "BLOCK_SET_CODEC",
+              "descriptor": "Lcom/mojang/serialization/Codec;",
+              "flags": 25
+            },
+            {
+              "name": "CODEC",
+              "descriptor": "Lcom/mojang/serialization/Codec;",
+              "flags": 25
+            }
+          ],
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/Identifier;Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;Ljava/util/List;Ljava/util/Set;Ljava/util/List;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeLogFilterBehavior;ILjava/util/List;Ljava/util/Map;ZLdev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2$Orientation;)V",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "toString",
+              "descriptor": "()Ljava/lang/String;",
+              "flags": 17,
+              "deprecated": false
+            },
+            {
+              "name": "hashCode",
+              "descriptor": "()I",
+              "flags": 17,
+              "deprecated": false
+            },
+            {
+              "name": "equals",
+              "descriptor": "(Ljava/lang/Object;)Z",
+              "flags": 17,
+              "deprecated": false
+            },
+            {
+              "name": "baseLocation",
+              "descriptor": "()Lnet/minecraft/resources/Identifier;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "canopyLocation",
+              "descriptor": "()Lnet/minecraft/resources/Identifier;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "height",
+              "descriptor": "()Lnet/minecraft/util/valueproviders/IntProvider;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "logProvider",
+              "descriptor": "()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "leavesProvider",
+              "descriptor": "()Ljava/util/List;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "logTarget",
+              "descriptor": "()Ljava/util/Set;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "leavesTarget",
+              "descriptor": "()Ljava/util/List;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "growableOn",
+              "descriptor": "()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "leavesPlacementFilter",
+              "descriptor": "()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "logsPlacementFilter",
+              "descriptor": "()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "treeLogFilterBehavior",
+              "descriptor": "()Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeLogFilterBehavior;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "maxLogDepth",
+              "descriptor": "()I",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "treeDecorators",
+              "descriptor": "()Ljava/util/List;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "replaceFromNBT",
+              "descriptor": "()Ljava/util/Map;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "randomRotation",
+              "descriptor": "()Z",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "orientation",
+              "descriptor": "()Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2$Orientation;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "lambda$static$0",
+              "descriptor": "(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;",
+              "flags": 4106,
+              "deprecated": false
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "flags": 8,
+              "deprecated": false
+            }
+          ]
+        }
+      }
+    },
+    "26.3": {
+      "status": "INSPECTED",
+      "syntax_errors": [],
+      "missing_imports": [],
+      "java_files_including_package_info": 29,
+      "transitive_palette_access_widener": true,
+      "members": {
+        "net.minecraft.world.level.block.DoorBlock#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.TrapDoorBlock#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.item.DoubleHighBlockItem#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item$Properties;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.grower.TreeGrower#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Ljava/lang/String;Lnet/minecraft/util/random/WeightedList;Lnet/minecraft/util/random/WeightedList;Lnet/minecraft/util/random/WeightedList;Lnet/minecraft/resources/ResourceKey;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate$Palette#blocks": [
+          {
+            "name": "blocks",
+            "descriptor": "()Ljava/util/List;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "blocks",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;)Ljava/util/List;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.server.level.WorldGenRegion#isWithinWriteZone": [
+          {
+            "name": "isWithinWriteZone",
+            "descriptor": "(Lnet/minecraft/core/BlockPos;)Z",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "isWithinWriteZone",
+            "descriptor": "(II)Z",
+            "flags": 2,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.WorldGenLevel#ensureCanWrite": [
+          {
+            "name": "ensureCanWrite",
+            "descriptor": "(Lnet/minecraft/core/BlockPos;)Z",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.WorldGenLevel#hasChunk": [
+          {
+            "name": "hasChunk",
+            "descriptor": "(II)Z",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "hasChunk",
+            "descriptor": "(II)Z",
+            "flags": 1025,
+            "deprecated": true
+          }
+        ],
+        "net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager#get": [
+          {
+            "name": "get",
+            "descriptor": "(Lnet/minecraft/resources/Identifier;)Ljava/util/Optional;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.ChestBlock#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Ljava/util/function/Supplier;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.entity.ChestBlockEntity#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 4,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.entity.BlockEntityType#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/level/block/entity/BlockEntityType$BlockEntitySupplier;Ljava/util/Set;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.entity.ChestBlockEntity#getDefaultName": [
+          {
+            "name": "getDefaultName",
+            "descriptor": "()Lnet/minecraft/network/chat/Component;",
+            "flags": 4,
+            "deprecated": false
+          },
+          {
+            "name": "getDefaultName",
+            "descriptor": "()Lnet/minecraft/network/chat/Component;",
+            "flags": 1028,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.ChestBlock#getRenderShape": [
+          {
+            "name": "getRenderShape",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.ChestBlock#getTicker": [
+          {
+            "name": "getTicker",
+            "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "getTicker",
+            "descriptor": "(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.Block#getMenuProvider": [
+          {
+            "name": "getMenuProvider",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.block.Block#useWithoutItem": [
+          {
+            "name": "useWithoutItem",
+            "descriptor": "(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;",
+            "flags": 4,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.inventory.CraftingMenu#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(ILnet/minecraft/world/entity/player/Inventory;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/inventory/ContainerLevelAccess;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.inventory.AbstractContainerMenu#stillValid": [
+          {
+            "name": "stillValid",
+            "descriptor": "(Lnet/minecraft/world/inventory/ContainerLevelAccess;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/block/Block;)Z",
+            "flags": 12,
+            "deprecated": false
+          },
+          {
+            "name": "stillValid",
+            "descriptor": "(Lnet/minecraft/world/entity/player/Player;)Z",
+            "flags": 1025,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.SimpleMenuProvider#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/inventory/MenuConstructor;Lnet/minecraft/network/chat/Component;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.entity.player.Player#awardStat": [
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/resources/Identifier;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/resources/Identifier;I)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/stats/Stat;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "awardStat",
+            "descriptor": "(Lnet/minecraft/stats/Stat;I)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.core.BlockPos$MutableBlockPos#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "()V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(III)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "<init>",
+            "descriptor": "(DDD)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.core.BlockPos$MutableBlockPos#set": [
+          {
+            "name": "set",
+            "descriptor": "(III)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(DDD)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(J)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "set",
+            "descriptor": "(Lnet/minecraft/core/AxisCycle;III)Lnet/minecraft/core/BlockPos$MutableBlockPos;",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "net.fabricmc.fabric.api.item.v1.BlockTransformerHelper#registerStripping": [
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "([Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "([Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/level/block/state/BlockState;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/block/Block;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "([Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "registerStripping",
+            "descriptor": "(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/level/block/Block;)V",
+            "flags": 9,
+            "deprecated": false
+          }
+        ],
+        "net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents$ModifyContext#modify": [
+          {
+            "name": "modify",
+            "descriptor": "(Ljava/util/function/Predicate;Lnet/fabricmc/fabric/api/item/v1/DefaultItemComponentEvents$ModifyConsumer;)V",
+            "flags": 1025,
+            "deprecated": false
+          },
+          {
+            "name": "modify",
+            "descriptor": "(Lnet/minecraft/world/item/Item;Lnet/fabricmc/fabric/api/item/v1/DefaultItemComponentEvents$ModifyConsumer;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "modify",
+            "descriptor": "(Ljava/util/Collection;Lnet/fabricmc/fabric/api/item/v1/DefaultItemComponentEvents$ModifyConsumer;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "modify",
+            "descriptor": "(Ljava/util/function/Predicate;Ljava/util/function/BiConsumer;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "modify",
+            "descriptor": "(Lnet/minecraft/world/item/Item;Ljava/util/function/Consumer;)V",
+            "flags": 1,
+            "deprecated": false
+          },
+          {
+            "name": "modify",
+            "descriptor": "(Ljava/util/Collection;Ljava/util/function/BiConsumer;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "terrablender.api.MaterialRuleManager#addRules": [
+          {
+            "name": "addRules",
+            "descriptor": "(Lterrablender/api/MaterialRuleManager$RuleCategory;Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)V",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "addRules",
+            "descriptor": "(Lterrablender/api/MaterialRuleManager$RuleCategory;Ljava/lang/String;Lterrablender/api/MaterialRuleManager$RuleBuilder;)V",
+            "flags": 9,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.levelgen.material.MaterialRules#stoneDepthCheck": [
+          {
+            "name": "stoneDepthCheck",
+            "descriptor": "(IZLnet/minecraft/world/level/levelgen/placement/CaveSurface;)Lnet/minecraft/world/level/levelgen/material/condition/MaterialCondition;",
+            "flags": 9,
+            "deprecated": false
+          },
+          {
+            "name": "stoneDepthCheck",
+            "descriptor": "(IZILnet/minecraft/world/level/levelgen/placement/CaveSurface;)Lnet/minecraft/world/level/levelgen/material/condition/MaterialCondition;",
+            "flags": 9,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.levelgen.material.MaterialRules#isBiome": [
+          {
+            "name": "isBiome",
+            "descriptor": "(Lnet/minecraft/core/HolderGetter;[Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/levelgen/material/condition/MaterialCondition;",
+            "flags": 137,
+            "deprecated": false
+          }
+        ],
+        "net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData#<init>": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/util/valueproviders/IntProvider;)V",
+            "flags": 1,
+            "deprecated": false
+          }
+        ],
+        "dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.configurations.TreeFromStructureNBTConfigV2": {
+          "name": "dev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2",
+          "source": "oh-the-trees-youll-grow.jar",
+          "super": "java/lang/Record",
+          "interfaces": [
+            "net/minecraft/world/level/levelgen/feature/Feature"
+          ],
+          "fields": [
+            {
+              "name": "baseLocation",
+              "descriptor": "Lnet/minecraft/resources/Identifier;",
+              "flags": 18
+            },
+            {
+              "name": "canopyLocation",
+              "descriptor": "Lnet/minecraft/resources/Identifier;",
+              "flags": 18
+            },
+            {
+              "name": "height",
+              "descriptor": "Lnet/minecraft/util/valueproviders/IntProvider;",
+              "flags": 18
+            },
+            {
+              "name": "logProvider",
+              "descriptor": "Lnet/minecraft/core/Holder;",
+              "flags": 18
+            },
+            {
+              "name": "leavesProvider",
+              "descriptor": "Ljava/util/List;",
+              "flags": 18
+            },
+            {
+              "name": "logTarget",
+              "descriptor": "Ljava/util/Set;",
+              "flags": 18
+            },
+            {
+              "name": "leavesTarget",
+              "descriptor": "Ljava/util/List;",
+              "flags": 18
+            },
+            {
+              "name": "growableOn",
+              "descriptor": "Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 18
+            },
+            {
+              "name": "leavesPlacementFilter",
+              "descriptor": "Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 18
+            },
+            {
+              "name": "logsPlacementFilter",
+              "descriptor": "Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 18
+            },
+            {
+              "name": "treeLogFilterBehavior",
+              "descriptor": "Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeLogFilterBehavior;",
+              "flags": 18
+            },
+            {
+              "name": "maxLogDepth",
+              "descriptor": "I",
+              "flags": 18
+            },
+            {
+              "name": "treeDecorators",
+              "descriptor": "Ljava/util/List;",
+              "flags": 18
+            },
+            {
+              "name": "replaceFromNBT",
+              "descriptor": "Ljava/util/Map;",
+              "flags": 18
+            },
+            {
+              "name": "randomRotation",
+              "descriptor": "Z",
+              "flags": 18
+            },
+            {
+              "name": "orientation",
+              "descriptor": "Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2$Orientation;",
+              "flags": 18
+            },
+            {
+              "name": "BLOCK_SET_CODEC",
+              "descriptor": "Lcom/mojang/serialization/Codec;",
+              "flags": 25
+            },
+            {
+              "name": "CODEC",
+              "descriptor": "Lcom/mojang/serialization/MapCodec;",
+              "flags": 25
+            }
+          ],
+          "methods": [
+            {
+              "name": "<init>",
+              "descriptor": "(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/Identifier;Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/core/Holder;Ljava/util/List;Ljava/util/Set;Ljava/util/List;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeLogFilterBehavior;ILjava/util/List;Ljava/util/Map;ZLdev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2$Orientation;)V",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "codec",
+              "descriptor": "()Lcom/mojang/serialization/MapCodec;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "place",
+              "descriptor": "(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "toString",
+              "descriptor": "()Ljava/lang/String;",
+              "flags": 17,
+              "deprecated": false
+            },
+            {
+              "name": "hashCode",
+              "descriptor": "()I",
+              "flags": 17,
+              "deprecated": false
+            },
+            {
+              "name": "equals",
+              "descriptor": "(Ljava/lang/Object;)Z",
+              "flags": 17,
+              "deprecated": false
+            },
+            {
+              "name": "baseLocation",
+              "descriptor": "()Lnet/minecraft/resources/Identifier;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "canopyLocation",
+              "descriptor": "()Lnet/minecraft/resources/Identifier;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "height",
+              "descriptor": "()Lnet/minecraft/util/valueproviders/IntProvider;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "logProvider",
+              "descriptor": "()Lnet/minecraft/core/Holder;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "leavesProvider",
+              "descriptor": "()Ljava/util/List;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "logTarget",
+              "descriptor": "()Ljava/util/Set;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "leavesTarget",
+              "descriptor": "()Ljava/util/List;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "growableOn",
+              "descriptor": "()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "leavesPlacementFilter",
+              "descriptor": "()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "logsPlacementFilter",
+              "descriptor": "()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "treeLogFilterBehavior",
+              "descriptor": "()Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeLogFilterBehavior;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "maxLogDepth",
+              "descriptor": "()I",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "treeDecorators",
+              "descriptor": "()Ljava/util/List;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "replaceFromNBT",
+              "descriptor": "()Ljava/util/Map;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "randomRotation",
+              "descriptor": "()Z",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "orientation",
+              "descriptor": "()Ldev/corgitaco/ohthetreesyoullgrow/world/level/levelgen/feature/configurations/TreeFromStructureNBTConfigV2$Orientation;",
+              "flags": 1,
+              "deprecated": false
+            },
+            {
+              "name": "lambda$static$0",
+              "descriptor": "(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;",
+              "flags": 4106,
+              "deprecated": false
+            },
+            {
+              "name": "<clinit>",
+              "descriptor": "()V",
+              "flags": 8,
+              "deprecated": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "not_executed": [
+    "Java compiler",
+    "Gradle",
+    "Minecraft",
+    "JDT null-analysis"
+  ]
+}

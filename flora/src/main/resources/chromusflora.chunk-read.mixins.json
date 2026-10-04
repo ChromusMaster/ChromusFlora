@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.chromus.flora.mixin",
+  "plugin": "dev.chromus.flora.compat.ChunkReadMixinPlugin",
+  "compatibilityLevel": "JAVA_25",
+  "priority": 100,
+  "mixins": [
+    "ChunkReadCompatibility"
+  ]
+}

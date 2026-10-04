@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/fungal_imparius_door_bottom_left"
+    "model": "chromusflora:item/fungal_imparius_door"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "scope": "Python simulation of source overlay and cleanup rules, not PowerShell execution",
+  "source_only": true,
+  "overlay_tests": [
+    {
+      "base": "Fix10",
+      "status": "PASS",
+      "active_files_lost": 0,
+      "stale_java_sources": 0
+    },
+    {
+      "base": "v0.1.1-fix1",
+      "status": "PASS",
+      "active_files_lost": 0,
+      "stale_java_sources": 0
+    },
+    {
+      "base": "v0.1.1-fix3.2",
+      "status": "PASS",
+      "active_files_lost": 0,
+      "stale_java_sources": 0
+    }
+  ],
+  "protected_markers_preserved": [
+    ".git/config",
+    ".github/workflows/gradle.yml",
+    "saves/world/level.dat",
+    "config/chromusflora.json",
+    "mods/other-mod.jar"
+  ],
+  "active_cleanup_collisions": [],
+  "not_executed": [
+    "PowerShell cleanup",
+    "Java compiler",
+    "Gradle",
+    "Minecraft"
+  ]
+}

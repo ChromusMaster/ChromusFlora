@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:weeping_milkcap_planks"
+  },
+  "result": {
+    "id": "chromusflora:weeping_milkcap_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

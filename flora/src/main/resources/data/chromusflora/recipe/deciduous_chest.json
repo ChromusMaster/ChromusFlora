@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:deciduous_planks"
+  },
+  "result": {
+    "id": "chromusflora:deciduous_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

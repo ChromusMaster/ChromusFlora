@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/crimson_fungus_door_bottom_left"
+    "model": "chromusflora:item/crimson_fungus_door"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:death_cap_planks"
+  },
+  "result": {
+    "id": "chromusflora:death_cap_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

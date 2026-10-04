@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/araucaria_door_bottom_left"
+    "model": "chromusflora:item/araucaria_door"
   }
 }

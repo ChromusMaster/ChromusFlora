@@ -1,0 +1,37 @@
+{
+  "version": "0.1.2",
+  "targets": [
+    "26.2",
+    "26.3"
+  ],
+  "status": "STATIC_CHECKS_PASS_BUILD_AND_RUNTIME_PENDING",
+  "deliverable": "Complete sources and resources only",
+  "baseline": "0.1.1 Fix3.2",
+  "wood_families": 83,
+  "custom_crafting_tables": 83,
+  "custom_chests": 83,
+  "recipes_per_target_including_vanilla_overrides": 918,
+  "old_fix10_definitions_preserved": 4223,
+  "fix32_preservation_checks": 4556,
+  "runtime_texture_rgba_bytes": 12566528,
+  "runtime_texture_pixel_budget_delta_vs_fix32": 0,
+  "scan_counts": {
+    "json_resources": 10874,
+    "assertions": 175479,
+    "biomes": 92,
+    "tree_families": 83,
+    "variants": 458,
+    "blocks": 1328,
+    "items": 1246,
+    "nbt_structures": 1121,
+    "tree_forms": 1119,
+    "java_sources": 38
+  },
+  "limitations": [
+    "Static chest lid model",
+    "Recipe book material selection uses craftable-only filter",
+    "No mixed-species crafting-table/chest recipes",
+    "No automatic Visual Workbench feature integration",
+    "No compiler/JDT/game/profiler execution"
+  ]
+}

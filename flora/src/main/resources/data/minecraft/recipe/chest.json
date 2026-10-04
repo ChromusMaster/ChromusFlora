@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chest",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "fabric:type": "fabric:difference",
+      "base": "#minecraft:planks",
+      "subtracted": "#chromusflora:planks"
+    }
+  },
+  "result": {
+    "id": "minecraft:chest",
+    "count": 1
+  }
+}

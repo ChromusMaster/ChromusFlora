@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:palo_verde_planks"
+  },
+  "result": {
+    "id": "chromusflora:palo_verde_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

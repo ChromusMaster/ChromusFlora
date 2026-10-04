@@ -1,6 +1,8 @@
 package dev.chromus.flora.world;
 
 import dev.chromus.flora.FloraPlatform;
+import java.util.Map;
+import java.util.WeakHashMap;
 import dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.configurations.TreeFromStructureNBTConfigV2;
 import net.minecraft.core.BlockPos;
 import org.jspecify.annotations.Nullable;
@@ -13,6 +15,15 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemp
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager;
 
 public final class TreeFootprint {
+    private static final int CACHE_LIMIT = 2048;
+    private static final Map<StructureTemplate.Palette, Bounds> BOUNDS = new WeakHashMap<>();
+
+    private record Bounds(int x, int y, int z, int count, int radius) {
+        boolean matches(Vec3i size, int blocks) {
+            return x == size.getX() && y == size.getY() && z == size.getZ() && count == blocks;
+        }
+    }
+
     private TreeFootprint() {}
 
     public static boolean allows(WorldGenLevel level, BlockPos origin, TreeFromStructureNBTConfigV2 config) {
@@ -46,10 +57,12 @@ public final class TreeFootprint {
                 }
             }
         }
+        BlockPos.MutableBlockPos lower = new BlockPos.MutableBlockPos();
+        BlockPos.MutableBlockPos upper = new BlockPos.MutableBlockPos();
         for (int x = minX >> 4; x <= maxX >> 4; x++) {
             for (int z = minZ >> 4; z <= maxZ >> 4; z++) {
-                BlockPos lower = new BlockPos(Math.max(minX, x << 4), minY, Math.max(minZ, z << 4));
-                BlockPos upper = new BlockPos(lower.getX(), maxY, lower.getZ());
+                lower.set(Math.max(minX, x << 4), minY, Math.max(minZ, z << 4));
+                upper.set(lower.getX(), maxY, lower.getZ());
                 if (level instanceof WorldGenRegion region && !region.isWithinWriteZone(lower)) {
                     return false;
                 }
@@ -71,33 +84,55 @@ public final class TreeFootprint {
         }
         int radius = 0;
         for (StructureTemplate.Palette palette : template.palettes) {
-            @Nullable BlockPos anchor = null;
-            int minX = size.getX();
-            int maxX = 0;
-            int minZ = size.getZ();
-            int maxZ = 0;
-            for (StructureTemplate.StructureBlockInfo info : palette.blocks()) {
-                BlockPos pos = info.pos();
-                if (pos.getX() < 0 || pos.getX() >= size.getX() || pos.getY() < 0
-                        || pos.getY() >= size.getY() || pos.getZ() < 0 || pos.getZ() >= size.getZ()) {
-                    throw new IllegalArgumentException("Block outside tree template bounds in " + id);
+            radius = Math.max(radius, paletteRadius(palette, size, id));
+        }
+        return radius;
+    }
+
+    private static int paletteRadius(StructureTemplate.Palette palette, Vec3i size, Identifier id) {
+        synchronized (BOUNDS) {
+            Bounds cached = BOUNDS.get(palette);
+            if (cached != null && cached.matches(size, palette.blocks().size())) {
+                return cached.radius();
+            }
+        }
+        @Nullable BlockPos anchor = null;
+        int minX = size.getX();
+        int maxX = 0;
+        int minZ = size.getZ();
+        int maxZ = 0;
+        for (StructureTemplate.StructureBlockInfo info : palette.blocks()) {
+            BlockPos pos = info.pos();
+            if (pos.getX() < 0 || pos.getX() >= size.getX() || pos.getY() < 0
+                    || pos.getY() >= size.getY() || pos.getZ() < 0 || pos.getZ() >= size.getZ()) {
+                throw new IllegalArgumentException("Block outside tree template bounds in " + id);
+            }
+            minX = Math.min(minX, pos.getX());
+            maxX = Math.max(maxX, pos.getX());
+            minZ = Math.min(minZ, pos.getZ());
+            maxZ = Math.max(maxZ, pos.getZ());
+            if (info.state().is(Blocks.WOOL.white())) {
+                if (anchor != null) {
+                    throw new IllegalArgumentException("Multiple tree anchors in " + id);
                 }
-                minX = Math.min(minX, pos.getX());
-                maxX = Math.max(maxX, pos.getX());
-                minZ = Math.min(minZ, pos.getZ());
-                maxZ = Math.max(maxZ, pos.getZ());
-                if (info.state().is(Blocks.WOOL.white())) {
-                    if (anchor != null) {
-                        throw new IllegalArgumentException("Multiple tree anchors in " + id);
-                    }
-                    anchor = info.pos();
+                anchor = info.pos();
+            }
+        }
+        if (anchor == null) {
+            throw new IllegalArgumentException("Missing or invalid tree anchor in " + id);
+        }
+        int radius = Math.max(Math.max(anchor.getX() - minX, maxX - anchor.getX()),
+                Math.max(anchor.getZ() - minZ, maxZ - anchor.getZ()));
+        Bounds bounds = new Bounds(size.getX(), size.getY(), size.getZ(), palette.blocks().size(), radius);
+        synchronized (BOUNDS) {
+            if (BOUNDS.size() >= CACHE_LIMIT) {
+                var oldest = BOUNDS.keySet().iterator();
+                if (oldest.hasNext()) {
+                    oldest.next();
+                    oldest.remove();
                 }
             }
-            if (anchor == null) {
-                throw new IllegalArgumentException("Missing or invalid tree anchor in " + id);
-            }
-            radius = Math.max(radius, Math.max(Math.max(anchor.getX() - minX, maxX - anchor.getX()),
-                    Math.max(anchor.getZ() - minZ, maxZ - anchor.getZ())));
+            BOUNDS.put(palette, bounds);
         }
         return radius;
     }

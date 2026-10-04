@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_top_left_open",
   "textures": {
-    "bottom": "chromusflora:block/wood/meadow/planks",
-    "top": "chromusflora:block/wood/meadow/planks"
+    "bottom": "chromusflora:block/door/meadow/bottom",
+    "top": "chromusflora:block/door/meadow/top"
   }
 }

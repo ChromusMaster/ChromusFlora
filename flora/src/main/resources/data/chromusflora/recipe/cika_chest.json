@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:cika_planks"
+  },
+  "result": {
+    "id": "chromusflora:cika_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/lament_door_bottom_left"
+    "model": "chromusflora:item/lament_door"
   }
 }

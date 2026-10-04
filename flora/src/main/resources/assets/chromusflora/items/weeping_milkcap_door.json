@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/weeping_milkcap_door_bottom_left"
+    "model": "chromusflora:item/weeping_milkcap_door"
   }
 }

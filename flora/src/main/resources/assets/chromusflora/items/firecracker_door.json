@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/firecracker_door_bottom_left"
+    "model": "chromusflora:item/firecracker_door"
   }
 }

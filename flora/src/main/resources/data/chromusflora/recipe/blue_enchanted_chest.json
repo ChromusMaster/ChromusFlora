@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:blue_enchanted_planks"
+  },
+  "result": {
+    "id": "chromusflora:blue_enchanted_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

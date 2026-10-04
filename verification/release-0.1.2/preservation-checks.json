@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "baseline": "0.1.1 Fix3.2",
+  "assertions": 4556,
+  "errors": [],
+  "scope": "Exact resource bytes, existing block states, pinned target dependencies. No save loading."
+}

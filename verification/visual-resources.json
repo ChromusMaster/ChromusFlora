@@ -1,6 +1,8 @@
 {
   "status": "PASS",
   "wood_tiles": 332,
+  "door_textures": 166,
+  "trapdoor_textures": 83,
   "tree_forms": 1119,
   "branched_forms": 746,
   "max_horizontal_radius": 14,

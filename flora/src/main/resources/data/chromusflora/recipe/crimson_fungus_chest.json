@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:crimson_fungus_planks"
+  },
+  "result": {
+    "id": "chromusflora:crimson_fungus_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

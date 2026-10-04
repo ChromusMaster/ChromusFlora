@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/woodlands_door_bottom_left"
+    "model": "chromusflora:item/woodlands_door"
   }
 }

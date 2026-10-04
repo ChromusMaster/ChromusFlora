@@ -45,5 +45,8 @@
     "modmenu": {
       "badges": []
     }
-  }
+  },
+  "mixins": [
+    "chromusflora.chunk-read.mixins.json"
+  ]
 }

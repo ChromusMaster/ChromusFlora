@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "assertions": 15208,
+  "errors": [],
+  "old_definitions_preserved": 4223,
+  "recipes_per_target": 918,
+  "scope": "Static file and graph checks only; no Java, Gradle or Minecraft execution"
+}

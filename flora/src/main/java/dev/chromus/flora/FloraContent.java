@@ -1,6 +1,8 @@
 package dev.chromus.flora;
 
 import dev.chromus.flora.block.FloraSapling;
+import dev.chromus.flora.block.FloraChest;
+import dev.chromus.flora.block.FloraCraftingTable;
 import dev.chromus.flora.block.FloraDoor;
 import dev.chromus.flora.block.FloraTrapDoor;
 import dev.chromus.flora.block.FloraStairs;
@@ -39,12 +41,13 @@ import net.minecraft.world.level.block.state.properties.WoodType;
 
 public final class FloraContent {
     private static final Map<String, Block> BLOCKS = new LinkedHashMap<>();
+    private static final Map<String, Block> BLOCK_VIEW = Collections.unmodifiableMap(BLOCKS);
     private static final List<Item> ITEMS = new ArrayList<>();
 
     private FloraContent() {}
 
     public static Map<String, Block> blocks() {
-        return Collections.unmodifiableMap(BLOCKS);
+        return BLOCK_VIEW;
     }
 
     public static void register() {
@@ -54,6 +57,8 @@ public final class FloraContent {
             Block stripped = block("stripped_" + id + "_log", RotatedPillarBlock::new, Blocks.STRIPPED_OAK_LOG, true);
             Block wood = block(id + "_wood", RotatedPillarBlock::new, Blocks.OAK_WOOD, true);
             Block strippedWood = block("stripped_" + id + "_wood", RotatedPillarBlock::new, Blocks.STRIPPED_OAK_WOOD, true);
+            block(id + "_crafting_table", FloraCraftingTable::new, Blocks.CRAFTING_TABLE, true);
+            block(id + "_chest", FloraChest::new, Blocks.CHEST, true);
             block(id + "_door", FloraDoor::new, Blocks.OAK_DOOR, true);
             block(id + "_trapdoor", FloraTrapDoor::new, Blocks.OAK_TRAPDOOR, true);
             Block leaves = block(id + "_leaves", properties -> new TintedParticleLeavesBlock(0.01F, properties), Blocks.OAK_LEAVES, true);
@@ -75,7 +80,7 @@ public final class FloraContent {
                 FlammableBlockRegistry.getDefaultInstance().add(wood, 5, 5);
                 FlammableBlockRegistry.getDefaultInstance().add(strippedWood, 5, 5);
                 FlammableBlockRegistry.getDefaultInstance().add(leaves, 30, 60);
-                for (String suffix : List.of("planks", "slab", "stairs", "fence", "fence_gate", "door", "trapdoor")) {
+                for (String suffix : List.of("planks", "slab", "stairs", "fence", "fence_gate", "door", "trapdoor", "crafting_table", "chest")) {
                     FlammableBlockRegistry.getDefaultInstance().add(Objects.requireNonNull(BLOCKS.get(id + "_" + suffix)), 5, 20);
                 }
             }

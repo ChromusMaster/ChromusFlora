@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/palm_door_bottom_left"
+    "model": "chromusflora:item/palm_door"
   }
 }

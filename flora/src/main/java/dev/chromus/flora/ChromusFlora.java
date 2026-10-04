@@ -22,6 +22,7 @@ public final class ChromusFlora implements ModInitializer {
         FloraConfig.load();
         FloraPlatform.registerFeature();
         FloraContent.register();
+        FloraFurniture.register();
         JaizCompatibility.register();
         LOGGER.info("Chromus Flora: {} biomes and {} tree families registered",
                 FloraCatalog.get().biomes().size(), FloraCatalog.get().trees().size());

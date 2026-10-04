@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_right",
   "textures": {
-    "bottom": "chromusflora:block/wood/firecracker/planks",
-    "top": "chromusflora:block/wood/firecracker/planks"
+    "bottom": "chromusflora:block/door/firecracker/bottom",
+    "top": "chromusflora:block/door/firecracker/top"
   }
 }

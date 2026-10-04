@@ -1,0 +1,32 @@
+{
+  "status": "PASS_STATIC",
+  "scope": "Static source/resource performance review; no profiler, JVM, Gradle or Minecraft execution",
+  "changes": [
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/world/TreeFootprint.java",
+      "issue": "StructureTemplate palette/block traversal repeated on each tree placement attempt",
+      "resolution": "Weak-key synchronized cache for computed horizontal radius",
+      "memory_policy": "Weak keys permit stale StructureTemplate instances to be reclaimed after resource reload"
+    },
+    {
+      "path": "flora/src/client/java/dev/chromus/flora/client/FloraJade.java",
+      "issue": "Linear scan over all tree families for every sapling tooltip",
+      "resolution": "O(1) lookup through immutable tree-id map in FloraCatalog"
+    }
+  ],
+  "static_limits": {
+    "tree_families": 83,
+    "biomes": 92,
+    "max_canopy_blocks": 2620,
+    "max_candidate_blocks": 3071,
+    "max_write_radius": 15
+  },
+  "visual_assets": {
+    "door_textures": 166,
+    "trapdoor_textures": 83,
+    "compressed_bytes": 1528596,
+    "raw_rgba_bytes": 4079616,
+    "raw_rgba_plus_mipmap_estimate_bytes": 5439488
+  },
+  "runtime_validation_required": true
+}

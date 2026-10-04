@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/nightshade_door_bottom_left"
+    "model": "chromusflora:item/nightshade_door"
   }
 }

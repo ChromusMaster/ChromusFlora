@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
   "textures": {
-    "bottom": "chromusflora:block/wood/nightshade/planks",
-    "top": "chromusflora:block/wood/nightshade/planks"
+    "bottom": "chromusflora:block/door/nightshade/bottom",
+    "top": "chromusflora:block/door/nightshade/top"
   }
 }

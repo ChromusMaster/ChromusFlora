@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_orientable_trapdoor_open",
   "textures": {
-    "texture": "chromusflora:block/wood/pink_cherry/planks"
+    "texture": "chromusflora:block/trapdoor/pink_cherry/main"
   }
 }

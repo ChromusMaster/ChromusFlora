@@ -18,6 +18,5 @@
     "**/.gradle/**",
     "**/.gradle-bootstrap/**"
   ],
-  "cSpell.language": "en,pt,pt_BR",
-  "java.compile.nullAnalysis.mode": "automatic"
+  "cSpell.language": "en,pt,pt_BR"
 }

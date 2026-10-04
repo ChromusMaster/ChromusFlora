@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:yellow_spruce_planks"
+  },
+  "result": {
+    "id": "chromusflora:yellow_spruce_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

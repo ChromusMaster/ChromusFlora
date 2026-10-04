@@ -1,0 +1,1567 @@
+{
+  "format": 2,
+  "source": "Six user-provided concept sheets, adapted with built-in image_gen. No third-party mod texture copied.",
+  "species": {
+    "ancient": {
+      "sheet": 1,
+      "cell": 1,
+      "door_crop": [
+        3,
+        3,
+        189,
+        381
+      ],
+      "trapdoor_crop": [
+        3,
+        387,
+        189,
+        570
+      ],
+      "wood_description": "weathered deep umber bark with silver fissures; smoky amber heartwood"
+    },
+    "araucaria": {
+      "sheet": 1,
+      "cell": 2,
+      "door_crop": [
+        195,
+        3,
+        380,
+        381
+      ],
+      "trapdoor_crop": [
+        195,
+        387,
+        380,
+        570
+      ],
+      "wood_description": "cool gray brown angular armor scales; golden cream wood"
+    },
+    "aspen": {
+      "sheet": 1,
+      "cell": 3,
+      "door_crop": [
+        386,
+        3,
+        577,
+        381
+      ],
+      "trapdoor_crop": [
+        386,
+        387,
+        577,
+        570
+      ],
+      "wood_description": "chalk ivory smooth bark with charcoal eyes; pale ivory wood"
+    },
+    "baobab": {
+      "sheet": 1,
+      "cell": 4,
+      "door_crop": [
+        583,
+        3,
+        769,
+        381
+      ],
+      "trapdoor_crop": [
+        583,
+        387,
+        769,
+        570
+      ],
+      "wood_description": "warm dusty taupe broad smooth creases; soft ochre wood"
+    },
+    "birch": {
+      "sheet": 1,
+      "cell": 5,
+      "door_crop": [
+        775,
+        3,
+        962,
+        381
+      ],
+      "trapdoor_crop": [
+        775,
+        387,
+        962,
+        570
+      ],
+      "wood_description": "clean white papery bark with black horizontal dashes; pale golden wood"
+    },
+    "blue_enchanted": {
+      "sheet": 1,
+      "cell": 6,
+      "door_crop": [
+        968,
+        3,
+        1156,
+        381
+      ],
+      "trapdoor_crop": [
+        968,
+        387,
+        1156,
+        570
+      ],
+      "wood_description": "deep cobalt blue bark, pale cyan narrow fissures; sapphire turquoise wood"
+    },
+    "blue_spruce": {
+      "sheet": 1,
+      "cell": 7,
+      "door_crop": [
+        1162,
+        3,
+        1351,
+        381
+      ],
+      "trapdoor_crop": [
+        1162,
+        387,
+        1351,
+        570
+      ],
+      "wood_description": "slate blue gray scales; cool honey wood"
+    },
+    "bluff": {
+      "sheet": 1,
+      "cell": 8,
+      "door_crop": [
+        3,
+        576,
+        189,
+        969
+      ],
+      "trapdoor_crop": [
+        3,
+        975,
+        189,
+        1158
+      ],
+      "wood_description": "ochre sandstone brown flaking plates; sand colored wood"
+    },
+    "brown_birch": {
+      "sheet": 1,
+      "cell": 9,
+      "door_crop": [
+        195,
+        576,
+        380,
+        969
+      ],
+      "trapdoor_crop": [
+        195,
+        975,
+        380,
+        1158
+      ],
+      "wood_description": "cinnamon brown papery bark with dark horizontal marks; chestnut wood"
+    },
+    "brown_oak": {
+      "sheet": 1,
+      "cell": 10,
+      "door_crop": [
+        386,
+        576,
+        577,
+        969
+      ],
+      "trapdoor_crop": [
+        386,
+        975,
+        577,
+        1158
+      ],
+      "wood_description": "dark chocolate rugged bark; cocoa tan wood"
+    },
+    "brown_zelkova": {
+      "sheet": 1,
+      "cell": 11,
+      "door_crop": [
+        583,
+        576,
+        769,
+        969
+      ],
+      "trapdoor_crop": [
+        583,
+        975,
+        769,
+        1158
+      ],
+      "wood_description": "copper brown mottled peeling bark; bronze honey wood"
+    },
+    "bulbis": {
+      "sheet": 1,
+      "cell": 12,
+      "door_crop": [
+        775,
+        576,
+        962,
+        969
+      ],
+      "trapdoor_crop": [
+        775,
+        975,
+        962,
+        1158
+      ],
+      "wood_description": "amethyst bulbous organic skin, cream pores; pale violet interior"
+    },
+    "cika": {
+      "sheet": 1,
+      "cell": 13,
+      "door_crop": [
+        968,
+        576,
+        1156,
+        969
+      ],
+      "trapdoor_crop": [
+        968,
+        975,
+        1156,
+        1158
+      ],
+      "wood_description": "warm russet flaky bark; toasted orange wood"
+    },
+    "crimson_fungus": {
+      "sheet": 1,
+      "cell": 14,
+      "door_crop": [
+        1162,
+        576,
+        1351,
+        969
+      ],
+      "trapdoor_crop": [
+        1162,
+        975,
+        1351,
+        1158
+      ],
+      "wood_description": "burgundy fibrous stem, scarlet streaks; crimson coral interior"
+    },
+    "cypress": {
+      "sheet": 2,
+      "cell": 1,
+      "door_crop": [
+        3,
+        3,
+        205,
+        381
+      ],
+      "trapdoor_crop": [
+        3,
+        387,
+        205,
+        573
+      ],
+      "wood_description": "gray olive fibrous stringy bark; pale wheat wood"
+    },
+    "death_cap": {
+      "sheet": 2,
+      "cell": 2,
+      "door_crop": [
+        211,
+        3,
+        393,
+        381
+      ],
+      "trapdoor_crop": [
+        211,
+        387,
+        393,
+        573
+      ],
+      "wood_description": "bone white mushroom stalk with pale olive fibers; ivory green interior"
+    },
+    "deciduous": {
+      "sheet": 2,
+      "cell": 3,
+      "door_crop": [
+        399,
+        3,
+        579,
+        381
+      ],
+      "trapdoor_crop": [
+        399,
+        387,
+        579,
+        573
+      ],
+      "wood_description": "neutral brown vertically ridged bark; warm beige wood"
+    },
+    "ebony": {
+      "sheet": 2,
+      "cell": 4,
+      "door_crop": [
+        585,
+        3,
+        767,
+        381
+      ],
+      "trapdoor_crop": [
+        585,
+        387,
+        767,
+        573
+      ],
+      "wood_description": "near black violet brown bark, visible graphite highlights; dark espresso wood"
+    },
+    "embur": {
+      "sheet": 2,
+      "cell": 5,
+      "door_crop": [
+        773,
+        3,
+        952,
+        381
+      ],
+      "trapdoor_crop": [
+        773,
+        387,
+        952,
+        573
+      ],
+      "wood_description": "ember burnt orange stem with soot seams; glowing warm copper colored interior, no actual glow"
+    },
+    "ether": {
+      "sheet": 2,
+      "cell": 6,
+      "door_crop": [
+        958,
+        3,
+        1143,
+        381
+      ],
+      "trapdoor_crop": [
+        958,
+        387,
+        1143,
+        573
+      ],
+      "wood_description": "very pale icy lavender bark with silver channels; sky blue white wood"
+    },
+    "fir": {
+      "sheet": 2,
+      "cell": 7,
+      "door_crop": [
+        1149,
+        3,
+        1352,
+        381
+      ],
+      "trapdoor_crop": [
+        1149,
+        387,
+        1352,
+        573
+      ],
+      "wood_description": "cool pewter gray bark with narrow resin grooves; buttercream wood"
+    },
+    "firecracker": {
+      "sheet": 2,
+      "cell": 8,
+      "door_crop": [
+        3,
+        579,
+        205,
+        960
+      ],
+      "trapdoor_crop": [
+        3,
+        966,
+        205,
+        1156
+      ],
+      "wood_description": "charcoal brown bark with rust red fissures; fiery orange red wood"
+    },
+    "florus_rose": {
+      "sheet": 2,
+      "cell": 9,
+      "door_crop": [
+        211,
+        579,
+        393,
+        960
+      ],
+      "trapdoor_crop": [
+        211,
+        966,
+        393,
+        1156
+      ],
+      "wood_description": "dusty rose mauve bark with fine branching grooves; rose pink wood"
+    },
+    "florus_thorn": {
+      "sheet": 2,
+      "cell": 10,
+      "door_crop": [
+        399,
+        579,
+        579,
+        960
+      ],
+      "trapdoor_crop": [
+        399,
+        966,
+        579,
+        1156
+      ],
+      "wood_description": "dark green olive thorny ridges; muted yellow green wood"
+    },
+    "forgotten": {
+      "sheet": 2,
+      "cell": 11,
+      "door_crop": [
+        585,
+        579,
+        767,
+        960
+      ],
+      "trapdoor_crop": [
+        585,
+        966,
+        767,
+        1156
+      ],
+      "wood_description": "weathered ash gray bark with desaturated moss streaks; dusty sepia wood"
+    },
+    "fungal_imparius": {
+      "sheet": 7,
+      "cell": 1,
+      "door_crop": [
+        236,
+        8,
+        788,
+        1075
+      ],
+      "trapdoor_crop": [
+        236,
+        1093,
+        788,
+        1527
+      ],
+      "wood_description": "teal and violet fibrous mushroom skin; muted turquoise interior",
+      "adaptation": "Variante de fungo adaptada da prancha 2 à tábua ciano existente.",
+      "reference_sheet": 2
+    },
+    "giant_allium": {
+      "sheet": 2,
+      "cell": 13,
+      "door_crop": [
+        958,
+        579,
+        1143,
+        960
+      ],
+      "trapdoor_crop": [
+        958,
+        966,
+        1143,
+        1156
+      ],
+      "wood_description": "deep violet green striped botanical stalk; lavender interior"
+    },
+    "giant_pink_allium": {
+      "sheet": 2,
+      "cell": 14,
+      "door_crop": [
+        1149,
+        579,
+        1352,
+        960
+      ],
+      "trapdoor_crop": [
+        1149,
+        966,
+        1352,
+        1156
+      ],
+      "wood_description": "pink magenta botanical stalk; blush pink interior",
+      "adaptation": "Adapted pink allium rosette variant, distinct from florus_rose."
+    },
+    "giant_white_allium": {
+      "sheet": 3,
+      "cell": 1,
+      "door_crop": [
+        3,
+        3,
+        196,
+        372
+      ],
+      "trapdoor_crop": [
+        3,
+        378,
+        196,
+        563
+      ],
+      "wood_description": "pale mint green botanical stalk; warm white interior"
+    },
+    "green_enchanted": {
+      "sheet": 3,
+      "cell": 2,
+      "door_crop": [
+        202,
+        3,
+        391,
+        372
+      ],
+      "trapdoor_crop": [
+        202,
+        378,
+        391,
+        563
+      ],
+      "wood_description": "emerald green ridged bark with jade seams; vivid jade wood"
+    },
+    "green_mushroom": {
+      "sheet": 3,
+      "cell": 3,
+      "door_crop": [
+        397,
+        3,
+        583,
+        372
+      ],
+      "trapdoor_crop": [
+        397,
+        378,
+        583,
+        563
+      ],
+      "wood_description": "moss green and cream speckled stem; pistachio interior"
+    },
+    "holly": {
+      "sheet": 3,
+      "cell": 4,
+      "door_crop": [
+        589,
+        3,
+        771,
+        372
+      ],
+      "trapdoor_crop": [
+        589,
+        378,
+        771,
+        563
+      ],
+      "wood_description": "smooth silver gray bark with olive undertone; nearly white wood"
+    },
+    "imparius": {
+      "sheet": 3,
+      "cell": 5,
+      "door_crop": [
+        777,
+        3,
+        962,
+        372
+      ],
+      "trapdoor_crop": [
+        777,
+        378,
+        962,
+        563
+      ],
+      "wood_description": "indigo slate bark with amber tiny pores; deep blue gray wood"
+    },
+    "indigo_jacaranda": {
+      "sheet": 3,
+      "cell": 6,
+      "door_crop": [
+        968,
+        3,
+        1156,
+        372
+      ],
+      "trapdoor_crop": [
+        968,
+        378,
+        1156,
+        563
+      ],
+      "wood_description": "indigo purple fissured bark; rich violet heartwood"
+    },
+    "ironwood": {
+      "sheet": 3,
+      "cell": 7,
+      "door_crop": [
+        1162,
+        3,
+        1352,
+        372
+      ],
+      "trapdoor_crop": [
+        1162,
+        378,
+        1352,
+        563
+      ],
+      "wood_description": "dense steel charcoal gray fine ridges; dark brown olive wood"
+    },
+    "jacaranda": {
+      "sheet": 3,
+      "cell": 8,
+      "door_crop": [
+        3,
+        569,
+        196,
+        950
+      ],
+      "trapdoor_crop": [
+        3,
+        956,
+        196,
+        1147
+      ],
+      "wood_description": "mauve gray mottled bark; muted lilac brown wood"
+    },
+    "joshua": {
+      "sheet": 3,
+      "cell": 9,
+      "door_crop": [
+        202,
+        569,
+        391,
+        950
+      ],
+      "trapdoor_crop": [
+        202,
+        956,
+        391,
+        1147
+      ],
+      "wood_description": "straw tan coarse shaggy fibrous bark; sand beige fibrous interior"
+    },
+    "lament": {
+      "sheet": 3,
+      "cell": 10,
+      "door_crop": [
+        397,
+        569,
+        583,
+        950
+      ],
+      "trapdoor_crop": [
+        397,
+        956,
+        583,
+        1147
+      ],
+      "wood_description": "desaturated blue gray drooping fibrous stem; cold desaturated blue interior"
+    },
+    "mahogany": {
+      "sheet": 3,
+      "cell": 11,
+      "door_crop": [
+        589,
+        569,
+        771,
+        950
+      ],
+      "trapdoor_crop": [
+        589,
+        956,
+        771,
+        1147
+      ],
+      "wood_description": "reddish dark chestnut bark with deep grooves; rich red mahogany wood",
+      "adaptation": "Reference double leaf adapted to one Minecraft door leaf."
+    },
+    "maple": {
+      "sheet": 3,
+      "cell": 12,
+      "door_crop": [
+        777,
+        569,
+        962,
+        950
+      ],
+      "trapdoor_crop": [
+        777,
+        956,
+        962,
+        1147
+      ],
+      "wood_description": "warm stone gray fine flaking bark; light honey maple wood"
+    },
+    "meadow": {
+      "sheet": 3,
+      "cell": 13,
+      "door_crop": [
+        968,
+        569,
+        1156,
+        950
+      ],
+      "trapdoor_crop": [
+        968,
+        956,
+        1156,
+        1147
+      ],
+      "wood_description": "soft sage brown bark with pale mottling; pale straw wood"
+    },
+    "nightshade": {
+      "sheet": 3,
+      "cell": 14,
+      "door_crop": [
+        1162,
+        569,
+        1352,
+        950
+      ],
+      "trapdoor_crop": [
+        1162,
+        956,
+        1352,
+        1147
+      ],
+      "wood_description": "midnight purple bark with dusky violet edges; deep plum wood"
+    },
+    "oak": {
+      "sheet": 4,
+      "cell": 1,
+      "door_crop": [
+        3,
+        3,
+        209,
+        362
+      ],
+      "trapdoor_crop": [
+        3,
+        368,
+        209,
+        574
+      ],
+      "wood_description": "medium gray brown coarse broken ridges; classic warm oak tan wood"
+    },
+    "orange_birch": {
+      "sheet": 4,
+      "cell": 2,
+      "door_crop": [
+        215,
+        3,
+        400,
+        362
+      ],
+      "trapdoor_crop": [
+        215,
+        368,
+        400,
+        574
+      ],
+      "wood_description": "cream bark with warm orange peeling patches; apricot amber wood"
+    },
+    "orange_oak": {
+      "sheet": 4,
+      "cell": 3,
+      "door_crop": [
+        406,
+        3,
+        584,
+        362
+      ],
+      "trapdoor_crop": [
+        406,
+        368,
+        584,
+        574
+      ],
+      "wood_description": "rusty orange brown deeply furrowed bark; orange caramel wood"
+    },
+    "orange_spruce": {
+      "sheet": 4,
+      "cell": 4,
+      "door_crop": [
+        590,
+        3,
+        771,
+        362
+      ],
+      "trapdoor_crop": [
+        590,
+        368,
+        771,
+        574
+      ],
+      "wood_description": "burnt sienna narrow scale bark; amber orange wood"
+    },
+    "orchard": {
+      "sheet": 4,
+      "cell": 5,
+      "door_crop": [
+        777,
+        3,
+        965,
+        362
+      ],
+      "trapdoor_crop": [
+        777,
+        368,
+        965,
+        574
+      ],
+      "wood_description": "rose brown scaly bark with tiny moss marks; soft peach honey wood"
+    },
+    "palm": {
+      "sheet": 4,
+      "cell": 6,
+      "door_crop": [
+        971,
+        3,
+        1149,
+        362
+      ],
+      "trapdoor_crop": [
+        971,
+        368,
+        1149,
+        574
+      ],
+      "wood_description": "warm gray tan trunk with broad horizontal ring scars; golden fibrous wood",
+      "adaptation": "Reference 4, door 6 adapted to light palm wood."
+    },
+    "palo_verde": {
+      "sheet": 4,
+      "cell": 7,
+      "door_crop": [
+        1155,
+        3,
+        1351,
+        362
+      ],
+      "trapdoor_crop": [
+        1155,
+        368,
+        1351,
+        574
+      ],
+      "wood_description": "smooth green bark with cream irregular scars; pale chartreuse wood"
+    },
+    "pine": {
+      "sheet": 4,
+      "cell": 8,
+      "door_crop": [
+        3,
+        580,
+        209,
+        928
+      ],
+      "trapdoor_crop": [
+        3,
+        934,
+        209,
+        1156
+      ],
+      "wood_description": "orange brown interlocking broad plates; golden yellow pine wood"
+    },
+    "pink_cherry": {
+      "sheet": 4,
+      "cell": 9,
+      "door_crop": [
+        215,
+        580,
+        400,
+        928
+      ],
+      "trapdoor_crop": [
+        215,
+        934,
+        400,
+        1156
+      ],
+      "wood_description": "dark burgundy bark with pale pink horizontal lenticels; rosy pink wood"
+    },
+    "prairie": {
+      "sheet": 4,
+      "cell": 10,
+      "door_crop": [
+        406,
+        580,
+        584,
+        928
+      ],
+      "trapdoor_crop": [
+        406,
+        934,
+        584,
+        1156
+      ],
+      "wood_description": "dry ochre gray fissured bark; pale straw golden wood"
+    },
+    "purple_bulbis": {
+      "sheet": 4,
+      "cell": 11,
+      "door_crop": [
+        590,
+        580,
+        771,
+        928
+      ],
+      "trapdoor_crop": [
+        590,
+        934,
+        771,
+        1156
+      ],
+      "wood_description": "saturated royal purple organic bulb skin; orchid purple interior"
+    },
+    "rainbow_eucalyptus": {
+      "sheet": 4,
+      "cell": 12,
+      "door_crop": [
+        777,
+        580,
+        965,
+        928
+      ],
+      "trapdoor_crop": [
+        777,
+        934,
+        965,
+        1156
+      ],
+      "wood_description": "natural irregular peeling vertical ribbons of mint, turquoise, rose, ochre, violet; pale mint peach wood"
+    },
+    "red_birch": {
+      "sheet": 4,
+      "cell": 13,
+      "door_crop": [
+        971,
+        580,
+        1149,
+        928
+      ],
+      "trapdoor_crop": [
+        971,
+        934,
+        1149,
+        1156
+      ],
+      "wood_description": "warm ivory bark with red copper peeling patches; salmon reddish wood"
+    },
+    "red_maple": {
+      "sheet": 4,
+      "cell": 14,
+      "door_crop": [
+        1155,
+        580,
+        1351,
+        928
+      ],
+      "trapdoor_crop": [
+        1155,
+        934,
+        1351,
+        1156
+      ],
+      "wood_description": "cool brown bark with muted crimson fissures; reddish honey maple wood"
+    },
+    "red_oak": {
+      "sheet": 5,
+      "cell": 1,
+      "door_crop": [
+        3,
+        3,
+        196,
+        404
+      ],
+      "trapdoor_crop": [
+        3,
+        410,
+        196,
+        577
+      ],
+      "wood_description": "deep red brown coarse ridges; brick red oak wood"
+    },
+    "red_spruce": {
+      "sheet": 5,
+      "cell": 2,
+      "door_crop": [
+        202,
+        3,
+        390,
+        404
+      ],
+      "trapdoor_crop": [
+        202,
+        410,
+        390,
+        577
+      ],
+      "wood_description": "wine russet fine scaly bark; warm rust red wood"
+    },
+    "redwood": {
+      "sheet": 5,
+      "cell": 3,
+      "door_crop": [
+        396,
+        3,
+        581,
+        404
+      ],
+      "trapdoor_crop": [
+        396,
+        410,
+        581,
+        577
+      ],
+      "wood_description": "rich orange red thick fibrous bark; deep reddish orange wood"
+    },
+    "shulkren": {
+      "sheet": 5,
+      "cell": 4,
+      "door_crop": [
+        587,
+        3,
+        771,
+        404
+      ],
+      "trapdoor_crop": [
+        587,
+        410,
+        771,
+        577
+      ],
+      "wood_description": "dusty purple segmented organic bark, creamy seams; dusky violet wood"
+    },
+    "silver_maple": {
+      "sheet": 5,
+      "cell": 5,
+      "door_crop": [
+        777,
+        3,
+        963,
+        404
+      ],
+      "trapdoor_crop": [
+        777,
+        410,
+        963,
+        577
+      ],
+      "wood_description": "silver gray flaky bark with darker long strips; pale silver beige wood"
+    },
+    "skyris": {
+      "sheet": 5,
+      "cell": 6,
+      "door_crop": [
+        969,
+        3,
+        1155,
+        404
+      ],
+      "trapdoor_crop": [
+        969,
+        410,
+        1155,
+        577
+      ],
+      "wood_description": "deep cyan teal bark with sky blue fissures; light azure wood"
+    },
+    "soul_shroom": {
+      "sheet": 5,
+      "cell": 7,
+      "door_crop": [
+        1161,
+        3,
+        1352,
+        404
+      ],
+      "trapdoor_crop": [
+        1161,
+        410,
+        1352,
+        577
+      ],
+      "wood_description": "deep blue teal fibrous mushroom stem with cyan pores; pale soul blue interior"
+    },
+    "spirit": {
+      "sheet": 5,
+      "cell": 8,
+      "door_crop": [
+        3,
+        583,
+        196,
+        954
+      ],
+      "trapdoor_crop": [
+        3,
+        960,
+        196,
+        1158
+      ],
+      "wood_description": "pearly ivory bark with subtle aquamarine seams; pale mint white wood"
+    },
+    "spruce": {
+      "sheet": 5,
+      "cell": 9,
+      "door_crop": [
+        202,
+        583,
+        390,
+        954
+      ],
+      "trapdoor_crop": [
+        202,
+        960,
+        390,
+        1158
+      ],
+      "wood_description": "dark gray brown small scaly plates; muted tan brown spruce wood"
+    },
+    "sythian": {
+      "sheet": 5,
+      "cell": 10,
+      "door_crop": [
+        396,
+        583,
+        581,
+        954
+      ],
+      "trapdoor_crop": [
+        396,
+        960,
+        581,
+        1158
+      ],
+      "wood_description": "dark blood red ribbed stem with purple shadows; oxblood red interior"
+    },
+    "wailing": {
+      "sheet": 5,
+      "cell": 11,
+      "door_crop": [
+        587,
+        583,
+        771,
+        954
+      ],
+      "trapdoor_crop": [
+        587,
+        960,
+        771,
+        1158
+      ],
+      "wood_description": "ashen blue lavender stretched fibrous bark; muted icy lilac wood"
+    },
+    "warped_coral": {
+      "sheet": 5,
+      "cell": 12,
+      "door_crop": [
+        777,
+        583,
+        963,
+        954
+      ],
+      "trapdoor_crop": [
+        777,
+        960,
+        963,
+        1158
+      ],
+      "wood_description": "deep marine teal porous coral stem with turquoise pits; coral turquoise interior"
+    },
+    "warped_fungus": {
+      "sheet": 5,
+      "cell": 13,
+      "door_crop": [
+        969,
+        583,
+        1155,
+        954
+      ],
+      "trapdoor_crop": [
+        969,
+        960,
+        1155,
+        1158
+      ],
+      "wood_description": "petrol green fibrous stem with cyan channels; turquoise green interior"
+    },
+    "weeping_milkcap": {
+      "sheet": 5,
+      "cell": 14,
+      "door_crop": [
+        1161,
+        583,
+        1352,
+        954
+      ],
+      "trapdoor_crop": [
+        1161,
+        960,
+        1352,
+        1158
+      ],
+      "wood_description": "warm creamy mushroom stalk with caramel streaks; milky beige interior"
+    },
+    "white_cherry": {
+      "sheet": 6,
+      "cell": 1,
+      "door_crop": [
+        3,
+        3,
+        197,
+        368
+      ],
+      "trapdoor_crop": [
+        3,
+        374,
+        197,
+        565
+      ],
+      "wood_description": "pale pink gray smooth bark with dark horizontal lenticels; creamy blush wood"
+    },
+    "white_mangrove": {
+      "sheet": 6,
+      "cell": 2,
+      "door_crop": [
+        203,
+        3,
+        391,
+        368
+      ],
+      "trapdoor_crop": [
+        203,
+        374,
+        391,
+        565
+      ],
+      "wood_description": "silver white and gray gnarled bark with olive flecks; light gray cream wood",
+      "adaptation": "Assigned by reference position and olive palette; no wood texture changed."
+    },
+    "white_sakura": {
+      "sheet": 6,
+      "cell": 3,
+      "door_crop": [
+        397,
+        3,
+        583,
+        368
+      ],
+      "trapdoor_crop": [
+        397,
+        374,
+        583,
+        565
+      ],
+      "wood_description": "pearl white bark with dusky rose horizontal marks; pink white wood"
+    },
+    "willow": {
+      "sheet": 6,
+      "cell": 4,
+      "door_crop": [
+        589,
+        3,
+        772,
+        368
+      ],
+      "trapdoor_crop": [
+        589,
+        374,
+        772,
+        565
+      ],
+      "wood_description": "dark olive gray braided grooves; pale sage tan wood"
+    },
+    "witch_hazel": {
+      "sheet": 6,
+      "cell": 5,
+      "door_crop": [
+        778,
+        3,
+        958,
+        368
+      ],
+      "trapdoor_crop": [
+        778,
+        374,
+        958,
+        565
+      ],
+      "wood_description": "violet brown branching ridges with bronze flecks; muted plum gold wood"
+    },
+    "withering_oak": {
+      "sheet": 6,
+      "cell": 6,
+      "door_crop": [
+        964,
+        3,
+        1156,
+        368
+      ],
+      "trapdoor_crop": [
+        964,
+        374,
+        1156,
+        565
+      ],
+      "wood_description": "dead charcoal gray deeply cracked bark; desaturated ashen gray wood"
+    },
+    "wood_blewit": {
+      "sheet": 6,
+      "cell": 7,
+      "door_crop": [
+        1162,
+        3,
+        1352,
+        368
+      ],
+      "trapdoor_crop": [
+        1162,
+        374,
+        1352,
+        565
+      ],
+      "wood_description": "soft lilac mushroom stalk with cream fibers; pale lavender interior"
+    },
+    "woodlands": {
+      "sheet": 6,
+      "cell": 8,
+      "door_crop": [
+        3,
+        571,
+        197,
+        941
+      ],
+      "trapdoor_crop": [
+        3,
+        947,
+        197,
+        1139
+      ],
+      "wood_description": "earthy deep brown bark with greenish fine weathering; warm medium walnut wood"
+    },
+    "yellow_birch": {
+      "sheet": 6,
+      "cell": 9,
+      "door_crop": [
+        203,
+        571,
+        391,
+        941
+      ],
+      "trapdoor_crop": [
+        203,
+        947,
+        391,
+        1139
+      ],
+      "wood_description": "gold bronze papery bark with dark horizontal dashes; golden yellow wood"
+    },
+    "yellow_sakura": {
+      "sheet": 6,
+      "cell": 10,
+      "door_crop": [
+        397,
+        571,
+        583,
+        941
+      ],
+      "trapdoor_crop": [
+        397,
+        947,
+        583,
+        1139
+      ],
+      "wood_description": "pale golden bark with brown horizontal lenticels; buttery golden wood"
+    },
+    "yellow_spruce": {
+      "sheet": 6,
+      "cell": 11,
+      "door_crop": [
+        589,
+        571,
+        772,
+        941
+      ],
+      "trapdoor_crop": [
+        589,
+        947,
+        772,
+        1139
+      ],
+      "wood_description": "ochre brown narrow scaly bark; warm yellow amber wood"
+    },
+    "yucca": {
+      "sheet": 6,
+      "cell": 12,
+      "door_crop": [
+        778,
+        571,
+        958,
+        941
+      ],
+      "trapdoor_crop": [
+        778,
+        947,
+        958,
+        1139
+      ],
+      "wood_description": "dry beige tan shaggy fibers with olive undertone; pale straw fibrous wood"
+    },
+    "zelkova": {
+      "sheet": 6,
+      "cell": 13,
+      "door_crop": [
+        964,
+        571,
+        1156,
+        941
+      ],
+      "trapdoor_crop": [
+        964,
+        947,
+        1156,
+        1139
+      ],
+      "wood_description": "mottled gray copper bark with irregular peeling patches; amber orange wood"
+    }
+  },
+  "sheets": [
+    {
+      "sheet": 1,
+      "file": "sheet-1.png",
+      "reference": "Gemini_Generated_Image_quofnpquofnpquof.jpg",
+      "columns": [
+        0,
+        192,
+        383,
+        580,
+        772,
+        965,
+        1159,
+        1354
+      ],
+      "rows": [
+        0,
+        384,
+        573,
+        972,
+        1161
+      ]
+    },
+    {
+      "sheet": 2,
+      "file": "sheet-2.png",
+      "reference": "Gemini_Generated_Image_xbf6d9xbf6d9xbf6.jpg",
+      "columns": [
+        0,
+        208,
+        396,
+        582,
+        770,
+        955,
+        1146,
+        1355
+      ],
+      "rows": [
+        0,
+        384,
+        576,
+        963,
+        1159
+      ]
+    },
+    {
+      "sheet": 3,
+      "file": "sheet-3.png",
+      "reference": "Gemini_Generated_Image_uulch8uulch8uulc.jpg",
+      "columns": [
+        0,
+        199,
+        394,
+        586,
+        774,
+        965,
+        1159,
+        1355
+      ],
+      "rows": [
+        0,
+        375,
+        566,
+        953,
+        1150
+      ]
+    },
+    {
+      "sheet": 4,
+      "file": "sheet-4.png",
+      "reference": "Gemini_Generated_Image_80i92v80i92v80i9.jpg",
+      "columns": [
+        0,
+        212,
+        403,
+        587,
+        774,
+        968,
+        1152,
+        1354
+      ],
+      "rows": [
+        0,
+        365,
+        577,
+        931,
+        1159
+      ]
+    },
+    {
+      "sheet": 5,
+      "file": "sheet-5.png",
+      "reference": "Gemini_Generated_Image_7d9nuo7d9nuo7d9n.jpg",
+      "columns": [
+        0,
+        199,
+        393,
+        584,
+        774,
+        966,
+        1158,
+        1355
+      ],
+      "rows": [
+        0,
+        407,
+        580,
+        957,
+        1161
+      ]
+    },
+    {
+      "sheet": 6,
+      "file": "sheet-6.png",
+      "reference": "Gemini_Generated_Image_beih4hbeih4hbeih.jpg",
+      "columns": [
+        0,
+        200,
+        394,
+        586,
+        775,
+        961,
+        1159,
+        1355
+      ],
+      "rows": [
+        0,
+        371,
+        568,
+        944,
+        1142
+      ]
+    },
+    {
+      "sheet": 7,
+      "file": "sheet-7.png",
+      "reference": "Adaptation of sheet 2 fungal motif to the existing cyan fungal_imparius planks"
+    }
+  ],
+  "unused_cell": {
+    "sheet": 6,
+    "cell": 14,
+    "reason": "Plain spare door: catalog has 83 tree families."
+  }
+}

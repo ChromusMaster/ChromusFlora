@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_top_right",
   "textures": {
-    "bottom": "chromusflora:block/wood/ironwood/planks",
-    "top": "chromusflora:block/wood/ironwood/planks"
+    "bottom": "chromusflora:block/door/ironwood/bottom",
+    "top": "chromusflora:block/door/ironwood/top"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:forgotten_planks"
+  },
+  "result": {
+    "id": "chromusflora:forgotten_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

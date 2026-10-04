@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:firecracker_planks"
+  },
+  "result": {
+    "id": "chromusflora:firecracker_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

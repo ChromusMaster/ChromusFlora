@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:wailing_planks"
+  },
+  "result": {
+    "id": "chromusflora:wailing_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/holly_door_bottom_left"
+    "model": "chromusflora:item/holly_door"
   }
 }

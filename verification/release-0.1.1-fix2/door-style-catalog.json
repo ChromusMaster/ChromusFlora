@@ -1,0 +1,586 @@
+{
+  "styles": [
+    {
+      "species": "ancient",
+      "style": "framed_panel",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "araucaria",
+      "style": "barn_cross",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "aspen",
+      "style": "vertical_slats",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "baobab",
+      "style": "horizontal_slats",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "birch",
+      "style": "lattice",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "blue_enchanted",
+      "style": "double_panel",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "blue_spruce",
+      "style": "reinforced",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "bluff",
+      "style": "diamond_brace",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "brown_birch",
+      "style": "split_arch",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "brown_oak",
+      "style": "stepped_panel",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "brown_zelkova",
+      "style": "offset_brace",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "bulbis",
+      "style": "quilted_panel",
+      "variant": 0,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "cika",
+      "style": "framed_panel",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "crimson_fungus",
+      "style": "barn_cross",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "cypress",
+      "style": "vertical_slats",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "death_cap",
+      "style": "horizontal_slats",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "deciduous",
+      "style": "lattice",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "ebony",
+      "style": "double_panel",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "embur",
+      "style": "reinforced",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "ether",
+      "style": "diamond_brace",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "fir",
+      "style": "split_arch",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "firecracker",
+      "style": "stepped_panel",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "florus_rose",
+      "style": "offset_brace",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "florus_thorn",
+      "style": "quilted_panel",
+      "variant": 1,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "forgotten",
+      "style": "framed_panel",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "fungal_imparius",
+      "style": "barn_cross",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "giant_allium",
+      "style": "vertical_slats",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "giant_pink_allium",
+      "style": "horizontal_slats",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "giant_white_allium",
+      "style": "lattice",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "green_enchanted",
+      "style": "double_panel",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "green_mushroom",
+      "style": "reinforced",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "holly",
+      "style": "diamond_brace",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "imparius",
+      "style": "split_arch",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "indigo_jacaranda",
+      "style": "stepped_panel",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "ironwood",
+      "style": "offset_brace",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "jacaranda",
+      "style": "quilted_panel",
+      "variant": 2,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "joshua",
+      "style": "framed_panel",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "lament",
+      "style": "barn_cross",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "mahogany",
+      "style": "vertical_slats",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "maple",
+      "style": "horizontal_slats",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "meadow",
+      "style": "lattice",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "nightshade",
+      "style": "double_panel",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "oak",
+      "style": "reinforced",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "orange_birch",
+      "style": "diamond_brace",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "orange_oak",
+      "style": "split_arch",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "orange_spruce",
+      "style": "stepped_panel",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "orchard",
+      "style": "offset_brace",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "palm",
+      "style": "quilted_panel",
+      "variant": 3,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "palo_verde",
+      "style": "framed_panel",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "pine",
+      "style": "barn_cross",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "pink_cherry",
+      "style": "vertical_slats",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "prairie",
+      "style": "horizontal_slats",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "purple_bulbis",
+      "style": "lattice",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "rainbow_eucalyptus",
+      "style": "double_panel",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "red_birch",
+      "style": "reinforced",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "red_maple",
+      "style": "diamond_brace",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "red_oak",
+      "style": "split_arch",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "red_spruce",
+      "style": "stepped_panel",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "redwood",
+      "style": "offset_brace",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "shulkren",
+      "style": "quilted_panel",
+      "variant": 4,
+      "frame": 5,
+      "rail": 5
+    },
+    {
+      "species": "silver_maple",
+      "style": "framed_panel",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "skyris",
+      "style": "barn_cross",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "soul_shroom",
+      "style": "vertical_slats",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "spirit",
+      "style": "horizontal_slats",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "spruce",
+      "style": "lattice",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "sythian",
+      "style": "double_panel",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "wailing",
+      "style": "reinforced",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "warped_coral",
+      "style": "diamond_brace",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "warped_fungus",
+      "style": "split_arch",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "weeping_milkcap",
+      "style": "stepped_panel",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "white_cherry",
+      "style": "offset_brace",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "white_mangrove",
+      "style": "quilted_panel",
+      "variant": 5,
+      "frame": 6,
+      "rail": 3
+    },
+    {
+      "species": "white_sakura",
+      "style": "framed_panel",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "willow",
+      "style": "barn_cross",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "witch_hazel",
+      "style": "vertical_slats",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "withering_oak",
+      "style": "horizontal_slats",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "wood_blewit",
+      "style": "lattice",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "woodlands",
+      "style": "double_panel",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "yellow_birch",
+      "style": "reinforced",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "yellow_sakura",
+      "style": "diamond_brace",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "yellow_spruce",
+      "style": "split_arch",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "yucca",
+      "style": "stepped_panel",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    },
+    {
+      "species": "zelkova",
+      "style": "offset_brace",
+      "variant": 6,
+      "frame": 4,
+      "rail": 4
+    }
+  ],
+  "unique_assignments": 83
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:florus_thorn_planks"
+  },
+  "result": {
+    "id": "chromusflora:florus_thorn_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

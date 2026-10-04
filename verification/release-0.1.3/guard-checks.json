@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Static guard matching against actual dependency bytecode, not execution of the Java plugin",
+  "targets": [
+    {
+      "target": "26.2",
+      "prefix_instructions_verified_against_java_guard": 23,
+      "status": "PASS"
+    },
+    {
+      "target": "26.3",
+      "prefix_instructions_verified_against_java_guard": 23,
+      "status": "PASS"
+    }
+  ]
+}

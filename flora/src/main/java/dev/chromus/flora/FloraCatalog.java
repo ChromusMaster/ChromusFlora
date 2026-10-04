@@ -27,6 +27,8 @@ public final class FloraCatalog {
         }
     }
     private static final Catalog INSTANCE = read("/chromusflora/catalog.json", Catalog.class);
+    private static final Map<String, Tree> TREES = INSTANCE.trees().stream()
+            .collect(Collectors.toUnmodifiableMap(Tree::id, Function.identity()));
     private static final Map<String, Biome> BIOMES = INSTANCE.biomes().stream()
             .collect(Collectors.toUnmodifiableMap(Biome::id, Function.identity()));
 
@@ -34,6 +36,10 @@ public final class FloraCatalog {
 
     public static Catalog get() {
         return INSTANCE;
+    }
+
+    public static @Nullable Tree tree(String id) {
+        return TREES.get(id);
     }
 
     public static @Nullable Biome biome(String id) {

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_right_open",
   "textures": {
-    "bottom": "chromusflora:block/wood/florus_rose/planks",
-    "top": "chromusflora:block/wood/florus_rose/planks"
+    "bottom": "chromusflora:block/door/florus_rose/bottom",
+    "top": "chromusflora:block/door/florus_rose/top"
   }
 }

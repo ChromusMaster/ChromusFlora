@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
   "textures": {
-    "bottom": "chromusflora:block/wood/witch_hazel/planks",
-    "top": "chromusflora:block/wood/witch_hazel/planks"
+    "bottom": "chromusflora:block/door/witch_hazel/bottom",
+    "top": "chromusflora:block/door/witch_hazel/top"
   }
 }

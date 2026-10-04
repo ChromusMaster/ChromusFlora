@@ -1,3 +1,21 @@
+# 0.1.3 — 2026-10-03
+
+- Corrige o receptor da leitura de scheduled_random_ticks no OTTYG 11.0.1 e 12.0.0.
+- Verifica versão, origem do mixin e estrutura das instruções antes da alteração.
+- Preserva o escritor original, o formato dos saves, os registros e todos os recursos de conteúdo da 0.1.2.
+- Não exige mundo novo, não apaga chunks e não modifica o JAR da dependência.
+- Simulação Python do bytecode e verificações estáticas; build e teste no Minecraft pendentes.
+
+# 0.1.2 — 2026-10-03
+
+- Incorpora Fix3.2: mantém ícones frontais de portas e modelos vanilla.
+- Adapta seis referências do usuário para 83 portas e 83 alçapões com atlas-fonte e mapeamento reproduzível.
+- Acrescenta bancadas e baús por madeira, agrupamento nativo no livro e conversão para móveis vanilla.
+- Preserva IDs antigos, texturas das árvores, estruturas e biomas; sem retrogen.
+- Limita a cache de limites de árvores, usa chaves fracas por paleta e reutiliza posições na checagem de chunks.
+- Mantém JDK 25, Gradle 9.5.1 e saídas independentes para 26.2/26.3.
+- Validação estática; compilação, runtime e desempenho medido pendentes no ambiente do usuário.
+
 # Fix 11 — 2026-09-27
 
 - Distinguish tree write zones from chunk read availability; include base/canopy anchors and leaf-neighbor reads.

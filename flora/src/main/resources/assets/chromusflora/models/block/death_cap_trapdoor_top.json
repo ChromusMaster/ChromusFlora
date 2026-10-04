@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_orientable_trapdoor_top",
   "textures": {
-    "texture": "chromusflora:block/wood/death_cap/planks"
+    "texture": "chromusflora:block/trapdoor/death_cap/main"
   }
 }

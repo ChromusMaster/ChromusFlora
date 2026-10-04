@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:bluff_planks"
+  },
+  "result": {
+    "id": "chromusflora:bluff_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

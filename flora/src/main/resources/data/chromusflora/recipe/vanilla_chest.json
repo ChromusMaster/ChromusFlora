@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest",
+  "ingredients": [
+    "#chromusflora:chests"
+  ],
+  "result": {
+    "id": "minecraft:chest",
+    "count": 1
+  }
+}

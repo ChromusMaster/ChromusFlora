@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:holly_planks"
+  },
+  "result": {
+    "id": "chromusflora:holly_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

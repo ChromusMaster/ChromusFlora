@@ -1,0 +1,1409 @@
+{
+  "format": 1,
+  "source": "Six user-provided door sheets; built-in image_gen adaptations in atelier/joinery",
+  "principle": "Distinct reference-based textures; no external mod artwork. Existing tree textures stay unchanged. 64x64 block faces, 64x128 item sprites, native block geometry.",
+  "families": {
+    "S01": {
+      "name": "Manor Panel",
+      "description": "classic framed residential panels"
+    },
+    "S02": {
+      "name": "Modern Sidelight",
+      "description": "clean slab with vertical glass insert"
+    },
+    "S03": {
+      "name": "Barn Crossbrace",
+      "description": "rustic braces, planks and simple ironwork"
+    },
+    "S04": {
+      "name": "Ironbound Keep",
+      "description": "heavy medieval bands, rivets and ring hardware"
+    },
+    "S05": {
+      "name": "Verdant Leaf",
+      "description": "organic branch and leaf carving"
+    },
+    "S06": {
+      "name": "Blossom Filigree",
+      "description": "floral vines and delicate ornament"
+    },
+    "S07": {
+      "name": "Arcane Rune",
+      "description": "runes, sigils and gem-like details"
+    },
+    "S08": {
+      "name": "Frost Crystal",
+      "description": "crystal/glass geometry and cold highlights"
+    },
+    "S09": {
+      "name": "Fungal Pod",
+      "description": "rounded fungal capsule with pores and organic seams"
+    },
+    "S10": {
+      "name": "Shingle Artisan",
+      "description": "layered shingles, scales and conifer craft"
+    },
+    "S11": {
+      "name": "Cottage Window",
+      "description": "small window, homestead panels and light hardware"
+    },
+    "S12": {
+      "name": "Porthole Voyager",
+      "description": "round porthole and nautical/tropical hardware"
+    },
+    "S13": {
+      "name": "Ember Infernal",
+      "description": "charred framing, hot fissures and dark bands"
+    },
+    "S14": {
+      "name": "Noble Deco",
+      "description": "symmetrical art-nouveau / geometric ornament"
+    }
+  },
+  "counts": {
+    "S01": 3,
+    "S02": 2,
+    "S03": 8,
+    "S04": 7,
+    "S05": 4,
+    "S06": 8,
+    "S07": 7,
+    "S08": 5,
+    "S09": 10,
+    "S10": 7,
+    "S11": 6,
+    "S12": 2,
+    "S13": 5,
+    "S14": 9
+  },
+  "assignments": {
+    "ancient": {
+      "family": "S04",
+      "family_name": "Ironbound Keep",
+      "art_source": "weathered deep umber bark with silver fissures; smoky amber heartwood",
+      "variant_seed": 1105044402,
+      "door_textures": [
+        "block/door/ancient/bottom",
+        "block/door/ancient/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/ancient/main",
+      "item_texture": "item/door/ancient",
+      "item_model": "item/ancient_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 1,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "araucaria": {
+      "family": "S10",
+      "family_name": "Shingle Artisan",
+      "art_source": "cool gray brown angular armor scales; golden cream wood",
+      "variant_seed": 2328781632,
+      "door_textures": [
+        "block/door/araucaria/bottom",
+        "block/door/araucaria/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/araucaria/main",
+      "item_texture": "item/door/araucaria",
+      "item_model": "item/araucaria_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 2,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "aspen": {
+      "family": "S02",
+      "family_name": "Modern Sidelight",
+      "art_source": "chalk ivory smooth bark with charcoal eyes; pale ivory wood",
+      "variant_seed": 620393488,
+      "door_textures": [
+        "block/door/aspen/bottom",
+        "block/door/aspen/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/aspen/main",
+      "item_texture": "item/door/aspen",
+      "item_model": "item/aspen_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 3,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "baobab": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "warm dusty taupe broad smooth creases; soft ochre wood",
+      "variant_seed": 478266639,
+      "door_textures": [
+        "block/door/baobab/bottom",
+        "block/door/baobab/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/baobab/main",
+      "item_texture": "item/door/baobab",
+      "item_model": "item/baobab_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 4,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "birch": {
+      "family": "S11",
+      "family_name": "Cottage Window",
+      "art_source": "clean white papery bark with black horizontal dashes; pale golden wood",
+      "variant_seed": 1418347089,
+      "door_textures": [
+        "block/door/birch/bottom",
+        "block/door/birch/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/birch/main",
+      "item_texture": "item/door/birch",
+      "item_model": "item/birch_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 5,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "blue_enchanted": {
+      "family": "S07",
+      "family_name": "Arcane Rune",
+      "art_source": "deep cobalt blue bark, pale cyan narrow fissures; sapphire turquoise wood",
+      "variant_seed": 293719150,
+      "door_textures": [
+        "block/door/blue_enchanted/bottom",
+        "block/door/blue_enchanted/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/blue_enchanted/main",
+      "item_texture": "item/door/blue_enchanted",
+      "item_model": "item/blue_enchanted_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 6,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "blue_spruce": {
+      "family": "S08",
+      "family_name": "Frost Crystal",
+      "art_source": "slate blue gray scales; cool honey wood",
+      "variant_seed": 589759040,
+      "door_textures": [
+        "block/door/blue_spruce/bottom",
+        "block/door/blue_spruce/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/blue_spruce/main",
+      "item_texture": "item/door/blue_spruce",
+      "item_model": "item/blue_spruce_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 7,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "bluff": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "ochre sandstone brown flaking plates; sand colored wood",
+      "variant_seed": 814335455,
+      "door_textures": [
+        "block/door/bluff/bottom",
+        "block/door/bluff/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/bluff/main",
+      "item_texture": "item/door/bluff",
+      "item_model": "item/bluff_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 8,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "brown_birch": {
+      "family": "S11",
+      "family_name": "Cottage Window",
+      "art_source": "cinnamon brown papery bark with dark horizontal marks; chestnut wood",
+      "variant_seed": 1798107764,
+      "door_textures": [
+        "block/door/brown_birch/bottom",
+        "block/door/brown_birch/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/brown_birch/main",
+      "item_texture": "item/door/brown_birch",
+      "item_model": "item/brown_birch_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 9,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "brown_oak": {
+      "family": "S04",
+      "family_name": "Ironbound Keep",
+      "art_source": "dark chocolate rugged bark; cocoa tan wood",
+      "variant_seed": 3708116361,
+      "door_textures": [
+        "block/door/brown_oak/bottom",
+        "block/door/brown_oak/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/brown_oak/main",
+      "item_texture": "item/door/brown_oak",
+      "item_model": "item/brown_oak_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 10,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "brown_zelkova": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "copper brown mottled peeling bark; bronze honey wood",
+      "variant_seed": 1321655306,
+      "door_textures": [
+        "block/door/brown_zelkova/bottom",
+        "block/door/brown_zelkova/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/brown_zelkova/main",
+      "item_texture": "item/door/brown_zelkova",
+      "item_model": "item/brown_zelkova_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 11,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "bulbis": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "amethyst bulbous organic skin, cream pores; pale violet interior",
+      "variant_seed": 1092650115,
+      "door_textures": [
+        "block/door/bulbis/bottom",
+        "block/door/bulbis/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/bulbis/main",
+      "item_texture": "item/door/bulbis",
+      "item_model": "item/bulbis_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 12,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "cika": {
+      "family": "S10",
+      "family_name": "Shingle Artisan",
+      "art_source": "warm russet flaky bark; toasted orange wood",
+      "variant_seed": 1068225373,
+      "door_textures": [
+        "block/door/cika/bottom",
+        "block/door/cika/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/cika/main",
+      "item_texture": "item/door/cika",
+      "item_model": "item/cika_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 13,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "crimson_fungus": {
+      "family": "S13",
+      "family_name": "Ember Infernal",
+      "art_source": "burgundy fibrous stem, scarlet streaks; crimson coral interior",
+      "variant_seed": 2981685533,
+      "door_textures": [
+        "block/door/crimson_fungus/bottom",
+        "block/door/crimson_fungus/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/crimson_fungus/main",
+      "item_texture": "item/door/crimson_fungus",
+      "item_model": "item/crimson_fungus_door",
+      "source_atlas": "atelier/joinery/sheet-1.png",
+      "source_cell": 14,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "cypress": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "gray olive fibrous stringy bark; pale wheat wood",
+      "variant_seed": 1442331385,
+      "door_textures": [
+        "block/door/cypress/bottom",
+        "block/door/cypress/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/cypress/main",
+      "item_texture": "item/door/cypress",
+      "item_model": "item/cypress_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 1,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "death_cap": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "bone white mushroom stalk with pale olive fibers; ivory green interior",
+      "variant_seed": 2713867348,
+      "door_textures": [
+        "block/door/death_cap/bottom",
+        "block/door/death_cap/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/death_cap/main",
+      "item_texture": "item/door/death_cap",
+      "item_model": "item/death_cap_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 2,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "deciduous": {
+      "family": "S01",
+      "family_name": "Manor Panel",
+      "art_source": "neutral brown vertically ridged bark; warm beige wood",
+      "variant_seed": 2727540812,
+      "door_textures": [
+        "block/door/deciduous/bottom",
+        "block/door/deciduous/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/deciduous/main",
+      "item_texture": "item/door/deciduous",
+      "item_model": "item/deciduous_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 3,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "ebony": {
+      "family": "S04",
+      "family_name": "Ironbound Keep",
+      "art_source": "near black violet brown bark, visible graphite highlights; dark espresso wood",
+      "variant_seed": 1562199285,
+      "door_textures": [
+        "block/door/ebony/bottom",
+        "block/door/ebony/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/ebony/main",
+      "item_texture": "item/door/ebony",
+      "item_model": "item/ebony_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 4,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "embur": {
+      "family": "S13",
+      "family_name": "Ember Infernal",
+      "art_source": "ember burnt orange stem with soot seams; glowing warm copper colored interior, no actual glow",
+      "variant_seed": 1687306761,
+      "door_textures": [
+        "block/door/embur/bottom",
+        "block/door/embur/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/embur/main",
+      "item_texture": "item/door/embur",
+      "item_model": "item/embur_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 5,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "ether": {
+      "family": "S08",
+      "family_name": "Frost Crystal",
+      "art_source": "very pale icy lavender bark with silver channels; sky blue white wood",
+      "variant_seed": 2413958489,
+      "door_textures": [
+        "block/door/ether/bottom",
+        "block/door/ether/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/ether/main",
+      "item_texture": "item/door/ether",
+      "item_model": "item/ether_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 6,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "fir": {
+      "family": "S10",
+      "family_name": "Shingle Artisan",
+      "art_source": "cool pewter gray bark with narrow resin grooves; buttercream wood",
+      "variant_seed": 875844730,
+      "door_textures": [
+        "block/door/fir/bottom",
+        "block/door/fir/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/fir/main",
+      "item_texture": "item/door/fir",
+      "item_model": "item/fir_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 7,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "firecracker": {
+      "family": "S13",
+      "family_name": "Ember Infernal",
+      "art_source": "charcoal brown bark with rust red fissures; fiery orange red wood",
+      "variant_seed": 3268965025,
+      "door_textures": [
+        "block/door/firecracker/bottom",
+        "block/door/firecracker/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/firecracker/main",
+      "item_texture": "item/door/firecracker",
+      "item_model": "item/firecracker_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 8,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "florus_rose": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "dusty rose mauve bark with fine branching grooves; rose pink wood",
+      "variant_seed": 1449172780,
+      "door_textures": [
+        "block/door/florus_rose/bottom",
+        "block/door/florus_rose/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/florus_rose/main",
+      "item_texture": "item/door/florus_rose",
+      "item_model": "item/florus_rose_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 9,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "florus_thorn": {
+      "family": "S05",
+      "family_name": "Verdant Leaf",
+      "art_source": "dark green olive thorny ridges; muted yellow green wood",
+      "variant_seed": 3472024919,
+      "door_textures": [
+        "block/door/florus_thorn/bottom",
+        "block/door/florus_thorn/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/florus_thorn/main",
+      "item_texture": "item/door/florus_thorn",
+      "item_model": "item/florus_thorn_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 10,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "forgotten": {
+      "family": "S04",
+      "family_name": "Ironbound Keep",
+      "art_source": "weathered ash gray bark with desaturated moss streaks; dusty sepia wood",
+      "variant_seed": 234055114,
+      "door_textures": [
+        "block/door/forgotten/bottom",
+        "block/door/forgotten/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/forgotten/main",
+      "item_texture": "item/door/forgotten",
+      "item_model": "item/forgotten_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 11,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "fungal_imparius": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "teal and violet fibrous mushroom skin; muted turquoise interior",
+      "variant_seed": 402444440,
+      "door_textures": [
+        "block/door/fungal_imparius/bottom",
+        "block/door/fungal_imparius/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/fungal_imparius/main",
+      "item_texture": "item/door/fungal_imparius",
+      "item_model": "item/fungal_imparius_door",
+      "source_atlas": "atelier/joinery/sheet-7.png",
+      "source_cell": 1,
+      "adaptation": "Variante de fungo adaptada da prancha 2 à tábua ciano existente."
+    },
+    "giant_allium": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "deep violet green striped botanical stalk; lavender interior",
+      "variant_seed": 1574812845,
+      "door_textures": [
+        "block/door/giant_allium/bottom",
+        "block/door/giant_allium/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/giant_allium/main",
+      "item_texture": "item/door/giant_allium",
+      "item_model": "item/giant_allium_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 13,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "giant_pink_allium": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "pink magenta botanical stalk; blush pink interior",
+      "variant_seed": 1199683740,
+      "door_textures": [
+        "block/door/giant_pink_allium/bottom",
+        "block/door/giant_pink_allium/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/giant_pink_allium/main",
+      "item_texture": "item/door/giant_pink_allium",
+      "item_model": "item/giant_pink_allium_door",
+      "source_atlas": "atelier/joinery/sheet-2.png",
+      "source_cell": 14,
+      "adaptation": "Adapted pink allium rosette variant, distinct from florus_rose."
+    },
+    "giant_white_allium": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "pale mint green botanical stalk; warm white interior",
+      "variant_seed": 4138932741,
+      "door_textures": [
+        "block/door/giant_white_allium/bottom",
+        "block/door/giant_white_allium/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/giant_white_allium/main",
+      "item_texture": "item/door/giant_white_allium",
+      "item_model": "item/giant_white_allium_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 1,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "green_enchanted": {
+      "family": "S05",
+      "family_name": "Verdant Leaf",
+      "art_source": "emerald green ridged bark with jade seams; vivid jade wood",
+      "variant_seed": 2948336095,
+      "door_textures": [
+        "block/door/green_enchanted/bottom",
+        "block/door/green_enchanted/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/green_enchanted/main",
+      "item_texture": "item/door/green_enchanted",
+      "item_model": "item/green_enchanted_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 2,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "green_mushroom": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "moss green and cream speckled stem; pistachio interior",
+      "variant_seed": 955650554,
+      "door_textures": [
+        "block/door/green_mushroom/bottom",
+        "block/door/green_mushroom/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/green_mushroom/main",
+      "item_texture": "item/door/green_mushroom",
+      "item_model": "item/green_mushroom_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 3,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "holly": {
+      "family": "S02",
+      "family_name": "Modern Sidelight",
+      "art_source": "smooth silver gray bark with olive undertone; nearly white wood",
+      "variant_seed": 2255755232,
+      "door_textures": [
+        "block/door/holly/bottom",
+        "block/door/holly/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/holly/main",
+      "item_texture": "item/door/holly",
+      "item_model": "item/holly_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 4,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "imparius": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "indigo slate bark with amber tiny pores; deep blue gray wood",
+      "variant_seed": 4210052150,
+      "door_textures": [
+        "block/door/imparius/bottom",
+        "block/door/imparius/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/imparius/main",
+      "item_texture": "item/door/imparius",
+      "item_model": "item/imparius_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 5,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "indigo_jacaranda": {
+      "family": "S07",
+      "family_name": "Arcane Rune",
+      "art_source": "indigo purple fissured bark; rich violet heartwood",
+      "variant_seed": 33457503,
+      "door_textures": [
+        "block/door/indigo_jacaranda/bottom",
+        "block/door/indigo_jacaranda/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/indigo_jacaranda/main",
+      "item_texture": "item/door/indigo_jacaranda",
+      "item_model": "item/indigo_jacaranda_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 6,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "ironwood": {
+      "family": "S04",
+      "family_name": "Ironbound Keep",
+      "art_source": "dense steel charcoal gray fine ridges; dark brown olive wood",
+      "variant_seed": 3284413937,
+      "door_textures": [
+        "block/door/ironwood/bottom",
+        "block/door/ironwood/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/ironwood/main",
+      "item_texture": "item/door/ironwood",
+      "item_model": "item/ironwood_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 7,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "jacaranda": {
+      "family": "S07",
+      "family_name": "Arcane Rune",
+      "art_source": "mauve gray mottled bark; muted lilac brown wood",
+      "variant_seed": 3415576239,
+      "door_textures": [
+        "block/door/jacaranda/bottom",
+        "block/door/jacaranda/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/jacaranda/main",
+      "item_texture": "item/door/jacaranda",
+      "item_model": "item/jacaranda_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 8,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "joshua": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "straw tan coarse shaggy fibrous bark; sand beige fibrous interior",
+      "variant_seed": 4233296574,
+      "door_textures": [
+        "block/door/joshua/bottom",
+        "block/door/joshua/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/joshua/main",
+      "item_texture": "item/door/joshua",
+      "item_model": "item/joshua_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 9,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "lament": {
+      "family": "S07",
+      "family_name": "Arcane Rune",
+      "art_source": "desaturated blue gray drooping fibrous stem; cold desaturated blue interior",
+      "variant_seed": 3622496270,
+      "door_textures": [
+        "block/door/lament/bottom",
+        "block/door/lament/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/lament/main",
+      "item_texture": "item/door/lament",
+      "item_model": "item/lament_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 10,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "mahogany": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "reddish dark chestnut bark with deep grooves; rich red mahogany wood",
+      "variant_seed": 822058712,
+      "door_textures": [
+        "block/door/mahogany/bottom",
+        "block/door/mahogany/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/mahogany/main",
+      "item_texture": "item/door/mahogany",
+      "item_model": "item/mahogany_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 11,
+      "adaptation": "Reference double leaf adapted to one Minecraft door leaf."
+    },
+    "maple": {
+      "family": "S01",
+      "family_name": "Manor Panel",
+      "art_source": "warm stone gray fine flaking bark; light honey maple wood",
+      "variant_seed": 1240126129,
+      "door_textures": [
+        "block/door/maple/bottom",
+        "block/door/maple/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/maple/main",
+      "item_texture": "item/door/maple",
+      "item_model": "item/maple_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 12,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "meadow": {
+      "family": "S11",
+      "family_name": "Cottage Window",
+      "art_source": "soft sage brown bark with pale mottling; pale straw wood",
+      "variant_seed": 1828911062,
+      "door_textures": [
+        "block/door/meadow/bottom",
+        "block/door/meadow/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/meadow/main",
+      "item_texture": "item/door/meadow",
+      "item_model": "item/meadow_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 13,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "nightshade": {
+      "family": "S07",
+      "family_name": "Arcane Rune",
+      "art_source": "midnight purple bark with dusky violet edges; deep plum wood",
+      "variant_seed": 766628510,
+      "door_textures": [
+        "block/door/nightshade/bottom",
+        "block/door/nightshade/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/nightshade/main",
+      "item_texture": "item/door/nightshade",
+      "item_model": "item/nightshade_door",
+      "source_atlas": "atelier/joinery/sheet-3.png",
+      "source_cell": 14,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "oak": {
+      "family": "S01",
+      "family_name": "Manor Panel",
+      "art_source": "medium gray brown coarse broken ridges; classic warm oak tan wood",
+      "variant_seed": 3750196805,
+      "door_textures": [
+        "block/door/oak/bottom",
+        "block/door/oak/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/oak/main",
+      "item_texture": "item/door/oak",
+      "item_model": "item/oak_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 1,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "orange_birch": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "cream bark with warm orange peeling patches; apricot amber wood",
+      "variant_seed": 3035438261,
+      "door_textures": [
+        "block/door/orange_birch/bottom",
+        "block/door/orange_birch/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/orange_birch/main",
+      "item_texture": "item/door/orange_birch",
+      "item_model": "item/orange_birch_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 2,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "orange_oak": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "rusty orange brown deeply furrowed bark; orange caramel wood",
+      "variant_seed": 609172200,
+      "door_textures": [
+        "block/door/orange_oak/bottom",
+        "block/door/orange_oak/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/orange_oak/main",
+      "item_texture": "item/door/orange_oak",
+      "item_model": "item/orange_oak_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 3,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "orange_spruce": {
+      "family": "S10",
+      "family_name": "Shingle Artisan",
+      "art_source": "burnt sienna narrow scale bark; amber orange wood",
+      "variant_seed": 356831564,
+      "door_textures": [
+        "block/door/orange_spruce/bottom",
+        "block/door/orange_spruce/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/orange_spruce/main",
+      "item_texture": "item/door/orange_spruce",
+      "item_model": "item/orange_spruce_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 4,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "orchard": {
+      "family": "S11",
+      "family_name": "Cottage Window",
+      "art_source": "rose brown scaly bark with tiny moss marks; soft peach honey wood",
+      "variant_seed": 1750494662,
+      "door_textures": [
+        "block/door/orchard/bottom",
+        "block/door/orchard/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/orchard/main",
+      "item_texture": "item/door/orchard",
+      "item_model": "item/orchard_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 5,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "palm": {
+      "family": "S12",
+      "family_name": "Porthole Voyager",
+      "art_source": "warm gray tan trunk with broad horizontal ring scars; golden fibrous wood",
+      "variant_seed": 4121928371,
+      "door_textures": [
+        "block/door/palm/bottom",
+        "block/door/palm/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/palm/main",
+      "item_texture": "item/door/palm",
+      "item_model": "item/palm_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 6,
+      "adaptation": "Reference 4, door 6 adapted to light palm wood."
+    },
+    "palo_verde": {
+      "family": "S05",
+      "family_name": "Verdant Leaf",
+      "art_source": "smooth green bark with cream irregular scars; pale chartreuse wood",
+      "variant_seed": 665578551,
+      "door_textures": [
+        "block/door/palo_verde/bottom",
+        "block/door/palo_verde/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/palo_verde/main",
+      "item_texture": "item/door/palo_verde",
+      "item_model": "item/palo_verde_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 7,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "pine": {
+      "family": "S10",
+      "family_name": "Shingle Artisan",
+      "art_source": "orange brown interlocking broad plates; golden yellow pine wood",
+      "variant_seed": 3532792690,
+      "door_textures": [
+        "block/door/pine/bottom",
+        "block/door/pine/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/pine/main",
+      "item_texture": "item/door/pine",
+      "item_model": "item/pine_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 8,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "pink_cherry": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "dark burgundy bark with pale pink horizontal lenticels; rosy pink wood",
+      "variant_seed": 3444227105,
+      "door_textures": [
+        "block/door/pink_cherry/bottom",
+        "block/door/pink_cherry/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/pink_cherry/main",
+      "item_texture": "item/door/pink_cherry",
+      "item_model": "item/pink_cherry_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 9,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "prairie": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "dry ochre gray fissured bark; pale straw golden wood",
+      "variant_seed": 750617155,
+      "door_textures": [
+        "block/door/prairie/bottom",
+        "block/door/prairie/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/prairie/main",
+      "item_texture": "item/door/prairie",
+      "item_model": "item/prairie_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 10,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "purple_bulbis": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "saturated royal purple organic bulb skin; orchid purple interior",
+      "variant_seed": 2246045744,
+      "door_textures": [
+        "block/door/purple_bulbis/bottom",
+        "block/door/purple_bulbis/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/purple_bulbis/main",
+      "item_texture": "item/door/purple_bulbis",
+      "item_model": "item/purple_bulbis_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 11,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "rainbow_eucalyptus": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "natural irregular peeling vertical ribbons of mint, turquoise, rose, ochre, violet; pale mint peach wood",
+      "variant_seed": 3198732607,
+      "door_textures": [
+        "block/door/rainbow_eucalyptus/bottom",
+        "block/door/rainbow_eucalyptus/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/rainbow_eucalyptus/main",
+      "item_texture": "item/door/rainbow_eucalyptus",
+      "item_model": "item/rainbow_eucalyptus_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 12,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "red_birch": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "warm ivory bark with red copper peeling patches; salmon reddish wood",
+      "variant_seed": 2273848720,
+      "door_textures": [
+        "block/door/red_birch/bottom",
+        "block/door/red_birch/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/red_birch/main",
+      "item_texture": "item/door/red_birch",
+      "item_model": "item/red_birch_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 13,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "red_maple": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "cool brown bark with muted crimson fissures; reddish honey maple wood",
+      "variant_seed": 922260045,
+      "door_textures": [
+        "block/door/red_maple/bottom",
+        "block/door/red_maple/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/red_maple/main",
+      "item_texture": "item/door/red_maple",
+      "item_model": "item/red_maple_door",
+      "source_atlas": "atelier/joinery/sheet-4.png",
+      "source_cell": 14,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "red_oak": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "deep red brown coarse ridges; brick red oak wood",
+      "variant_seed": 1904097810,
+      "door_textures": [
+        "block/door/red_oak/bottom",
+        "block/door/red_oak/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/red_oak/main",
+      "item_texture": "item/door/red_oak",
+      "item_model": "item/red_oak_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 1,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "red_spruce": {
+      "family": "S10",
+      "family_name": "Shingle Artisan",
+      "art_source": "wine russet fine scaly bark; warm rust red wood",
+      "variant_seed": 3961857201,
+      "door_textures": [
+        "block/door/red_spruce/bottom",
+        "block/door/red_spruce/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/red_spruce/main",
+      "item_texture": "item/door/red_spruce",
+      "item_model": "item/red_spruce_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 2,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "redwood": {
+      "family": "S04",
+      "family_name": "Ironbound Keep",
+      "art_source": "rich orange red thick fibrous bark; deep reddish orange wood",
+      "variant_seed": 1696195648,
+      "door_textures": [
+        "block/door/redwood/bottom",
+        "block/door/redwood/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/redwood/main",
+      "item_texture": "item/door/redwood",
+      "item_model": "item/redwood_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 3,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "shulkren": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "dusty purple segmented organic bark, creamy seams; dusky violet wood",
+      "variant_seed": 1275806517,
+      "door_textures": [
+        "block/door/shulkren/bottom",
+        "block/door/shulkren/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/shulkren/main",
+      "item_texture": "item/door/shulkren",
+      "item_model": "item/shulkren_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 4,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "silver_maple": {
+      "family": "S08",
+      "family_name": "Frost Crystal",
+      "art_source": "silver gray flaky bark with darker long strips; pale silver beige wood",
+      "variant_seed": 1066456137,
+      "door_textures": [
+        "block/door/silver_maple/bottom",
+        "block/door/silver_maple/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/silver_maple/main",
+      "item_texture": "item/door/silver_maple",
+      "item_model": "item/silver_maple_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 5,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "skyris": {
+      "family": "S08",
+      "family_name": "Frost Crystal",
+      "art_source": "deep cyan teal bark with sky blue fissures; light azure wood",
+      "variant_seed": 2365512424,
+      "door_textures": [
+        "block/door/skyris/bottom",
+        "block/door/skyris/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/skyris/main",
+      "item_texture": "item/door/skyris",
+      "item_model": "item/skyris_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 6,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "soul_shroom": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "deep blue teal fibrous mushroom stem with cyan pores; pale soul blue interior",
+      "variant_seed": 3974229333,
+      "door_textures": [
+        "block/door/soul_shroom/bottom",
+        "block/door/soul_shroom/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/soul_shroom/main",
+      "item_texture": "item/door/soul_shroom",
+      "item_model": "item/soul_shroom_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 7,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "spirit": {
+      "family": "S08",
+      "family_name": "Frost Crystal",
+      "art_source": "pearly ivory bark with subtle aquamarine seams; pale mint white wood",
+      "variant_seed": 2794035629,
+      "door_textures": [
+        "block/door/spirit/bottom",
+        "block/door/spirit/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/spirit/main",
+      "item_texture": "item/door/spirit",
+      "item_model": "item/spirit_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 8,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "spruce": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "dark gray brown small scaly plates; muted tan brown spruce wood",
+      "variant_seed": 588054394,
+      "door_textures": [
+        "block/door/spruce/bottom",
+        "block/door/spruce/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/spruce/main",
+      "item_texture": "item/door/spruce",
+      "item_model": "item/spruce_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 9,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "sythian": {
+      "family": "S13",
+      "family_name": "Ember Infernal",
+      "art_source": "dark blood red ribbed stem with purple shadows; oxblood red interior",
+      "variant_seed": 3294902626,
+      "door_textures": [
+        "block/door/sythian/bottom",
+        "block/door/sythian/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/sythian/main",
+      "item_texture": "item/door/sythian",
+      "item_model": "item/sythian_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 10,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "wailing": {
+      "family": "S07",
+      "family_name": "Arcane Rune",
+      "art_source": "ashen blue lavender stretched fibrous bark; muted icy lilac wood",
+      "variant_seed": 1778354000,
+      "door_textures": [
+        "block/door/wailing/bottom",
+        "block/door/wailing/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/wailing/main",
+      "item_texture": "item/door/wailing",
+      "item_model": "item/wailing_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 11,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "warped_coral": {
+      "family": "S12",
+      "family_name": "Porthole Voyager",
+      "art_source": "deep marine teal porous coral stem with turquoise pits; coral turquoise interior",
+      "variant_seed": 3320816517,
+      "door_textures": [
+        "block/door/warped_coral/bottom",
+        "block/door/warped_coral/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/warped_coral/main",
+      "item_texture": "item/door/warped_coral",
+      "item_model": "item/warped_coral_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 12,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "warped_fungus": {
+      "family": "S13",
+      "family_name": "Ember Infernal",
+      "art_source": "petrol green fibrous stem with cyan channels; turquoise green interior",
+      "variant_seed": 573603644,
+      "door_textures": [
+        "block/door/warped_fungus/bottom",
+        "block/door/warped_fungus/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/warped_fungus/main",
+      "item_texture": "item/door/warped_fungus",
+      "item_model": "item/warped_fungus_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 13,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "weeping_milkcap": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "warm creamy mushroom stalk with caramel streaks; milky beige interior",
+      "variant_seed": 1573893990,
+      "door_textures": [
+        "block/door/weeping_milkcap/bottom",
+        "block/door/weeping_milkcap/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/weeping_milkcap/main",
+      "item_texture": "item/door/weeping_milkcap",
+      "item_model": "item/weeping_milkcap_door",
+      "source_atlas": "atelier/joinery/sheet-5.png",
+      "source_cell": 14,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "white_cherry": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "pale pink gray smooth bark with dark horizontal lenticels; creamy blush wood",
+      "variant_seed": 1058469648,
+      "door_textures": [
+        "block/door/white_cherry/bottom",
+        "block/door/white_cherry/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/white_cherry/main",
+      "item_texture": "item/door/white_cherry",
+      "item_model": "item/white_cherry_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 1,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "white_mangrove": {
+      "family": "S11",
+      "family_name": "Cottage Window",
+      "art_source": "silver white and gray gnarled bark with olive flecks; light gray cream wood",
+      "variant_seed": 3920970689,
+      "door_textures": [
+        "block/door/white_mangrove/bottom",
+        "block/door/white_mangrove/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/white_mangrove/main",
+      "item_texture": "item/door/white_mangrove",
+      "item_model": "item/white_mangrove_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 2,
+      "adaptation": "Assigned by reference position and olive palette; no wood texture changed."
+    },
+    "white_sakura": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "pearl white bark with dusky rose horizontal marks; pink white wood",
+      "variant_seed": 644814547,
+      "door_textures": [
+        "block/door/white_sakura/bottom",
+        "block/door/white_sakura/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/white_sakura/main",
+      "item_texture": "item/door/white_sakura",
+      "item_model": "item/white_sakura_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 3,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "willow": {
+      "family": "S05",
+      "family_name": "Verdant Leaf",
+      "art_source": "dark olive gray braided grooves; pale sage tan wood",
+      "variant_seed": 3661974274,
+      "door_textures": [
+        "block/door/willow/bottom",
+        "block/door/willow/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/willow/main",
+      "item_texture": "item/door/willow",
+      "item_model": "item/willow_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 4,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "witch_hazel": {
+      "family": "S07",
+      "family_name": "Arcane Rune",
+      "art_source": "violet brown branching ridges with bronze flecks; muted plum gold wood",
+      "variant_seed": 2601640058,
+      "door_textures": [
+        "block/door/witch_hazel/bottom",
+        "block/door/witch_hazel/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/witch_hazel/main",
+      "item_texture": "item/door/witch_hazel",
+      "item_model": "item/witch_hazel_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 5,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "withering_oak": {
+      "family": "S04",
+      "family_name": "Ironbound Keep",
+      "art_source": "dead charcoal gray deeply cracked bark; desaturated ashen gray wood",
+      "variant_seed": 3185204696,
+      "door_textures": [
+        "block/door/withering_oak/bottom",
+        "block/door/withering_oak/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/withering_oak/main",
+      "item_texture": "item/door/withering_oak",
+      "item_model": "item/withering_oak_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 6,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "wood_blewit": {
+      "family": "S09",
+      "family_name": "Fungal Pod",
+      "art_source": "soft lilac mushroom stalk with cream fibers; pale lavender interior",
+      "variant_seed": 2362617419,
+      "door_textures": [
+        "block/door/wood_blewit/bottom",
+        "block/door/wood_blewit/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/wood_blewit/main",
+      "item_texture": "item/door/wood_blewit",
+      "item_model": "item/wood_blewit_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 7,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "woodlands": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "earthy deep brown bark with greenish fine weathering; warm medium walnut wood",
+      "variant_seed": 3014738514,
+      "door_textures": [
+        "block/door/woodlands/bottom",
+        "block/door/woodlands/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/woodlands/main",
+      "item_texture": "item/door/woodlands",
+      "item_model": "item/woodlands_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 8,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "yellow_birch": {
+      "family": "S11",
+      "family_name": "Cottage Window",
+      "art_source": "gold bronze papery bark with dark horizontal dashes; golden yellow wood",
+      "variant_seed": 2835214034,
+      "door_textures": [
+        "block/door/yellow_birch/bottom",
+        "block/door/yellow_birch/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/yellow_birch/main",
+      "item_texture": "item/door/yellow_birch",
+      "item_model": "item/yellow_birch_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 9,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "yellow_sakura": {
+      "family": "S06",
+      "family_name": "Blossom Filigree",
+      "art_source": "pale golden bark with brown horizontal lenticels; buttery golden wood",
+      "variant_seed": 2510058717,
+      "door_textures": [
+        "block/door/yellow_sakura/bottom",
+        "block/door/yellow_sakura/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/yellow_sakura/main",
+      "item_texture": "item/door/yellow_sakura",
+      "item_model": "item/yellow_sakura_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 10,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "yellow_spruce": {
+      "family": "S10",
+      "family_name": "Shingle Artisan",
+      "art_source": "ochre brown narrow scaly bark; warm yellow amber wood",
+      "variant_seed": 3596124784,
+      "door_textures": [
+        "block/door/yellow_spruce/bottom",
+        "block/door/yellow_spruce/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/yellow_spruce/main",
+      "item_texture": "item/door/yellow_spruce",
+      "item_model": "item/yellow_spruce_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 11,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "yucca": {
+      "family": "S03",
+      "family_name": "Barn Crossbrace",
+      "art_source": "dry beige tan shaggy fibers with olive undertone; pale straw fibrous wood",
+      "variant_seed": 1573765872,
+      "door_textures": [
+        "block/door/yucca/bottom",
+        "block/door/yucca/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/yucca/main",
+      "item_texture": "item/door/yucca",
+      "item_model": "item/yucca_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 12,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    },
+    "zelkova": {
+      "family": "S14",
+      "family_name": "Noble Deco",
+      "art_source": "mottled gray copper bark with irregular peeling patches; amber orange wood",
+      "variant_seed": 2892356311,
+      "door_textures": [
+        "block/door/zelkova/bottom",
+        "block/door/zelkova/top"
+      ],
+      "trapdoor_texture": "block/trapdoor/zelkova/main",
+      "item_texture": "item/door/zelkova",
+      "item_model": "item/zelkova_door",
+      "source_atlas": "atelier/joinery/sheet-6.png",
+      "source_cell": 13,
+      "adaptation": "Reference motif adapted to rectangular Minecraft face."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Python source overlay/cleanup simulation, not PowerShell execution",
+  "baseline": "0.1.2",
+  "source_only": true,
+  "protected_markers_preserved": [
+    ".git/config",
+    ".github/workflows/gradle.yml",
+    "saves/world/level.dat",
+    "mods/mod.jar",
+    "config/example.json"
+  ],
+  "active_files_removed": 0
+}

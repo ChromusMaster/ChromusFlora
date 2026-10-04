@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Full Python resource regeneration in an isolated copy; no Java/Gradle execution.",
+  "targets": {
+    "flora/src/main/resources": {
+      "files": 12666,
+      "different_bytes": 0
+    },
+    "versions/26.3/src/main/resources": {
+      "files": 4180,
+      "different_bytes": 0
+    }
+  }
+}

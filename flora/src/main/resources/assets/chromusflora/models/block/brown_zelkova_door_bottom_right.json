@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_right",
   "textures": {
-    "bottom": "chromusflora:block/wood/brown_zelkova/planks",
-    "top": "chromusflora:block/wood/brown_zelkova/planks"
+    "bottom": "chromusflora:block/door/brown_zelkova/bottom",
+    "top": "chromusflora:block/door/brown_zelkova/top"
   }
 }

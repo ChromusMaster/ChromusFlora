@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "chromusflora:block/orchard_chest_single",
+      "y": 0
+    },
+    "facing=east,type=single": {
+      "model": "chromusflora:block/orchard_chest_single",
+      "y": 90
+    },
+    "facing=south,type=single": {
+      "model": "chromusflora:block/orchard_chest_single",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "chromusflora:block/orchard_chest_single",
+      "y": 270
+    },
+    "facing=north,type=left": {
+      "model": "chromusflora:block/orchard_chest_left",
+      "y": 0
+    },
+    "facing=east,type=left": {
+      "model": "chromusflora:block/orchard_chest_left",
+      "y": 90
+    },
+    "facing=south,type=left": {
+      "model": "chromusflora:block/orchard_chest_left",
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "chromusflora:block/orchard_chest_left",
+      "y": 270
+    },
+    "facing=north,type=right": {
+      "model": "chromusflora:block/orchard_chest_right",
+      "y": 0
+    },
+    "facing=east,type=right": {
+      "model": "chromusflora:block/orchard_chest_right",
+      "y": 90
+    },
+    "facing=south,type=right": {
+      "model": "chromusflora:block/orchard_chest_right",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "chromusflora:block/orchard_chest_right",
+      "y": 270
+    }
+  }
+}

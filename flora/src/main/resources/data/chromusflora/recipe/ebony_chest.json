@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:ebony_planks"
+  },
+  "result": {
+    "id": "chromusflora:ebony_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

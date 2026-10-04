@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:withering_oak_planks"
+  },
+  "result": {
+    "id": "chromusflora:withering_oak_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

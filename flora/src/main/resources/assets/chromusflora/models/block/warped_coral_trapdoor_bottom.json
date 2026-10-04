@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_orientable_trapdoor_bottom",
   "textures": {
-    "texture": "chromusflora:block/wood/warped_coral/planks"
+    "texture": "chromusflora:block/trapdoor/warped_coral/main"
   }
 }

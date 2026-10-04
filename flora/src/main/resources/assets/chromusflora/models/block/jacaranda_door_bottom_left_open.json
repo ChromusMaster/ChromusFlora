@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
   "textures": {
-    "bottom": "chromusflora:block/wood/jacaranda/planks",
-    "top": "chromusflora:block/wood/jacaranda/planks"
+    "bottom": "chromusflora:block/door/jacaranda/bottom",
+    "top": "chromusflora:block/door/jacaranda/top"
   }
 }

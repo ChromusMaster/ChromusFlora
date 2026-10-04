@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "scope": "Python interpretation of actual upstream serializer bytecode, modeled NBT/scheduler calls. Not JVM/Mixin execution or a real-world test.",
+  "targets": [
+    {
+      "minecraft": "26.2",
+      "ottyg": "11.0.1",
+      "jar_sha256": "f72de9d7f5dca31854c51e21a6e13d0c9ac8618575c570e1e97a0002a40666d4",
+      "serializer_sha256": "145d85f298bf86807293139c3dc5e8704c29daae53b7ae6fb9e817ee7e259bfc",
+      "actual_bytecode_delta": {
+        "offset": 42,
+        "old_local": 6,
+        "new_local": 7
+      },
+      "cases": [
+        {
+          "ticks": 0,
+          "reopen_cycles": 3,
+          "status": "PASS"
+        },
+        {
+          "ticks": 1,
+          "reopen_cycles": 3,
+          "status": "PASS"
+        },
+        {
+          "ticks": 4,
+          "reopen_cycles": 3,
+          "status": "PASS"
+        }
+      ],
+      "absent_empty_tags": "PASS",
+      "malformed_tag_not_suppressed": "PASS"
+    },
+    {
+      "minecraft": "26.3",
+      "ottyg": "12.0.0",
+      "jar_sha256": "54117fd544ebb929437b559a41ac7a6f9e32e0881c3c4c6859a1d67f87c88d76",
+      "serializer_sha256": "145d85f298bf86807293139c3dc5e8704c29daae53b7ae6fb9e817ee7e259bfc",
+      "actual_bytecode_delta": {
+        "offset": 42,
+        "old_local": 6,
+        "new_local": 7
+      },
+      "cases": [
+        {
+          "ticks": 0,
+          "reopen_cycles": 3,
+          "status": "PASS"
+        },
+        {
+          "ticks": 1,
+          "reopen_cycles": 3,
+          "status": "PASS"
+        },
+        {
+          "ticks": 4,
+          "reopen_cycles": 3,
+          "status": "PASS"
+        }
+      ],
+      "absent_empty_tags": "PASS",
+      "malformed_tag_not_suppressed": "PASS"
+    }
+  ]
+}

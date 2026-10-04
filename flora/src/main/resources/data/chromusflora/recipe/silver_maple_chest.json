@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:silver_maple_planks"
+  },
+  "result": {
+    "id": "chromusflora:silver_maple_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

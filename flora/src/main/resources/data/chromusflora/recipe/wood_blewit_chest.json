@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:wood_blewit_planks"
+  },
+  "result": {
+    "id": "chromusflora:wood_blewit_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

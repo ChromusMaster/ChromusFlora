@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chromusflora:block/ebony_door_bottom_left"
+    "model": "chromusflora:item/ebony_door"
   }
 }

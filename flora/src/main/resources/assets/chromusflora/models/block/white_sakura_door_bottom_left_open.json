@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
   "textures": {
-    "bottom": "chromusflora:block/wood/white_sakura/planks",
-    "top": "chromusflora:block/wood/white_sakura/planks"
+    "bottom": "chromusflora:block/door/white_sakura/bottom",
+    "top": "chromusflora:block/door/white_sakura/top"
   }
 }

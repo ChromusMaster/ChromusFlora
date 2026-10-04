@@ -136,7 +136,7 @@ def main():
     COUNTS.update(biomes=len(spec['biomes']), tree_families=len(families), variants=len(spec['variants']))
     block_ids = {n.removeprefix('assets/chromusflora/blockstates/').removesuffix('.json') for n in data if n.startswith('assets/chromusflora/blockstates/')}
     item_ids = {n.removeprefix('assets/chromusflora/items/').removesuffix('.json') for n in data if n.startswith('assets/chromusflora/items/')}
-    expected_blocks = {t+'_'+suffix for t in families for suffix in ['log','leaves','planks','slab','stairs','fence','fence_gate','sapling','wood','door','trapdoor']}
+    expected_blocks = {t+'_'+suffix for t in families for suffix in ['log','leaves','planks','slab','stairs','fence','fence_gate','sapling','wood','door','trapdoor','crafting_table','chest']}
     expected_blocks |= {'stripped_'+t+'_log' for t in families} | {'stripped_'+t+'_wood' for t in families} | {'potted_'+t+'_sapling' for t in families}
     check(block_ids == expected_blocks, 'Block registry/model mismatch')
     check(item_ids == {n for n in block_ids if not n.startswith('potted_')} | {'grove_fruit'}, 'Item registry/model mismatch')
@@ -296,7 +296,7 @@ def main():
         raw = path.read_bytes()
         check(raw[:8] == b'\x89PNG\r\n\x1a\n', 'Invalid PNG '+str(path))
         w,h = struct.unpack('>II',raw[16:24])
-        check((w,h) == ((256,256) if path.name=='icon.png' else (64,64)), 'Wrong texture dimensions '+str(path))
+        check((w,h) == ((256,256) if path.name=='icon.png' else ((64,128) if '/textures/item/door/' in path.as_posix() else (64,64))), 'Wrong texture dimensions '+str(path))
     build = (ROOT/'gradle/mod.gradle').read_text()
     check("'-Xlint:all', '-Werror'" in build, 'Compiler warnings not fatal')
     check('org.gradle.warning.mode=fail' in (ROOT/'gradle.properties').read_text(), 'Gradle warnings not fatal')
@@ -311,8 +311,8 @@ def main():
     (ROOT/'verification/visual-resources.json').write_text(json.dumps(visual,indent=2)+'\n',encoding='utf-8')
     worldgen = runpy.run_path(str(ROOT / 'tools/check-worldgen.py'))['verify']()
     check(worldgen['status'] == 'PASS', 'Worldgen contracts: ' + str(worldgen['errors']))
-    (ROOT/'verification/release-0.1.1').mkdir(parents=True, exist_ok=True)
-    (ROOT/'verification/release-0.1.1/worldgen-checks.json').write_text(json.dumps(worldgen,indent=2)+'\n',encoding='utf-8')
+    (ROOT/'verification/release-0.1.3').mkdir(parents=True, exist_ok=True)
+    (ROOT/'verification/release-0.1.3/worldgen-checks.json').write_text(json.dumps(worldgen,indent=2)+'\n',encoding='utf-8')
     report = {'scope':'offline static source/resource scan; no Java compilation or game execution',
               'status':'PASS' if not ERRORS else 'FAIL','counts':dict(COUNTS),'errors':ERRORS,
               'limitations':['No Java type checking or compiler warning result','No registry/datapack loading in the game','No world generation, server, multiplayer or optional-mod runtime tests'],

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/door_bottom_right_open",
   "textures": {
-    "bottom": "chromusflora:block/wood/giant_white_allium/planks",
-    "top": "chromusflora:block/wood/giant_white_allium/planks"
+    "bottom": "chromusflora:block/door/giant_white_allium/bottom",
+    "top": "chromusflora:block/door/giant_white_allium/top"
   }
 }

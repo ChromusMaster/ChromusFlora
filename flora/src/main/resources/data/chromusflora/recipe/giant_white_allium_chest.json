@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": "chromusflora:giant_white_allium_planks"
+  },
+  "result": {
+    "id": "chromusflora:giant_white_allium_chest",
+    "count": 1
+  },
+  "group": "chest"
+}

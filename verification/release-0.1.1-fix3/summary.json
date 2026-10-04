@@ -1,0 +1,21 @@
+{
+  "version": "0.1.1-fix3",
+  "date": "2026-09-30",
+  "species": 83,
+  "visual_families": 14,
+  "door_textures": 166,
+  "trapdoor_textures": 83,
+  "unique_door_sha256": 166,
+  "unique_trapdoor_sha256": 83,
+  "runtime_test_function": "chromusflora:test/doors_trapdoors",
+  "cleanup_function": "chromusflora:test/clear_doors_trapdoors",
+  "validators": {
+    "door_gallery": "PASS",
+    "visual_resources": "PASS",
+    "release_checks": "PASS",
+    "worldgen_checks": "PASS",
+    "feature_order": "PASS",
+    "global_scan": "PASS"
+  },
+  "build": "NOT_RUN: environment has Java 21; project requires JDK 25 + Gradle 9.5.1"
+}
