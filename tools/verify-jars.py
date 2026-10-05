@@ -19,12 +19,21 @@ for target in ['26.2', '26.3']:
                 if entrypoint.replace('.', '/') + '.class' not in names:raise SystemExit('Missing entrypoint: ' + entrypoint)
         classes = [n for n in names if n.startswith('dev/chromus/') and n.endswith('.class')]
         config_name = 'chromusflora.chunk-read.mixins.json'
-        if metadata.get('mixins') != [config_name]:raise SystemExit('Missing chunk-read mixin registration')
+        safety_config_name = 'chromusflora.chunk-safety.mixins.json'
+        if metadata.get('mixins') != [config_name, safety_config_name]:raise SystemExit('Missing chunk mixin registration')
         config = json.loads(jar.read(config_name))
         if config.get('required') is not True or config.get('plugin') != 'dev.chromus.flora.compat.ChunkReadMixinPlugin':
             raise SystemExit('Invalid chunk-read mixin configuration')
         for class_name in ['compat/ChunkReadMixinPlugin', 'mixin/ChunkReadCompatibility']:
             if 'dev/chromus/flora/' + class_name + '.class' not in names:raise SystemExit('Missing chunk repair class: ' + class_name)
+        safety_config = json.loads(jar.read(safety_config_name))
+        if (safety_config.get('required') is not True
+                or safety_config.get('plugin') != 'dev.chromus.flora.compat.NaturalistChunkMixinPlugin'
+                or safety_config.get('mixins') != ['NaturalistHippoCompatibility']
+                or safety_config.get('injectors', {}).get('defaultRequire') != 1):
+            raise SystemExit('Invalid Naturalist chunk-safety mixin configuration')
+        for class_name in ['compat/NaturalistChunkMixinPlugin', 'mixin/NaturalistHippoCompatibility']:
+            if 'dev/chromus/flora/' + class_name + '.class' not in names:raise SystemExit('Missing chunk safety class: ' + class_name)
         if not classes:raise SystemExit('No compiled Chromus Flora classes')
         for name in classes:
             if struct.unpack('>IHH', jar.read(name)[:8]) != (0xCAFEBABE, 0, 69):raise SystemExit('Unexpected Java bytecode version: ' + name)

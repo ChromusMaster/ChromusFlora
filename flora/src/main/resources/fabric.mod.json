@@ -50,6 +50,7 @@
     }
   },
   "mixins": [
-    "chromusflora.chunk-read.mixins.json"
+    "chromusflora.chunk-read.mixins.json",
+    "chromusflora.chunk-safety.mixins.json"
   ]
 }

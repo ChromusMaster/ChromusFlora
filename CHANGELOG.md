@@ -1,3 +1,10 @@
+# 0.1.4 Hotfix 3 — Naturalist chunk reads
+
+- Add optional compatibility for Naturalist 2.0.6 on Minecraft 26.2 and 26.3: constrain the hippo water search to the central chunk when the accessor is a WorldGenRegion. The original hasChunk check remains in use for ordinary live-world spawning.
+- Prevent the neighbour fluid reads that match all 19,992 unsafe terrain warnings in the supplied log. Do not filter or disable Minecraft error reporting.
+- Preserve existing registry IDs, saved data, textures, models, recipes, terrain generation and the earlier OTTYG repair. No world migration is introduced.
+- Include a session log checker and a static audit. Java/Gradle/Minecraft were not executed for this delivery; user compilation and runtime confirmation remain required.
+
 ## 0.1.4 — source hotfix 2
 
 - Isolate rendering submission APIs by game version; keep the native 26.3 separate chest breaking overlay.

@@ -1,0 +1,84 @@
+{
+  "scope": "Static validation only: no Java, Gradle, Minecraft or modpack execution",
+  "evidence": {
+    "latest_log_sha256": "a6b35ff7a237bbe8cbdc4f8c9dbdfe30450f35c14c1ec56ddfbe491d94375022",
+    "warning_count": 19992,
+    "time": "15:13:20",
+    "generating_chunk": [
+      7,
+      -2
+    ],
+    "step": "minecraft:spawn",
+    "matched_origin_xz": [
+      113,
+      -22
+    ],
+    "full_scan_count": 8,
+    "all_warning_coordinates_match_in_order": true,
+    "old_chunk_access_exceptions": 0,
+    "stdout_duplicate_warning_count": 19992
+  },
+  "apis": [
+    {
+      "minecraft": "26.2",
+      "minecraft_sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+      "naturalist_file": "naturalist-2.0.6-fabric-26.2.jar",
+      "naturalist_sha256": "048b6949fd6968f4b83b2e9cf379859ae4def99624f42b025afd61ab7a79bfed",
+      "hippo_method_bytecode_sha256": "e6f650c681578b8620f6513eea32c90bbd1ad7a4cab28018d120cc9352ea3a6c",
+      "redirect_targets": 1,
+      "public_api_checks": "passed"
+    },
+    {
+      "minecraft": "26.3",
+      "minecraft_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+      "naturalist_file": "naturalist-2.0.6-fabric-26.3.jar",
+      "naturalist_sha256": "ac7e7d008c3808bc2070dcf31cd7fbd386f50948a75d5bfb35e0c31477f7d706",
+      "hippo_method_bytecode_sha256": "e6f650c681578b8620f6513eea32c90bbd1ad7a4cab28018d120cc9352ea3a6c",
+      "redirect_targets": 1,
+      "public_api_checks": "passed"
+    }
+  ],
+  "boundary_model": {
+    "cases": 1024,
+    "local_offsets_per_center": 256,
+    "scan_positions_per_full_attempt_before": 3267,
+    "fluid_reads_per_full_attempt_after": 768,
+    "unsafe_neighbour_reads_after": 0,
+    "ordinary_live_world_delegation": "unchanged"
+  },
+  "java_syntax": "passed",
+  "mixin_configuration_and_generator": "passed",
+  "preservation": {
+    "previous_manifest_files_unchanged": 17520,
+    "client_files": 9,
+    "assets": 6483,
+    "worldgen_resources": 3885
+  },
+  "runtime_validation": "pending user build and game test",
+  "ottyg_upstream_fixed_versions": [
+    {
+      "file": "ohthetreesyoullgrow-fabric-26.2-11.0.2.jar",
+      "sha256": "fbecd887d56db5caf18cc7967988de837c75df701914aae4efd23e81d19eb8a9",
+      "nested_tag_receiver_verified": true,
+      "optional_presence_checks": 2
+    },
+    {
+      "file": "ohthetreesyoullgrow-fabric-26.2-11.0.3.jar",
+      "sha256": "9293103d80b3f23cc3e69fd80c86f8dbecc833d212758bfeb7936d79212ba68a",
+      "nested_tag_receiver_verified": true,
+      "optional_presence_checks": 2
+    },
+    {
+      "file": "ohthetreesyoullgrow-fabric-26.3-12.0.1.jar",
+      "sha256": "f637ce2a382d0ad9727498b724b260835c281b506f7aa3fc26ac2690e7673c09",
+      "nested_tag_receiver_verified": true,
+      "optional_presence_checks": 2
+    },
+    {
+      "file": "ohthetreesyoullgrow-fabric-26.3-12.0.2.jar",
+      "sha256": "6a78fb54b032774bc140f83ad595ce3b77f5374e77ada3a9f05612c6965a2c5d",
+      "nested_tag_receiver_verified": true,
+      "optional_presence_checks": 2
+    }
+  ]
+}

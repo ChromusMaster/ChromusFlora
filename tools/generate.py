@@ -430,10 +430,11 @@ def main():
     runpy.run_path(str(ROOT / "tools/generate-door-test-gallery.py"), run_name="__main__")
     resources_263()
     write(RES/'chromusflora.chunk-read.mixins.json',{'required': True, 'minVersion': '0.8', 'package': 'dev.chromus.flora.mixin', 'plugin': 'dev.chromus.flora.compat.ChunkReadMixinPlugin', 'compatibilityLevel': 'JAVA_25', 'priority': 100, 'mixins': ['ChunkReadCompatibility']})
+    write(RES/'chromusflora.chunk-safety.mixins.json',{'required': True, 'minVersion': '0.8', 'package': 'dev.chromus.flora.mixin', 'plugin': 'dev.chromus.flora.compat.NaturalistChunkMixinPlugin', 'compatibilityLevel': 'JAVA_25', 'mixins': ['NaturalistHippoCompatibility'], 'injectors': {'defaultRequire': 1}})
     write(RES/'fabric.mod.json',{'schemaVersion':1,'id':'chromusflora','version':'${version}',
         'name':'Chromus Flora','description':'Original forests and biomes across the Overworld, Nether and End.',
         'authors':['Chromus Master'],'license':'MIT','icon':'assets/chromusflora/icon.png','environment':'*',
-        'mixins':['chromusflora.chunk-read.mixins.json'],
+        'mixins':['chromusflora.chunk-read.mixins.json','chromusflora.chunk-safety.mixins.json'],
         'entrypoints':{'client':['dev.chromus.flora.client.FloraClient'],'main':['dev.chromus.flora.ChromusFlora'],'terrablender':['dev.chromus.flora.world.FloraTerraBlender'],
                       'modmenu':['dev.chromus.flora.client.FloraModMenu'],'jade':['dev.chromus.flora.client.FloraJade']},
         'depends':{'fabricloader':'>=0.19.5','minecraft':'${minecraft}','java':'>=25','fabric-api':'>=0.161.0',
