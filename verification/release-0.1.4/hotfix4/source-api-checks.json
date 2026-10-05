@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "java_syntax": "PASS",
+  "public_api_checks": [
+    {
+      "target": "26.2",
+      "class": "BiomeModifications",
+      "method": "create",
+      "descriptor": "(Lnet/minecraft/resources/Identifier;)Lnet/fabricmc/fabric/api/biome/v1/BiomeModification;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeModification",
+      "method": "add",
+      "descriptor": "(Lnet/fabricmc/fabric/api/biome/v1/ModificationPhase;Ljava/util/function/Predicate;Ljava/util/function/Consumer;)Lnet/fabricmc/fabric/api/biome/v1/BiomeModification;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeModification",
+      "method": "add",
+      "descriptor": "(Lnet/fabricmc/fabric/api/biome/v1/ModificationPhase;Ljava/util/function/Predicate;Ljava/util/function/BiConsumer;)Lnet/fabricmc/fabric/api/biome/v1/BiomeModification;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeModificationContext",
+      "method": "getGenerationSettings",
+      "descriptor": "()Lnet/fabricmc/fabric/api/biome/v1/BiomeModificationContext$GenerationSettingsContext;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeModificationContext$GenerationSettingsContext",
+      "method": "removeFeature",
+      "descriptor": "(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;Lnet/minecraft/resources/ResourceKey;)Z",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeModificationContext$GenerationSettingsContext",
+      "method": "removeFeature",
+      "descriptor": "(Lnet/minecraft/resources/ResourceKey;)Z",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeModificationContext$GenerationSettingsContext",
+      "method": "addFeature",
+      "descriptor": "(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;Lnet/minecraft/resources/ResourceKey;)V",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeSelectionContext",
+      "method": "getPlacedFeatureKey",
+      "descriptor": "(Lnet/minecraft/world/level/levelgen/placement/PlacedFeature;)Ljava/util/Optional;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeSelectionContext",
+      "method": "getBiomeKey",
+      "descriptor": "()Lnet/minecraft/resources/ResourceKey;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "BiomeSelectionContext",
+      "method": "getBiome",
+      "descriptor": "()Lnet/minecraft/world/level/biome/Biome;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "net/minecraft/world/level/biome/Biome",
+      "method": "getGenerationSettings",
+      "descriptor": "()Lnet/minecraft/world/level/biome/BiomeGenerationSettings;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "net/minecraft/world/level/biome/BiomeGenerationSettings",
+      "method": "features",
+      "descriptor": "()Ljava/util/List;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "net/minecraft/resources/ResourceKey",
+      "method": "identifier",
+      "descriptor": "()Lnet/minecraft/resources/Identifier;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.2",
+      "class": "net/minecraft/core/Holder",
+      "method": "value",
+      "descriptor": "()Ljava/lang/Object;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeModifications",
+      "method": "create",
+      "descriptor": "(Lnet/minecraft/resources/Identifier;)Lnet/fabricmc/fabric/api/biome/v1/BiomeModification;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeModification",
+      "method": "add",
+      "descriptor": "(Lnet/fabricmc/fabric/api/biome/v1/ModificationPhase;Ljava/util/function/Predicate;Ljava/util/function/Consumer;)Lnet/fabricmc/fabric/api/biome/v1/BiomeModification;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeModification",
+      "method": "add",
+      "descriptor": "(Lnet/fabricmc/fabric/api/biome/v1/ModificationPhase;Ljava/util/function/Predicate;Ljava/util/function/BiConsumer;)Lnet/fabricmc/fabric/api/biome/v1/BiomeModification;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeModificationContext",
+      "method": "getGenerationSettings",
+      "descriptor": "()Lnet/fabricmc/fabric/api/biome/v1/BiomeModificationContext$GenerationSettingsContext;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeModificationContext$GenerationSettingsContext",
+      "method": "removeFeature",
+      "descriptor": "(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;Lnet/minecraft/resources/ResourceKey;)Z",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeModificationContext$GenerationSettingsContext",
+      "method": "removeFeature",
+      "descriptor": "(Lnet/minecraft/resources/ResourceKey;)Z",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeModificationContext$GenerationSettingsContext",
+      "method": "addFeature",
+      "descriptor": "(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;Lnet/minecraft/resources/ResourceKey;)V",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeSelectionContext",
+      "method": "getPlacedFeatureKey",
+      "descriptor": "(Lnet/minecraft/world/level/levelgen/placement/PlacedFeature;)Ljava/util/Optional;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeSelectionContext",
+      "method": "getBiomeKey",
+      "descriptor": "()Lnet/minecraft/resources/ResourceKey;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "BiomeSelectionContext",
+      "method": "getBiome",
+      "descriptor": "()Lnet/minecraft/world/level/biome/Biome;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "net/minecraft/world/level/biome/Biome",
+      "method": "getGenerationSettings",
+      "descriptor": "()Lnet/minecraft/world/level/biome/BiomeGenerationSettings;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "net/minecraft/world/level/biome/BiomeGenerationSettings",
+      "method": "features",
+      "descriptor": "()Ljava/util/List;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "net/minecraft/resources/ResourceKey",
+      "method": "identifier",
+      "descriptor": "()Lnet/minecraft/resources/Identifier;",
+      "public": true,
+      "deprecated": false
+    },
+    {
+      "target": "26.3",
+      "class": "net/minecraft/core/Holder",
+      "method": "value",
+      "descriptor": "()Ljava/lang/Object;",
+      "public": true,
+      "deprecated": false
+    }
+  ],
+  "existing_files_changed": [
+    "CHANGELOG.md",
+    "flora/src/main/java/dev/chromus/flora/ChromusFlora.java",
+    "tools/check-chunk-log.ps1",
+    "tools/check-release.py",
+    "tools/verify-jars.py",
+    "verification/release-0.1.4/checks.json"
+  ],
+  "protected_files_unchanged": 11505,
+  "assets_and_worldgen_unchanged": true,
+  "readme_banner_unchanged": true,
+  "prior_chunk_fixes_unchanged": true,
+  "not_run": [
+    "javac",
+    "Gradle",
+    "Minecraft",
+    "runtime modpack test"
+  ],
+  "limitation": "Syntax and API checks do not replace compilation or runtime testing."
+}

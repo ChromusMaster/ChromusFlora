@@ -35,6 +35,8 @@ for target in ['26.2', '26.3']:
         for class_name in ['compat/NaturalistChunkMixinPlugin', 'mixin/NaturalistHippoCompatibility']:
             if 'dev/chromus/flora/' + class_name + '.class' not in names:raise SystemExit('Missing chunk safety class: ' + class_name)
         if not classes:raise SystemExit('No compiled Chromus Flora classes')
+        if 'dev/chromus/flora/compat/VegetationOrderCompatibility.class' not in names:
+            raise SystemExit('Missing vegetation order compatibility class')
         for name in classes:
             if struct.unpack('>IHH', jar.read(name)[:8]) != (0xCAFEBABE, 0, 69):raise SystemExit('Unexpected Java bytecode version: ' + name)
         folder = 'configured_feature' if target == '26.2' else 'feature'

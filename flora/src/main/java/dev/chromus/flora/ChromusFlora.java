@@ -1,6 +1,7 @@
 package dev.chromus.flora;
 
 import dev.chromus.flora.compat.JaizCompatibility;
+import dev.chromus.flora.compat.VegetationOrderCompatibility;
 import dev.chromus.flora.world.BoundedTreeFeature;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.Registry;
@@ -24,6 +25,7 @@ public final class ChromusFlora implements ModInitializer {
         FloraContent.register();
         FloraFurniture.register();
         JaizCompatibility.register();
+        VegetationOrderCompatibility.register();
         LOGGER.info("Chromus Flora: {} biomes and {} tree families registered",
                 FloraCatalog.get().biomes().size(), FloraCatalog.get().trees().size());
     }

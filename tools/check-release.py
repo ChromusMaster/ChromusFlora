@@ -70,6 +70,10 @@ def verify():
     new_graph = {'minecraft:' + key: value['features'] for key, value in new_native.items()}
     new_graph.update({'chromusflora:' + p.stem: read(p)['features'] for p in (modern / 'data/chromusflora/worldgen/biome').glob('*.json')})
     check(not graph['cycle'](new_graph), '26.3 Flora/vanilla feature cycle')
+    compatibility = runpy.run_path(str(ROOT / 'tools/check-vegetation-compatibility.py'))
+    compatibility['main']()
+    check(read(REPORT / 'hotfix4/feature-order-checks.json')['status'] == 'PASS',
+          'Terralith/Terrestria vegetation compatibility regression')
     return {'status': 'PASS' if not errors else 'FAIL', 'assertions': checks, 'errors': errors,
             'old_definitions_preserved': len(fingerprint['files']), 'recipes_per_target': 1000,
             'scope': 'Static file and graph checks only; no Java, Gradle or Minecraft execution'}

@@ -1,3 +1,10 @@
+## 0.1.4 Hotfix 4 — vegetation compatibility
+
+- Guarded Fabric biome-load ordering correction for Minecraft 26.2 / Terralith 2.6.4 / Terrestria 8.1.0-beta.2, preserving all features.
+- Full-biome graph regression plus Jaiz scenarios; 26.3 data checked separately.
+- Chunk log checker includes far writes and recovered feature cycles.
+- Prior fixes, registry IDs, assets and README preserved; no new-world requirement. Static validation only.
+
 # 0.1.4 Hotfix 3 — Naturalist chunk reads
 
 - Add optional compatibility for Naturalist 2.0.6 on Minecraft 26.2 and 26.3: constrain the hippo water search to the central chunk when the accessor is a WorldGenRegion. The original hasChunk check remains in use for ordinary live-world spawning.

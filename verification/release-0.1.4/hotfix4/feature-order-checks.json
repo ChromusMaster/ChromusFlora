@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "original_cycle": [
+    [
+      9,
+      "minecraft:patch_grass_jungle"
+    ],
+    [
+      9,
+      "minecraft:patch_bush"
+    ],
+    [
+      9,
+      "minecraft:flower_default"
+    ],
+    [
+      9,
+      "minecraft:patch_grass_jungle"
+    ]
+  ],
+  "scenarios_26_2": [
+    {
+      "flora": false,
+      "terralith": false,
+      "terrestria": false,
+      "biomes": 66,
+      "acyclic": true
+    },
+    {
+      "flora": false,
+      "terralith": false,
+      "terrestria": true,
+      "biomes": 86,
+      "acyclic": true
+    },
+    {
+      "flora": false,
+      "terralith": true,
+      "terrestria": false,
+      "biomes": 161,
+      "acyclic": true
+    },
+    {
+      "flora": false,
+      "terralith": true,
+      "terrestria": true,
+      "biomes": 181,
+      "acyclic": true
+    },
+    {
+      "flora": true,
+      "terralith": false,
+      "terrestria": false,
+      "biomes": 158,
+      "acyclic": true
+    },
+    {
+      "flora": true,
+      "terralith": false,
+      "terrestria": true,
+      "biomes": 178,
+      "acyclic": true
+    },
+    {
+      "flora": true,
+      "terralith": true,
+      "terrestria": false,
+      "biomes": 253,
+      "acyclic": true
+    },
+    {
+      "flora": true,
+      "terralith": true,
+      "terrestria": true,
+      "biomes": 273,
+      "acyclic": true
+    },
+    {
+      "jaiz_features": false,
+      "biomes": 275,
+      "acyclic": true
+    },
+    {
+      "jaiz_features": true,
+      "biomes": 275,
+      "acyclic": true
+    }
+  ],
+  "biomes_26_3_checked": 254,
+  "preserves_membership_and_additions": true,
+  "idempotent": true,
+  "limits": [
+    "Static graph and algorithm model, not Java compilation or a Minecraft runtime test",
+    "Jaiz fixture models previously audited additions, not every installed runtime modifier",
+    "No Terrestria 26.3 release was available in the consulted version listing; not patched or claimed tested",
+    "Scenarios without Flora model a hypothetical upstream repair, not execution of an absent mod",
+    "Other mods and user datapacks can introduce further relationships"
+  ]
+}
