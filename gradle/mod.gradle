@@ -3,7 +3,9 @@ apply plugin: 'net.fabricmc.fabric-loom'
 version = "${rootProject.mod_version}-${targetMinecraft}"
 group = rootProject.maven_group
 base { archivesName = rootProject.archives_base_name }
-layout.buildDirectory = rootProject.layout.buildDirectory.dir(targetMinecraft)
+// All target outputs (classes, generated resources, reports and JARs) belong
+// to this loader. Future NeoForge projects must use their own sibling folder.
+layout.buildDirectory = rootProject.layout.buildDirectory.dir("${targetMinecraft}/Fabric")
 
 repositories {
     mavenCentral()

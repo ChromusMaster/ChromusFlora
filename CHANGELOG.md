@@ -1,3 +1,14 @@
+# 0.1.4 — Hotfix 5 (2026-10-05)
+
+- Fix crafting-table full-cube occlusion hiding ground through inset sides.
+- Remove overlapping crafting-table cabinet/post and tool-emblem volumes; keep the worktop within its block.
+- End the animated chest body at the lid hinge and preserve that pose through animation resets, avoiding the opaque-material overlap in single/double chests.
+- Align the inventory chest model with the corrected body/lid seam.
+- Move all per-target Fabric build outputs to `build/<Minecraft>/Fabric`, including the main JAR, classes, resources and sources JAR.
+- Update JAR verification and CI artifact paths. Repair stale static-audit rules without disabling compiler warnings.
+- Preserve registry IDs, inventory serialization, recipes, world generation, compatibility guards and README banner.
+- Static validation only; no Java/Gradle/Minecraft execution for this delivery.
+
 ## 0.1.4 Hotfix 4 — vegetation compatibility
 
 - Guarded Fabric biome-load ordering correction for Minecraft 26.2 / Terralith 2.6.4 / Terrestria 8.1.0-beta.2, preserving all features.

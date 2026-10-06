@@ -2,8 +2,8 @@
   "scope": "offline static source/resource scan; no Java compilation or game execution",
   "status": "PASS",
   "counts": {
-    "json_resources": 11290,
-    "assertions": 175160,
+    "json_resources": 11291,
+    "assertions": 176108,
     "biomes": 92,
     "tree_families": 83,
     "variants": 458,
@@ -11,7 +11,9 @@
     "items": 1329,
     "nbt_structures": 1121,
     "tree_forms": 1119,
-    "java_sources": 44
+    "java_sources_with_comments": 5,
+    "python_sources_with_comments": 2,
+    "java_sources": 50
   },
   "errors": [],
   "limitations": [

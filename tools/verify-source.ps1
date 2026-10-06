@@ -5,12 +5,25 @@ $manifestPath = Join-Path $projectRoot 'verification\source-manifest.json'
 $manifest = [System.IO.File]::ReadAllText($manifestPath) | ConvertFrom-Json
 $failures = 0
 $count = 0
-$localConfigurations = @('.vscode/settings.json')
+$localConfigurations = @('.vscode/settings.json', 'README.md')
+$optionalDocumentation = @(
+    'APLICAR_0.1.4.md',
+    'docs/DESEMPENHO_0.1.2.md',
+    'docs/DOOR_TRAPDOOR_TEST_INDEX.md',
+    'docs/REVISAO_0.1.1.md',
+    'docs/REVISAO_0.1.2.md',
+    'docs/REVISAO_0.1.3.md',
+    'docs/REVISAO_0.1.4.md'
+)
 $localCount = 0
 foreach ($entry in $manifest.files.PSObject.Properties) {
     if ($localConfigurations -contains $entry.Name) {
         $localCount++
         Write-Host ('LOCAL CONFIG (editable, not integrity-checked): ' + $entry.Name)
+        continue
+    }
+    if ($optionalDocumentation -contains $entry.Name) {
+        Write-Host ('OPTIONAL DOCUMENTATION (editable or removable): ' + $entry.Name)
         continue
     }
     $path = Join-Path $projectRoot $entry.Name
@@ -28,5 +41,5 @@ if ($failures -gt 0) {
 }
 Write-Host ('PASS: ' + $count + ' source/resource files match the delivery manifest.')
 if ($localCount -gt 0) {
-    Write-Host ('INFO: ' + $localCount + ' local editor configuration files may differ from the shipped defaults.')
+    Write-Host ('INFO: ' + $localCount + ' README/editor files may differ from the shipped defaults.')
 }

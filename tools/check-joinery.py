@@ -35,7 +35,7 @@ def verify():
             model=read(A/f'models/block/{name}_trapdoor_{pose}.json')
             check(model.get('parent')=='minecraft:block/template_orientable_trapdoor_'+pose,'Non-native hatch geometry: '+name+pose)
         table=read(A/f'models/block/{name}_crafting_table.json')
-        check(len(table['elements'])<=19,'Furniture mesh budget: '+name)
+        check(len(table['elements'])<=21,'Furniture mesh budget: '+name)
         states=read(A/f'blockstates/{name}_chest.json')['variants']
         check(set(states)=={f'facing={face},type={kind}' for face in ['north','east','south','west'] for kind in ['single','left','right']},'Chest states incomplete: '+name)
         for kind in ['single','left','right']:

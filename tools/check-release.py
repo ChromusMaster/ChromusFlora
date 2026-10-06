@@ -74,6 +74,10 @@ def verify():
     compatibility['main']()
     check(read(REPORT / 'hotfix4/feature-order-checks.json')['status'] == 'PASS',
           'Terralith/Terrestria vegetation compatibility regression')
+    furniture = runpy.run_path(str(ROOT / 'tools/check-furniture-rendering.py'))['verify']()
+    (REPORT / 'hotfix6/furniture-checks.json').write_text(json.dumps(furniture, indent=2) + '\n')
+    check(furniture['status'] == 'PASS', 'Furniture geometry/occlusion and loader output regression: '
+          + '; '.join(furniture['errors']))
     return {'status': 'PASS' if not errors else 'FAIL', 'assertions': checks, 'errors': errors,
             'old_definitions_preserved': len(fingerprint['files']), 'recipes_per_target': 1000,
             'scope': 'Static file and graph checks only; no Java, Gradle or Minecraft execution'}

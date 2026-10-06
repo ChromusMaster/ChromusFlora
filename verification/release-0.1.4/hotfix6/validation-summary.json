@@ -1,0 +1,36 @@
+{
+  "scope": "Static verification only; no Java, Gradle, PowerShell or Minecraft execution",
+  "status": "PASS",
+  "checks": {
+    "general_scan": {
+      "status": "PASS",
+      "report": "verification/global-scan.json"
+    },
+    "release": {
+      "status": "PASS",
+      "report": "verification/release-0.1.4/checks.json"
+    },
+    "furniture": {
+      "status": "PASS",
+      "report": "verification/release-0.1.4/hotfix6/furniture-checks.json"
+    },
+    "native_api": {
+      "status": "PASS",
+      "report": "verification/release-0.1.4/hotfix6/native-api-checks.json"
+    },
+    "mutations": {
+      "status": "PASS",
+      "report": "verification/release-0.1.4/hotfix6/mutation-checks.json"
+    },
+    "preservation": {
+      "status": "PASS",
+      "report": "verification/release-0.1.4/hotfix6/preservation-checks.json"
+    },
+    "door_gallery": {
+      "status": "PASS",
+      "report": "verification/release-0.1.4/door-gallery-checks.json"
+    }
+  },
+  "java_syntax_trees_checked": 8,
+  "source_verifier_policy": "Static inspection and hash simulation; PowerShell unavailable. README/editor config and 7 named historical documents optional/editable; ASSET_PROVENANCE remains strict."
+}

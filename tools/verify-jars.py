@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = next(line.split('=', 1)[1] for line in (ROOT / 'gradle.properties').read_text().splitlines() if line.startswith('mod_version='))
 for target in ['26.2', '26.3']:
-    path = ROOT / f'build/{target}/chromus-flora-{VERSION}-{target}.jar'
+    path = ROOT / f'build/{target}/Fabric/chromus-flora-{VERSION}-{target}.jar'
     if not path.is_file():raise SystemExit('Missing artifact: ' + str(path))
     with zipfile.ZipFile(path) as jar:
         if jar.testzip() is not None:raise SystemExit('Corrupt JAR: ' + str(path))
@@ -49,7 +49,7 @@ for target in ['26.2', '26.3']:
                 text = jar.read(name).decode('utf-8')
                 json.loads(text)
                 if '${version}' in text or '${minecraft}' in text:raise SystemExit('Unexpanded resource: ' + name)
-        for class_name in ['client/FloraRenderSubmission', 'FloraBoats', 'client/FloraClient', 'client/FloraBoatRenderer', 'client/FloraChestRenderer', 'FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
+        for class_name in ['client/FloraRenderSubmission', 'FloraBoats', 'client/FloraClient', 'client/FloraBoatRenderer', 'client/FloraChestRenderer', 'client/FloraChestModel', 'FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
             if 'dev/chromus/flora/' + class_name + '.class' not in names:raise SystemExit('Missing furniture class: ' + class_name)
         catalog = json.loads(jar.read('chromusflora/catalog.json'))
         expected_boats = {'chromusflora:' + tree['id'] + '_boat' for tree in catalog['trees']}
@@ -60,6 +60,11 @@ for target in ['26.2', '26.3']:
         if 'data/chromusflora/recipe/boat.json' in names:raise SystemExit('Stale generic boat recipe')
         for tree in catalog['trees']:
             species = tree['id']
+            for model_path in [f'assets/chromusflora/models/block/{species}_crafting_table.json',
+                               f'assets/chromusflora/models/item/{species}_chest.json']:
+                expected = json.loads((ROOT / 'flora/src/main/resources' / model_path).read_text())
+                if json.loads(jar.read(model_path)) != expected:
+                    raise SystemExit('Stale furniture geometry in JAR: ' + model_path)
             for suffix in ['crafting_table', 'chest', 'boat']:
                 if f'data/chromusflora/recipe/{species}_{suffix}.json' not in names:raise SystemExit('Missing furniture recipe: ' + species)
             for suffix in ['chest', 'boat']:

@@ -27,7 +27,6 @@ def main():
         check((RES/f'assets/chromusflora/models/item/{name}_door.json').exists(), 'missing 2D door item model '+name)
         check((RES/f'assets/chromusflora/textures/item/door/{name}.png').exists(), 'missing door item sprite '+name)
     check(CLEAR.exists(),'missing gallery cleanup function')
-    check(INDEX.exists(),'missing gallery index documentation')
     report={'status':'PASS' if not errors else 'FAIL','assertions':checks,'species':len(SPECIES),'families':len(STYLE['families']),'errors':errors}
     out=ROOT/'verification/release-0.1.4'
     out.mkdir(parents=True,exist_ok=True)

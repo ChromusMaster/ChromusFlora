@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "mutation": "native ten-unit body restored",
+      "rejected": true,
+      "first_error": "single: top surfaces detached from body"
+    },
+    {
+      "mutation": "wood roof re-enabled",
+      "rejected": true,
+      "first_error": "Wooden body roof would cover the dark interior"
+    },
+    {
+      "mutation": "dark cap duplicates front rim",
+      "rejected": true,
+      "first_error": "single: dark cap and wooden rim overlap"
+    }
+  ]
+}

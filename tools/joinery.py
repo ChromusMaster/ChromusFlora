@@ -27,14 +27,18 @@ def textures(species):
 
 def furniture_models(species):
     tex=textures(species)
-    table=[box((1,0,1),(15,15,15))]
+    # Partition the inset cabinet around the posts instead of intersecting
+    # their volumes. Preserve the original outline and projected wood UVs.
+    table=[box((2,0,1),(14,15,15)),
+           box((1,0,2),(2,15,14)), box((14,0,2),(15,15,14))]
     for x in [0,14]:
         for z in [0,14]:table.append(box((x,0,z),(x+2,15,z+2),'trim'))
-    table.append(box((0,15,0),(16,16,16),'trim'))
+    table.append(box((0,15,0),(16,15.9,16),'trim'))
     for x in range(3):
-        for z in range(3):table.append(box((2+x*4,16,2+z*4),(5.5+x*4,16.1,5.5+z*4),'light'))
+        for z in range(3):table.append(box((2+x*4,15.9,2+z*4),(5.5+x*4,16,5.5+z*4),'light'))
     for x in [0,15.85]:
-        table.append(box((x,8,5),(x+.15,12,6),'hardware'))
+        # The stem meets, but never overlaps, the head of the tool emblem.
+        table.append(box((x,8,5),(x+.15,11,6),'hardware'))
         table.append(box((x,11,3.5),(x+.15,12,7.5),'hardware'))
     write(ASSETS/f'models/block/{species}_crafting_table.json',{'parent':'minecraft:block/block','textures':tex,'elements':table})
     write(ASSETS/f'blockstates/{species}_crafting_table.json',{'variants':{'':{'model':'chromusflora:block/'+species+'_crafting_table'}}})
@@ -43,7 +47,7 @@ def furniture_models(species):
         model=f'{species}_chest_{kind}'
         write(ASSETS/f'models/block/{model}.json',{'parent':'minecraft:block/block','textures':tex,'elements':[]})
         if kind=='single':
-            item_elements=[box((1,0,1),(15,10,15)),box((1,10,1),(15,14,15),'light'),box((7,8,0),(9,12,1),'hardware')]
+            item_elements=[box((1,0,1),(15,9,15)),box((1,9,1),(15,14,15),'light'),box((7,7,0),(9,11,1),'hardware')]
             write(ASSETS/f'models/item/{species}_chest.json',{'parent':'minecraft:block/block','textures':tex,'elements':item_elements})
         for facing,angle in [('north',0),('east',90),('south',180),('west',270)]:
             states[f'facing={facing},type={kind}']={'model':'chromusflora:block/'+model,'y':angle}

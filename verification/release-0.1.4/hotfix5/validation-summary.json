@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "java_gradle_minecraft_executed": false,
+  "furniture_geometry": {
+    "status": "PASS",
+    "assertions": 5210,
+    "errors": [],
+    "wood_families": 83,
+    "table_quads_max": 126,
+    "native_overlap_before_units": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "body_top_after_units": 9.0,
+    "scope": "Static models, analytic lid sweep, source contracts and output paths. No runtime validation."
+  },
+  "source_resources": {
+    "json_resources": 11291,
+    "assertions": 176106,
+    "biomes": 92,
+    "tree_families": 83,
+    "variants": 458,
+    "blocks": 1328,
+    "items": 1329,
+    "nbt_structures": 1121,
+    "tree_forms": 1119,
+    "java_sources_with_comments": 5,
+    "python_sources_with_comments": 2,
+    "java_sources": 49
+  },
+  "release_assertions": 15706,
+  "joinery_assertions": 2595,
+  "boat_assertions": 3495,
+  "door_gallery_assertions": 420,
+  "generator_reproducible_files": 415,
+  "native_api_versions": [
+    "26.2",
+    "26.3"
+  ],
+  "java_syntax": "Both modified Java files parsed successfully with tree-sitter; not type checking.",
+  "limits": [
+    "No compilation result",
+    "No in-game rendering or animation test",
+    "No performance benchmark",
+    "No runtime modpack compatibility guarantee"
+  ]
+}

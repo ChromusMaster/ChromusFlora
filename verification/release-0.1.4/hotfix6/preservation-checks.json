@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 17395,
+  "protected_scope": "All main code/resources, version adapters, Gradle configuration and README versus Hotfix 5",
+  "changed_existing_files": [
+    "flora/src/client/java/dev/chromus/flora/client/FloraChestRenderer.java",
+    "tools/check-door-gallery.py",
+    "tools/check-furniture-rendering.py",
+    "tools/check-release.py",
+    "tools/verify-jars.py",
+    "tools/verify-source.ps1",
+    "verification/global-scan.json",
+    "verification/release-0.1.4/door-gallery-checks.json"
+  ],
+  "world_migration_required": false
+}

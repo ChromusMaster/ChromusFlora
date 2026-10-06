@@ -45,6 +45,6 @@ jobs:
         with:
           name: chromus-flora-two-versions
           path: |
-            build/26.2/chromus-flora-*-26.2.jar
-            build/26.3/chromus-flora-*-26.3.jar
+            build/26.2/Fabric/chromus-flora-*-26.2.jar
+            build/26.3/Fabric/chromus-flora-*-26.3.jar
           if-no-files-found: error

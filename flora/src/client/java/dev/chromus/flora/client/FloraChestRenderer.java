@@ -23,13 +23,16 @@ import net.minecraft.client.resources.model.sprite.SpriteGetter;
 import net.minecraft.client.resources.model.sprite.SpriteId;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.properties.ChestType;
 import net.minecraft.world.phys.Vec3;
 import org.jspecify.annotations.Nullable;
 
 public final class FloraChestRenderer extends ChestRenderer<FloraChestEntity> {
     private static final SpriteId HARDWARE = Sheets.BLOCKS_MAPPER.apply(Identifier.withDefaultNamespace("iron_block"));
+    private static final SpriteId INTERIOR = Sheets.BLOCKS_MAPPER.apply(Identifier.withDefaultNamespace("black_concrete"));
     private final SpriteGetter sprites;
     private final MultiblockChestResources<ChestModel> bodies;
+    private final MultiblockChestResources<ChestModel> interiors;
     private final MultiblockChestResources<ChestModel> lids;
     private final MultiblockChestResources<ChestModel> locks;
     private final Map<Block, Materials> materials = new IdentityHashMap<>();
@@ -43,7 +46,8 @@ public final class FloraChestRenderer extends ChestRenderer<FloraChestEntity> {
     public FloraChestRenderer(BlockEntityRendererProvider.Context context) {
         super(context);
         sprites = context.sprites();
-        bodies = LAYERS.map(layer -> part(context, layer, "bottom"));
+        bodies = stationaryParts(false);
+        interiors = stationaryParts(true);
         lids = LAYERS.map(layer -> part(context, layer, "lid"));
         locks = LAYERS.map(layer -> part(context, layer, "lock"));
         for (FloraCatalog.Tree tree : FloraCatalog.get().trees()) {
@@ -52,6 +56,11 @@ public final class FloraChestRenderer extends ChestRenderer<FloraChestEntity> {
             materials.put(block, new Materials(Sheets.BLOCKS_MAPPER.apply(ChromusFlora.id(path + "planks")),
                     Sheets.BLOCKS_MAPPER.apply(ChromusFlora.id(path + "stripped"))));
         }
+    }
+
+    private static MultiblockChestResources<ChestModel> stationaryParts(boolean interior) {
+        return new MultiblockChestResources<>(FloraChestModel.create(ChestType.SINGLE, interior),
+                FloraChestModel.create(ChestType.LEFT, interior), FloraChestModel.create(ChestType.RIGHT, interior));
     }
 
     private static ChestModel part(BlockEntityRendererProvider.Context context, ModelLayerLocation layer, String visible) {
@@ -80,6 +89,7 @@ public final class FloraChestRenderer extends ChestRenderer<FloraChestEntity> {
         poses.pushPose();
         poses.mulPose(modelTransformation(state.facing));
         FloraRenderSubmission.chestPart(bodies.select(state.type), opening, poses, collector, state, selected.wood(), sprites);
+        FloraRenderSubmission.chestPart(interiors.select(state.type), opening, poses, collector, state, INTERIOR, sprites);
         FloraRenderSubmission.chestPart(lids.select(state.type), opening, poses, collector, state, selected.lid(), sprites);
         FloraRenderSubmission.chestPart(locks.select(state.type), opening, poses, collector, state, HARDWARE, sprites);
         poses.popPose();

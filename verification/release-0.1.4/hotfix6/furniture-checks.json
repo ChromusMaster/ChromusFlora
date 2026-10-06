@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "assertions": 7685,
+  "errors": [],
+  "wood_families": 83,
+  "table_quads_max": 126,
+  "native_overlap_before_units": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "body_top_after_units": [
+    9.0,
+    9.0,
+    9.0
+  ],
+  "scope": "Static models, analytic lid sweep, source contracts and output paths. No runtime validation."
+}

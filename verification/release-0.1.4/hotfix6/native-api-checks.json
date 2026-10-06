@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "scope": "Official class-file inspection only. No Java/Gradle/Minecraft execution.",
+  "targets": {
+    "26.2": {
+      "client_sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+      "api": [
+        {
+          "class": "net/minecraft/client/model/geom/builders/CubeListBuilder",
+          "method": "create",
+          "descriptor": "()Lnet/minecraft/client/model/geom/builders/CubeListBuilder;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/CubeListBuilder",
+          "method": "texOffs",
+          "descriptor": "(II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/CubeListBuilder",
+          "method": "addBox",
+          "descriptor": "(FFFFFFLjava/util/Set;)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/MeshDefinition",
+          "method": "<init>",
+          "descriptor": "()V",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/MeshDefinition",
+          "method": "getRoot",
+          "descriptor": "()Lnet/minecraft/client/model/geom/builders/PartDefinition;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/PartDefinition",
+          "method": "addOrReplaceChild",
+          "descriptor": "(Ljava/lang/String;Lnet/minecraft/client/model/geom/builders/CubeListBuilder;Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/builders/PartDefinition;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/LayerDefinition",
+          "method": "create",
+          "descriptor": "(Lnet/minecraft/client/model/geom/builders/MeshDefinition;II)Lnet/minecraft/client/model/geom/builders/LayerDefinition;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/LayerDefinition",
+          "method": "bakeRoot",
+          "descriptor": "()Lnet/minecraft/client/model/geom/ModelPart;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/object/chest/ChestModel",
+          "method": "<init>",
+          "descriptor": "(Lnet/minecraft/client/model/geom/ModelPart;)V",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/renderer/MultiblockChestResources",
+          "method": "<init>",
+          "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
+          "public": true,
+          "deprecated": false
+        }
+      ],
+      "storePose_fields": [
+        "x",
+        "y",
+        "z",
+        "xRot",
+        "yRot",
+        "zRot"
+      ],
+      "loadPose_restores_scale": true,
+      "setupAnim_resets_pose": true,
+      "zero_height_UP_face_supported": true,
+      "resource_black_concrete_present": true,
+      "multiblock_order": [
+        "single",
+        "left",
+        "right"
+      ]
+    },
+    "26.3": {
+      "client_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+      "api": [
+        {
+          "class": "net/minecraft/client/model/geom/builders/CubeListBuilder",
+          "method": "create",
+          "descriptor": "()Lnet/minecraft/client/model/geom/builders/CubeListBuilder;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/CubeListBuilder",
+          "method": "texOffs",
+          "descriptor": "(II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/CubeListBuilder",
+          "method": "addBox",
+          "descriptor": "(FFFFFFLjava/util/Set;)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/MeshDefinition",
+          "method": "<init>",
+          "descriptor": "()V",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/MeshDefinition",
+          "method": "getRoot",
+          "descriptor": "()Lnet/minecraft/client/model/geom/builders/PartDefinition;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/PartDefinition",
+          "method": "addOrReplaceChild",
+          "descriptor": "(Ljava/lang/String;Lnet/minecraft/client/model/geom/builders/CubeListBuilder;Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/builders/PartDefinition;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/LayerDefinition",
+          "method": "create",
+          "descriptor": "(Lnet/minecraft/client/model/geom/builders/MeshDefinition;II)Lnet/minecraft/client/model/geom/builders/LayerDefinition;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/builders/LayerDefinition",
+          "method": "bakeRoot",
+          "descriptor": "()Lnet/minecraft/client/model/geom/ModelPart;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/object/chest/ChestModel",
+          "method": "<init>",
+          "descriptor": "(Lnet/minecraft/client/model/geom/ModelPart;)V",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/renderer/MultiblockChestResources",
+          "method": "<init>",
+          "descriptor": "(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V",
+          "public": true,
+          "deprecated": false
+        }
+      ],
+      "storePose_fields": [
+        "x",
+        "y",
+        "z",
+        "xRot",
+        "yRot",
+        "zRot"
+      ],
+      "loadPose_restores_scale": true,
+      "setupAnim_resets_pose": true,
+      "zero_height_UP_face_supported": true,
+      "resource_black_concrete_present": true,
+      "multiblock_order": [
+        "single",
+        "left",
+        "right"
+      ]
+    }
+  }
+}

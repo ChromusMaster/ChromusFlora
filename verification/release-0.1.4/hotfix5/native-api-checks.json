@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Read class files only; no JVM execution.",
+  "targets": {
+    "26.2": {
+      "client_sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+      "api": [
+        {
+          "class": "net/minecraft/client/model/geom/ModelPart",
+          "method": "storePose",
+          "descriptor": "()Lnet/minecraft/client/model/geom/PartPose;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/ModelPart",
+          "method": "setInitialPose",
+          "descriptor": "(Lnet/minecraft/client/model/geom/PartPose;)V",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/world/level/block/state/BlockBehaviour$Properties",
+          "method": "noOcclusion",
+          "descriptor": "()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;",
+          "public": true,
+          "deprecated": false
+        }
+      ],
+      "native_geometry_verified": true
+    },
+    "26.3": {
+      "client_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+      "api": [
+        {
+          "class": "net/minecraft/client/model/geom/ModelPart",
+          "method": "storePose",
+          "descriptor": "()Lnet/minecraft/client/model/geom/PartPose;",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/client/model/geom/ModelPart",
+          "method": "setInitialPose",
+          "descriptor": "(Lnet/minecraft/client/model/geom/PartPose;)V",
+          "public": true,
+          "deprecated": false
+        },
+        {
+          "class": "net/minecraft/world/level/block/state/BlockBehaviour$Properties",
+          "method": "noOcclusion",
+          "descriptor": "()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;",
+          "public": true,
+          "deprecated": false
+        }
+      ],
+      "native_geometry_verified": true
+    }
+  }
+}

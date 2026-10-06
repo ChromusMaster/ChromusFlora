@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "baseline": "Complete 0.1.4 plus cumulative Hotfix 4, verified against its source manifest before edits.",
+  "protected_files": 17229,
+  "unexpected_changes": [],
+  "readme_sha256": "a91a19a8ba2bdb3b2f82c10d772ce279c531b5ca65fa9934b7e651f4284141d7",
+  "opaque_chest_wood_sprites": 166,
+  "preserved": "Registry declarations, block entity serialization, all recipes and loot tables, worldgen, chunk guards, boats, doors, trapdoors, original texture PNGs and README."
+}
