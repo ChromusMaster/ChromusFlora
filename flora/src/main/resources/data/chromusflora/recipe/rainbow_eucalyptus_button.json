@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "chromusflora:rainbow_eucalyptus_planks"
+  ],
+  "category": "redstone",
+  "group": "wooden_button",
+  "result": {
+    "id": "chromusflora:rainbow_eucalyptus_button",
+    "count": 1
+  }
+}

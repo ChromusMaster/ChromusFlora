@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "chromusflora:joshua_planks"
+  ],
+  "category": "redstone",
+  "group": "wooden_button",
+  "result": {
+    "id": "chromusflora:joshua_button",
+    "count": 1
+  }
+}

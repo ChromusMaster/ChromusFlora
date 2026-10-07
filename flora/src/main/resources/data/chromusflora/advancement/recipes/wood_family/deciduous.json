@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:deciduous_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:deciduous_planks",
+      "chromusflora:deciduous_wood",
+      "chromusflora:deciduous_slab",
+      "chromusflora:deciduous_stairs",
+      "chromusflora:deciduous_fence",
+      "chromusflora:deciduous_fence_gate",
+      "chromusflora:deciduous_door",
+      "chromusflora:deciduous_trapdoor",
+      "chromusflora:deciduous_crafting_table",
+      "chromusflora:deciduous_chest",
+      "chromusflora:deciduous_boat",
+      "chromusflora:stripped_deciduous_wood"
+    ]
+  }
+}

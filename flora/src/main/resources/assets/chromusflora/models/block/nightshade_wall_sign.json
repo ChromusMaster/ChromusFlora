@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_wall_sign",
+  "textures": {
+    "all": "chromusflora:block/wood/nightshade/planks",
+    "particle": "chromusflora:block/wood/nightshade/planks"
+  }
+}

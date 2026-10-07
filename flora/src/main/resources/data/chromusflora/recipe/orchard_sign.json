@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:orchard_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:orchard_sign",
+    "count": 3
+  }
+}

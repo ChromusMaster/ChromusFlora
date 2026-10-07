@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "resources": 21534,
+  "byte_identical": 21531,
+  "json_format_only": [
+    "flora/src/main/resources/fabric.mod.json",
+    "flora/src/main/resources/assets/chromusflora/lang/en_us.json",
+    "flora/src/main/resources/assets/chromusflora/lang/pt_br.json"
+  ],
+  "mismatches": []
+}

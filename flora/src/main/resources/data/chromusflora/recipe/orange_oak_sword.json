@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_sword",
+  "pattern": [
+    "P",
+    "P",
+    "S"
+  ],
+  "key": {
+    "P": "chromusflora:orange_oak_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:orange_oak_sword",
+    "count": 1
+  }
+}

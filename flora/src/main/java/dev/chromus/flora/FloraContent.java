@@ -91,6 +91,7 @@ public final class FloraContent {
                 .setId(fruitKey).food(new FoodProperties.Builder().nutrition(4).saturationModifier(0.3F).build())));
         ITEMS.add(fruit);
         FloraPlatform.compost(fruit, 0.65F);
+        FloraWoodworks.register(BLOCKS, ITEMS);
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ChromusFlora.id("flora"),
                 FabricCreativeModeTab.builder().title(Component.translatable("itemGroup.chromusflora"))
                         .icon(() -> new ItemStack(ITEMS.getFirst()))

@@ -1,9 +1,9 @@
-"""Pack reviewed image_gen atlas artwork into Minecraft assets.
 
-This script does no procedural drawing or palette replacement. Source artwork,
-reviewed crop coordinates and original generation prompts live in atelier/joinery.
-A full door is resized ONCE before it is split, preventing a seam between halves.
-"""
+
+
+
+
+
 from __future__ import annotations
 import json
 from pathlib import Path

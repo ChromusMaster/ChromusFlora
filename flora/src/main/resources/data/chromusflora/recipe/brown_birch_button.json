@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "chromusflora:brown_birch_planks"
+  ],
+  "category": "redstone",
+  "group": "wooden_button",
+  "result": {
+    "id": "chromusflora:brown_birch_button",
+    "count": 1
+  }
+}

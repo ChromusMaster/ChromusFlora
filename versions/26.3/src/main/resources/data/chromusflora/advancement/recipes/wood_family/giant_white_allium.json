@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:giant_white_allium_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:giant_white_allium_planks",
+      "chromusflora:giant_white_allium_wood",
+      "chromusflora:giant_white_allium_slab",
+      "chromusflora:giant_white_allium_stairs",
+      "chromusflora:giant_white_allium_fence",
+      "chromusflora:giant_white_allium_fence_gate",
+      "chromusflora:giant_white_allium_door",
+      "chromusflora:giant_white_allium_trapdoor",
+      "chromusflora:giant_white_allium_crafting_table",
+      "chromusflora:giant_white_allium_chest",
+      "chromusflora:giant_white_allium_boat",
+      "chromusflora:stripped_giant_white_allium_wood"
+    ]
+  }
+}

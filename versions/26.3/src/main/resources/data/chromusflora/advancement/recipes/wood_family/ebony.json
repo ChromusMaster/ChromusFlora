@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:ebony_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:ebony_planks",
+      "chromusflora:ebony_wood",
+      "chromusflora:ebony_slab",
+      "chromusflora:ebony_stairs",
+      "chromusflora:ebony_fence",
+      "chromusflora:ebony_fence_gate",
+      "chromusflora:ebony_door",
+      "chromusflora:ebony_trapdoor",
+      "chromusflora:ebony_crafting_table",
+      "chromusflora:ebony_chest",
+      "chromusflora:ebony_boat",
+      "chromusflora:stripped_ebony_wood"
+    ]
+  }
+}

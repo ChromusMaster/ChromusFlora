@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_sword",
+  "pattern": [
+    "P",
+    "P",
+    "S"
+  ],
+  "key": {
+    "P": "chromusflora:blue_spruce_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:blue_spruce_sword",
+    "count": 1
+  }
+}

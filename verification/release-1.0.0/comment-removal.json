@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "method": "Java parsed token equality; Python AST equality ignoring removed documentation strings; standalone Gradle comment lines; Minecraft function command sequence equality. Execution directives and legal documents retained.",
+  "changes": [
+    {
+      "path": "flora/src/client/java/dev/chromus/flora/client/FloraChestModel.java",
+      "removed_spans": 3,
+      "before_sha256": "504a934f1d79e7b2f1cf45deccb8b4fd329a6714f46d8019a0104004c50a2a45",
+      "after_sha256": "dc221af2bc8e5303c9c944b4bc3d515dc6ba5e9f060cb1f96a19ffa7d3b30e9d"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/block/FloraCraftingTable.java",
+      "removed_spans": 3,
+      "before_sha256": "21a941eda70ee75c13083075639b5f4b25d10786d7a7dee5011ad694e714fc3b",
+      "after_sha256": "5e7eaf516879f4d979d8af9222b78a6a9ee901b09a82a8cd0fdf829d12757746"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/compat/NaturalistChunkMixinPlugin.java",
+      "removed_spans": 1,
+      "before_sha256": "af2b78acb355d3e3c6dd98ea3e61564b6d505399aeaa13943f93540d63bd2bb8",
+      "after_sha256": "1148dfc7004ab58877b4c9ca5c2bb11b87b6f683ed7de110d60469c02e333de8"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/compat/VegetationOrderCompatibility.java",
+      "removed_spans": 4,
+      "before_sha256": "1ec99c68e9aa0d27002b0abbacfc89566d9b40c97506e993e0ceb4141e4920e3",
+      "after_sha256": "9e560a8d14f453bccfde46e00b260eabb0fc5cd5f87458642d417c86398d0817"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/mixin/NaturalistHippoCompatibility.java",
+      "removed_spans": 4,
+      "before_sha256": "568a944dd14954323ed4b9fad06338777a8f5016ded74a87ce6fb53e2e264e4e",
+      "after_sha256": "9ec78a8438bd0b62be14be7fb8dbb5c736fbc6403797ea6b27ed237386bf7d3a"
+    },
+    {
+      "path": "gradle/mod.gradle",
+      "removed_spans": 2,
+      "before_sha256": "028148899ef4ef27dd6a54bbea974e9a829b06685ab793ea41a4dee5b87db195",
+      "after_sha256": "66a82a6db0a899a1a66def07d17b6ab6fe9e510a0873c85bf2607af5310e02df"
+    },
+    {
+      "path": "tools/check-boats.py",
+      "removed_spans": 1,
+      "before_sha256": "97a64c5a7d7fd66508a7be5381b17a989550b7bd0299c03548a9e34889d6f225",
+      "after_sha256": "ad6c9f1642b73a50da1fe621451e0578e31695e2fcd1f17a00bddc76a3e8e2d8"
+    },
+    {
+      "path": "tools/check-crafting-completion.py",
+      "removed_spans": 2,
+      "before_sha256": "9b4e3ba11ca53e7dc58f4da85d3ec896859d51b573a7386d437ae4eb46481139",
+      "after_sha256": "48d9f763670f5238fbca141a8a7a952d7dbef63964a4ad39b8e6999b4fe46f76"
+    },
+    {
+      "path": "tools/check-furniture-rendering.py",
+      "removed_spans": 8,
+      "before_sha256": "69d23a29f3c4292524ca580a20ded8e0d2a90e87200c5a781fba8000fb86fafb",
+      "after_sha256": "447d1c78b961dc8baf09ef9eaa4ea56687f02e138d9b4044db8128d9a9126d99"
+    },
+    {
+      "path": "tools/check-joinery.py",
+      "removed_spans": 1,
+      "before_sha256": "4843543b72e942a1fe56742b3c606b22f6bb55ffd4f9bb29e53730488fd04fa9",
+      "after_sha256": "72e5f298b11986247ca3113e9f212a863bae4aa5e57854b6d7337a1186e32899"
+    },
+    {
+      "path": "tools/check-ottyg-bytecode.py",
+      "removed_spans": 1,
+      "before_sha256": "867a288f87f62bd78500616c190e65b599edaeaa565b38bf9e5d1ed89cad2d06",
+      "after_sha256": "fe51f554896c48620b08ecf3cc9f2a3b4dda56d40585a8f6a423a2efd92a68f5"
+    },
+    {
+      "path": "tools/check-palette-preservation.py",
+      "removed_spans": 1,
+      "before_sha256": "dd0bda43ed963d8dde230d3acc4dfe30c5aef1a1cc1ce6054b565e7d82d29c03",
+      "after_sha256": "0a8211544e01d2e28141a8257911421a671e2b69ac8b2b3ff3a60219663be36a"
+    },
+    {
+      "path": "tools/check-vegetation-compatibility.py",
+      "removed_spans": 1,
+      "before_sha256": "0890d4818c1148fad7e528a576a198d34de14cde5e884c052f121fb98636d2bb",
+      "after_sha256": "b66974f99639bc8b96423e7f5811c01353d2dbfa8c15968ce67098b2c217c8c8"
+    },
+    {
+      "path": "tools/check-woodworks.py",
+      "removed_spans": 2,
+      "before_sha256": "815c5b40568088a16f2f5d88de1848f2316dace6f43edb2f362dc151518e4f7d",
+      "after_sha256": "1dae60f666f7da4c81e9c8d4732a78bcb76c2c36cc9cf4a9bb71f11094dffc17"
+    },
+    {
+      "path": "tools/crafting_completion.py",
+      "removed_spans": 2,
+      "before_sha256": "4a2478f7b8bd20b46e1a1c00ae286413002ec960f013a5110bdd7b8f42a30817",
+      "after_sha256": "ad7490ac0f9b15ccf7f3e70a06cd9dd05638979ca72c159837c5a2129584a648"
+    },
+    {
+      "path": "tools/generate-door-trapdoor-art.py",
+      "removed_spans": 1,
+      "before_sha256": "e639500c50b6863aa9d2fd6f848bd15ac0e40ea75892366dfa66af7e88f0d92c",
+      "after_sha256": "8ee87d58ed7569a0cb54e03237303c1716c6382c9f90183f3acf00debe550f4d"
+    },
+    {
+      "path": "tools/joinery.py",
+      "removed_spans": 3,
+      "before_sha256": "d160e3c9846bc605784e8f0e0433db73bf6c01c84957b35543ff74411474f2c8",
+      "after_sha256": "d29e4f80293440ef2670e2b66d8acc1d991a465a02207654fe24ca95f4013d91"
+    },
+    {
+      "path": "tools/palette_overrides.py",
+      "removed_spans": 2,
+      "before_sha256": "65a6d1b980962e7b7cbc3f8712cab694ad7c68dacc24efe4f306d91ef33bcfee",
+      "after_sha256": "b6249c219eea767d2703a4df6856e4a31af1e89409cb2c0f4c4c85f7f02c396a"
+    },
+    {
+      "path": "tools/preview-joinery.py",
+      "removed_spans": 1,
+      "before_sha256": "71a14f76fd9a9b7c6b59863b0a44ded9677b8028688b10c0a85d2cddad5574d9",
+      "after_sha256": "94c6cb1ed9fdc94030e56b78ce2a77d170acdcc0ab60b06c0c4ab4e4e45d92f3"
+    },
+    {
+      "path": "tools/verify-jars.py",
+      "removed_spans": 2,
+      "before_sha256": "bd3279ccd96cb6395c6db9c585e93a8a0cbc97234158d55d436283bbd662ec9d",
+      "after_sha256": "1c835f60ca7a94d6c8b400e59705646678f0948cc741b050677784827638f190"
+    },
+    {
+      "path": "tools/woodworks.py",
+      "removed_spans": 4,
+      "before_sha256": "979fdc910a6747f3051c75f66a4aba4a03cf47a75d200dff396f39dcdfa71726",
+      "after_sha256": "8fb2de71025aebfae6f6ada4af983a590f492e992f0c3cca30897d22e599f90d"
+    },
+    {
+      "path": "flora/src/main/resources/data/chromusflora/function/test/doors_trapdoors.mcfunction",
+      "removed_spans": 86,
+      "before_sha256": "8e8bf327b032dffc1a6baa3eaed9a4149f9c515c7732ad0b750fe3c17cd68f2e",
+      "after_sha256": "75ed9d5b6260c11f342a16d441f302a5c0d9c33abebba3500147a1dfe221e057"
+    },
+    {
+      "path": "flora/src/main/resources/data/chromusflora/function/test/clear_doors_trapdoors.mcfunction",
+      "removed_spans": 1,
+      "before_sha256": "b259d95a4252202b813c4a94cd152fa5cd76c0511370600c9b84f4c9df288be1",
+      "after_sha256": "d09a3300631d4454da8f6b48765506a850f30411a0754cf6aee82f54836a2543"
+    }
+  ],
+  "java_files_checked": 55,
+  "python_files_checked": 28,
+  "java_token_sha256": {
+    "flora/src/client/java/dev/chromus/flora/client/FloraBoatRenderer.java": "9b16e52a69d37ccabc5b0ea1186d8e87760af4b2419f55d3dc9cb292697d73d2",
+    "flora/src/client/java/dev/chromus/flora/client/FloraChestModel.java": "f7b44e1b7c77e6a3a868a1f8e889c164f0905568f1c794c901bd22c4ab0678b4",
+    "flora/src/client/java/dev/chromus/flora/client/FloraChestRenderer.java": "f4badc20ac6acfca3e4ea763e2e2644ea29b0e9710c359f120ad7ed9354eee40",
+    "flora/src/client/java/dev/chromus/flora/client/FloraClient.java": "07b8fbc53fa102dfc8d49d33511551ae1d37c79e095fcb5504bb691b8fff0d8c",
+    "flora/src/client/java/dev/chromus/flora/client/FloraJade.java": "48f68de9098d808a2b65ce26884c4ad5d8933a5b1339e246a127fafe14c94b44",
+    "flora/src/client/java/dev/chromus/flora/client/FloraModMenu.java": "74ba60fdfdbe2de25bb38015bbf417fd58364c052790617f00122c4729115708",
+    "flora/src/client/java/dev/chromus/flora/client/FloraSettingsScreen.java": "c4f0d7cb65c43160868847b7be125fb1e3e98567edaded03eca730a8b1a9925a",
+    "flora/src/client/java/dev/chromus/flora/client/package-info.java": "caced3618042252cdedde0f18052d4330b3e9efce1245c964312cda05d49d267",
+    "flora/src/main/java/dev/chromus/flora/ChromusFlora.java": "801acf2dd0a9db3f47c6254cb6ed023885485e8227192a65c4c7ecfafc2f3bba",
+    "flora/src/main/java/dev/chromus/flora/FloraBoats.java": "8e72f8cdbfc6a80b0d257c78868f5ad41fa9a5ac4f1c484db0198234964811d5",
+    "flora/src/main/java/dev/chromus/flora/FloraCatalog.java": "13be5777ebc54feb5996ea1ba42685352fedebe8443b13380b8d791a6873d696",
+    "flora/src/main/java/dev/chromus/flora/FloraConfig.java": "69455b25696181122e08408039cf42a904f2d08a0fed10006e43740fb182a5f3",
+    "flora/src/main/java/dev/chromus/flora/FloraContent.java": "4499e1398c60098b5b55d3a249e6410bca46cb3f9ccfc5a0b708b2b6697bd35e",
+    "flora/src/main/java/dev/chromus/flora/FloraFurniture.java": "782a133b38df0d99465179b33773ea6832a574b9a0f1e526c4497e368cd5fcd8",
+    "flora/src/main/java/dev/chromus/flora/FloraWoodworks.java": "ecc077b3f92b39d842912c173704d68589f3a4eb21349ae43b1ad55a88b0477d",
+    "flora/src/main/java/dev/chromus/flora/block/FloraButton.java": "17e3efedf06631f146a9266294c5f0182069afa0329d23b8eafd48e7d9cc16e5",
+    "flora/src/main/java/dev/chromus/flora/block/FloraChest.java": "993de676e9a0810e5a26e30140f52b366c15437bcd5c6ecde070ee37885b76c2",
+    "flora/src/main/java/dev/chromus/flora/block/FloraChestEntity.java": "4f9d9ed2001e1f1e2051ab087c107cc9e8a2c053efd2ce72111da2b2fb5977e6",
+    "flora/src/main/java/dev/chromus/flora/block/FloraCraftingTable.java": "56775cf7326cf5bd222ae4ffef35afdfd36dfd72cb9f90e4cb3485db41789454",
+    "flora/src/main/java/dev/chromus/flora/block/FloraDoor.java": "c886662316c0cd6a2f02d91aa2142d37cf066bf3bfc4d3e79903e4574c2c3ac6",
+    "flora/src/main/java/dev/chromus/flora/block/FloraPressurePlate.java": "2fa638341674224c40957955388d29255c733cad83a98706082d9f65615f2739",
+    "flora/src/main/java/dev/chromus/flora/block/FloraStairs.java": "176b1a59b7f69c28c47b47c6b83d753889bb53cbf778792fd154343e7691b6c6",
+    "flora/src/main/java/dev/chromus/flora/block/FloraTrapDoor.java": "5763548668f48890745ba97aaed8592e43d2e35c3428baf4cfaa1235e58b610c",
+    "flora/src/main/java/dev/chromus/flora/block/package-info.java": "3b24cb417052ab94ede33db25c7bf4f7c2fee4c28ccdad3be4dc3e69725e2f6d",
+    "flora/src/main/java/dev/chromus/flora/compat/ChunkReadMixinPlugin.java": "ed04b6708c51a94bf2da4ddcc1446cc6b0ce7ed19da41e2c28b34bbc85afde6a",
+    "flora/src/main/java/dev/chromus/flora/compat/NaturalistChunkMixinPlugin.java": "b530741afc4936fceb61268ad1fca56ee4d38a3951f7a919c55aaa6a35671737",
+    "flora/src/main/java/dev/chromus/flora/compat/VegetationOrderCompatibility.java": "c06bf27af09e286f4b9137ae32379effdfbc6eab8a300fab30dfb071228d8f57",
+    "flora/src/main/java/dev/chromus/flora/compat/package-info.java": "c71c1bec7d5f4501063f7c28653a448d9ec4e11c61c971ab6e2c1e27a0b8bcba",
+    "flora/src/main/java/dev/chromus/flora/mixin/ChunkReadCompatibility.java": "a3877cdfb0958628f64132ecfd26cd88a123770c3ab592b489601841b380d85c",
+    "flora/src/main/java/dev/chromus/flora/mixin/NaturalistHippoCompatibility.java": "a2adc2b94c1cf0cdb9f8e6fb8cacfd5dd6709f8036715e13621f921084e0a2e9",
+    "flora/src/main/java/dev/chromus/flora/package-info.java": "dc1a0faa41cba53ae7df0e71dfd94573fd020331e8620d0f74a2774f535addce",
+    "flora/src/main/java/dev/chromus/flora/world/TreeFootprint.java": "b13d3ae4c84fd075fc5b78710ec8a1f0d79e3b707426f09e5af999a9f6f8eeb1",
+    "flora/src/main/java/dev/chromus/flora/world/package-info.java": "c6e3201f857fe7c3be7b98ce27f64dee51bcbf845cdafb7e990bf5dc9afae169",
+    "versions/26.2/src/client/java/dev/chromus/flora/client/FloraRenderSubmission.java": "739cf8d4da8dd78aa89473b20fb1ca7611583691278ab74b0f4a0be3cea6a44e",
+    "versions/26.2/src/main/java/dev/chromus/flora/FloraPlatform.java": "9723b9f2a06dcf805b52ee4386b75268b3b05203440784251e92c538df2a8a6d",
+    "versions/26.2/src/main/java/dev/chromus/flora/FloraWoodworksPlatform.java": "17e1a0ca71de5d3b4fbf39df01331c059dda1d919ee71e3e42f17e1d56154284",
+    "versions/26.2/src/main/java/dev/chromus/flora/block/FloraSapling.java": "d0c56691d94c1d6c8fa2d48cc90bcd74b2dcfd2129f6f252a4dd91d18d175392",
+    "versions/26.2/src/main/java/dev/chromus/flora/block/package-info.java": "3b24cb417052ab94ede33db25c7bf4f7c2fee4c28ccdad3be4dc3e69725e2f6d",
+    "versions/26.2/src/main/java/dev/chromus/flora/compat/JaizCompatibility.java": "dbc895b88f1a20085cbe4f886971c67078a7c90a00ecad1a3e724fb4e5c90c76",
+    "versions/26.2/src/main/java/dev/chromus/flora/compat/package-info.java": "c71c1bec7d5f4501063f7c28653a448d9ec4e11c61c971ab6e2c1e27a0b8bcba",
+    "versions/26.2/src/main/java/dev/chromus/flora/package-info.java": "dc1a0faa41cba53ae7df0e71dfd94573fd020331e8620d0f74a2774f535addce",
+    "versions/26.2/src/main/java/dev/chromus/flora/world/BoundedTreeFeature.java": "19119b8aa72d8448bdeb18364b5dcdbad6683297b953559cbf6d4a54a1ab7709",
+    "versions/26.2/src/main/java/dev/chromus/flora/world/FloraTerraBlender.java": "fe58f74e6c94a7065c7cba53517acc75be94ab5ff66f687e7b61157d185f110f",
+    "versions/26.2/src/main/java/dev/chromus/flora/world/package-info.java": "c6e3201f857fe7c3be7b98ce27f64dee51bcbf845cdafb7e990bf5dc9afae169",
+    "versions/26.3/src/client/java/dev/chromus/flora/client/FloraRenderSubmission.java": "a2de43e3fb6eba2e258948dbadb932f3067bd546b9af9598da8e40f8a378e80c",
+    "versions/26.3/src/main/java/dev/chromus/flora/FloraPlatform.java": "1518c725efd181bc8836f11f44fb1adc6a61efd7ce024d86cc273a76015e8551",
+    "versions/26.3/src/main/java/dev/chromus/flora/FloraWoodworksPlatform.java": "003f88578b1404bc29eda8b787d144eb56e71a8dad9f5305421f6cf86cdf305b",
+    "versions/26.3/src/main/java/dev/chromus/flora/block/FloraSapling.java": "68e347aa823ef264342aab810316a244f6acace066cae6f2ee76f4cf7b87f7fb",
+    "versions/26.3/src/main/java/dev/chromus/flora/block/package-info.java": "3b24cb417052ab94ede33db25c7bf4f7c2fee4c28ccdad3be4dc3e69725e2f6d",
+    "versions/26.3/src/main/java/dev/chromus/flora/compat/JaizCompatibility.java": "0a97effe65c297ebc56d78ef1122e5e5c5871e3f48fff09e3d338af90df28657",
+    "versions/26.3/src/main/java/dev/chromus/flora/compat/package-info.java": "c71c1bec7d5f4501063f7c28653a448d9ec4e11c61c971ab6e2c1e27a0b8bcba",
+    "versions/26.3/src/main/java/dev/chromus/flora/package-info.java": "dc1a0faa41cba53ae7df0e71dfd94573fd020331e8620d0f74a2774f535addce",
+    "versions/26.3/src/main/java/dev/chromus/flora/world/BoundedTreeFeature.java": "9bc61be189ff9db7ddf77492c71c716d0835f91253beae7388a94805fe2eef64",
+    "versions/26.3/src/main/java/dev/chromus/flora/world/FloraTerraBlender.java": "66e4776ee65b0275789cc73100886b38db415f959322a786f219270f58ab464b",
+    "versions/26.3/src/main/java/dev/chromus/flora/world/package-info.java": "c6e3201f857fe7c3be7b98ce27f64dee51bcbf845cdafb7e990bf5dc9afae169"
+  },
+  "python_ast_sha256": {
+    "tools/boats.py": "dedd48268ce1d0efb985f56f46382d0ee942546529ecbde4aa0ba35884890075",
+    "tools/check-boats.py": "c0e098fd4aadb887c232843558f0b949de7daa3304f6f7c4acec94a952a0ee1d",
+    "tools/check-crafting-completion.py": "66245d53bffbdcb7b087e3d835a5b90a6b2211e3ffdbbdcf03460bf49bbe9c72",
+    "tools/check-door-gallery.py": "52404f8ceaad8a6869ea9f81b0ffcbaa0f085961169940e03f43d7849b3736cd",
+    "tools/check-feature-order.py": "67edf8c92df3331398cbd9c6a44080b75a3afd674691620e9bb8285df75d0a41",
+    "tools/check-furniture-rendering.py": "e7c88ea1aad72af8f752551d0e46705b7cd17b269d06175df175a4ab782f9a48",
+    "tools/check-joinery.py": "a21b8247d28109309e1b57b487be0b3925f7ce56570d90dfc6e56dffeb281671",
+    "tools/check-ottyg-bytecode.py": "f44d34a47b3978d6134dde188542c04dd15075d799c6443931fb6665e5ef85eb",
+    "tools/check-palette-preservation.py": "585739b89f8a6e48f23c76114def18c54f5c9c71e57826656305d9a4ee77b407",
+    "tools/check-release.py": "3e33f103b999504a15f84ea168c02e106b7e6f5e2872c8e8a4d58e383d81a26c",
+    "tools/check-vegetation-compatibility.py": "b272208febd6804a38b637b857c957073638d0d30c383d2cc4501af23de9016a",
+    "tools/check-visual-resources.py": "e72aa4b79117acef1891502b826ac431bfa9caacb14f33e57964ad550fd3761d",
+    "tools/check-woodworks.py": "fb067b199de63b33e241a7d9bbea722c6840efa3c2067bba08ae39f4260a3887",
+    "tools/check-worldgen.py": "49a22c7718da0cc11d99ad197661336c67641c3b1e8bc0d24a562b71120eb68c",
+    "tools/crafting_completion.py": "53967af5fd4f411a5c8878671a35299f50f1d0beeab84820ca6765191af01922",
+    "tools/generate-door-test-gallery.py": "414b8b935679f948df59d87fd0f7a5caaa58fb0095f407cd22cabf075aa96b86",
+    "tools/generate-door-trapdoor-art.py": "a4f5c5b31f2c4aa10df1eee2cc55d233e15356d046703ad8cdafdd8efa8f6271",
+    "tools/generate.py": "6510f0afffe0230a1602be8a4924b2eee9b56e36fb968f5d67db1cf43502163c",
+    "tools/joinery.py": "129b2fe9c4b99575e3dbfe76800edf8f3eccb35681767fa7f269e3e2c7ca8cc3",
+    "tools/palette_overrides.py": "e9255cbd651acab8341ddf8ed2b4749279760666b17839a9bfadee7187b20dac",
+    "tools/preview-joinery.py": "c90f221802c60cc7f2939606f3fa34a6a819af37f43032029071af4df35a04b2",
+    "tools/resources_263.py": "12974fc187ef7d3a3872e06da01c44cd12c19557960a0cef667205185d95ae09",
+    "tools/scan.py": "7f7b3cb5da520db6cdbf928d4189bb4fca697c4858be30fa66848db11ecba15d",
+    "tools/texture_tiles.py": "d6508fda03ff7d192603feffdae28e3756193a58a11c9070370b683b645bcc87",
+    "tools/tree_shapes.py": "6284cad791feb3b728a8ac03f7623ebe1c56b6bdad7ecdb55b0725862b12c080",
+    "tools/verify-jars.py": "d3c305b6d155b15ab1b6a732fc9c8d6bf89f2ba39320ed900842cba1208a7c19",
+    "tools/wood_recipes.py": "41edcb0e45309df958a2e3dcbe39ae58b9d4c0075042760e7dd05833886a113a",
+    "tools/woodworks.py": "a4bdf68755fa3163488bbe38fccbbfee72fc48ef396061ab9d9c8cb07b75825b"
+  },
+  "mcfunction_files_checked": 2,
+  "removed_comment_or_docstring_spans": 136,
+  "cli_help_preserved": "tools/check-ottyg-bytecode.py: argparse description now uses the same explicit string instead of the removed module docstring."
+}

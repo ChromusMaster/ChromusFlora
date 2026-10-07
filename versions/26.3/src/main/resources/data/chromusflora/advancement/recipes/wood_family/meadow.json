@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:meadow_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:meadow_planks",
+      "chromusflora:meadow_wood",
+      "chromusflora:meadow_slab",
+      "chromusflora:meadow_stairs",
+      "chromusflora:meadow_fence",
+      "chromusflora:meadow_fence_gate",
+      "chromusflora:meadow_door",
+      "chromusflora:meadow_trapdoor",
+      "chromusflora:meadow_crafting_table",
+      "chromusflora:meadow_chest",
+      "chromusflora:meadow_boat",
+      "chromusflora:stripped_meadow_wood"
+    ]
+  }
+}

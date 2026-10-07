@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:brown_birch_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:brown_birch_sign",
+    "count": 3
+  }
+}

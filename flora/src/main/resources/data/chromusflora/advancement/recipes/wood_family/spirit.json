@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:spirit_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:spirit_planks",
+      "chromusflora:spirit_wood",
+      "chromusflora:spirit_slab",
+      "chromusflora:spirit_stairs",
+      "chromusflora:spirit_fence",
+      "chromusflora:spirit_fence_gate",
+      "chromusflora:spirit_door",
+      "chromusflora:spirit_trapdoor",
+      "chromusflora:spirit_crafting_table",
+      "chromusflora:spirit_chest",
+      "chromusflora:spirit_boat",
+      "chromusflora:stripped_spirit_wood"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:witch_hazel_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:witch_hazel_planks",
+      "chromusflora:witch_hazel_wood",
+      "chromusflora:witch_hazel_slab",
+      "chromusflora:witch_hazel_stairs",
+      "chromusflora:witch_hazel_fence",
+      "chromusflora:witch_hazel_fence_gate",
+      "chromusflora:witch_hazel_door",
+      "chromusflora:witch_hazel_trapdoor",
+      "chromusflora:witch_hazel_crafting_table",
+      "chromusflora:witch_hazel_chest",
+      "chromusflora:witch_hazel_boat",
+      "chromusflora:stripped_witch_hazel_wood"
+    ]
+  }
+}

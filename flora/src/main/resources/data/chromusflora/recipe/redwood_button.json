@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "chromusflora:redwood_planks"
+  ],
+  "category": "redstone",
+  "group": "wooden_button",
+  "result": {
+    "id": "chromusflora:redwood_button",
+    "count": 1
+  }
+}

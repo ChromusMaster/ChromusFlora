@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:forgotten_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:forgotten_planks",
+      "chromusflora:forgotten_wood",
+      "chromusflora:forgotten_slab",
+      "chromusflora:forgotten_stairs",
+      "chromusflora:forgotten_fence",
+      "chromusflora:forgotten_fence_gate",
+      "chromusflora:forgotten_door",
+      "chromusflora:forgotten_trapdoor",
+      "chromusflora:forgotten_crafting_table",
+      "chromusflora:forgotten_chest",
+      "chromusflora:forgotten_boat",
+      "chromusflora:stripped_forgotten_wood"
+    ]
+  }
+}

@@ -1,8 +1,12 @@
 {
   "status": "PASS",
-  "assertions": 15706,
+  "assertions": 16042,
   "errors": [],
-  "old_definitions_preserved": 4223,
-  "recipes_per_target": 1000,
+  "old_definitions_preserved": 4211,
+  "approved_visual_overrides": 12,
+  "recipes_per_target": {
+    "26.2": 1416,
+    "26.3": 1416
+  },
   "scope": "Static file and graph checks only; no Java, Gradle or Minecraft execution"
 }

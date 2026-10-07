@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:yellow_spruce_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:yellow_spruce_planks",
+      "chromusflora:yellow_spruce_wood",
+      "chromusflora:yellow_spruce_slab",
+      "chromusflora:yellow_spruce_stairs",
+      "chromusflora:yellow_spruce_fence",
+      "chromusflora:yellow_spruce_fence_gate",
+      "chromusflora:yellow_spruce_door",
+      "chromusflora:yellow_spruce_trapdoor",
+      "chromusflora:yellow_spruce_crafting_table",
+      "chromusflora:yellow_spruce_chest",
+      "chromusflora:yellow_spruce_boat",
+      "chromusflora:stripped_yellow_spruce_wood"
+    ]
+  }
+}

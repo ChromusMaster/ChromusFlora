@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:purple_bulbis_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:purple_bulbis_sign",
+    "count": 3
+  }
+}

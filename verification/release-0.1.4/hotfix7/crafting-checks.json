@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "assertions": 6986,
+  "wood_families": 83,
+  "targets": [
+    "26.2",
+    "26.3"
+  ],
+  "retired_fallback_recipes": 3,
+  "family_unlocks_per_target": 83,
+  "errors": [],
+  "scope": "Static recipe matching/tag expansion/unlock schemas. No game or compilation."
+}

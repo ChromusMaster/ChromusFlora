@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:withering_oak_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:withering_oak_planks",
+      "chromusflora:withering_oak_wood",
+      "chromusflora:withering_oak_slab",
+      "chromusflora:withering_oak_stairs",
+      "chromusflora:withering_oak_fence",
+      "chromusflora:withering_oak_fence_gate",
+      "chromusflora:withering_oak_door",
+      "chromusflora:withering_oak_trapdoor",
+      "chromusflora:withering_oak_crafting_table",
+      "chromusflora:withering_oak_chest",
+      "chromusflora:withering_oak_boat",
+      "chromusflora:stripped_withering_oak_wood"
+    ]
+  }
+}

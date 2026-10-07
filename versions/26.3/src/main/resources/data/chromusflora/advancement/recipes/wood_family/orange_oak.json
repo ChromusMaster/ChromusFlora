@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:orange_oak_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:orange_oak_planks",
+      "chromusflora:orange_oak_wood",
+      "chromusflora:orange_oak_slab",
+      "chromusflora:orange_oak_stairs",
+      "chromusflora:orange_oak_fence",
+      "chromusflora:orange_oak_fence_gate",
+      "chromusflora:orange_oak_door",
+      "chromusflora:orange_oak_trapdoor",
+      "chromusflora:orange_oak_crafting_table",
+      "chromusflora:orange_oak_chest",
+      "chromusflora:orange_oak_boat",
+      "chromusflora:stripped_orange_oak_wood"
+    ]
+  }
+}

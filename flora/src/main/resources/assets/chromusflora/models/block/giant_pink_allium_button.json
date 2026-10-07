@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "chromusflora:block/wood/giant_pink_allium/planks"
+  }
+}

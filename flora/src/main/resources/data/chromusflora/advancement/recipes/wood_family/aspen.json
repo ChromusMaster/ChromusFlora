@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:aspen_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:aspen_planks",
+      "chromusflora:aspen_wood",
+      "chromusflora:aspen_slab",
+      "chromusflora:aspen_stairs",
+      "chromusflora:aspen_fence",
+      "chromusflora:aspen_fence_gate",
+      "chromusflora:aspen_door",
+      "chromusflora:aspen_trapdoor",
+      "chromusflora:aspen_crafting_table",
+      "chromusflora:aspen_chest",
+      "chromusflora:aspen_boat",
+      "chromusflora:stripped_aspen_wood"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:brown_birch_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:brown_birch_planks",
+      "chromusflora:brown_birch_wood",
+      "chromusflora:brown_birch_slab",
+      "chromusflora:brown_birch_stairs",
+      "chromusflora:brown_birch_fence",
+      "chromusflora:brown_birch_fence_gate",
+      "chromusflora:brown_birch_door",
+      "chromusflora:brown_birch_trapdoor",
+      "chromusflora:brown_birch_crafting_table",
+      "chromusflora:brown_birch_chest",
+      "chromusflora:brown_birch_boat",
+      "chromusflora:stripped_brown_birch_wood"
+    ]
+  }
+}

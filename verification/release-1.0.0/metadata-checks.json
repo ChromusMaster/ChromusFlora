@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Static expansion simulation, not a Gradle build",
+  "java_token_comparisons": 55,
+  "targets": [
+    {
+      "target": "26.2",
+      "loader_version": "1.0.0",
+      "internal": {
+        "internal_version": "1.4",
+        "source_revision": "0.1.4-hotfix8"
+      },
+      "artifact": "build/26.2/Fabric/chromus-flora-1.0.0-26.2.jar"
+    },
+    {
+      "target": "26.3",
+      "loader_version": "1.0.0",
+      "internal": {
+        "internal_version": "1.4",
+        "source_revision": "0.1.4-hotfix8"
+      },
+      "artifact": "build/26.3/Fabric/chromus-flora-1.0.0-26.3.jar"
+    }
+  ]
+}

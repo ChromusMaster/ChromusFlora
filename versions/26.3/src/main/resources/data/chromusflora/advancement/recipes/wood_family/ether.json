@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:ether_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:ether_planks",
+      "chromusflora:ether_wood",
+      "chromusflora:ether_slab",
+      "chromusflora:ether_stairs",
+      "chromusflora:ether_fence",
+      "chromusflora:ether_fence_gate",
+      "chromusflora:ether_door",
+      "chromusflora:ether_trapdoor",
+      "chromusflora:ether_crafting_table",
+      "chromusflora:ether_chest",
+      "chromusflora:ether_boat",
+      "chromusflora:stripped_ether_wood"
+    ]
+  }
+}

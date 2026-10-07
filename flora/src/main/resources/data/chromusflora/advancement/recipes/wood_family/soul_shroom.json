@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:soul_shroom_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:soul_shroom_planks",
+      "chromusflora:soul_shroom_wood",
+      "chromusflora:soul_shroom_slab",
+      "chromusflora:soul_shroom_stairs",
+      "chromusflora:soul_shroom_fence",
+      "chromusflora:soul_shroom_fence_gate",
+      "chromusflora:soul_shroom_door",
+      "chromusflora:soul_shroom_trapdoor",
+      "chromusflora:soul_shroom_crafting_table",
+      "chromusflora:soul_shroom_chest",
+      "chromusflora:soul_shroom_boat",
+      "chromusflora:stripped_soul_shroom_wood"
+    ]
+  }
+}

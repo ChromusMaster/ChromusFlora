@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:silver_maple_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:silver_maple_planks",
+      "chromusflora:silver_maple_wood",
+      "chromusflora:silver_maple_slab",
+      "chromusflora:silver_maple_stairs",
+      "chromusflora:silver_maple_fence",
+      "chromusflora:silver_maple_fence_gate",
+      "chromusflora:silver_maple_door",
+      "chromusflora:silver_maple_trapdoor",
+      "chromusflora:silver_maple_crafting_table",
+      "chromusflora:silver_maple_chest",
+      "chromusflora:silver_maple_boat",
+      "chromusflora:stripped_silver_maple_wood"
+    ]
+  }
+}

@@ -1,10 +1,10 @@
 apply plugin: 'net.fabricmc.fabric-loom'
 
-version = "${rootProject.mod_version}-${targetMinecraft}"
+version = rootProject.mod_version
 group = rootProject.maven_group
 base { archivesName = rootProject.archives_base_name }
-// All target outputs (classes, generated resources, reports and JARs) belong
-// to this loader. Future NeoForge projects must use their own sibling folder.
+
+
 layout.buildDirectory = rootProject.layout.buildDirectory.dir("${targetMinecraft}/Fabric")
 
 repositories {
@@ -92,7 +92,8 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 def metadata = [version: project.version.toString(), minecraft: targetMinecraft,
-                terrablender: runtimeTerraBlender, trees: runtimeTrees]
+                terrablender: runtimeTerraBlender, trees: runtimeTrees,
+                internal_version: rootProject.internal_version, source_revision: rootProject.source_revision]
 
 tasks.named('processResources', ProcessResources) {
     dependsOn tasks.named('prepareResources')
@@ -101,6 +102,7 @@ tasks.named('processResources', ProcessResources) {
 }
 
 tasks.withType(AbstractArchiveTask).configureEach {
+    archiveVersion = "${project.version}-${targetMinecraft}"
     preserveFileTimestamps = false
     reproducibleFileOrder = true
 }

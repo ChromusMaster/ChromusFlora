@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_sword",
+  "pattern": [
+    "P",
+    "P",
+    "S"
+  ],
+  "key": {
+    "P": "chromusflora:bulbis_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:bulbis_sword",
+    "count": 1
+  }
+}

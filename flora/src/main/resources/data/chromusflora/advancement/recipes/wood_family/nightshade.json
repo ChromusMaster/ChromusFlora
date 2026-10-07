@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:nightshade_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:nightshade_planks",
+      "chromusflora:nightshade_wood",
+      "chromusflora:nightshade_slab",
+      "chromusflora:nightshade_stairs",
+      "chromusflora:nightshade_fence",
+      "chromusflora:nightshade_fence_gate",
+      "chromusflora:nightshade_door",
+      "chromusflora:nightshade_trapdoor",
+      "chromusflora:nightshade_crafting_table",
+      "chromusflora:nightshade_chest",
+      "chromusflora:nightshade_boat",
+      "chromusflora:stripped_nightshade_wood"
+    ]
+  }
+}

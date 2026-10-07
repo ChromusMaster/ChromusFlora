@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:ancient_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:ancient_planks",
+      "chromusflora:ancient_wood",
+      "chromusflora:ancient_slab",
+      "chromusflora:ancient_stairs",
+      "chromusflora:ancient_fence",
+      "chromusflora:ancient_fence_gate",
+      "chromusflora:ancient_door",
+      "chromusflora:ancient_trapdoor",
+      "chromusflora:ancient_crafting_table",
+      "chromusflora:ancient_chest",
+      "chromusflora:ancient_boat",
+      "chromusflora:stripped_ancient_wood"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-"""Static geometry regressions; does not start Java, Gradle or Minecraft."""
+
 import itertools
 import json
 import math
@@ -19,7 +19,7 @@ def read(path):
 
 
 def intersections(elements):
-    """Positive volume or same-facing coplanar area can cause hidden geometry/flicker."""
+
     volumes, faces = [], []
     for (i, a), (j, b) in itertools.combinations(enumerate(elements), 2):
         overlap = [min(a['to'][k], b['to'][k]) - max(a['from'][k], b['from'][k])
@@ -60,7 +60,7 @@ def verify():
                           for face in element['faces'].values()), f'{name}_{kind}: UV outside the sprite')
             if kind == 'crafting_table':
                 max_quads = max(max_quads, sum(len(e['faces']) for e in elements))
-                # This point is in the full cube but outside the inset cabinet.
+
                 point = (8, 0.5, 0.5)
                 check(not any(all(e['from'][k] <= point[k] <= e['to'][k] for k in range(3))
                               for e in elements), name + ': cabinet gap was filled to hide the bug')
@@ -88,8 +88,8 @@ def verify():
           'Stationary meshes must not duplicate the native moving parts')
     check('bodies = stationaryParts(false);' in renderer and 'interiors = stationaryParts(true);' in renderer,
           'Body and interior variants must be built once per renderer')
-    # Evaluate only the small arithmetic/conditional geometry declarations in the
-    # actual Java source. Do not copy expected dimensions into the test fixture.
+
+
     def arithmetic(expr, values):
         import ast
         node = ast.parse(re.sub(r'(\d(?:[\d.]*))F', r'\1', expr.strip()), mode='eval').body
@@ -126,8 +126,8 @@ def verify():
         check(not overlap, kind + ': dark cap and wooden rim overlap')
         check(all(e['from'][1] == body_top and e['to'][1] == body_top for e in tops),
               kind + ': top surfaces detached from body')
-        # Every half-unit sample on the roof is covered exactly once, including
-        # the join edge region of double chests. A missing/duplicate cap fails.
+
+
         for xi in range(int(body[0]*2), int((body[0]+body[3])*2)):
             for zi in range(2, 30):
                 x, z = xi/2 + .25, zi/2 + .25
@@ -145,7 +145,7 @@ def verify():
                 check(lowest >= body_top - EPS, f'{version}/{kind}: overlap at {degree} degrees')
     check(all(value == 1 for value in old_overlap), 'Native overlap regression fixture is inconsistent')
 
-    # Prove that the detector catches the original cabinet/post and tool overlaps.
+
     def cube(a, b):
         return {'from': a, 'to': b, 'faces': {face: {} for face in AXES}}
     original = [cube([1, 0, 1], [15, 15, 15]), cube([0, 0, 0], [2, 15, 2]),

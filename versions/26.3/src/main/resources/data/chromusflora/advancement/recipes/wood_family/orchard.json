@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:orchard_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:orchard_planks",
+      "chromusflora:orchard_wood",
+      "chromusflora:orchard_slab",
+      "chromusflora:orchard_stairs",
+      "chromusflora:orchard_fence",
+      "chromusflora:orchard_fence_gate",
+      "chromusflora:orchard_door",
+      "chromusflora:orchard_trapdoor",
+      "chromusflora:orchard_crafting_table",
+      "chromusflora:orchard_chest",
+      "chromusflora:orchard_boat",
+      "chromusflora:stripped_orchard_wood"
+    ]
+  }
+}

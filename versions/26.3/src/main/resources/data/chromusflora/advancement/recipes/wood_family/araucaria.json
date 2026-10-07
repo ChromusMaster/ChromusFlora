@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:araucaria_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:araucaria_planks",
+      "chromusflora:araucaria_wood",
+      "chromusflora:araucaria_slab",
+      "chromusflora:araucaria_stairs",
+      "chromusflora:araucaria_fence",
+      "chromusflora:araucaria_fence_gate",
+      "chromusflora:araucaria_door",
+      "chromusflora:araucaria_trapdoor",
+      "chromusflora:araucaria_crafting_table",
+      "chromusflora:araucaria_chest",
+      "chromusflora:araucaria_boat",
+      "chromusflora:stripped_araucaria_wood"
+    ]
+  }
+}

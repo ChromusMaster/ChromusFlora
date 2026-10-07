@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:white_cherry_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:white_cherry_planks",
+      "chromusflora:white_cherry_wood",
+      "chromusflora:white_cherry_slab",
+      "chromusflora:white_cherry_stairs",
+      "chromusflora:white_cherry_fence",
+      "chromusflora:white_cherry_fence_gate",
+      "chromusflora:white_cherry_door",
+      "chromusflora:white_cherry_trapdoor",
+      "chromusflora:white_cherry_crafting_table",
+      "chromusflora:white_cherry_chest",
+      "chromusflora:white_cherry_boat",
+      "chromusflora:stripped_white_cherry_wood"
+    ]
+  }
+}

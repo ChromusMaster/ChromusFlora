@@ -1,0 +1,9 @@
+{
+  "reason": "H8 adds registration, translations and additive axe tag; no existing geometry or palette changes.",
+  "files": {
+    "flora/src/main/java/dev/chromus/flora/FloraContent.java": "74a668e1233665c815b0c574ad93f8734fa4e3a749688480aef19bd20c6aa781",
+    "flora/src/main/resources/assets/chromusflora/lang/en_us.json": "2b704f38edbdf15d8747ec1d694924582a598b416bf056ac75940763875e2c47",
+    "flora/src/main/resources/assets/chromusflora/lang/pt_br.json": "679153daf5063f568e58bd77ce5709bb33bb5aa50465e03f90de4595b7c08049",
+    "flora/src/main/resources/data/minecraft/tags/block/mineable/axe.json": "41bad5f4b602fd5020a7b0363da342ed8b6ee6f6a6cafd8781aca21ff0bd5f52"
+  }
+}

@@ -1,4 +1,4 @@
-"""Static resource contracts for furniture and door artwork."""
+
 from pathlib import Path
 import hashlib,json
 from PIL import Image

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:death_cap_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:death_cap_planks",
+      "chromusflora:death_cap_wood",
+      "chromusflora:death_cap_slab",
+      "chromusflora:death_cap_stairs",
+      "chromusflora:death_cap_fence",
+      "chromusflora:death_cap_fence_gate",
+      "chromusflora:death_cap_door",
+      "chromusflora:death_cap_trapdoor",
+      "chromusflora:death_cap_crafting_table",
+      "chromusflora:death_cap_chest",
+      "chromusflora:death_cap_boat",
+      "chromusflora:stripped_death_cap_wood"
+    ]
+  }
+}

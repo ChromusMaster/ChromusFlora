@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": {
+      "fabric:type": "fabric:difference",
+      "base": "#minecraft:wooden_tool_materials",
+      "subtracted": "#chromusflora:planks"
+    }
+  },
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "result": {
+    "id": "minecraft:wooden_sword"
+  }
+}

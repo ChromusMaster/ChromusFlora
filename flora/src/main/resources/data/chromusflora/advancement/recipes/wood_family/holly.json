@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:holly_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:holly_planks",
+      "chromusflora:holly_wood",
+      "chromusflora:holly_slab",
+      "chromusflora:holly_stairs",
+      "chromusflora:holly_fence",
+      "chromusflora:holly_fence_gate",
+      "chromusflora:holly_door",
+      "chromusflora:holly_trapdoor",
+      "chromusflora:holly_crafting_table",
+      "chromusflora:holly_chest",
+      "chromusflora:holly_boat",
+      "chromusflora:stripped_holly_wood"
+    ]
+  }
+}

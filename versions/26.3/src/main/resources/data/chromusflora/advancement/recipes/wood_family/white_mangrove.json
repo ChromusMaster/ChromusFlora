@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:white_mangrove_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:white_mangrove_planks",
+      "chromusflora:white_mangrove_wood",
+      "chromusflora:white_mangrove_slab",
+      "chromusflora:white_mangrove_stairs",
+      "chromusflora:white_mangrove_fence",
+      "chromusflora:white_mangrove_fence_gate",
+      "chromusflora:white_mangrove_door",
+      "chromusflora:white_mangrove_trapdoor",
+      "chromusflora:white_mangrove_crafting_table",
+      "chromusflora:white_mangrove_chest",
+      "chromusflora:white_mangrove_boat",
+      "chromusflora:stripped_white_mangrove_wood"
+    ]
+  }
+}

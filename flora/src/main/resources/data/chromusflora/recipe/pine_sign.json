@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:pine_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:pine_sign",
+    "count": 3
+  }
+}

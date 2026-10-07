@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:red_oak_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:red_oak_planks",
+      "chromusflora:red_oak_wood",
+      "chromusflora:red_oak_slab",
+      "chromusflora:red_oak_stairs",
+      "chromusflora:red_oak_fence",
+      "chromusflora:red_oak_fence_gate",
+      "chromusflora:red_oak_door",
+      "chromusflora:red_oak_trapdoor",
+      "chromusflora:red_oak_crafting_table",
+      "chromusflora:red_oak_chest",
+      "chromusflora:red_oak_boat",
+      "chromusflora:stripped_red_oak_wood"
+    ]
+  }
+}

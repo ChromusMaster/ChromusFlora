@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:yucca_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:yucca_planks",
+      "chromusflora:yucca_wood",
+      "chromusflora:yucca_slab",
+      "chromusflora:yucca_stairs",
+      "chromusflora:yucca_fence",
+      "chromusflora:yucca_fence_gate",
+      "chromusflora:yucca_door",
+      "chromusflora:yucca_trapdoor",
+      "chromusflora:yucca_crafting_table",
+      "chromusflora:yucca_chest",
+      "chromusflora:yucca_boat",
+      "chromusflora:stripped_yucca_wood"
+    ]
+  }
+}

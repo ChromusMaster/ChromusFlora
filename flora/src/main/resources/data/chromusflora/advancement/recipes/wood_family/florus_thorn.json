@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:florus_thorn_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:florus_thorn_planks",
+      "chromusflora:florus_thorn_wood",
+      "chromusflora:florus_thorn_slab",
+      "chromusflora:florus_thorn_stairs",
+      "chromusflora:florus_thorn_fence",
+      "chromusflora:florus_thorn_fence_gate",
+      "chromusflora:florus_thorn_door",
+      "chromusflora:florus_thorn_trapdoor",
+      "chromusflora:florus_thorn_crafting_table",
+      "chromusflora:florus_thorn_chest",
+      "chromusflora:florus_thorn_boat",
+      "chromusflora:stripped_florus_thorn_wood"
+    ]
+  }
+}

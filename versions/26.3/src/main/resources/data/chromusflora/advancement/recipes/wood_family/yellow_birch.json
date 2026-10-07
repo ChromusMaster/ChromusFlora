@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:yellow_birch_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:yellow_birch_planks",
+      "chromusflora:yellow_birch_wood",
+      "chromusflora:yellow_birch_slab",
+      "chromusflora:yellow_birch_stairs",
+      "chromusflora:yellow_birch_fence",
+      "chromusflora:yellow_birch_fence_gate",
+      "chromusflora:yellow_birch_door",
+      "chromusflora:yellow_birch_trapdoor",
+      "chromusflora:yellow_birch_crafting_table",
+      "chromusflora:yellow_birch_chest",
+      "chromusflora:yellow_birch_boat",
+      "chromusflora:stripped_yellow_birch_wood"
+    ]
+  }
+}

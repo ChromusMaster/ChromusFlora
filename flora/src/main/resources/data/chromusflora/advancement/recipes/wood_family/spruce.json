@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:spruce_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:spruce_planks",
+      "chromusflora:spruce_wood",
+      "chromusflora:spruce_slab",
+      "chromusflora:spruce_stairs",
+      "chromusflora:spruce_fence",
+      "chromusflora:spruce_fence_gate",
+      "chromusflora:spruce_door",
+      "chromusflora:spruce_trapdoor",
+      "chromusflora:spruce_crafting_table",
+      "chromusflora:spruce_chest",
+      "chromusflora:spruce_boat",
+      "chromusflora:stripped_spruce_wood"
+    ]
+  }
+}

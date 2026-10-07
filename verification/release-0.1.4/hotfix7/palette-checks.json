@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "assertions": 17669,
+  "preserved_files": 17351,
+  "wood_textures_changed": 12,
+  "leaf_models_changed": 38,
+  "new_leaf_textures": 16,
+  "mean_plank_rgb": {
+    "blue_spruce": [
+      190.653076171875,
+      194.1884765625,
+      195.041015625
+    ],
+    "giant_white_allium": [
+      226.60986328125,
+      229.4912109375,
+      214.09765625
+    ],
+    "white_cherry": [
+      240.683349609375,
+      219.51220703125,
+      198.879638671875
+    ],
+    "white_sakura": [
+      244.203369140625,
+      222.28564453125,
+      220.774169921875
+    ]
+  },
+  "errors": [],
+  "scope": "Static hashes, exact model comparison and opaque seamless tiles; no game execution."
+}

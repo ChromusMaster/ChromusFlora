@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:zelkova_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:zelkova_planks",
+      "chromusflora:zelkova_wood",
+      "chromusflora:zelkova_slab",
+      "chromusflora:zelkova_stairs",
+      "chromusflora:zelkova_fence",
+      "chromusflora:zelkova_fence_gate",
+      "chromusflora:zelkova_door",
+      "chromusflora:zelkova_trapdoor",
+      "chromusflora:zelkova_crafting_table",
+      "chromusflora:zelkova_chest",
+      "chromusflora:zelkova_boat",
+      "chromusflora:stripped_zelkova_wood"
+    ]
+  }
+}

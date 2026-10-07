@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:skyris_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:skyris_planks",
+      "chromusflora:skyris_wood",
+      "chromusflora:skyris_slab",
+      "chromusflora:skyris_stairs",
+      "chromusflora:skyris_fence",
+      "chromusflora:skyris_fence_gate",
+      "chromusflora:skyris_door",
+      "chromusflora:skyris_trapdoor",
+      "chromusflora:skyris_crafting_table",
+      "chromusflora:skyris_chest",
+      "chromusflora:skyris_boat",
+      "chromusflora:stripped_skyris_wood"
+    ]
+  }
+}

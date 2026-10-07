@@ -16,9 +16,9 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public final class FloraCraftingTable extends Block {
     public FloraCraftingTable(BlockBehaviour.Properties properties) {
-        // The inset cabinet leaves visible gaps between its corner posts.
-        // A full-cube occluder would hide the ground and adjacent block faces.
-        // Keep the existing collision shape and menu behaviour.
+
+
+
         super(properties.noOcclusion());
     }
 

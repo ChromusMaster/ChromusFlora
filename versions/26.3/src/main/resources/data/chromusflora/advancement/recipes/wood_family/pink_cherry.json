@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:pink_cherry_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:pink_cherry_planks",
+      "chromusflora:pink_cherry_wood",
+      "chromusflora:pink_cherry_slab",
+      "chromusflora:pink_cherry_stairs",
+      "chromusflora:pink_cherry_fence",
+      "chromusflora:pink_cherry_fence_gate",
+      "chromusflora:pink_cherry_door",
+      "chromusflora:pink_cherry_trapdoor",
+      "chromusflora:pink_cherry_crafting_table",
+      "chromusflora:pink_cherry_chest",
+      "chromusflora:pink_cherry_boat",
+      "chromusflora:stripped_pink_cherry_wood"
+    ]
+  }
+}

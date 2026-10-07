@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:yucca_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:yucca_sign",
+    "count": 3
+  }
+}

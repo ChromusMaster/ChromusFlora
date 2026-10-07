@@ -60,7 +60,16 @@ def verify():
                     check(not any('"' + key + '"' in text for key in ['conditions', 'function', 'functions', 'block_state_property']), 'Old loot schema ' + name)
             check(not any('/configured_feature/' in name for name in files), '26.2 features leaked into 26.3')
     fingerprint = read(BASELINE / 'fix10-preserved-resources.json')
+    palette_fixture = read(REPORT / 'hotfix7/preservation-fixture.json')
+    approved = {name.removeprefix('flora/src/main/resources/'): digest
+                for name, digest in palette_fixture['approved_wood_textures'].items()}
+    revised = 0
     for name, digest in fingerprint['files'].items():
+        if name in approved:
+            check(hashlib.sha256(resources[name].read_bytes()).hexdigest() == approved[name],
+                  'Unapproved wood palette: ' + name)
+            revised += 1
+            continue
         check(name in resources and hashlib.sha256(resources[name].read_bytes()).hexdigest() == digest, 'Changed saved-world definition: ' + name)
     graph = runpy.run_path(str(ROOT / 'tools/check-feature-order.py'))
     vanilla = read(ROOT / 'verification/fix8/vanilla-feature-order.json')['biomes']
@@ -78,8 +87,22 @@ def verify():
     (REPORT / 'hotfix6/furniture-checks.json').write_text(json.dumps(furniture, indent=2) + '\n')
     check(furniture['status'] == 'PASS', 'Furniture geometry/occlusion and loader output regression: '
           + '; '.join(furniture['errors']))
+    for script, filename in [('check-palette-preservation.py', 'palette-checks.json'),
+                             ('check-crafting-completion.py', 'crafting-checks.json')]:
+        result = runpy.run_path(str(ROOT / 'tools' / script))['verify']()
+        (REPORT / 'hotfix7' / filename).write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+        check(result['status'] == 'PASS', script + ': ' + '; '.join(result['errors']))
+    woodworks = runpy.run_path(str(ROOT / 'tools/check-woodworks.py'))['verify']()
+    (REPORT / 'hotfix8/woodworks-checks.json').write_text(json.dumps(woodworks, indent=2) + '\n', encoding='utf-8')
+    check(woodworks['status'] == 'PASS', 'Woodworks regression: ' + '; '.join(woodworks['errors']))
+    public = runpy.run_path(str(ROOT / 'tools/check-public-release.py'))['verify']()
+    (ROOT / 'verification/release-1.0.0/release-checks.json').write_text(json.dumps(public, indent=2) + '\n')
+    check(public['status'] == 'PASS', 'Public release regression: ' + '; '.join(public['errors']))
     return {'status': 'PASS' if not errors else 'FAIL', 'assertions': checks, 'errors': errors,
-            'old_definitions_preserved': len(fingerprint['files']), 'recipes_per_target': 1000,
+            'old_definitions_preserved': len(fingerprint['files']) - revised,
+            'approved_visual_overrides': revised,
+            'recipes_per_target': {target: len([n for n in files if n.startswith('data/chromusflora/recipe/') and n.endswith('.json')])
+                                   for target, files in targets.items()},
             'scope': 'Static file and graph checks only; no Java, Gradle or Minecraft execution'}
 
 

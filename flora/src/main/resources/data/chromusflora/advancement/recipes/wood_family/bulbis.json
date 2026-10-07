@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:bulbis_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:bulbis_planks",
+      "chromusflora:bulbis_wood",
+      "chromusflora:bulbis_slab",
+      "chromusflora:bulbis_stairs",
+      "chromusflora:bulbis_fence",
+      "chromusflora:bulbis_fence_gate",
+      "chromusflora:bulbis_door",
+      "chromusflora:bulbis_trapdoor",
+      "chromusflora:bulbis_crafting_table",
+      "chromusflora:bulbis_chest",
+      "chromusflora:bulbis_boat",
+      "chromusflora:stripped_bulbis_wood"
+    ]
+  }
+}

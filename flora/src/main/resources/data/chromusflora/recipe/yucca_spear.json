@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_spear",
+  "pattern": [
+    "  P",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "P": "chromusflora:yucca_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:yucca_spear",
+    "count": 1
+  }
+}

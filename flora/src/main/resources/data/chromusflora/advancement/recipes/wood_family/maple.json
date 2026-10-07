@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:maple_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:maple_planks",
+      "chromusflora:maple_wood",
+      "chromusflora:maple_slab",
+      "chromusflora:maple_stairs",
+      "chromusflora:maple_fence",
+      "chromusflora:maple_fence_gate",
+      "chromusflora:maple_door",
+      "chromusflora:maple_trapdoor",
+      "chromusflora:maple_crafting_table",
+      "chromusflora:maple_chest",
+      "chromusflora:maple_boat",
+      "chromusflora:stripped_maple_wood"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "files": {
+    "flora/src/client/java/dev/chromus/flora/client/FloraChestModel.java": {
+      "before_sha256": "504a934f1d79e7b2f1cf45deccb8b4fd329a6714f46d8019a0104004c50a2a45",
+      "after_sha256": "dc221af2bc8e5303c9c944b4bc3d515dc6ba5e9f060cb1f96a19ffa7d3b30e9d",
+      "reason": "Comments removed; Java parsed tokens unchanged"
+    },
+    "flora/src/main/java/dev/chromus/flora/block/FloraCraftingTable.java": {
+      "before_sha256": "21a941eda70ee75c13083075639b5f4b25d10786d7a7dee5011ad694e714fc3b",
+      "after_sha256": "5e7eaf516879f4d979d8af9222b78a6a9ee901b09a82a8cd0fdf829d12757746",
+      "reason": "Comments removed; Java parsed tokens unchanged"
+    },
+    "flora/src/main/java/dev/chromus/flora/compat/NaturalistChunkMixinPlugin.java": {
+      "before_sha256": "af2b78acb355d3e3c6dd98ea3e61564b6d505399aeaa13943f93540d63bd2bb8",
+      "after_sha256": "1148dfc7004ab58877b4c9ca5c2bb11b87b6f683ed7de110d60469c02e333de8",
+      "reason": "Comments removed; Java parsed tokens unchanged"
+    },
+    "flora/src/main/java/dev/chromus/flora/compat/VegetationOrderCompatibility.java": {
+      "before_sha256": "1ec99c68e9aa0d27002b0abbacfc89566d9b40c97506e993e0ceb4141e4920e3",
+      "after_sha256": "9e560a8d14f453bccfde46e00b260eabb0fc5cd5f87458642d417c86398d0817",
+      "reason": "Comments removed; Java parsed tokens unchanged"
+    },
+    "flora/src/main/java/dev/chromus/flora/mixin/NaturalistHippoCompatibility.java": {
+      "before_sha256": "568a944dd14954323ed4b9fad06338777a8f5016ded74a87ce6fb53e2e264e4e",
+      "after_sha256": "9ec78a8438bd0b62be14be7fb8dbb5c736fbc6403797ea6b27ed237386bf7d3a",
+      "reason": "Comments removed; Java parsed tokens unchanged"
+    },
+    "flora/src/main/resources/fabric.mod.json": {
+      "before_sha256": "8797671f4943bbf20d4b4bd32c9730a12877d367fa5d55103c26af3912e7a160",
+      "after_sha256": "0d5165a0efffaee280b4a87036453e410aba261502a3e3d070c10b982e73c261",
+      "reason": "Build provenance metadata"
+    },
+    "gradle.properties": {
+      "before_sha256": "c65ed23c735161a64e02774f66e091bcc9da1739358e9ed1b1c3fccd4cd5bac9",
+      "after_sha256": "059a035536182e5f90fb889c888cff3222826bc2379d54d4dad8f2e6a25bd955",
+      "reason": "Public/internal version separation; archive names retain game target"
+    },
+    "gradle/mod.gradle": {
+      "before_sha256": "028148899ef4ef27dd6a54bbea974e9a829b06685ab793ea41a4dee5b87db195",
+      "after_sha256": "a656e89e52739438a278e07223b9a06213627e8f68f9579b58a5927b6788c9bd",
+      "reason": "Public/internal version separation; archive names retain game target"
+    },
+    "flora/src/main/resources/data/chromusflora/function/test/doors_trapdoors.mcfunction": {
+      "before_sha256": "8e8bf327b032dffc1a6baa3eaed9a4149f9c515c7732ad0b750fe3c17cd68f2e",
+      "after_sha256": "75ed9d5b6260c11f342a16d441f302a5c0d9c33abebba3500147a1dfe221e057",
+      "reason": "Removed comment lines; executable command sequence unchanged"
+    },
+    "flora/src/main/resources/data/chromusflora/function/test/clear_doors_trapdoors.mcfunction": {
+      "before_sha256": "b259d95a4252202b813c4a94cd152fa5cd76c0511370600c9b84f4c9df288be1",
+      "after_sha256": "d09a3300631d4454da8f6b48765506a850f30411a0754cf6aee82f54836a2543",
+      "reason": "Removed comment lines; executable command sequence unchanged"
+    }
+  }
+}

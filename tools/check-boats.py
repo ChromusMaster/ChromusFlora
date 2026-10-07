@@ -1,4 +1,4 @@
-"""Check complete wood-boat resources for both versions without running Java."""
+
 import json
 from pathlib import Path
 

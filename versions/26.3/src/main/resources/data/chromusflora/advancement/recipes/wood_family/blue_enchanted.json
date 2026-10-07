@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:blue_enchanted_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:blue_enchanted_planks",
+      "chromusflora:blue_enchanted_wood",
+      "chromusflora:blue_enchanted_slab",
+      "chromusflora:blue_enchanted_stairs",
+      "chromusflora:blue_enchanted_fence",
+      "chromusflora:blue_enchanted_fence_gate",
+      "chromusflora:blue_enchanted_door",
+      "chromusflora:blue_enchanted_trapdoor",
+      "chromusflora:blue_enchanted_crafting_table",
+      "chromusflora:blue_enchanted_chest",
+      "chromusflora:blue_enchanted_boat",
+      "chromusflora:stripped_blue_enchanted_wood"
+    ]
+  }
+}

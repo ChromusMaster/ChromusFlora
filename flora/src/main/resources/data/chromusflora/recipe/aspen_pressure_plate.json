@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP"
+  ],
+  "key": {
+    "P": "chromusflora:aspen_planks"
+  },
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
+  "result": {
+    "id": "chromusflora:aspen_pressure_plate",
+    "count": 1
+  }
+}

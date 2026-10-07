@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:weeping_milkcap_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:weeping_milkcap_planks",
+      "chromusflora:weeping_milkcap_wood",
+      "chromusflora:weeping_milkcap_slab",
+      "chromusflora:weeping_milkcap_stairs",
+      "chromusflora:weeping_milkcap_fence",
+      "chromusflora:weeping_milkcap_fence_gate",
+      "chromusflora:weeping_milkcap_door",
+      "chromusflora:weeping_milkcap_trapdoor",
+      "chromusflora:weeping_milkcap_crafting_table",
+      "chromusflora:weeping_milkcap_chest",
+      "chromusflora:weeping_milkcap_boat",
+      "chromusflora:stripped_weeping_milkcap_wood"
+    ]
+  }
+}

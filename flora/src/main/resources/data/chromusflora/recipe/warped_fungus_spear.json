@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_spear",
+  "pattern": [
+    "  P",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "P": "chromusflora:warped_fungus_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:warped_fungus_spear",
+    "count": 1
+  }
+}

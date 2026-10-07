@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:cika_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:cika_planks",
+      "chromusflora:cika_wood",
+      "chromusflora:cika_slab",
+      "chromusflora:cika_stairs",
+      "chromusflora:cika_fence",
+      "chromusflora:cika_fence_gate",
+      "chromusflora:cika_door",
+      "chromusflora:cika_trapdoor",
+      "chromusflora:cika_crafting_table",
+      "chromusflora:cika_chest",
+      "chromusflora:cika_boat",
+      "chromusflora:stripped_cika_wood"
+    ]
+  }
+}

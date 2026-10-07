@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "chromusflora:block/leaves_0"
+    "all": "chromusflora:block/foliage/silver_sage"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:redwood_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:redwood_planks",
+      "chromusflora:redwood_wood",
+      "chromusflora:redwood_slab",
+      "chromusflora:redwood_stairs",
+      "chromusflora:redwood_fence",
+      "chromusflora:redwood_fence_gate",
+      "chromusflora:redwood_door",
+      "chromusflora:redwood_trapdoor",
+      "chromusflora:redwood_crafting_table",
+      "chromusflora:redwood_chest",
+      "chromusflora:redwood_boat",
+      "chromusflora:stripped_redwood_wood"
+    ]
+  }
+}

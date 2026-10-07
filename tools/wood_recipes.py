@@ -123,6 +123,8 @@ def generate():
     joinery.generate()
     import runpy
     runpy.run_path(str(ROOT / "tools/generate-door-trapdoor-art.py"), run_name="__main__")
+    from crafting_completion import generate as complete_crafting
+    complete_crafting()
 
 
 if __name__ == '__main__':

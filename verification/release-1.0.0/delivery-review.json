@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "public_version": "1.0.0",
+  "internal_version": "1.4",
+  "base_revision": "0.1.4-hotfix8",
+  "changed_paths": [
+    {
+      "path": "CHANGELOG.md",
+      "kind": "updated"
+    },
+    {
+      "path": "gradle.properties",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-ottyg-bytecode.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/generate.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-woodworks.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-boats.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-furniture-rendering.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/crafting_completion.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/release_preservation.py",
+      "kind": "added"
+    },
+    {
+      "path": "tools/check-release.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/verify-jars.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/generate-door-test-gallery.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-vegetation-compatibility.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-crafting-completion.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/generate-door-trapdoor-art.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/woodworks.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-joinery.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/palette_overrides.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-palette-preservation.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/preview-joinery.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/check-public-release.py",
+      "kind": "added"
+    },
+    {
+      "path": "tools/joinery.py",
+      "kind": "updated"
+    },
+    {
+      "path": "tools/clean-project.ps1",
+      "kind": "updated"
+    },
+    {
+      "path": "gradle/mod.gradle",
+      "kind": "updated"
+    },
+    {
+      "path": "verification/global-scan.json",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/client/java/dev/chromus/flora/client/FloraChestModel.java",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/main/resources/fabric.mod.json",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/main/resources/data/chromusflora/function/test/doors_trapdoors.mcfunction",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/main/resources/data/chromusflora/function/test/clear_doors_trapdoors.mcfunction",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/compat/NaturalistChunkMixinPlugin.java",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/compat/VegetationOrderCompatibility.java",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/mixin/NaturalistHippoCompatibility.java",
+      "kind": "updated"
+    },
+    {
+      "path": "flora/src/main/java/dev/chromus/flora/block/FloraCraftingTable.java",
+      "kind": "updated"
+    },
+    {
+      "path": "verification/release-0.1.4/checks.json",
+      "kind": "updated"
+    },
+    {
+      "path": "verification/release-1.0.0/delivery-review.json",
+      "kind": "added"
+    },
+    {
+      "path": "verification/release-1.0.0/regeneration-checks.json",
+      "kind": "added"
+    },
+    {
+      "path": "verification/release-1.0.0/metadata-checks.json",
+      "kind": "added"
+    },
+    {
+      "path": "verification/release-1.0.0/comment-removal.json",
+      "kind": "added"
+    },
+    {
+      "path": "verification/release-1.0.0/release-checks.json",
+      "kind": "added"
+    },
+    {
+      "path": "verification/release-1.0.0/preservation-amendments.json",
+      "kind": "added"
+    },
+    {
+      "path": "verification/release-1.0.0/release-contract.json",
+      "kind": "added"
+    }
+  ],
+  "preserved_editable_files": [
+    ".vscode/settings.json",
+    "APLICAR_0.1.4.md",
+    "README.md",
+    "docs/DESEMPENHO_0.1.2.md",
+    "docs/DOOR_TRAPDOOR_TEST_INDEX.md",
+    "docs/REVISAO_0.1.1.md",
+    "docs/REVISAO_0.1.2.md",
+    "docs/REVISAO_0.1.3.md",
+    "docs/REVISAO_0.1.4.md"
+  ],
+  "validation": {
+    "java_token_equivalence": 55,
+    "removed_comments_docstrings": 136,
+    "scan_assertions": 214297,
+    "release_assertions": 16042,
+    "public_release_assertions": 21735,
+    "woodworks_assertions": 45815,
+    "furniture_assertions": 7685,
+    "joinery_assertions": 2595,
+    "boat_assertions": 3495,
+    "gallery_assertions": 419,
+    "regenerated_resources": 21534
+  },
+  "not_performed": [
+    "Java compilation",
+    "Gradle build",
+    "Minecraft execution",
+    "CurseForge submission"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:florus_rose_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:florus_rose_planks",
+      "chromusflora:florus_rose_wood",
+      "chromusflora:florus_rose_slab",
+      "chromusflora:florus_rose_stairs",
+      "chromusflora:florus_rose_fence",
+      "chromusflora:florus_rose_fence_gate",
+      "chromusflora:florus_rose_door",
+      "chromusflora:florus_rose_trapdoor",
+      "chromusflora:florus_rose_crafting_table",
+      "chromusflora:florus_rose_chest",
+      "chromusflora:florus_rose_boat",
+      "chromusflora:stripped_florus_rose_wood"
+    ]
+  }
+}

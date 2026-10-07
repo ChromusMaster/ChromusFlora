@@ -1,0 +1,191 @@
+{
+  "scope": "Class files inspected with Python/jawa; no Java compiler or JVM execution.",
+  "targets": {
+    "26.2": {
+      "client_sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+      "fabric_version": "0.161.0+26.2",
+      "methods": [
+        {
+          "owner": "net/minecraft/world/level/block/StandingSignBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/level/block/WallSignBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/level/block/ButtonBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;ILnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/level/block/PressurePlateBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/Item$Properties",
+          "name": "sword",
+          "descriptor": "(Lnet/minecraft/world/item/ToolMaterial;FF)Lnet/minecraft/world/item/Item$Properties;",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/Item$Properties",
+          "name": "spear",
+          "descriptor": "(Lnet/minecraft/world/item/ToolMaterial;FFFFFFFFF)Lnet/minecraft/world/item/Item$Properties;",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/fabricmc/fabric/api/object/builder/v1/block/entity/FabricBlockEntityType",
+          "name": "addValidBlock",
+          "descriptor": "(Lnet/minecraft/world/level/block/Block;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/BlockItem",
+          "name": "registerBlocks",
+          "descriptor": "(Ljava/util/Map;Lnet/minecraft/world/item/Item;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/SignItem",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/fabricmc/fabric/api/registry/FuelValueEvents$Context",
+          "name": "baseSmeltTime",
+          "descriptor": "()I",
+          "accessible_not_deprecated": true
+        }
+      ],
+      "native_wood_weapon_arguments": {
+        "WOODEN_SWORD": [
+          3.0,
+          -2.4
+        ],
+        "WOODEN_SPEAR": [
+          0.65,
+          0.7,
+          0.75,
+          5.0,
+          14.0,
+          10.0,
+          5.1,
+          15.0,
+          4.6
+        ]
+      },
+      "fabric_block_entity_extension": [
+        "net/fabricmc/fabric/api/object/builder/v1/block/entity/FabricBlockEntityType"
+      ],
+      "compile_time_interface_injection": [
+        "transitive-inject-interface\tnet/minecraft/world/level/block/entity/BlockEntityType\tnet/fabricmc/fabric/api/object/builder/v1/block/entity/FabricBlockEntityType"
+      ]
+    },
+    "26.3": {
+      "client_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+      "fabric_version": "0.161.0+26.3",
+      "methods": [
+        {
+          "owner": "net/minecraft/world/level/block/StandingSignBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/level/block/WallSignBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/WoodType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/level/block/ButtonBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;ILnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/level/block/PressurePlateBlock",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/state/properties/BlockSetType;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/Item$Properties",
+          "name": "sword",
+          "descriptor": "(Lnet/minecraft/world/item/ToolMaterial;FF)Lnet/minecraft/world/item/Item$Properties;",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/Item$Properties",
+          "name": "spear",
+          "descriptor": "(Lnet/minecraft/world/item/ToolMaterial;FFFFFFFFF)Lnet/minecraft/world/item/Item$Properties;",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/fabricmc/fabric/api/object/builder/v1/block/entity/FabricBlockEntityType",
+          "name": "addValidBlock",
+          "descriptor": "(Lnet/minecraft/world/level/block/Block;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/BlockItem",
+          "name": "registerBlocks",
+          "descriptor": "(Ljava/util/Map;Lnet/minecraft/world/item/Item;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/StandingAndWallBlockItem",
+          "name": "<init>",
+          "descriptor": "(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/Item$Properties;)V",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/Item$Properties",
+          "name": "signText",
+          "descriptor": "()Lnet/minecraft/world/item/Item$Properties;",
+          "accessible_not_deprecated": true
+        },
+        {
+          "owner": "net/minecraft/world/item/Item$Properties",
+          "name": "cookingFuel",
+          "descriptor": "(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/Item$Properties;",
+          "accessible_not_deprecated": true
+        }
+      ],
+      "native_wood_weapon_arguments": {
+        "WOODEN_SWORD": [
+          3.0,
+          -2.4
+        ],
+        "WOODEN_SPEAR": [
+          0.65,
+          0.7,
+          0.75,
+          5.0,
+          14.0,
+          10.0,
+          5.1,
+          15.0,
+          4.6
+        ]
+      },
+      "fabric_block_entity_extension": [
+        "net/fabricmc/fabric/api/object/builder/v1/block/entity/FabricBlockEntityType"
+      ],
+      "compile_time_interface_injection": [
+        "transitive-inject-interface\tnet/minecraft/world/level/block/entity/BlockEntityType\tnet/fabricmc/fabric/api/object/builder/v1/block/entity/FabricBlockEntityType"
+      ]
+    }
+  },
+  "errors": [],
+  "status": "PASS"
+}

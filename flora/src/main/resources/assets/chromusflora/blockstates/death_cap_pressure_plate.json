@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "chromusflora:block/death_cap_pressure_plate"
+    },
+    "powered=true": {
+      "model": "chromusflora:block/death_cap_pressure_plate_down"
+    }
+  }
+}

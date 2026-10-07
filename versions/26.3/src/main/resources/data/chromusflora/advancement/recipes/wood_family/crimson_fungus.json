@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:crimson_fungus_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:crimson_fungus_planks",
+      "chromusflora:crimson_fungus_wood",
+      "chromusflora:crimson_fungus_slab",
+      "chromusflora:crimson_fungus_stairs",
+      "chromusflora:crimson_fungus_fence",
+      "chromusflora:crimson_fungus_fence_gate",
+      "chromusflora:crimson_fungus_door",
+      "chromusflora:crimson_fungus_trapdoor",
+      "chromusflora:crimson_fungus_crafting_table",
+      "chromusflora:crimson_fungus_chest",
+      "chromusflora:crimson_fungus_boat",
+      "chromusflora:stripped_crimson_fungus_wood"
+    ]
+  }
+}

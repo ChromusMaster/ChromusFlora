@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:shulkren_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:shulkren_planks",
+      "chromusflora:shulkren_wood",
+      "chromusflora:shulkren_slab",
+      "chromusflora:shulkren_stairs",
+      "chromusflora:shulkren_fence",
+      "chromusflora:shulkren_fence_gate",
+      "chromusflora:shulkren_door",
+      "chromusflora:shulkren_trapdoor",
+      "chromusflora:shulkren_crafting_table",
+      "chromusflora:shulkren_chest",
+      "chromusflora:shulkren_boat",
+      "chromusflora:stripped_shulkren_wood"
+    ]
+  }
+}

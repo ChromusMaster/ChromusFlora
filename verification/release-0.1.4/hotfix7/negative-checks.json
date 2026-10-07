@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "mutation": "flora/src/main/resources/assets/chromusflora/models/block/blue_spruce_leaves.json",
+      "detected": true,
+      "matching_errors": [
+        "Wrong foliage: blue_spruce",
+        "Stale leaf assignment: blue_spruce"
+      ]
+    },
+    {
+      "mutation": "flora/src/main/resources/data/chromusflora/recipe/vanilla_sign_from_flora.json",
+      "detected": true,
+      "matching_errors": [
+        "26.2 fallback ancient/vanilla_sign_from_flora",
+        "26.2 fallback araucaria/vanilla_sign_from_flora"
+      ]
+    },
+    {
+      "mutation": "versions/26.3/src/main/resources/data/chromusflora/advancement/recipes/blue_spruce_fence.json",
+      "detected": true,
+      "matching_errors": [
+        "26.3 wrong unlock field recipes/blue_spruce_fence.json"
+      ]
+    }
+  ],
+  "scope": "Negative static tests in disposable source copy; every mutated file restored"
+}

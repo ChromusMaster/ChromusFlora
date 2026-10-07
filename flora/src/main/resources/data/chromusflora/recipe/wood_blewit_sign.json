@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:wood_blewit_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:wood_blewit_sign",
+    "count": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_sign_rot_3",
+  "textures": {
+    "all": "chromusflora:block/wood/white_mangrove/planks",
+    "particle": "chromusflora:block/wood/white_mangrove/planks"
+  }
+}

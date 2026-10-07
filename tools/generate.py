@@ -423,6 +423,8 @@ def main():
     write(RES/'chromusflora/catalog.json',{'trees':SPEC['trees'],'biomes':SPEC['biomes']})
     write(RES/'chromusflora/jaiz-compatibility.json',json.loads((ROOT/'atelier/jaiz-compatibility.json').read_text()))
     tree_resources();block_resources();biome_resources();localization();textures()
+    from palette_overrides import apply as apply_palette_overrides
+    apply_palette_overrides()
     from wood_recipes import generate as wood_recipes
     from resources_263 import generate as resources_263
     wood_recipes()
@@ -440,7 +442,8 @@ def main():
         'depends':{'fabricloader':'>=0.19.5','minecraft':'${minecraft}','java':'>=25','fabric-api':'>=0.161.0',
                    'terrablender':'${terrablender}','ohthetreesyoullgrow':'${trees}'},
         'suggests':{'jaizmod':'>=2.3.11','appleskin':'*','jade':'*','modmenu':'*'},
-        'breaks':{'jaizmod':'<2.3.11'},'custom':{'modmenu':{'badges':[]}}})
+        'breaks':{'jaizmod':'<2.3.11'},'custom':{'modmenu':{'badges':[]},
+        'chromusflora:build':{'internal_version':'${internal_version}','source_revision':'${source_revision}'}}})
     write(ROOT/'docs/content-coverage.json',{'biomes':SPEC['biomes'],'trees':SPEC['trees'],'variants':SPEC['variants'],
             'excluded_non_tree_candidates':SPEC['excluded_candidates'],'arr_assets_copied':0,'arr_code_copied':0})
     print(json.dumps({'biomes':len(SPEC['biomes']),'families':len(TREES),'variants':len(SPEC['variants']),

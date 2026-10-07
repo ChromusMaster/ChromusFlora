@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:sythian_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:sythian_planks",
+      "chromusflora:sythian_wood",
+      "chromusflora:sythian_slab",
+      "chromusflora:sythian_stairs",
+      "chromusflora:sythian_fence",
+      "chromusflora:sythian_fence_gate",
+      "chromusflora:sythian_door",
+      "chromusflora:sythian_trapdoor",
+      "chromusflora:sythian_crafting_table",
+      "chromusflora:sythian_chest",
+      "chromusflora:sythian_boat",
+      "chromusflora:stripped_sythian_wood"
+    ]
+  }
+}

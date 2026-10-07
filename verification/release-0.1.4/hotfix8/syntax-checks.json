@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "java_files": 55,
+  "errors": [],
+  "scope": "Java syntax parsing only, not Java type checking or compilation."
+}

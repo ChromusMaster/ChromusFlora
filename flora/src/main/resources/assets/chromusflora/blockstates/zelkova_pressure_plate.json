@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "chromusflora:block/zelkova_pressure_plate"
+    },
+    "powered=true": {
+      "model": "chromusflora:block/zelkova_pressure_plate_down"
+    }
+  }
+}

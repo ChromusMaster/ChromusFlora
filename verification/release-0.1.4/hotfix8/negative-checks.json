@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "mutation": "flora/src/main/resources/data/minecraft/recipe/wooden_sword.json",
+      "detected": true,
+      "example": [
+        "26.2 ambiguous vanilla ancient_sword"
+      ]
+    },
+    {
+      "mutation": "flora/src/main/resources/data/chromusflora/loot_table/blocks/blue_spruce_wall_sign.json",
+      "detected": true,
+      "example": [
+        "26.2 wrong drop blue_spruce_wall_sign"
+      ]
+    },
+    {
+      "mutation": "flora/src/main/resources/data/chromusflora/recipe/vanilla_button_from_flora.json",
+      "detected": true,
+      "example": [
+        "26.2 legacy fallback overlaps button"
+      ]
+    }
+  ],
+  "scope": "Static negative tests in isolated copy; mutations restored."
+}

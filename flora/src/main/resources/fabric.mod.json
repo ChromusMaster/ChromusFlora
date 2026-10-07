@@ -45,6 +45,10 @@
     "jaizmod": "<2.3.11"
   },
   "custom": {
+    "chromusflora:build": {
+      "internal_version": "${internal_version}",
+      "source_revision": "${source_revision}"
+    },
     "modmenu": {
       "badges": []
     }

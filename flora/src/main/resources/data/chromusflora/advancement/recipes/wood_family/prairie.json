@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:prairie_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:prairie_planks",
+      "chromusflora:prairie_wood",
+      "chromusflora:prairie_slab",
+      "chromusflora:prairie_stairs",
+      "chromusflora:prairie_fence",
+      "chromusflora:prairie_fence_gate",
+      "chromusflora:prairie_door",
+      "chromusflora:prairie_trapdoor",
+      "chromusflora:prairie_crafting_table",
+      "chromusflora:prairie_chest",
+      "chromusflora:prairie_boat",
+      "chromusflora:stripped_prairie_wood"
+    ]
+  }
+}

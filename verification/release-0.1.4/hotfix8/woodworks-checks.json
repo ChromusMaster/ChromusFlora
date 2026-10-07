@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "assertions": 45815,
+  "errors": [],
+  "families": 83,
+  "new_items": 415,
+  "new_blocks": 332,
+  "preserved_h7_files": 17578,
+  "scope": "Static recipe matching, resources and source contracts only; no compilation or game execution."
+}

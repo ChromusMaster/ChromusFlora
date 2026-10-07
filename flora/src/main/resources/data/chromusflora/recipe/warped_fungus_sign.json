@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:warped_fungus_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:warped_fungus_sign",
+    "count": 3
+  }
+}

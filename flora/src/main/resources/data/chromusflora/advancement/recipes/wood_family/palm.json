@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:palm_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:palm_planks",
+      "chromusflora:palm_wood",
+      "chromusflora:palm_slab",
+      "chromusflora:palm_stairs",
+      "chromusflora:palm_fence",
+      "chromusflora:palm_fence_gate",
+      "chromusflora:palm_door",
+      "chromusflora:palm_trapdoor",
+      "chromusflora:palm_crafting_table",
+      "chromusflora:palm_chest",
+      "chromusflora:palm_boat",
+      "chromusflora:stripped_palm_wood"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_sign_rot_1",
+  "textures": {
+    "all": "chromusflora:block/wood/green_enchanted/planks",
+    "particle": "chromusflora:block/wood/green_enchanted/planks"
+  }
+}

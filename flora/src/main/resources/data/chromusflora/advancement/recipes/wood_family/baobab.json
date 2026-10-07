@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:baobab_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:baobab_planks",
+      "chromusflora:baobab_wood",
+      "chromusflora:baobab_slab",
+      "chromusflora:baobab_stairs",
+      "chromusflora:baobab_fence",
+      "chromusflora:baobab_fence_gate",
+      "chromusflora:baobab_door",
+      "chromusflora:baobab_trapdoor",
+      "chromusflora:baobab_crafting_table",
+      "chromusflora:baobab_chest",
+      "chromusflora:baobab_boat",
+      "chromusflora:stripped_baobab_wood"
+    ]
+  }
+}

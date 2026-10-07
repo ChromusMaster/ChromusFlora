@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_spear",
+  "pattern": [
+    "  P",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "P": "chromusflora:silver_maple_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:silver_maple_spear",
+    "count": 1
+  }
+}

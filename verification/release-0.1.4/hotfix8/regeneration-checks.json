@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "resource_files": 21534,
+  "byte_identical": 21531,
+  "equivalent_json": [
+    "flora/src/main/resources/assets/chromusflora/lang/en_us.json",
+    "flora/src/main/resources/assets/chromusflora/lang/pt_br.json",
+    "flora/src/main/resources/fabric.mod.json"
+  ],
+  "differences": [],
+  "scope": "Full Python generator in an isolated source copy; no JVM."
+}

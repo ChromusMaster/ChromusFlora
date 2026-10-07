@@ -1,4 +1,4 @@
-"""Offline regression for the inspected feature-order conflict; never launches Java."""
+
 import copy
 import graphlib
 import itertools

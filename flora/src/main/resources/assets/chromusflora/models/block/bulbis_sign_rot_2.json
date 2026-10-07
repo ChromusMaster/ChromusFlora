@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_sign_rot_2",
+  "textures": {
+    "all": "chromusflora:block/wood/bulbis/planks",
+    "particle": "chromusflora:block/wood/bulbis/planks"
+  }
+}

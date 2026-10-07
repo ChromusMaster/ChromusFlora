@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 
-/** Optional compatibility: no Naturalist classes are linked when that mod is absent. */
+
 public final class NaturalistChunkMixinPlugin implements IMixinConfigPlugin {
     private static final Logger LOGGER = LoggerFactory.getLogger("ChromusFlora/ChunkSafety");
     private static final String TARGET = "com.crispytwig.naturalist.world.entity.animal.hippo.Hippo";

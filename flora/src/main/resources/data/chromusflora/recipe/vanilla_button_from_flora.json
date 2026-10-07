@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    "#chromusflora:planks"
+  ],
+  "result": {
+    "id": "minecraft:oak_button",
+    "count": 1
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:false"
+    }
+  ]
+}

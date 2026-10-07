@@ -1,10 +1,10 @@
-"""Actual OTTYG bytecode interpreted in Python, with modeled NBT and scheduler.
-This is NOT JVM/Mixin execution or validation of a real Minecraft world.
-"""
+
+
+
 from pathlib import Path
 import copy, hashlib, io, json, sys, zipfile
 import argparse
-parser=argparse.ArgumentParser(description=__doc__)
+parser=argparse.ArgumentParser(description='Actual OTTYG bytecode interpreted in Python, with modeled NBT and scheduler.\nThis is NOT JVM/Mixin execution or validation of a real Minecraft world.\n')
 parser.add_argument('--trees262',required=True,type=Path)
 parser.add_argument('--trees263',required=True,type=Path)
 parser.add_argument('--report',type=Path)

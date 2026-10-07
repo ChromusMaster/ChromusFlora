@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:firecracker_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:firecracker_planks",
+      "chromusflora:firecracker_wood",
+      "chromusflora:firecracker_slab",
+      "chromusflora:firecracker_stairs",
+      "chromusflora:firecracker_fence",
+      "chromusflora:firecracker_fence_gate",
+      "chromusflora:firecracker_door",
+      "chromusflora:firecracker_trapdoor",
+      "chromusflora:firecracker_crafting_table",
+      "chromusflora:firecracker_chest",
+      "chromusflora:firecracker_boat",
+      "chromusflora:stripped_firecracker_wood"
+    ]
+  }
+}

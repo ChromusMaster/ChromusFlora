@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:yellow_sakura_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:yellow_sakura_planks",
+      "chromusflora:yellow_sakura_wood",
+      "chromusflora:yellow_sakura_slab",
+      "chromusflora:yellow_sakura_stairs",
+      "chromusflora:yellow_sakura_fence",
+      "chromusflora:yellow_sakura_fence_gate",
+      "chromusflora:yellow_sakura_door",
+      "chromusflora:yellow_sakura_trapdoor",
+      "chromusflora:yellow_sakura_crafting_table",
+      "chromusflora:yellow_sakura_chest",
+      "chromusflora:yellow_sakura_boat",
+      "chromusflora:stripped_yellow_sakura_wood"
+    ]
+  }
+}

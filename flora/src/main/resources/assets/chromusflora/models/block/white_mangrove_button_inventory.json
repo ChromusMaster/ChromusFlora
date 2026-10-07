@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "chromusflora:block/wood/white_mangrove/planks"
+  }
+}

@@ -136,10 +136,10 @@ def main():
     COUNTS.update(biomes=len(spec['biomes']), tree_families=len(families), variants=len(spec['variants']))
     block_ids = {n.removeprefix('assets/chromusflora/blockstates/').removesuffix('.json') for n in data if n.startswith('assets/chromusflora/blockstates/')}
     item_ids = {n.removeprefix('assets/chromusflora/items/').removesuffix('.json') for n in data if n.startswith('assets/chromusflora/items/')}
-    expected_blocks = {t+'_'+suffix for t in families for suffix in ['log','leaves','planks','slab','stairs','fence','fence_gate','sapling','wood','door','trapdoor','crafting_table','chest']}
+    expected_blocks = {t+'_'+suffix for t in families for suffix in ['log','leaves','planks','slab','stairs','fence','fence_gate','sapling','wood','door','trapdoor','crafting_table','chest','sign','wall_sign','button','pressure_plate']}
     expected_blocks |= {'stripped_'+t+'_log' for t in families} | {'stripped_'+t+'_wood' for t in families} | {'potted_'+t+'_sapling' for t in families}
     check(block_ids == expected_blocks, 'Block registry/model mismatch')
-    check(item_ids == {n for n in block_ids if not n.startswith('potted_')} | {'grove_fruit'} | {t+'_boat' for t in families}, 'Item registry/model mismatch')
+    check(item_ids == {n for n in block_ids if not n.startswith('potted_') and not n.endswith('_wall_sign')} | {'grove_fruit'} | {t+'_'+suffix for t in families for suffix in ('boat','sword','spear')}, 'Item registry/model mismatch')
     COUNTS.update(blocks=len(block_ids), items=len(item_ids))
     for id in block_ids:
         check('data/chromusflora/loot_table/blocks/'+id+'.json' in data, 'Missing loot: '+id)
@@ -188,7 +188,7 @@ def main():
                 if node.get('type') == 'minecraft:item' and node['name'].startswith('chromusflora:'):
                     check(node['name'].split(':')[1] in item_ids, 'Unknown loot item '+node['name'])
         if '/recipe/' in path:
-            check(obj['result']['id'].split(':')[1] in item_ids if obj['result']['id'].startswith('chromusflora:') else obj['result']['id'] in {'minecraft:oak_boat','minecraft:chest','minecraft:crafting_table'}, 'Unknown recipe result '+path)
+            check(obj['result']['id'].split(':')[1] in item_ids if obj['result']['id'].startswith('chromusflora:') else obj['result']['id'] in {'minecraft:oak_boat','minecraft:chest','minecraft:crafting_table','minecraft:oak_sign','minecraft:oak_button','minecraft:oak_pressure_plate','minecraft:wooden_sword','minecraft:wooden_spear'}, 'Unknown recipe result '+path)
             for ref in strings(obj.get('key', obj.get('ingredients', []))):
                 if ref.startswith('chromusflora:'):
                     check(ref.split(':')[1] in item_ids, 'Unknown recipe ingredient '+ref)

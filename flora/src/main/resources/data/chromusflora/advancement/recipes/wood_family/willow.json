@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:willow_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:willow_planks",
+      "chromusflora:willow_wood",
+      "chromusflora:willow_slab",
+      "chromusflora:willow_stairs",
+      "chromusflora:willow_fence",
+      "chromusflora:willow_fence_gate",
+      "chromusflora:willow_door",
+      "chromusflora:willow_trapdoor",
+      "chromusflora:willow_crafting_table",
+      "chromusflora:willow_chest",
+      "chromusflora:willow_boat",
+      "chromusflora:stripped_willow_wood"
+    ]
+  }
+}

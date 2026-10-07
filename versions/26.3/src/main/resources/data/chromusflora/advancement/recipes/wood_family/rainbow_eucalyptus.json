@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:rainbow_eucalyptus_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:rainbow_eucalyptus_planks",
+      "chromusflora:rainbow_eucalyptus_wood",
+      "chromusflora:rainbow_eucalyptus_slab",
+      "chromusflora:rainbow_eucalyptus_stairs",
+      "chromusflora:rainbow_eucalyptus_fence",
+      "chromusflora:rainbow_eucalyptus_fence_gate",
+      "chromusflora:rainbow_eucalyptus_door",
+      "chromusflora:rainbow_eucalyptus_trapdoor",
+      "chromusflora:rainbow_eucalyptus_crafting_table",
+      "chromusflora:rainbow_eucalyptus_chest",
+      "chromusflora:rainbow_eucalyptus_boat",
+      "chromusflora:stripped_rainbow_eucalyptus_wood"
+    ]
+  }
+}

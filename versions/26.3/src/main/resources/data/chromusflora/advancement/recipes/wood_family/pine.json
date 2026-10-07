@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:pine_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:pine_planks",
+      "chromusflora:pine_wood",
+      "chromusflora:pine_slab",
+      "chromusflora:pine_stairs",
+      "chromusflora:pine_fence",
+      "chromusflora:pine_fence_gate",
+      "chromusflora:pine_door",
+      "chromusflora:pine_trapdoor",
+      "chromusflora:pine_crafting_table",
+      "chromusflora:pine_chest",
+      "chromusflora:pine_boat",
+      "chromusflora:stripped_pine_wood"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:fir_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:fir_planks",
+      "chromusflora:fir_wood",
+      "chromusflora:fir_slab",
+      "chromusflora:fir_stairs",
+      "chromusflora:fir_fence",
+      "chromusflora:fir_fence_gate",
+      "chromusflora:fir_door",
+      "chromusflora:fir_trapdoor",
+      "chromusflora:fir_crafting_table",
+      "chromusflora:fir_chest",
+      "chromusflora:fir_boat",
+      "chromusflora:stripped_fir_wood"
+    ]
+  }
+}

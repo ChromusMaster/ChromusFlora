@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:fungal_imparius_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:fungal_imparius_planks",
+      "chromusflora:fungal_imparius_wood",
+      "chromusflora:fungal_imparius_slab",
+      "chromusflora:fungal_imparius_stairs",
+      "chromusflora:fungal_imparius_fence",
+      "chromusflora:fungal_imparius_fence_gate",
+      "chromusflora:fungal_imparius_door",
+      "chromusflora:fungal_imparius_trapdoor",
+      "chromusflora:fungal_imparius_crafting_table",
+      "chromusflora:fungal_imparius_chest",
+      "chromusflora:fungal_imparius_boat",
+      "chromusflora:stripped_fungal_imparius_wood"
+    ]
+  }
+}

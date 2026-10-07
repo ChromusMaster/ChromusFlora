@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_sign_rot_2",
+  "textures": {
+    "all": "chromusflora:block/wood/red_spruce/planks",
+    "particle": "chromusflora:block/wood/red_spruce/planks"
+  }
+}

@@ -19,7 +19,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
-/** Compatibility for the inspected 26.2 vegetation ordering, applied only at biome load. */
+
 public final class VegetationOrderCompatibility {
     private static final Identifier BIOME = Identifier.parse("terrestria:rainbow_rainforest");
     private static final GenerationStep.Decoration STEP = GenerationStep.Decoration.VEGETAL_DECORATION;
@@ -72,15 +72,15 @@ public final class VegetationOrderCompatibility {
         if (flowers < 0 || grass < 0 || grass < flowers) {
             return;
         }
-        // Do not rearrange unknown datapack ordering or collapse duplicate entries.
+
         if (grass != flowers + 1 || new HashSet<>(ordered).size() != ordered.size()) {
             ChromusFlora.LOGGER.warn("Vegetation order compatibility skipped for {}: unexpected ordering or duplicates", BIOME);
             return;
         }
         Collections.swap(ordered, flowers, grass);
         BiomeModificationContext.GenerationSettingsContext generation = context.getGenerationSettings();
-        // Fabric appends in call order and rebuilds its cached feature sets when it freezes the biome.
-        // Snapshotting above preserves every registered addition made by other mods.
+
+
         for (ResourceKey<PlacedFeature> key : ordered) {
             generation.removeFeature(STEP, key);
         }

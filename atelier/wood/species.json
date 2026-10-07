@@ -56,7 +56,9 @@
       "art": "slate blue gray scales; cool honey wood",
       "sheet": 1,
       "column": 6,
-      "first_row": 0
+      "first_row": 0,
+      "production_override": "atelier/palette-hotfix7/appearance.json",
+      "override_intent": "light ash wood with subtle desaturated blue-gray undertone; original blue-gray bark retained"
     },
     {
       "id": "bluff",
@@ -210,7 +212,9 @@
       "art": "pale mint green botanical stalk; warm white interior",
       "sheet": 3,
       "column": 0,
-      "first_row": 0
+      "first_row": 0,
+      "production_override": "atelier/palette-hotfix7/appearance.json",
+      "override_intent": "ivory-dominant wood with faint mint veins; stalk bark retained"
     },
     {
       "id": "green_enchanted",
@@ -504,7 +508,9 @@
       "art": "pale pink gray smooth bark with dark horizontal lenticels; creamy blush wood",
       "sheet": 6,
       "column": 0,
-      "first_row": 0
+      "first_row": 0,
+      "production_override": "atelier/palette-hotfix7/appearance.json",
+      "override_intent": "nearly-white warm cream with delicate salmon veins; pale salmon-white foliage"
     },
     {
       "id": "white_mangrove",
@@ -518,7 +524,9 @@
       "art": "pearl white bark with dusky rose horizontal marks; pink white wood",
       "sheet": 6,
       "column": 2,
-      "first_row": 0
+      "first_row": 0,
+      "production_override": "atelier/palette-hotfix7/appearance.json",
+      "override_intent": "pearl-white wood with faint pink veins; pearl-white foliage"
     },
     {
       "id": "willow",

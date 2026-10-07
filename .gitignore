@@ -4,6 +4,8 @@ build/
 run/
 __pycache__/
 *.pyc
+*.py
+*.log
 .idea/
 *.iml
 bin/

@@ -1,0 +1,528 @@
+{
+  "provenance": "Exact JSON extracted from official Minecraft client downloads; used for static recipe matching, not a game run.",
+  "targets": {
+    "26.2": {
+      "client_sha1": "2dc72797acbc1b63fc16a11c4ac393605f453754",
+      "recipes": {
+        "minecraft:wooden_sword": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "X",
+            "X",
+            "#"
+          ],
+          "result": {
+            "id": "minecraft:wooden_sword"
+          }
+        },
+        "minecraft:wooden_spear": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "  X",
+            " # ",
+            "#  "
+          ],
+          "result": {
+            "id": "minecraft:wooden_spear"
+          }
+        },
+        "minecraft:wooden_axe": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "XX",
+            "X#",
+            " #"
+          ],
+          "result": {
+            "id": "minecraft:wooden_axe"
+          }
+        },
+        "minecraft:wooden_pickaxe": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "XXX",
+            " # ",
+            " # "
+          ],
+          "result": {
+            "id": "minecraft:wooden_pickaxe"
+          }
+        },
+        "minecraft:wooden_shovel": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "X",
+            "#",
+            "#"
+          ],
+          "result": {
+            "id": "minecraft:wooden_shovel"
+          }
+        },
+        "minecraft:wooden_hoe": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "XX",
+            " #",
+            " #"
+          ],
+          "result": {
+            "id": "minecraft:wooden_hoe"
+          }
+        },
+        "minecraft:stick": {
+          "type": "minecraft:crafting_shaped",
+          "group": "sticks",
+          "key": {
+            "#": "#minecraft:planks"
+          },
+          "pattern": [
+            "#",
+            "#"
+          ],
+          "result": {
+            "count": 4,
+            "id": "minecraft:stick"
+          }
+        },
+        "minecraft:ladder": {
+          "type": "minecraft:crafting_shaped",
+          "key": {
+            "#": "minecraft:stick"
+          },
+          "pattern": [
+            "# #",
+            "###",
+            "# #"
+          ],
+          "result": {
+            "count": 3,
+            "id": "minecraft:ladder"
+          }
+        },
+        "minecraft:oak_sign": {
+          "type": "minecraft:crafting_shaped",
+          "group": "wooden_sign",
+          "key": {
+            "#": "minecraft:oak_planks",
+            "X": "minecraft:stick"
+          },
+          "pattern": [
+            "###",
+            "###",
+            " X "
+          ],
+          "result": {
+            "count": 3,
+            "id": "minecraft:oak_sign"
+          }
+        },
+        "minecraft:oak_button": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "redstone",
+          "group": "wooden_button",
+          "ingredients": [
+            "minecraft:oak_planks"
+          ],
+          "result": {
+            "id": "minecraft:oak_button"
+          }
+        },
+        "minecraft:oak_pressure_plate": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "group": "wooden_pressure_plate",
+          "key": {
+            "#": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "##"
+          ],
+          "result": {
+            "id": "minecraft:oak_pressure_plate"
+          }
+        },
+        "minecraft:oak_fence": {
+          "type": "minecraft:crafting_shaped",
+          "group": "wooden_fence",
+          "key": {
+            "#": "minecraft:stick",
+            "W": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "W#W",
+            "W#W"
+          ],
+          "result": {
+            "count": 3,
+            "id": "minecraft:oak_fence"
+          }
+        },
+        "minecraft:oak_fence_gate": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "group": "wooden_fence_gate",
+          "key": {
+            "#": "minecraft:stick",
+            "W": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "#W#",
+            "#W#"
+          ],
+          "result": {
+            "id": "minecraft:oak_fence_gate"
+          }
+        },
+        "minecraft:oak_stairs": {
+          "type": "minecraft:crafting_shaped",
+          "category": "building",
+          "group": "wooden_stairs",
+          "key": {
+            "#": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "#  ",
+            "## ",
+            "###"
+          ],
+          "result": {
+            "count": 4,
+            "id": "minecraft:oak_stairs"
+          }
+        },
+        "minecraft:oak_slab": {
+          "type": "minecraft:crafting_shaped",
+          "category": "building",
+          "group": "wooden_slab",
+          "key": {
+            "#": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "###"
+          ],
+          "result": {
+            "count": 6,
+            "id": "minecraft:oak_slab"
+          }
+        }
+      },
+      "tags": {
+        "minecraft:wooden_tool_materials": {
+          "values": [
+            "#minecraft:planks"
+          ]
+        },
+        "minecraft:planks": {
+          "values": [
+            "minecraft:oak_planks",
+            "minecraft:spruce_planks",
+            "minecraft:birch_planks",
+            "minecraft:jungle_planks",
+            "minecraft:acacia_planks",
+            "minecraft:dark_oak_planks",
+            "minecraft:pale_oak_planks",
+            "minecraft:crimson_planks",
+            "minecraft:warped_planks",
+            "minecraft:mangrove_planks",
+            "minecraft:bamboo_planks",
+            "minecraft:cherry_planks"
+          ]
+        }
+      },
+      "recipe_unlock_field": "recipe"
+    },
+    "26.3": {
+      "client_sha1": "e877b6a07acd633fb3bb475002175cec036e7b87",
+      "recipes": {
+        "minecraft:wooden_sword": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "X",
+            "X",
+            "#"
+          ],
+          "result": {
+            "id": "minecraft:wooden_sword"
+          }
+        },
+        "minecraft:wooden_spear": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "  X",
+            " # ",
+            "#  "
+          ],
+          "result": {
+            "id": "minecraft:wooden_spear"
+          }
+        },
+        "minecraft:wooden_axe": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "XX",
+            "X#",
+            " #"
+          ],
+          "result": {
+            "id": "minecraft:wooden_axe"
+          }
+        },
+        "minecraft:wooden_pickaxe": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "XXX",
+            " # ",
+            " # "
+          ],
+          "result": {
+            "id": "minecraft:wooden_pickaxe"
+          }
+        },
+        "minecraft:wooden_shovel": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "X",
+            "#",
+            "#"
+          ],
+          "result": {
+            "id": "minecraft:wooden_shovel"
+          }
+        },
+        "minecraft:wooden_hoe": {
+          "type": "minecraft:crafting_shaped",
+          "category": "equipment",
+          "key": {
+            "#": "minecraft:stick",
+            "X": "#minecraft:wooden_tool_materials"
+          },
+          "pattern": [
+            "XX",
+            " #",
+            " #"
+          ],
+          "result": {
+            "id": "minecraft:wooden_hoe"
+          }
+        },
+        "minecraft:stick": {
+          "type": "minecraft:crafting_shaped",
+          "group": "sticks",
+          "key": {
+            "#": "#minecraft:planks"
+          },
+          "pattern": [
+            "#",
+            "#"
+          ],
+          "result": {
+            "count": 4,
+            "id": "minecraft:stick"
+          }
+        },
+        "minecraft:ladder": {
+          "type": "minecraft:crafting_shaped",
+          "key": {
+            "#": "minecraft:stick"
+          },
+          "pattern": [
+            "# #",
+            "###",
+            "# #"
+          ],
+          "result": {
+            "count": 3,
+            "id": "minecraft:ladder"
+          }
+        },
+        "minecraft:oak_sign": {
+          "type": "minecraft:crafting_shaped",
+          "group": "wooden_sign",
+          "key": {
+            "#": "minecraft:oak_planks",
+            "X": "minecraft:stick"
+          },
+          "pattern": [
+            "###",
+            "###",
+            " X "
+          ],
+          "result": {
+            "count": 3,
+            "id": "minecraft:oak_sign"
+          }
+        },
+        "minecraft:oak_button": {
+          "type": "minecraft:crafting_shapeless",
+          "category": "redstone",
+          "group": "wooden_button",
+          "ingredients": [
+            "minecraft:oak_planks"
+          ],
+          "result": {
+            "id": "minecraft:oak_button"
+          }
+        },
+        "minecraft:oak_pressure_plate": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "group": "wooden_pressure_plate",
+          "key": {
+            "#": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "##"
+          ],
+          "result": {
+            "id": "minecraft:oak_pressure_plate"
+          }
+        },
+        "minecraft:oak_fence": {
+          "type": "minecraft:crafting_shaped",
+          "group": "wooden_fence",
+          "key": {
+            "#": "minecraft:stick",
+            "W": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "W#W",
+            "W#W"
+          ],
+          "result": {
+            "count": 3,
+            "id": "minecraft:oak_fence"
+          }
+        },
+        "minecraft:oak_fence_gate": {
+          "type": "minecraft:crafting_shaped",
+          "category": "redstone",
+          "group": "wooden_fence_gate",
+          "key": {
+            "#": "minecraft:stick",
+            "W": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "#W#",
+            "#W#"
+          ],
+          "result": {
+            "id": "minecraft:oak_fence_gate"
+          }
+        },
+        "minecraft:oak_stairs": {
+          "type": "minecraft:crafting_shaped",
+          "category": "building",
+          "group": "wooden_stairs",
+          "key": {
+            "#": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "#  ",
+            "## ",
+            "###"
+          ],
+          "result": {
+            "count": 4,
+            "id": "minecraft:oak_stairs"
+          }
+        },
+        "minecraft:oak_slab": {
+          "type": "minecraft:crafting_shaped",
+          "category": "building",
+          "group": "wooden_slab",
+          "key": {
+            "#": "minecraft:oak_planks"
+          },
+          "pattern": [
+            "###"
+          ],
+          "result": {
+            "count": 6,
+            "id": "minecraft:oak_slab"
+          }
+        }
+      },
+      "tags": {
+        "minecraft:wooden_tool_materials": {
+          "values": [
+            "#minecraft:planks"
+          ]
+        },
+        "minecraft:planks": {
+          "values": [
+            "minecraft:oak_planks",
+            "minecraft:spruce_planks",
+            "minecraft:birch_planks",
+            "minecraft:jungle_planks",
+            "minecraft:acacia_planks",
+            "minecraft:dark_oak_planks",
+            "minecraft:pale_oak_planks",
+            "minecraft:crimson_planks",
+            "minecraft:warped_planks",
+            "minecraft:mangrove_planks",
+            "minecraft:bamboo_planks",
+            "minecraft:cherry_planks",
+            "minecraft:poplar_planks"
+          ]
+        }
+      },
+      "recipe_unlock_field": "recipes"
+    }
+  }
+}

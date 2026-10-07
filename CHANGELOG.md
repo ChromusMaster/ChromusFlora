@@ -1,3 +1,9 @@
+# 1.0.0 — first public release / primeiro lançamento público
+
+Public version 1.0.0; internal revision 1.4, based on the accepted 0.1.4-hotfix8 build. Minecraft 26.2 and 26.3 remain separate Fabric artifacts. In-game content, registry IDs and Java logic are preserved. Source comments/documentation strings were removed without changing executable instructions. Release metadata, archive versioning and integrity checks were updated.
+
+Versão pública 1.0.0; revisão interna 1.4, baseada em 0.1.4-hotfix8. Mantém os dois destinos Fabric, o conteúdo e as correções aprovadas. Não exige recriar o mundo. A preparação foi verificada estaticamente, sem compilar nem executar o Minecraft.
+
 # 0.1.4 — Hotfix 5 (2026-10-05)
 
 - Fix crafting-table full-cube occlusion hiding ground through inset sides.

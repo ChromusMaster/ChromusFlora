@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:warped_fungus_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:warped_fungus_planks",
+      "chromusflora:warped_fungus_wood",
+      "chromusflora:warped_fungus_slab",
+      "chromusflora:warped_fungus_stairs",
+      "chromusflora:warped_fungus_fence",
+      "chromusflora:warped_fungus_fence_gate",
+      "chromusflora:warped_fungus_door",
+      "chromusflora:warped_fungus_trapdoor",
+      "chromusflora:warped_fungus_crafting_table",
+      "chromusflora:warped_fungus_chest",
+      "chromusflora:warped_fungus_boat",
+      "chromusflora:stripped_warped_fungus_wood"
+    ]
+  }
+}

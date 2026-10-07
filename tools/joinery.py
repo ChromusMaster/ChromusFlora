@@ -27,8 +27,8 @@ def textures(species):
 
 def furniture_models(species):
     tex=textures(species)
-    # Partition the inset cabinet around the posts instead of intersecting
-    # their volumes. Preserve the original outline and projected wood UVs.
+
+
     table=[box((2,0,1),(14,15,15)),
            box((1,0,2),(2,15,14)), box((14,0,2),(15,15,14))]
     for x in [0,14]:
@@ -37,7 +37,7 @@ def furniture_models(species):
     for x in range(3):
         for z in range(3):table.append(box((2+x*4,15.9,2+z*4),(5.5+x*4,16,5.5+z*4),'light'))
     for x in [0,15.85]:
-        # The stem meets, but never overlaps, the head of the tool emblem.
+
         table.append(box((x,8,5),(x+.15,11,6),'hardware'))
         table.append(box((x,11,3.5),(x+.15,12,7.5),'hardware'))
     write(ASSETS/f'models/block/{species}_crafting_table.json',{'parent':'minecraft:block/block','textures':tex,'elements':table})

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:bluff_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:bluff_planks",
+      "chromusflora:bluff_wood",
+      "chromusflora:bluff_slab",
+      "chromusflora:bluff_stairs",
+      "chromusflora:bluff_fence",
+      "chromusflora:bluff_fence_gate",
+      "chromusflora:bluff_door",
+      "chromusflora:bluff_trapdoor",
+      "chromusflora:bluff_crafting_table",
+      "chromusflora:bluff_chest",
+      "chromusflora:bluff_boat",
+      "chromusflora:stripped_bluff_wood"
+    ]
+  }
+}

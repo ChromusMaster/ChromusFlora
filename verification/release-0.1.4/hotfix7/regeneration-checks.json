@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "resource_files": 17539,
+  "byte_identical": 17536,
+  "equivalent_json_with_key_order_only": [
+    "flora/src/main/resources/assets/chromusflora/lang/en_us.json",
+    "flora/src/main/resources/assets/chromusflora/lang/pt_br.json",
+    "flora/src/main/resources/fabric.mod.json"
+  ],
+  "differences": [],
+  "command": "python tools/generate.py (isolated copy)",
+  "no_java_or_gradle": true
+}

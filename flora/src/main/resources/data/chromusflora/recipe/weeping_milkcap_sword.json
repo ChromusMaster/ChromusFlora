@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_sword",
+  "pattern": [
+    "P",
+    "P",
+    "S"
+  ],
+  "key": {
+    "P": "chromusflora:weeping_milkcap_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:weeping_milkcap_sword",
+    "count": 1
+  }
+}

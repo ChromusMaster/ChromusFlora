@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "pattern": [
+    "PPP",
+    "PPP",
+    " S "
+  ],
+  "key": {
+    "P": "chromusflora:indigo_jacaranda_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:indigo_jacaranda_sign",
+    "count": 3
+  }
+}

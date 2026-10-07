@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = next(line.split('=', 1)[1] for line in (ROOT / 'gradle.properties').read_text().splitlines() if line.startswith('mod_version='))
+PROPERTIES = dict(line.split('=', 1) for line in (ROOT / 'gradle.properties').read_text().splitlines() if '=' in line)
 for target in ['26.2', '26.3']:
     path = ROOT / f'build/{target}/Fabric/chromus-flora-{VERSION}-{target}.jar'
     if not path.is_file():raise SystemExit('Missing artifact: ' + str(path))
@@ -12,8 +13,10 @@ for target in ['26.2', '26.3']:
         if jar.testzip() is not None:raise SystemExit('Corrupt JAR: ' + str(path))
         names = set(jar.namelist())
         metadata = json.loads(jar.read('fabric.mod.json'))
-        if metadata['id'] != 'chromusflora' or metadata['version'] != VERSION + '-' + target or metadata['depends']['minecraft'] != target:
+        if metadata['id'] != 'chromusflora' or metadata['version'] != VERSION or metadata['depends']['minecraft'] != target:
             raise SystemExit('Wrong artifact metadata: ' + str(path))
+        if metadata.get('custom', {}).get('chromusflora:build') != {'internal_version': PROPERTIES['internal_version'], 'source_revision': PROPERTIES['source_revision']}:
+            raise SystemExit('Wrong internal revision metadata: ' + str(path))
         for entries in metadata['entrypoints'].values():
             for entrypoint in entries:
                 if entrypoint.replace('.', '/') + '.class' not in names:raise SystemExit('Missing entrypoint: ' + entrypoint)
@@ -48,8 +51,8 @@ for target in ['26.2', '26.3']:
             if name.endswith('.json'):
                 text = jar.read(name).decode('utf-8')
                 json.loads(text)
-                if '${version}' in text or '${minecraft}' in text:raise SystemExit('Unexpanded resource: ' + name)
-        for class_name in ['client/FloraRenderSubmission', 'FloraBoats', 'client/FloraClient', 'client/FloraBoatRenderer', 'client/FloraChestRenderer', 'client/FloraChestModel', 'FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
+                if any('${' + key + '}' in text for key in ['version', 'minecraft', 'internal_version', 'source_revision', 'terrablender', 'trees']):raise SystemExit('Unexpanded resource: ' + name)
+        for class_name in ['FloraWoodworks', 'FloraWoodworksPlatform', 'block/FloraButton', 'block/FloraPressurePlate', 'client/FloraRenderSubmission', 'FloraBoats', 'client/FloraClient', 'client/FloraBoatRenderer', 'client/FloraChestRenderer', 'client/FloraChestModel', 'FloraFurniture', 'block/FloraChest', 'block/FloraChestEntity', 'block/FloraCraftingTable']:
             if 'dev/chromus/flora/' + class_name + '.class' not in names:raise SystemExit('Missing furniture class: ' + class_name)
         catalog = json.loads(jar.read('chromusflora/catalog.json'))
         expected_boats = {'chromusflora:' + tree['id'] + '_boat' for tree in catalog['trees']}
@@ -78,5 +81,20 @@ for target in ['26.2', '26.3']:
             if f'data/chromusflora/recipe/{kind}.json' in names:raise SystemExit('Stale duplicate recipe: ' + kind)
             recipe = json.loads(jar.read(f'data/minecraft/recipe/{kind}.json'))
             if recipe.get('group') != kind or recipe['key']['#'].get('fabric:type') != 'fabric:difference':raise SystemExit('Missing recipe partition: ' + kind)
-        if len([n for n in names if n.startswith('data/chromusflora/recipe/') and n.endswith('.json')]) != 998:raise SystemExit('Missing recipes')
+
+
+        resources = ROOT / 'flora/src/main/resources'
+        expected_files = {p.relative_to(resources).as_posix(): p for p in resources.rglob('*') if p.is_file()}
+        if target == '26.3':
+            overlay = ROOT / 'versions/26.3/src/main/resources'
+            expected_files.update({p.relative_to(overlay).as_posix(): p for p in overlay.rglob('*') if p.is_file()})
+        recipe_prefix = 'data/chromusflora/recipe/'
+        expected_recipes = {n for n in expected_files if n.startswith(recipe_prefix) and n.endswith('.json')}
+        if {n for n in names if n.startswith(recipe_prefix) and n.endswith('.json')} != expected_recipes:
+            raise SystemExit('Missing or stale recipes: ' + str(path))
+        for name, source in expected_files.items():
+            if (name.startswith(('assets/chromusflora/', recipe_prefix,
+                                 'data/chromusflora/advancement/', 'data/minecraft/recipe/', 'data/chromusflora/loot_table/', 'data/minecraft/tags/'))):
+                if name not in names or jar.read(name) != source.read_bytes():
+                    raise SystemExit('Missing or stale resource in JAR: ' + name)
     print('PASS:', path.relative_to(ROOT))

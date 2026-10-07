@@ -1,4 +1,4 @@
-"""Self-contained browser catalog of final in-game bitmap assets."""
+
 import base64,html,json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]

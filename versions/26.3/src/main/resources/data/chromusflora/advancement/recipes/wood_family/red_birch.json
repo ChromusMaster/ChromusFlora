@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:red_birch_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:red_birch_planks",
+      "chromusflora:red_birch_wood",
+      "chromusflora:red_birch_slab",
+      "chromusflora:red_birch_stairs",
+      "chromusflora:red_birch_fence",
+      "chromusflora:red_birch_fence_gate",
+      "chromusflora:red_birch_door",
+      "chromusflora:red_birch_trapdoor",
+      "chromusflora:red_birch_crafting_table",
+      "chromusflora:red_birch_chest",
+      "chromusflora:red_birch_boat",
+      "chromusflora:stripped_red_birch_wood"
+    ]
+  }
+}

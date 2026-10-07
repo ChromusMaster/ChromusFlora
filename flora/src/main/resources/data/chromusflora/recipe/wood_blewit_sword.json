@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "chromusflora_wooden_sword",
+  "pattern": [
+    "P",
+    "P",
+    "S"
+  ],
+  "key": {
+    "P": "chromusflora:wood_blewit_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "chromusflora:wood_blewit_sword",
+    "count": 1
+  }
+}

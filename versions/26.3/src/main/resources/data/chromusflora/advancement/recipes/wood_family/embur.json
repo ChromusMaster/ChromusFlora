@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "chromusflora:embur_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chromusflora:embur_planks",
+      "chromusflora:embur_wood",
+      "chromusflora:embur_slab",
+      "chromusflora:embur_stairs",
+      "chromusflora:embur_fence",
+      "chromusflora:embur_fence_gate",
+      "chromusflora:embur_door",
+      "chromusflora:embur_trapdoor",
+      "chromusflora:embur_crafting_table",
+      "chromusflora:embur_chest",
+      "chromusflora:embur_boat",
+      "chromusflora:stripped_embur_wood"
+    ]
+  }
+}

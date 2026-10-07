@@ -11,7 +11,7 @@ import net.minecraft.client.model.object.chest.ChestModel;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.state.properties.ChestType;
 
-/** Permanent mesh dimensions survive ChestModel's animation pose reset. */
+
 final class FloraChestModel {
     private FloraChestModel() {}
 
@@ -28,7 +28,7 @@ final class FloraChestModel {
             sides.remove(Direction.UP);
             if (type == ChestType.LEFT) sides.remove(Direction.WEST);
             if (type == ChestType.RIGHT) sides.remove(Direction.EAST);
-            // The native lid hinges at y=9. Do not restore the native 10-unit body.
+
             cubes.addBox(minX, 0.0F, 1.0F, maxX - minX, 9.0F, 14.0F, sides);
             top(cubes, minX, 1.0F, maxX - minX, 1.0F);
             top(cubes, minX, 14.0F, maxX - minX, 1.0F);
@@ -38,7 +38,7 @@ final class FloraChestModel {
         MeshDefinition mesh = new MeshDefinition();
         PartDefinition root = mesh.getRoot();
         root.addOrReplaceChild("bottom", cubes, PartPose.ZERO);
-        // ChestModel requires these children; only the native lid/lock models animate.
+
         root.addOrReplaceChild("lid", CubeListBuilder.create(), PartPose.ZERO);
         root.addOrReplaceChild("lock", CubeListBuilder.create(), PartPose.ZERO);
         return new ChestModel(LayerDefinition.create(mesh, 64, 64).bakeRoot());
